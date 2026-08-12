@@ -24,21 +24,8 @@ var _rolled_stats: Dictionary = {
 }
 
 func _ready() -> void:
-	get_viewport().size_changed.connect(_on_viewport_size_changed)
-	_on_viewport_size_changed()
-
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
-
-func _on_viewport_size_changed() -> void:
-	var win_size: Vector2i = DisplayServer.window_get_size()
-	if win_size.y <= 0:
-		return
-	var aspect: float = float(win_size.x) / float(win_size.y)
-	if aspect < 1.0:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
-	else:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_KEEP
 		
 	# Assign PNG texture icons to roll buttons
 	skill_roll_button.icon = ICON_DICE

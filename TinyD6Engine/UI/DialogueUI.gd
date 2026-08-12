@@ -19,10 +19,6 @@ var _typewriter_tween: Tween
 var _is_typing: bool = false
 
 func _ready() -> void:
-	# Connect to viewport size_changed signal for dynamic mobile/PC scaling
-	get_viewport().size_changed.connect(_on_viewport_size_changed)
-	_on_viewport_size_changed()
-
 	# Configure title label dynamically matching loaded adventure
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
@@ -46,19 +42,6 @@ func _ready() -> void:
 		_display_section(current_data)
 		
 	_update_stats_hud()
-
-func _on_viewport_size_changed() -> void:
-	var win_size: Vector2i = DisplayServer.window_get_size()
-	if win_size.y <= 0:
-		return
-	var aspect: float = float(win_size.x) / float(win_size.y)
-	
-	# Portrait view (Mobile or narrow browser)
-	if aspect < 1.0:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
-	# Landscape view (PC or wide browser)
-	else:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_KEEP
 
 func _unhandled_input(event: InputEvent) -> void:
 	if _is_typing and event.is_action_pressed("ui_accept"):

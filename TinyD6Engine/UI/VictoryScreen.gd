@@ -4,19 +4,7 @@ extends Control
 @onready var exit_game_button: Button = $PanelContainer/MarginContainer/VBoxContainer/ButtonContainer/ExitGameButton
 
 func _ready() -> void:
-	get_viewport().size_changed.connect(_on_viewport_size_changed)
-	_on_viewport_size_changed()
 	exit_menu_button.pressed.connect(_on_exit_menu_pressed)
-
-func _on_viewport_size_changed() -> void:
-	var win_size: Vector2i = DisplayServer.window_get_size()
-	if win_size.y <= 0:
-		return
-	var aspect: float = float(win_size.x) / float(win_size.y)
-	if aspect < 1.0:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
-	else:
-		get_window().content_scale_aspect = Window.CONTENT_SCALE_ASPECT_KEEP
 	
 	if OS.has_feature("web"):
 		exit_game_button.visible = false
