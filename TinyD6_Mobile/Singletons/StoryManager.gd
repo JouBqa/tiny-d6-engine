@@ -154,7 +154,15 @@ func load_adventure_from_file(file_path: String) -> bool:
 		return false
 		
 	story_database = json_parser.data
-	current_section_id = "1"
+	if story_database.has("1"):
+		current_section_id = "1"
+	elif story_database.has("sec01_quest_briefing"):
+		current_section_id = "sec01_quest_briefing"
+	else:
+		for k in story_database.keys():
+			if k != "title" and k != "adventure_name" and k != "name":
+				current_section_id = k
+				break
 	
 	if story_database.has("title"):
 		active_adventure_title = str(story_database["title"])
@@ -172,11 +180,11 @@ func load_adventure_from_file(file_path: String) -> bool:
 func get_adventure_title() -> String:
 	return active_adventure_title.replace("&", "and")
 
-## Starts the adventure from Section "1"
+## Starts the adventure from initial section
 func start_adventure() -> void:
 	print("[StoryManager] Starting adventure...")
 	story_started.emit()
-	go_to_section("1")
+	go_to_section(current_section_id)
 
 const AUTOSAVE_PATH: String = "user://saves/autosave.json"
 

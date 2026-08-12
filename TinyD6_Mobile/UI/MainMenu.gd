@@ -46,12 +46,12 @@ func _populate_adventure_list() -> void:
 		
 		var is_disabled: bool = false
 		if file_name.to_lower().contains("knight"):
-			display_title = "Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble (Coming soon(ish)!)"
-			is_disabled = true
+			display_title = "Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble"
+			is_disabled = false
 		elif file_name.to_lower().contains("stirringham") or file_name.to_lower().contains("spoony"):
 			display_title = "Stirringham (3 minutes)"
 		elif file_name.to_lower().contains("prototype"):
-			display_title = "The B&B Retirement Plan (Prototype)"
+			display_title = "The B and B Retirement Plan (Prototype)"
 			
 		var btn: Button = Button.new()
 		btn.text = "  %s" % display_title
