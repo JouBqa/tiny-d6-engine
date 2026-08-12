@@ -90,29 +90,13 @@ var fallback_database: Dictionary = {
 var story_database: Dictionary = {}
 
 func _ready() -> void:
-	# Scan available adventure files and load Knight.json or SpoonyAdventure.json or fallback
-	var available = scan_for_adventures()
-	var loaded = false
-	for path in available:
-		if path.ends_with("Knight.json"):
-			loaded = load_adventure_from_file(path)
-			if loaded:
-				break
-	if not loaded:
-		for path in available:
-			if path.ends_with("SpoonyAdventure.json"):
-				loaded = load_adventure_from_file(path)
-				if loaded:
-					break
-	if not loaded and not available.is_empty():
-		for path in available:
-			loaded = load_adventure_from_file(path)
-			if loaded:
-				break
-		
-	if not loaded:
-		print("[StoryManager] Using fallback built-in narrative database (%d sections)." % fallback_database.size())
+	if FileAccess.file_exists("res://Adventures/Stirringham.json"):
+		load_adventure_from_file("res://Adventures/Stirringham.json")
+	elif FileAccess.file_exists("res://Adventures/old adventures/SpoonyAdventure.json"):
+		load_adventure_from_file("res://Adventures/old adventures/SpoonyAdventure.json")
+	else:
 		story_database = fallback_database.duplicate(true)
+		active_adventure_title = "Stirringham (Spoon Quest)"
 		current_section_id = "1"
 
 ## Scans workspace and project directories for adventure .json files with deduplication
