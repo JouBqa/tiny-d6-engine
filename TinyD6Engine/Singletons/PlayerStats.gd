@@ -13,9 +13,35 @@ var current_luck: int = 0
 var patience: int = 0
 var current_patience: int = 0
 
+# Inventory & Story Flags State Tracking
+var inventory: Array[String] = []
+var flags: Dictionary = {}
+
 signal patience_depleted
 signal stamina_depleted
 signal stats_changed
+
+## Inventory helper functions
+func has_item(item_id: String) -> bool:
+	return inventory.has(item_id)
+
+func add_item(item_id: String) -> void:
+	if not inventory.has(item_id):
+		inventory.append(item_id)
+		stats_changed.emit()
+
+func remove_item(item_id: String) -> void:
+	if inventory.has(item_id):
+		inventory.erase(item_id)
+		stats_changed.emit()
+
+## Story Flags helper functions
+func set_flag(flag_id: String, value) -> void:
+	flags[flag_id] = value
+	stats_changed.emit()
+
+func get_flag(flag_id: String, default_value = false):
+	return flags.get(flag_id, default_value)
 
 ## Roll Initial Skill: (1d6 + 6)
 func roll_initial_skill() -> int:
@@ -86,4 +112,6 @@ func reset_stats() -> void:
 	current_luck = 0
 	patience = 0
 	current_patience = 0
+	inventory.clear()
+	flags.clear()
 	stats_changed.emit()

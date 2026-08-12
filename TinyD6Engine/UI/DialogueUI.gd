@@ -225,15 +225,70 @@ func _display_section(section_data: Dictionary) -> void:
 		CombatEngine.in_combat = false
 		_render_narrative_choices(section_data.get("choices", []))
 
+## Helper to evaluate whether choice requirements are met
+func _check_choice_requirements(choice: Dictionary) -> bool:
+	if not choice.has("requirements"):
+		return true
+	var reqs: Dictionary = choice["requirements"]
+	
+	if reqs.has("item"):
+		if not PlayerStats.has_item(str(reqs["item"])):
+			return false
+	if reqs.has("no_item"):
+		if PlayerStats.has_item(str(reqs["no_item"])):
+			return false
+	if reqs.has("flag_true"):
+		if not bool(PlayerStats.get_flag(str(reqs["flag_true"]), false)):
+			return false
+	if reqs.has("flag_false"):
+		if bool(PlayerStats.get_flag(str(reqs["flag_false"]), false)):
+			return false
+			
+	return true
+
+## Helper to apply choice consequences (flags, inventory items, stamina change)
+func _apply_choice_consequences(choice: Dictionary) -> void:
+	if not choice.has("consequences"):
+		return
+	var cons: Dictionary = choice["consequences"]
+	
+	if cons.has("set_flags"):
+		var flags_to_set: Dictionary = cons["set_flags"]
+		for flag_id in flags_to_set:
+			PlayerStats.set_flag(str(flag_id), flags_to_set[flag_id])
+			
+	if cons.has("items_added"):
+		var items: Array = cons["items_added"]
+		for item in items:
+			PlayerStats.add_item(str(item))
+			
+	if cons.has("items_removed"):
+		var items: Array = cons["items_removed"]
+		for item in items:
+			PlayerStats.remove_item(str(item))
+			
+	if cons.has("stamina_change"):
+		var change: int = int(cons["stamina_change"])
+		if change > 0:
+			PlayerStats.current_stamina = min(PlayerStats.stamina, PlayerStats.current_stamina + change)
+			PlayerStats.stats_changed.emit()
+		elif change < 0:
+			PlayerStats.deduct_stamina(abs(change))
+
 ## Renders standard branching narrative choice buttons
 func _render_narrative_choices(choices: Array) -> void:
 	_clear_choice_container()
 	var instantiated_buttons: Array[Button] = []
+	var choice_num: int = 1
 	
 	for i in range(choices.size()):
 		var choice: Dictionary = choices[i]
+		if not _check_choice_requirements(choice):
+			continue
+			
 		var btn: Button = Button.new()
-		btn.text = "  [%d]  %s" % [i + 1, choice.get("text", "")]
+		btn.text = "  [%d]  %s" % [choice_num, choice.get("text", "")]
+		choice_num += 1
 		btn.custom_minimum_size = Vector2(0, 56)
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -269,6 +324,9 @@ func _render_continue_button(next_section_id: String) -> void:
 
 func _on_choice_pressed(choice: Dictionary) -> void:
 	_skip_typewriter_effect()
+	
+	# Apply choice consequences (flags, items, stamina)
+	_apply_choice_consequences(choice)
 	
 	var target_sec: String = str(choice.get("target", "1"))
 	
@@ -309,12 +367,24 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 	
 	if test_type == "patience":
 		target_val = PlayerStats.current_patience
-		roll_val = randi_range(1, 6)
+		var d1 = randi_range(1, 6)
+		var d2 = randi_range(1, 6)
+		roll_val = d1 + d2
 		is_success = roll_val <= target_val
 		var res_tag = "[color=green]SUCCESS![/color]" if is_success else "[color=red]FAILED![/color]"
-		story_text_label.append_text("\n\nPatience Test! Rolled 1d6 (%d) vs Heroic Patience (%d) -> %s" % [
-			roll_val, target_val, res_tag
+		story_text_label.append_text("\n\nHeroic Patience Test! Rolled 2d6 [%d, %d] = %d vs Heroic Patience (%d) -> %s" % [
+			d1, d2, roll_val, target_val, res_tag
 		])
+		_scroll_to_bottom()
+		
+		# Decay Rule: Immediately after any Patience test is rolled, deduct 1 point of current Patience
+		PlayerStats.deduct_patience(1)
+		
+		# Sanity Loss Trigger: If current_patience reaches 0, transition to Bed & Breakfast ending (Section 10)
+		if PlayerStats.current_patience <= 0:
+			_clear_choice_container()
+			_render_continue_button("10")
+			return
 	elif test_type == "skill":
 		target_val = PlayerStats.skill
 		var d1 = randi_range(1, 6)
@@ -325,6 +395,7 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 		story_text_label.append_text("\n\nSkill Test! Rolled 2d6 [%d, %d] = %d vs Skill (%d) -> %s" % [
 			d1, d2, roll_val, target_val, res_tag
 		])
+		_scroll_to_bottom()
 	elif test_type == "luck":
 		target_val = PlayerStats.current_luck
 		PlayerStats.deduct_luck(1)
@@ -336,11 +407,8 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 		story_text_label.append_text("\n\nLuck Test! Rolled 2d6 [%d, %d] = %d vs Current Luck (%d) -> %s" % [
 			d1, d2, roll_val, target_val, res_tag
 		])
-		
-	_scroll_to_bottom()
-	
-	var next_target = target_win if is_success else target_fail
-	_render_continue_button(next_target)
+	var next_sec: String = target_win if is_success else target_fail
+	_render_continue_button(next_sec)
 
 ## Transitions to dedicated VictoryScreen.tscn
 func _on_victory_screen_transition() -> void:
