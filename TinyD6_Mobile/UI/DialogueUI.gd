@@ -538,10 +538,11 @@ func _render_fight_round_button() -> void:
 		CombatEngine.enemy_skill,
 		CombatEngine.enemy_stamina
 	]
-	fight_btn.custom_minimum_size = Vector2(0, 56)
+	fight_btn.custom_minimum_size = Vector2(0, 48)
 	fight_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	fight_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	fight_btn.add_theme_font_size_override("font_size", 22)
+	fight_btn.add_theme_font_size_override("font_size", 16)
+	fight_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	fight_btn.pressed.connect(_on_fight_round_pressed)
 	
 	choice_container.add_child(fight_btn)
@@ -597,22 +598,24 @@ func _render_player_hit_luck_choices() -> void:
 	
 	var luck_btn: Button = Button.new()
 	luck_btn.icon = ICON_DICE
-	luck_btn.text = "  Test Luck to Increase Damage! (Current Luck: %d)" % PlayerStats.current_luck
-	luck_btn.custom_minimum_size = Vector2(0, 56)
+	luck_btn.text = "  Test Luck to Increase Damage! (Luck: %d)" % PlayerStats.current_luck
+	luck_btn.custom_minimum_size = Vector2(0, 48)
 	luck_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	luck_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	luck_btn.add_theme_font_size_override("font_size", 22)
+	luck_btn.add_theme_font_size_override("font_size", 16)
+	luck_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	luck_btn.pressed.connect(func(): _resolve_luck_test(true))
 	choice_container.add_child(luck_btn)
 	buttons.append(luck_btn)
 	
 	var standard_btn: Button = Button.new()
 	standard_btn.icon = ICON_SWORD
-	standard_btn.text = "  Accept Standard Damage (Deal 2 Stamina Damage)"
-	standard_btn.custom_minimum_size = Vector2(0, 56)
+	standard_btn.text = "  Accept Standard Damage (Deal 2 Damage)"
+	standard_btn.custom_minimum_size = Vector2(0, 48)
 	standard_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	standard_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	standard_btn.add_theme_font_size_override("font_size", 22)
+	standard_btn.add_theme_font_size_override("font_size", 16)
+	standard_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	standard_btn.pressed.connect(func(): _resolve_base_wounding(true))
 	choice_container.add_child(standard_btn)
 	buttons.append(standard_btn)
@@ -626,22 +629,24 @@ func _render_enemy_hit_luck_choices() -> void:
 	
 	var luck_btn: Button = Button.new()
 	luck_btn.icon = ICON_DICE
-	luck_btn.text = "  Test Luck to Mitigate Damage! (Current Luck: %d)" % PlayerStats.current_luck
-	luck_btn.custom_minimum_size = Vector2(0, 56)
+	luck_btn.text = "  Test Luck to Mitigate Damage! (Luck: %d)" % PlayerStats.current_luck
+	luck_btn.custom_minimum_size = Vector2(0, 48)
 	luck_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	luck_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	luck_btn.add_theme_font_size_override("font_size", 22)
+	luck_btn.add_theme_font_size_override("font_size", 16)
+	luck_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	luck_btn.pressed.connect(func(): _resolve_luck_test(false))
 	choice_container.add_child(luck_btn)
 	buttons.append(luck_btn)
 	
 	var standard_btn: Button = Button.new()
 	standard_btn.icon = ICON_HEART
-	standard_btn.text = "  Accept Standard Damage (Suffer 2 Stamina Damage)"
-	standard_btn.custom_minimum_size = Vector2(0, 56)
+	standard_btn.text = "  Accept Standard Damage (Suffer 2 Damage)"
+	standard_btn.custom_minimum_size = Vector2(0, 48)
 	standard_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	standard_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	standard_btn.add_theme_font_size_override("font_size", 22)
+	standard_btn.add_theme_font_size_override("font_size", 16)
+	standard_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	standard_btn.pressed.connect(func(): _resolve_base_wounding(false))
 	choice_container.add_child(standard_btn)
 	buttons.append(standard_btn)
