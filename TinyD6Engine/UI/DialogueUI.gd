@@ -284,12 +284,13 @@ func _on_restart_pressed() -> void:
 	PlayerStats.reset_stats()
 	get_tree().change_scene_to_file("res://TinyD6Engine/UI/MainMenu.tscn")
 
-## Renders the "Fight Round ⚔️" button at start of combat step
+## Renders the "Fight Round" button at start of combat step
 func _render_fight_round_button() -> void:
 	_clear_choice_container()
 	
 	var fight_btn: Button = Button.new()
-	fight_btn.text = "  ⚔️  Fight Round %d vs %s (Skill: %d, Stamina: %d)" % [
+	fight_btn.icon = ICON_SWORD
+	fight_btn.text = "  Fight Round %d vs %s (Skill: %d, Stamina: %d)" % [
 		CombatEngine.round_count + 1,
 		CombatEngine.enemy_name,
 		CombatEngine.enemy_skill,
@@ -353,7 +354,8 @@ func _render_player_hit_luck_choices() -> void:
 	var buttons: Array[Button] = []
 	
 	var luck_btn: Button = Button.new()
-	luck_btn.text = "  🎲  Test Luck to Increase Damage! (Current Luck: %d)" % PlayerStats.current_luck
+	luck_btn.icon = ICON_DICE
+	luck_btn.text = "  Test Luck to Increase Damage! (Current Luck: %d)" % PlayerStats.current_luck
 	luck_btn.custom_minimum_size = Vector2(0, 46)
 	luck_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	luck_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -363,7 +365,8 @@ func _render_player_hit_luck_choices() -> void:
 	buttons.append(luck_btn)
 	
 	var standard_btn: Button = Button.new()
-	standard_btn.text = "  ⚔️  Accept Standard Damage (Deal 2 Stamina Damage)"
+	standard_btn.icon = ICON_SWORD
+	standard_btn.text = "  Accept Standard Damage (Deal 2 Stamina Damage)"
 	standard_btn.custom_minimum_size = Vector2(0, 46)
 	standard_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	standard_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -380,7 +383,8 @@ func _render_enemy_hit_luck_choices() -> void:
 	var buttons: Array[Button] = []
 	
 	var luck_btn: Button = Button.new()
-	luck_btn.text = "  🛡️  Test Luck to Mitigate Damage! (Current Luck: %d)" % PlayerStats.current_luck
+	luck_btn.icon = ICON_DICE
+	luck_btn.text = "  Test Luck to Mitigate Damage! (Current Luck: %d)" % PlayerStats.current_luck
 	luck_btn.custom_minimum_size = Vector2(0, 46)
 	luck_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	luck_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -390,7 +394,8 @@ func _render_enemy_hit_luck_choices() -> void:
 	buttons.append(luck_btn)
 	
 	var standard_btn: Button = Button.new()
-	standard_btn.text = "  💔  Accept Standard Damage (Suffer 2 Stamina Damage)"
+	standard_btn.icon = ICON_HEART
+	standard_btn.text = "  Accept Standard Damage (Suffer 2 Stamina Damage)"
 	standard_btn.custom_minimum_size = Vector2(0, 46)
 	standard_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	standard_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT

@@ -101,7 +101,7 @@ custom_minimum_size = Vector2(130, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
-text = "Roll 🎲"
+text = "Roll"
 
 [node name="StaminaRow" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer"]
 custom_minimum_size = Vector2(0, 44)
@@ -132,7 +132,7 @@ custom_minimum_size = Vector2(130, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
-text = "Roll 🎲"
+text = "Roll"
 
 [node name="LuckRow" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer"]
 custom_minimum_size = Vector2(0, 44)
@@ -163,7 +163,7 @@ custom_minimum_size = Vector2(130, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
-text = "Roll 🎲"
+text = "Roll"
 
 [node name="PatienceRow" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer"]
 custom_minimum_size = Vector2(0, 44)
@@ -194,7 +194,7 @@ custom_minimum_size = Vector2(130, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
-text = "Roll 🎲"
+text = "Roll"
 
 [node name="HSeparator2" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -204,4 +204,4 @@ custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.9, 0.4, 1)
 theme_override_font_sizes/font_size = 20
-text = "Begin Adventure ⚔️"
+text = "Begin Adventure"

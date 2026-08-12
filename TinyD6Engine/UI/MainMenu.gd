@@ -25,7 +25,7 @@ func _populate_adventure_list() -> void:
 			display_title = "The B&B Retirement Plan (Prototype)"
 			
 		var btn: Button = Button.new()
-		btn.text = "  📖  %s" % display_title
+		btn.text = "  %s" % display_title
 		btn.custom_minimum_size = Vector2(0, 52)
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT

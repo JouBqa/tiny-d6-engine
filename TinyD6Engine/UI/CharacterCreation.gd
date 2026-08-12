@@ -13,6 +13,9 @@ extends Control
 @onready var begin_adventure_button: Button = $PanelContainer/MarginContainer/VBoxContainer/BeginAdventureButton
 @onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
 
+const ICON_DICE = preload("res://Art/dice.png")
+const ICON_SWORD = preload("res://Art/sword.png")
+
 var _rolled_stats: Dictionary = {
 	"skill": false,
 	"stamina": false,
@@ -23,6 +26,13 @@ var _rolled_stats: Dictionary = {
 func _ready() -> void:
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
+		
+	# Assign PNG texture icons to roll buttons
+	skill_roll_button.icon = ICON_DICE
+	stamina_roll_button.icon = ICON_DICE
+	luck_roll_button.icon = ICON_DICE
+	patience_roll_button.icon = ICON_DICE
+	begin_adventure_button.icon = ICON_SWORD
 		
 	# Initialize initial display states
 	skill_value_label.text = "--"
