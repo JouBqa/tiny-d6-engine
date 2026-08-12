@@ -18,6 +18,9 @@ var _handling_loss_state: bool = false
 var _typewriter_tween: Tween
 var _is_typing: bool = false
 
+var _touch_dragging: bool = false
+var _touch_last_y: float = 0.0
+
 func _ready() -> void:
 	# Configure title label dynamically matching loaded adventure
 	if title_label:
@@ -25,6 +28,12 @@ func _ready() -> void:
 		
 	# Configure scroll_following = true on narrative RichTextLabel
 	story_text_label.scroll_following = true
+	
+	# Configure 24px wide touch scrollbar target & style
+	_configure_touch_scrollbar()
+	
+	# Connect direct touch swipe-to-scroll on story text label
+	story_text_label.gui_input.connect(_on_story_text_gui_input)
 	
 	# Connect to StoryManager section_changed signal
 	StoryManager.section_changed.connect(_on_section_changed)
@@ -42,6 +51,68 @@ func _ready() -> void:
 		_display_section(current_data)
 		
 	_update_stats_hud()
+
+## Widens internal VScrollBar to 24px and applies clean, high-visibility gold grabber styling
+func _configure_touch_scrollbar() -> void:
+	if not story_text_label:
+		return
+	var v_scroll: VScrollBar = story_text_label.get_v_scroll_bar()
+	if v_scroll:
+		v_scroll.custom_minimum_size.x = 24
+		
+		var grabber_style: StyleBoxFlat = StyleBoxFlat.new()
+		grabber_style.bg_color = Color(0.85, 0.75, 0.45, 0.9)
+		grabber_style.corner_radius_top_left = 6
+		grabber_style.corner_radius_top_right = 6
+		grabber_style.corner_radius_bottom_left = 6
+		grabber_style.corner_radius_bottom_right = 6
+		
+		var grabber_hl_style: StyleBoxFlat = StyleBoxFlat.new()
+		grabber_hl_style.bg_color = Color(1.0, 0.9, 0.55, 1.0)
+		grabber_hl_style.corner_radius_top_left = 6
+		grabber_hl_style.corner_radius_top_right = 6
+		grabber_hl_style.corner_radius_bottom_left = 6
+		grabber_hl_style.corner_radius_bottom_right = 6
+
+		var scroll_track_style: StyleBoxFlat = StyleBoxFlat.new()
+		scroll_track_style.bg_color = Color(0.15, 0.14, 0.12, 0.6)
+		scroll_track_style.corner_radius_top_left = 6
+		scroll_track_style.corner_radius_top_right = 6
+		scroll_track_style.corner_radius_bottom_left = 6
+		scroll_track_style.corner_radius_bottom_right = 6
+		
+		v_scroll.add_theme_stylebox_override("grabber", grabber_style)
+		v_scroll.add_theme_stylebox_override("grabber_highlight", grabber_hl_style)
+		v_scroll.add_theme_stylebox_override("grabber_pressed", grabber_hl_style)
+		v_scroll.add_theme_stylebox_override("scroll", scroll_track_style)
+
+## Direct Touch & Drag Swipe-to-Scroll on narrative text area
+func _on_story_text_gui_input(event: InputEvent) -> void:
+	if event is InputEventScreenTouch:
+		if event.pressed:
+			_touch_dragging = true
+			_touch_last_y = event.position.y
+		else:
+			_touch_dragging = false
+	elif event is InputEventScreenDrag and _touch_dragging:
+		var delta_y: float = _touch_last_y - event.position.y
+		_touch_last_y = event.position.y
+		var scrollbar = story_text_label.get_v_scroll_bar()
+		if scrollbar:
+			scrollbar.value += delta_y
+	elif event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed:
+				_touch_dragging = true
+				_touch_last_y = event.position.y
+			else:
+				_touch_dragging = false
+	elif event is InputEventMouseMotion and _touch_dragging:
+		var delta_y: float = _touch_last_y - event.position.y
+		_touch_last_y = event.position.y
+		var scrollbar = story_text_label.get_v_scroll_bar()
+		if scrollbar:
+			scrollbar.value += delta_y
 
 func _unhandled_input(event: InputEvent) -> void:
 	if _is_typing and event.is_action_pressed("ui_accept"):
