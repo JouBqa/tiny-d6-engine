@@ -12,8 +12,12 @@ const ICON_HEART = preload("res://Art/heart.png")
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
 @onready var choice_scroll_container: ScrollContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer
 @onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer/ChoiceContainer
-@onready var stats_hud_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDLabel
 @onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
+
+@onready var skl_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/SklLabel")
+@onready var stam_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/StamLabel")
+@onready var lck_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/LckLabel")
+@onready var pat_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/PatLabel")
 
 var _handling_loss_state: bool = false
 var _typewriter_tween: Tween
@@ -23,6 +27,9 @@ var _touch_dragging: bool = false
 var _touch_last_y: float = 0.0
 
 func _ready() -> void:
+	_apply_safe_area_margins()
+	_setup_touch_controller()
+	
 	# Configure title label dynamically matching loaded adventure
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
@@ -59,6 +66,38 @@ func _ready() -> void:
 		_render_current_page(current_data)
 		
 	_update_stats_hud()
+
+func _apply_safe_area_margins() -> void:
+	var safe_area: Rect2 = DisplayServer.get_display_safe_area()
+	if safe_area.size.y > 0 and safe_area.position.y > 0:
+		var top_offset: int = int(safe_area.position.y)
+		var margin_container = get_node_or_null("PanelContainer/MarginContainer")
+		if margin_container:
+			margin_container.add_theme_constant_override("margin_top", 24 + top_offset)
+
+func _setup_touch_controller() -> void:
+	var touch_ctrl = TouchController.new()
+	add_child(touch_ctrl)
+	touch_ctrl.swipe_left.connect(_on_touch_forward)
+	touch_ctrl.tap_right_edge.connect(_on_touch_forward)
+	touch_ctrl.swipe_right.connect(_on_touch_backward)
+	touch_ctrl.tap_left_edge.connect(_on_touch_backward)
+
+func _on_touch_forward() -> void:
+	if _is_typing:
+		_skip_typewriter_effect()
+		return
+	var current_data: Dictionary = StoryManager.get_current_section_data()
+	var pages: Array = current_data.get("pages", [current_data.get("text", "")])
+	if current_page_index < pages.size() - 1:
+		current_page_index += 1
+		_render_current_page(current_data)
+
+func _on_touch_backward() -> void:
+	if current_page_index > 0:
+		current_page_index -= 1
+		var current_data: Dictionary = StoryManager.get_current_section_data()
+		_render_current_page(current_data)
 
 func _configure_touch_scrollbar() -> void:
 	var scrollbar = story_text_label.get_v_scroll_bar()
@@ -148,14 +187,14 @@ func _scroll_to_bottom() -> void:
 			scrollbar.value = scrollbar.max_value
 
 func _update_stats_hud() -> void:
-	if stats_hud_label:
-		stats_hud_label.text = "SKILL: %d  |  STAMINA: %d/%d  |  LUCK: %d  |  HEROIC PATIENCE: %d" % [
-			PlayerStats.skill,
-			PlayerStats.current_stamina,
-			PlayerStats.stamina,
-			PlayerStats.current_luck,
-			PlayerStats.current_patience
-		]
+	if skl_label:
+		skl_label.text = "SKL: %d" % PlayerStats.skill
+	if stam_label:
+		stam_label.text = "STAM: %d/%d" % [PlayerStats.current_stamina, PlayerStats.stamina]
+	if lck_label:
+		lck_label.text = "LCK: %d" % PlayerStats.current_luck
+	if pat_label:
+		pat_label.text = "PAT: %d" % PlayerStats.current_patience
 
 ## Appends dynamic bonus epilogue text based on story flags
 func _append_epilogue_bonus_text() -> void:

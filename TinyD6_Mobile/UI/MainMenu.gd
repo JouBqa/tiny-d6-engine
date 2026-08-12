@@ -3,7 +3,16 @@ extends Control
 @onready var adventure_list_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/AdventureListContainer
 
 func _ready() -> void:
+	_apply_safe_area_margins()
 	_populate_adventure_list()
+
+func _apply_safe_area_margins() -> void:
+	var safe_area: Rect2 = DisplayServer.get_display_safe_area()
+	if safe_area.size.y > 0 and safe_area.position.y > 0:
+		var top_offset: int = int(safe_area.position.y)
+		var margin_container = get_node_or_null("PanelContainer/MarginContainer")
+		if margin_container:
+			margin_container.add_theme_constant_override("margin_top", 28 + top_offset)
 
 func _populate_adventure_list() -> void:
 	# Clear existing children

@@ -50,13 +50,42 @@ text = "TINY D6 ENGINE"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="StatsHUDLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer"]
+[node name="StatsHUDContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer"]
 layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="SklLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
 theme_override_colors/font_color = Color(0.9, 0.8, 0.5, 1)
 theme_override_font_sizes/font_size = 14
-text = "SKILL: 0  |  STAMINA: 0/0  |  LUCK: 0  |  HEROIC PATIENCE: 0"
+text = "SKL: 0"
 horizontal_alignment = 1
-vertical_alignment = 1
+
+[node name="StamLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.8, 0.5, 1)
+theme_override_font_sizes/font_size = 14
+text = "STAM: 0/0"
+horizontal_alignment = 1
+
+[node name="LckLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.8, 0.5, 1)
+theme_override_font_sizes/font_size = 14
+text = "LCK: 0"
+horizontal_alignment = 1
+
+[node name="PatLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9, 0.8, 0.5, 1)
+theme_override_font_sizes/font_size = 14
+text = "PAT: 0"
+horizontal_alignment = 1
 
 [node name="HSeparator1" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
