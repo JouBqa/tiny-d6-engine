@@ -18,8 +18,10 @@ func _populate_adventure_list() -> void:
 		var file_name: String = file_path.get_file().trim_suffix(".json")
 		var display_title: String = file_name.capitalize()
 		
-		# If file is SpoonyAdventure, format nicely
-		if file_name.to_lower().contains("spoony"):
+		# Format adventure titles nicely
+		if file_name.to_lower().contains("knight"):
+			display_title = "Sir Albert & the Pudding of Perpetual Wobble"
+		elif file_name.to_lower().contains("spoony"):
 			display_title = "The Spoony Adventure (Spoon Cave Quest)"
 		elif file_name.to_lower().contains("prototype"):
 			display_title = "The B&B Retirement Plan (Prototype)"

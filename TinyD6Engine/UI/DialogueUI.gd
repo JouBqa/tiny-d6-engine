@@ -163,6 +163,23 @@ func _update_stats_hud() -> void:
 			PlayerStats.current_patience
 		]
 
+## Appends dynamic bonus epilogue text based on story flags
+func _append_epilogue_bonus_text() -> void:
+	var sec_id: String = StoryManager.current_section_id
+	if not sec_id.begins_with("ending_") and sec_id != "8" and sec_id != "10":
+		return
+		
+	var bonus_text: String = ""
+	if PlayerStats.get_flag("flag_agnes_helped", false):
+		bonus_text += "\n\n[color=yellow][b]Epilogue (Agnes):[/b] Sister Agnes sends you a warm loaf of herbal trail-bread and a note of gratitude for your assistance.[/color]"
+	if PlayerStats.get_flag("flag_pocket_friendly", false):
+		bonus_text += "\n\n[color=yellow][b]Epilogue (Pocket):[/b] Pocket the Goblin opens a small souvenir stand near the Custard Tower, selling shiny brass buttons and sturdy ropes.[/color]"
+	if PlayerStats.get_flag("flag_mildred_helped", false):
+		bonus_text += "\n\n[color=yellow][b]Epilogue (Mildred):[/b] Alchemist Mildred names her newest soothing potion 'Bumblethwaite's Calm' in honor of your respectful conduct.[/color]"
+		
+	if bonus_text != "":
+		story_text_label.append_text(bonus_text)
+
 func _on_patience_depleted() -> void:
 	if _handling_loss_state:
 		return
@@ -175,22 +192,25 @@ func _on_patience_depleted() -> void:
 	story_text_label.append_text("\n\n[color=yellow][b]SANITY LOSS: Your Heroic Patience has reached 0! You abandon the quest and open a B&B.[/b][/color]")
 	_scroll_to_bottom()
 	_clear_choice_container()
-	_render_continue_button("10")
+	StoryManager.go_to_section("10")
 	_handling_loss_state = false
 
 func _on_stamina_depleted() -> void:
 	if _handling_loss_state:
 		return
-	if StoryManager.current_section_id == "6" or StoryManager.current_section_id == "10":
+	if StoryManager.current_section_id == "6" or StoryManager.current_section_id == "10" or StoryManager.current_section_id == "ending_embarrassing_defeat":
 		return
 		
 	_handling_loss_state = true
-	print("[DialogueUI] Physical Defeat triggered: Stamina reached 0! Redirecting to Section 6 (Defeat Waiver).")
+	print("[DialogueUI] Physical Defeat triggered: Stamina reached 0!")
 	CombatEngine.in_combat = false
 	story_text_label.append_text("\n\n[color=red][b]PHYSICAL DEFEAT: Your Stamina has been depleted![/b][/color]")
 	_scroll_to_bottom()
 	_clear_choice_container()
-	_render_continue_button("6")
+	if StoryManager.story_database.has("ending_embarrassing_defeat"):
+		StoryManager.go_to_section("ending_embarrassing_defeat")
+	else:
+		_render_continue_button("6")
 	_handling_loss_state = false
 
 func _on_section_changed(section_data: Dictionary) -> void:
@@ -208,6 +228,10 @@ func _display_section(section_data: Dictionary) -> void:
 	# Completely clear story_text_label text to prevent text bleed from combat or past rolls
 	story_text_label.clear()
 	story_text_label.text = section_data.get("text", "")
+	
+	# Dynamically append bonus epilogue paragraphs for ending nodes
+	_append_epilogue_bonus_text()
+	
 	_start_typewriter_effect()
 	_scroll_to_bottom()
 	
