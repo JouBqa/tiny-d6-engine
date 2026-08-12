@@ -11,6 +11,7 @@ extends Control
 @onready var patience_roll_button: Button = $PanelContainer/MarginContainer/VBoxContainer/StatsContainer/PatienceRow/RollButton
 
 @onready var begin_adventure_button: Button = $PanelContainer/MarginContainer/VBoxContainer/BeginAdventureButton
+@onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
 
 var _rolled_stats: Dictionary = {
 	"skill": false,
@@ -20,6 +21,9 @@ var _rolled_stats: Dictionary = {
 }
 
 func _ready() -> void:
+	if title_label:
+		title_label.text = StoryManager.get_adventure_title()
+		
 	# Initialize initial display states
 	skill_value_label.text = "--"
 	stamina_value_label.text = "--"

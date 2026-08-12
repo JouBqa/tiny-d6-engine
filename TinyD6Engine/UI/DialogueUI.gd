@@ -3,12 +3,17 @@ extends Control
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
 @onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceContainer
 @onready var stats_hud_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDLabel
+@onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
 
 var _handling_loss_state: bool = false
 var _typewriter_tween: Tween
 var _is_typing: bool = false
 
 func _ready() -> void:
+	# Configure title label dynamically matching loaded adventure
+	if title_label:
+		title_label.text = StoryManager.get_adventure_title()
+		
 	# Configure scroll_following = true on narrative RichTextLabel
 	story_text_label.scroll_following = true
 	
@@ -109,12 +114,19 @@ func _on_stamina_depleted() -> void:
 	_handling_loss_state = false
 
 func _on_section_changed(section_data: Dictionary) -> void:
+	if title_label:
+		title_label.text = StoryManager.get_adventure_title()
 	_display_section(section_data)
 	_update_stats_hud()
 
 ## Displays narrative section, completely wiping previous text to fix the clear bleed bug
 func _display_section(section_data: Dictionary) -> void:
+	if _typewriter_tween and _typewriter_tween.is_running():
+		_typewriter_tween.kill()
+	_is_typing = false
+	
 	# Completely clear story_text_label text to prevent text bleed from combat or past rolls
+	story_text_label.clear()
 	story_text_label.text = section_data.get("text", "")
 	_start_typewriter_effect()
 	_scroll_to_bottom()

@@ -1,6 +1,6 @@
 {
   "1": {
-    "text": "Ah, traveler! Thank the heavens you've arrived. Our peaceful village—no, the entire realm—is facing a crisis of unparalleled magnitude! The [color=yellow]Legendary Spoon of Stirringham[/color] has been... taken! Well, technically, it was borrowed by Garrick the Spoon-Keeper. He claimed he needed it to stir a dramatic stew, but he was supposed to return it three weeks ago under Clause 9 of our Local Utensil Treaty. Without the gold-plated zinc of the Legendary Spoon, our formal broth-based diplomacy will utterly collapse! Garrick has locked himself inside the Cave at the far end of The Mostly Sacred Forest.",
+    "text": "Ah, traveler! Thank the heavens you've arrived. Our peaceful village, no, the entire realm, is facing a crisis of unparalleled magnitude! The [color=yellow]Legendary Spoon of Stirringham[/color] has been... taken! Well, technically, it was borrowed by Garrick the Spoon-Keeper. He claimed he needed it to stir a dramatic stew, but he was supposed to return it three weeks ago under Clause 9 of our Local Utensil Treaty. Without the gold-plated zinc of the Legendary Spoon, our formal broth-based diplomacy will utterly collapse! Garrick has locked himself inside the Cave at the far end of The Mostly Sacred Forest.",
     "choices": [
       {
         "text": "Accept the quest with dignity and head out.",
@@ -8,30 +8,39 @@
       },
       {
         "text": "Tell him it's just a spoon.",
-        "target": "3",
+        "target": "11",
         "test_type": "patience",
         "target_fail": "3_fail"
       }
     ]
   },
   "2": {
-    "text": "You march to the edge of the village, where [color=yellow]Sir Reginald Slightlybrave[/color] stands at the bridge guard post, chest puffed out proudly.\n\n'Halt, traveler!' he declares with solemn dignity. 'The Kingdom is at peace, but the Royal Bridge remains legally impassable! As Acting Bridge Inspector, I am forbidden from letting anyone cross without an officially stamped Crossing Permit. I would gladly stamp yours, but I misplaced the Official Inspector Stamp somewhere in the village. Retrieve it, and I shall authorize your crossing.'",
+    "text": "You march to the edge of the village, where [color=yellow]Sir Reginald Slightlybrave[/color] stands at the bridge guard post, chest puffed out proudly.\n\n'Hold, traveler! This bridge is impassable!\n\nWell, structurally there is absolutely nothing wrong with it (it is a marvel of masonry). But without a stamped Form 11-A (Bridge Transit Permit), it is legally non-existent, and crossing it would constitute an administrative felony.'",
     "choices": [
       {
-        "text": "Search the village gardens for the stamp.",
-        "target": "4"
+        "text": "Ask where he last saw the stamp.",
+        "target": "reginald_inquire"
       },
       {
-        "text": "Ask Reginald where he last saw the stamp.",
-        "target": "reginald_inquire"
+        "text": "Search the Town.",
+        "target": "giles_bittergreen"
       }
     ]
   },
   "reginald_inquire": {
-    "text": "Sir Reginald strokes his chin thoughtfully, puffing his chest further.\n\n'Ah! Where did I last see it? Well, citizen, to be entirely transparent under the Municipal Inspector Code... I have absolutely no recollection whatsoever! I got magnificently drunk at the tavern last night celebrating National Spoon Day. I woke up wearing a cabbage leaf as a hat, and the stamp was gone.'",
+    "text": "Sir Reginald strokes his chin thoughtfully, puffing his chest further.\n\n'Ah, my memory of last night is a magnificent, unbroken blank. I woke up with dirt in my teeth.'",
     "choices": [
       {
-        "text": "Search the village gardens for the stamp.",
+        "text": "Go to the Royal Gardens.",
+        "target": "4"
+      }
+    ]
+  },
+  "giles_bittergreen": {
+    "text": "You search the town and enter the local tavern, where you find [color=yellow]Giles Bittergreen[/color], a grumpy and hungover cabbage farmer holding a mug of warm water.\n\n[color=yellow]\"Ugh... keep your heroic voice down, traveler. My skull is ringing like a cathedral bell. If you are looking for Sir Reginald, I chased that proud 'protector of the bridge' out of my prized cabbage patch at dawn. The man was passed out cold, snoring like a sick boar, and clutching a half-eaten head of raw cabbage. Now, please, let me suffer in peace.\"[/color]",
+    "choices": [
+      {
+        "text": "Go to the Royal Gardens.",
         "target": "4"
       }
     ]
@@ -56,7 +65,7 @@
     ]
   },
   "4": {
-    "text": "In the municipal gardens, you find a highly suspicious squirrel sitting directly on top of the heavy, brass embossing stamp, staring at you with unlicensed rodent hostility.",
+    "text": "In the Royal Gardens, you find a highly suspicious squirrel sitting directly on top of the heavy, brass embossing stamp, staring at you with unlicensed rodent hostility.",
     "choices": [
       {
         "text": "Test your Skill to outwit the rodent and grab the stamp.",
@@ -72,24 +81,6 @@
       {
         "text": "Limp back to Sir Reginald with the stamp.",
         "target": "reginald_complete"
-      }
-    ]
-  },
-  "5": {
-    "text": "Sir Reginald beams at your diligence. You hand over the stamp and proceed to the bridge.",
-    "choices": [
-      {
-        "text": "Proceed to the bridge.",
-        "target": "reginald_complete"
-      }
-    ]
-  },
-  "5_fail": {
-    "text": "Sir Reginald clears his throat and points to the village gardens. 'The stamp is over in the gardens, citizen!'",
-    "choices": [
-      {
-        "text": "Search the village gardens for the stamp.",
-        "target": "4"
       }
     ]
   },
@@ -133,6 +124,15 @@
       {
         "text": "Sign the waiver and try again.",
         "target": "1"
+      }
+    ]
+  },
+  "11": {
+    "text": "The Mayor blinks, utterly failing to comprehend your dry sarcasm. He assumes 'just a spoon' is a stoic, high-level philosophical statement on the impermanence of material forms. Nodding solemnly at your profound heroic wisdom, he happily hands you [color=yellow]Form 4-B (Intent to Retrieve Utensils)[/color].",
+    "choices": [
+      {
+        "text": "Sigh quietly and head into the Mostly Sacred Forest.",
+        "target": "4"
       }
     ]
   },
@@ -181,7 +181,7 @@
     ]
   },
   "9": {
-    "text": "You return to Stirringham. The Mayor gasps: 'By the Great Cauldron... you've actually returned with it. The Legendary Spoon of Stirringham! Look how its premium gold-plated zinc catches the damp air.\n\nAs promised, please accept your reward: Official Village Citizenship (Pending Notarization), this single, vaguely circular, lightly chewed copper coin, and my eternal, tax-deductible gratitude. Orders of soup will have to wait—we still only have the one spoon.'\n\n[color=green][b]CONGRATULATIONS! YOU HAVE SAVED BROTH-BASED DIPLOMACY![/b][/color]",
+    "text": "You return to Stirringham. The Mayor gasps: 'By the Great Cauldron... you've actually returned with it. The Legendary Spoon of Stirringham! Look how its premium gold-plated zinc catches the damp air.\n\nAs promised, please accept your reward: Official Village Citizenship (Pending Notarization), this single, vaguely circular, lightly chewed copper coin, and my eternal, tax-deductible gratitude. Orders of soup will have to wait, we still only have the one spoon.'\n\n[color=green][b]CONGRATULATIONS! YOU HAVE SAVED BROTH-BASED DIPLOMACY![/b][/color]",
     "choices": [
       {
         "text": "Claim Heroic Victory 🏆",

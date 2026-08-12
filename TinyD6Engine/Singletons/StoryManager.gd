@@ -7,6 +7,7 @@ signal section_changed(section_data: Dictionary)
 signal story_started
 
 var current_section_id: String = "1"
+var active_adventure_title: String = "Tiny D6 Engine"
 
 ## Embedded Fallback Database matching SpoonyAdventure.json
 var fallback_database: Dictionary = {
@@ -14,7 +15,7 @@ var fallback_database: Dictionary = {
 		"text": "You stand in the Village of Tinyville. The Mayor, weeping sincerely, begs you to find the missing sacred legendary soup spoon.",
 		"choices": [
 			{"text": "Accept the quest with dignity.", "target": "2"},
-			{"text": "Tell him it's just a spoon.", "target": "2", "test_type": "patience", "target_fail": "3"}
+			{"text": "Tell him it's just a spoon.", "target": "11", "test_type": "patience", "target_fail": "3"}
 		]
 	},
 	"2": {
@@ -76,6 +77,12 @@ var fallback_database: Dictionary = {
 		"text": "That is it. You let out a deep, existential sigh. The endless rules, 40-minute monologues, and tedious paperwork have broken your spirit. You abandon the quest for the spoon, move to the countryside, and [color=yellow]open a peaceful Bed & Breakfast[/color].",
 		"choices": [
 			{"text": "Give up on innkeeping and try adventuring again 🔄", "target": "1"}
+		]
+	},
+	"11": {
+		"text": "The Mayor blinks, utterly failing to comprehend your dry sarcasm. He assumes 'just a spoon' is a stoic, high-level philosophical statement on the impermanence of material forms. Nodding solemnly at your profound heroic wisdom, he happily hands you [color=yellow]Form 4-B[/color].",
+		"choices": [
+			{"text": "Sigh quietly and head into the forest.", "target": "4"}
 		]
 	}
 }
@@ -155,8 +162,22 @@ func load_adventure_from_file(file_path: String) -> bool:
 		
 	story_database = json_parser.data
 	current_section_id = "1"
-	print("[StoryManager] Successfully loaded adventure from '%s' (%d sections)." % [file_path, story_database.size()])
+	
+	if story_database.has("title"):
+		active_adventure_title = str(story_database["title"])
+	elif story_database.has("adventure_name"):
+		active_adventure_title = str(story_database["adventure_name"])
+	elif story_database.has("name"):
+		active_adventure_title = str(story_database["name"])
+	else:
+		active_adventure_title = file_path.get_file().trim_suffix(".json").capitalize()
+		
+	print("[StoryManager] Successfully loaded adventure '%s' from '%s' (%d sections)." % [active_adventure_title, file_path, story_database.size()])
 	return true
+
+## Returns the title of the active adventure module
+func get_adventure_title() -> String:
+	return active_adventure_title
 
 ## Starts the adventure from Section "1"
 func start_adventure() -> void:

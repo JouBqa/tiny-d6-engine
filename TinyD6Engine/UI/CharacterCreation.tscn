@@ -52,7 +52,7 @@ theme_override_constants/separation = 6
 [node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 28
-text = "THE B&B RETIREMENT PLAN"
+text = "TINY D6 ENGINE"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -60,7 +60,7 @@ vertical_alignment = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0.85, 0.75, 0.55, 1)
 theme_override_font_sizes/font_size = 16
-text = "— Heroic Character Sheet Setup —"
+text = "Heroic Character Sheet Setup"
 horizontal_alignment = 1
 vertical_alignment = 1
 

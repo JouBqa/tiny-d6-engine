@@ -5,14 +5,18 @@ extends Control
 
 func _ready() -> void:
 	exit_menu_button.pressed.connect(_on_exit_menu_pressed)
-	exit_game_button.pressed.connect(_on_exit_game_pressed)
 	
-	# Setup vertical focus loop for D-Pad and Keyboard navigation
-	exit_menu_button.focus_neighbor_top = exit_game_button.get_path()
-	exit_menu_button.focus_neighbor_bottom = exit_game_button.get_path()
-	exit_game_button.focus_neighbor_top = exit_menu_button.get_path()
-	exit_game_button.focus_neighbor_bottom = exit_menu_button.get_path()
-	
+	if OS.has_feature("web"):
+		exit_game_button.visible = false
+		exit_menu_button.focus_neighbor_top = exit_menu_button.get_path()
+		exit_menu_button.focus_neighbor_bottom = exit_menu_button.get_path()
+	else:
+		exit_game_button.pressed.connect(_on_exit_game_pressed)
+		exit_menu_button.focus_neighbor_top = exit_game_button.get_path()
+		exit_menu_button.focus_neighbor_bottom = exit_game_button.get_path()
+		exit_game_button.focus_neighbor_top = exit_menu_button.get_path()
+		exit_game_button.focus_neighbor_bottom = exit_menu_button.get_path()
+		
 	# Focus Grab Rule: Automatically grab focus on "Exit to Main Menu" button immediately
 	exit_menu_button.call_deferred("grab_focus")
 

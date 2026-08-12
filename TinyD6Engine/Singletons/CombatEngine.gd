@@ -143,16 +143,12 @@ func test_luck_on_wounding() -> Dictionary:
 func _check_combat_termination() -> bool:
 	if PlayerStats.current_stamina <= 0:
 		in_combat = false
-		print("[CombatEngine] Combat terminated: Player Defeated! Transitioning to Section '%s'" % str(defeat_target_section))
+		print("[CombatEngine] Combat terminated: Player Defeated!")
 		combat_ended.emit(false)
-		if StoryManager and StoryManager.has_method("go_to_section"):
-			StoryManager.go_to_section(str(defeat_target_section))
 		return true
 	elif enemy_stamina <= 0:
 		in_combat = false
-		print("[CombatEngine] Combat terminated: Player Victorious! Transitioning to Section '%s'" % str(victory_target_section))
+		print("[CombatEngine] Combat terminated: Player Victorious!")
 		combat_ended.emit(true)
-		if StoryManager and StoryManager.has_method("go_to_section"):
-			StoryManager.go_to_section(str(victory_target_section))
 		return true
 	return false

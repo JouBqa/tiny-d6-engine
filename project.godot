@@ -23,3 +23,8 @@ config/features=PackedStringArray("4.7")
 PlayerStats="*res://TinyD6Engine/Singletons/PlayerStats.gd"
 StoryManager="*res://TinyD6Engine/Singletons/StoryManager.gd"
 CombatEngine="*res://TinyD6Engine/Singletons/CombatEngine.gd"
+
+[editor]
+
+movie_writer/video_quality=1.0
+movie_writer/movie_file="/home/yoni/Videos/Godot Movie Writer/Stirringham.avi"
