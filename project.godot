@@ -31,6 +31,8 @@ movie_writer/movie_file="/home/yoni/Videos/Godot Movie Writer/Stirringham.avi"
 
 [display]
 
+window/size/viewport_width=480
+window/size/viewport_height=800
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
 window/handheld/orientation=1
