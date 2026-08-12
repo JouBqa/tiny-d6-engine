@@ -27,8 +27,8 @@ func _ready() -> void:
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
 		
-	# Configure scroll_following = true on narrative RichTextLabel
-	story_text_label.scroll_following = true
+	# Disable scroll_following so text does not jump to bottom on page render
+	story_text_label.scroll_following = false
 	
 	# Configure 24px wide touch scrollbar target & style
 	_configure_touch_scrollbar()
@@ -60,41 +60,17 @@ func _ready() -> void:
 		
 	_update_stats_hud()
 
-## Widens internal VScrollBar to 24px and applies clean, high-visibility gold grabber styling
 func _configure_touch_scrollbar() -> void:
-	if not story_text_label:
-		return
-	var v_scroll: VScrollBar = story_text_label.get_v_scroll_bar()
-	if v_scroll:
-		v_scroll.custom_minimum_size.x = 24
-		
-		var grabber_style: StyleBoxFlat = StyleBoxFlat.new()
-		grabber_style.bg_color = Color(0.85, 0.75, 0.45, 0.9)
-		grabber_style.corner_radius_top_left = 6
-		grabber_style.corner_radius_top_right = 6
-		grabber_style.corner_radius_bottom_left = 6
-		grabber_style.corner_radius_bottom_right = 6
-		
-		var grabber_hl_style: StyleBoxFlat = StyleBoxFlat.new()
-		grabber_hl_style.bg_color = Color(1.0, 0.9, 0.55, 1.0)
-		grabber_hl_style.corner_radius_top_left = 6
-		grabber_hl_style.corner_radius_top_right = 6
-		grabber_hl_style.corner_radius_bottom_left = 6
-		grabber_hl_style.corner_radius_bottom_right = 6
+	var scrollbar = story_text_label.get_v_scroll_bar()
+	if scrollbar:
+		scrollbar.custom_minimum_size = Vector2(24, 0)
+		var sb = StyleBoxFlat.new()
+		sb.bg_color = Color(0.8, 0.6, 0.2, 0.8)
+		sb.set_corner_radius_all(6)
+		scrollbar.add_theme_stylebox_override("grabber", sb)
+		scrollbar.add_theme_stylebox_override("grabber_highlight", sb)
+		scrollbar.add_theme_stylebox_override("grabber_pressed", sb)
 
-		var scroll_track_style: StyleBoxFlat = StyleBoxFlat.new()
-		scroll_track_style.bg_color = Color(0.15, 0.14, 0.12, 0.6)
-		scroll_track_style.corner_radius_top_left = 6
-		scroll_track_style.corner_radius_top_right = 6
-		scroll_track_style.corner_radius_bottom_left = 6
-		scroll_track_style.corner_radius_bottom_right = 6
-		
-		v_scroll.add_theme_stylebox_override("grabber", grabber_style)
-		v_scroll.add_theme_stylebox_override("grabber_highlight", grabber_hl_style)
-		v_scroll.add_theme_stylebox_override("grabber_pressed", grabber_hl_style)
-		v_scroll.add_theme_stylebox_override("scroll", scroll_track_style)
-
-## Direct Touch & Drag Swipe-to-Scroll on narrative text area
 func _on_story_text_gui_input(event: InputEvent) -> void:
 	if event is InputEventScreenTouch:
 		if event.pressed:
@@ -141,7 +117,7 @@ func _start_typewriter_effect() -> void:
 	_typewriter_tween.tween_property(story_text_label, "visible_ratio", 1.0, duration)
 	_typewriter_tween.finished.connect(func():
 		_is_typing = false
-		_scroll_to_bottom()
+		_scroll_to_top()
 	)
 
 func _skip_typewriter_effect() -> void:
@@ -149,7 +125,7 @@ func _skip_typewriter_effect() -> void:
 		_typewriter_tween.kill()
 	story_text_label.visible_ratio = 1.0
 	_is_typing = false
-	_scroll_to_bottom()
+	_scroll_to_top()
 
 ## Scroll to Top Helper
 func _scroll_to_top() -> void:

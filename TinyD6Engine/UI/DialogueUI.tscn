@@ -68,7 +68,7 @@ size_flags_vertical = 3
 theme_override_font_sizes/normal_font_size = 16
 theme_override_font_sizes/bold_font_size = 16
 bbcode_enabled = true
-scroll_following = true
+scroll_following = false
 selection_enabled = false
 text = "Story text placeholder..."
 
