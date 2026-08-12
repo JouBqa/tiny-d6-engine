@@ -244,6 +244,66 @@ func clear_autosave_state() -> void:
 		DirAccess.remove_absolute("user://save_game.json")
 	print("[StoryManager] Mobile autosave file cleared.")
 
+## Manual Ribbon Bookmark Slots (Slots 1..3)
+func get_bookmark_path(slot_idx: int) -> String:
+	return "user://saves/bookmark_%d.json" % slot_idx
+
+func has_bookmark(slot_idx: int) -> bool:
+	return FileAccess.file_exists(get_bookmark_path(slot_idx))
+
+func save_bookmark(slot_idx: int, current_page_idx: int = 0) -> void:
+	var dir_path = "user://saves"
+	if not DirAccess.dir_exists_absolute(dir_path):
+		DirAccess.make_dir_recursive_absolute(dir_path)
+		
+	var sec_data = get_current_section_data()
+	var sec_title = sec_data.get("title", "Section " + current_section_id)
+	var save_dict = {
+		"current_section_id": current_section_id,
+		"current_page_index": current_page_idx,
+		"active_adventure_title": active_adventure_title,
+		"section_title": sec_title,
+		"player_stats": PlayerStats.get_save_data()
+	}
+	var file = FileAccess.open(get_bookmark_path(slot_idx), FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(save_dict, "\t"))
+		file.close()
+		print("[StoryManager] Bookmark slot %d saved." % slot_idx)
+
+func load_bookmark(slot_idx: int) -> Dictionary:
+	var path = get_bookmark_path(slot_idx)
+	if not FileAccess.file_exists(path):
+		return {}
+	var file = FileAccess.open(path, FileAccess.READ)
+	if not file:
+		return {}
+	var json_parser = JSON.new()
+	if json_parser.parse(file.get_as_text()) == OK and json_parser.data is Dictionary:
+		var data: Dictionary = json_parser.data
+		if data.has("player_stats") and data["player_stats"] is Dictionary:
+			PlayerStats.load_save_data(data["player_stats"])
+		current_section_id = str(data.get("current_section_id", "1"))
+		file.close()
+		return data
+	file.close()
+	return {}
+
+func get_bookmark_info_dict(slot_idx: int) -> Dictionary:
+	var path = get_bookmark_path(slot_idx)
+	if not FileAccess.file_exists(path):
+		return {}
+	var file = FileAccess.open(path, FileAccess.READ)
+	if not file:
+		return {}
+	var json_parser = JSON.new()
+	if json_parser.parse(file.get_as_text()) == OK and json_parser.data is Dictionary:
+		var d: Dictionary = json_parser.data
+		file.close()
+		return d
+	file.close()
+	return {}
+
 ## Updates active state and emits section_changed signal
 func go_to_section(sec_id) -> Dictionary:
 	var key_str: String = str(sec_id)

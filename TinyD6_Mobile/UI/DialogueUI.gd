@@ -12,7 +12,11 @@ const ICON_HEART = preload("res://Art/heart.png")
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
 @onready var choice_scroll_container: ScrollContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer
 @onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer/ChoiceContainer
-@onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
+@onready var title_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TopBarContainer/TitleLabel")
+@onready var ribbon_button: Button = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TopBarContainer/RibbonButton")
+@onready var bookmark_modal: Control = get_node_or_null("BookmarkModal")
+@onready var modal_slots_container: VBoxContainer = get_node_or_null("BookmarkModal/MarginContainer/VBoxContainer/SlotsContainer")
+@onready var modal_close_button: Button = get_node_or_null("BookmarkModal/MarginContainer/VBoxContainer/CloseButton")
 
 @onready var skl_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/SklLabel")
 @onready var stam_label: Label = get_node_or_null("PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDContainer/StamLabel")
@@ -30,6 +34,11 @@ func _ready() -> void:
 	_apply_safe_area_margins()
 	_setup_touch_controller()
 	
+	if ribbon_button:
+		ribbon_button.pressed.connect(_open_bookmark_modal)
+	if modal_close_button:
+		modal_close_button.pressed.connect(_close_bookmark_modal)
+		
 	# Configure title label dynamically matching loaded adventure
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
@@ -95,6 +104,69 @@ func _on_touch_backward() -> void:
 		current_page_index -= 1
 		var current_data: Dictionary = StoryManager.get_current_section_data()
 		_render_current_page(current_data)
+
+func _open_bookmark_modal() -> void:
+	if not bookmark_modal or not modal_slots_container:
+		return
+	_populate_bookmark_slots()
+	bookmark_modal.visible = true
+
+func _close_bookmark_modal() -> void:
+	if bookmark_modal:
+		bookmark_modal.visible = false
+
+func _populate_bookmark_slots() -> void:
+	for child in modal_slots_container.get_children():
+		modal_slots_container.remove_child(child)
+		child.queue_free()
+		
+	for i in range(1, 4):
+		var slot_box = HBoxContainer.new()
+		slot_box.custom_minimum_size = Vector2(0, 52)
+		
+		var info_label = Label.new()
+		info_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		info_label.add_theme_font_size_override("font_size", 16)
+		
+		var has_b = StoryManager.has_bookmark(i)
+		if has_b:
+			var b_data = StoryManager.get_bookmark_info_dict(i)
+			var sec_t = b_data.get("section_title", "Section " + str(b_data.get("current_section_id", "1")))
+			info_label.text = "Slot %d: %s (p. %d)" % [i, sec_t, int(b_data.get("current_page_index", 0)) + 1]
+		else:
+			info_label.text = "Slot %d: [Empty Bookmark]" % i
+			
+		slot_box.add_child(info_label)
+		
+		var save_btn = Button.new()
+		save_btn.text = " Save "
+		save_btn.custom_minimum_size = Vector2(75, 44)
+		save_btn.add_theme_font_size_override("font_size", 16)
+		var slot_idx_s = i
+		save_btn.pressed.connect(func():
+			StoryManager.save_bookmark(slot_idx_s, current_page_index)
+			_populate_bookmark_slots()
+		)
+		slot_box.add_child(save_btn)
+		
+		var load_btn = Button.new()
+		load_btn.text = " Load "
+		load_btn.custom_minimum_size = Vector2(75, 44)
+		load_btn.add_theme_font_size_override("font_size", 16)
+		load_btn.disabled = not has_b
+		var slot_idx_l = i
+		load_btn.pressed.connect(func():
+			var b_data = StoryManager.load_bookmark(slot_idx_l)
+			if not b_data.is_empty():
+				current_page_index = int(b_data.get("current_page_index", 0))
+				var current_data = StoryManager.get_current_section_data()
+				_render_current_page(current_data)
+				_update_stats_hud()
+				_close_bookmark_modal()
+		)
+		slot_box.add_child(load_btn)
+		
+		modal_slots_container.add_child(slot_box)
 
 func _configure_touch_scrollbar() -> void:
 	var scrollbar = story_text_label.get_v_scroll_bar()
