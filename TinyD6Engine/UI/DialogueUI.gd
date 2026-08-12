@@ -10,7 +10,8 @@ const ICON_SWORD = preload("res://Art/sword.png")
 const ICON_HEART = preload("res://Art/heart.png")
 
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
-@onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceContainer
+@onready var choice_scroll_container: ScrollContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer
+@onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer/ChoiceContainer
 @onready var stats_hud_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDLabel
 @onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/TitleLabel
 
@@ -677,6 +678,8 @@ func _clear_choice_container() -> void:
 	for child in choice_container.get_children():
 		choice_container.remove_child(child)
 		child.queue_free()
+	if choice_scroll_container:
+		choice_scroll_container.scroll_vertical = 0
 
 func _setup_focus_loop_and_grab(buttons: Array[Button]) -> void:
 	var count: int = buttons.size()

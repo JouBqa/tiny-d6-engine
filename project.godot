@@ -29,6 +29,7 @@ CombatEngine="*res://TinyD6Engine/Singletons/CombatEngine.gd"
 window/size/viewport_width=800
 window/size/viewport_height=480
 window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
 
 [editor]
 

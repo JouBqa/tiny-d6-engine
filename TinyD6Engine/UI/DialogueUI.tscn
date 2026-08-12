@@ -62,7 +62,7 @@ vertical_alignment = 1
 layout_mode = 2
 
 [node name="StoryTextLabel" type="RichTextLabel" parent="PanelContainer/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 240)
+custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/normal_font_size = 16
@@ -75,6 +75,15 @@ text = "Story text placeholder..."
 [node name="HSeparator2" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="ChoiceContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+[node name="ChoiceScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 140)
 layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 1
+
+[node name="ChoiceContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ChoiceScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 theme_override_constants/separation = 10
