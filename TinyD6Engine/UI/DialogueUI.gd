@@ -151,6 +151,15 @@ func _skip_typewriter_effect() -> void:
 	_is_typing = false
 	_scroll_to_bottom()
 
+## Scroll to Top Helper
+func _scroll_to_top() -> void:
+	await get_tree().process_frame
+	if story_text_label:
+		story_text_label.scroll_to_line(0)
+	var scrollbar = story_text_label.get_v_scroll_bar()
+	if scrollbar:
+		scrollbar.value = 0
+
 ## Automatic Scrolling Fix (CRITICAL)
 ## Yields a frame to recalculate text layout, then programmatically forces vertical scrollbar to max_value
 func _scroll_to_bottom() -> void:
@@ -261,7 +270,7 @@ func _render_current_page(section_data: Dictionary) -> void:
 		_append_epilogue_bonus_text()
 		
 	_start_typewriter_effect()
-	_scroll_to_bottom()
+	_scroll_to_top()
 	
 	# Page-Turning Control:
 	# If player has not reached the last page of the section, render "Turn Page ->" button

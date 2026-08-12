@@ -181,9 +181,9 @@ func load_adventure_from_file(file_path: String) -> bool:
 	print("[StoryManager] Successfully loaded adventure '%s' from '%s' (%d sections)." % [active_adventure_title, file_path, story_database.size()])
 	return true
 
-## Returns the title of the active adventure module
+## Returns the title of the active adventure module without raw ampersands
 func get_adventure_title() -> String:
-	return active_adventure_title
+	return active_adventure_title.replace("&", "and")
 
 ## Starts the adventure from Section "1"
 func start_adventure() -> void:
