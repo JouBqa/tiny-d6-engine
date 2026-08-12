@@ -191,6 +191,62 @@ func start_adventure() -> void:
 	story_started.emit()
 	go_to_section("1")
 
+const SAVE_PATH: String = "user://save_game.json"
+
+## Checks if an active save file exists
+func has_save_file() -> bool:
+	return FileAccess.file_exists(SAVE_PATH)
+
+## Saves game state to user://save_game.json
+func save_game(current_page_idx: int = 0) -> void:
+	if current_section_id.begins_with("ending_") or current_section_id == "10":
+		clear_save_game()
+		return
+		
+	var save_dict = {
+		"current_section_id": current_section_id,
+		"current_page_index": current_page_idx,
+		"active_adventure_title": active_adventure_title,
+		"player_stats": PlayerStats.get_save_data()
+	}
+	var file = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(save_dict, "\t"))
+		file.close()
+		print("[StoryManager] Game autosaved at section '%s', page %d." % [current_section_id, current_page_idx])
+
+## Loads game state from user://save_game.json
+func load_game() -> Dictionary:
+	if not has_save_file():
+		push_error("[StoryManager] No save file found at: " + SAVE_PATH)
+		return {}
+		
+	var file = FileAccess.open(SAVE_PATH, FileAccess.READ)
+	if not file:
+		return {}
+		
+	var json_parser = JSON.new()
+	var error = json_parser.parse(file.get_as_text())
+	file.close()
+	
+	if error != OK or not (json_parser.data is Dictionary):
+		push_error("[StoryManager] Failed to parse save file.")
+		return {}
+		
+	var save_data: Dictionary = json_parser.data
+	if save_data.has("player_stats") and save_data["player_stats"] is Dictionary:
+		PlayerStats.load_save_data(save_data["player_stats"])
+		
+	var saved_sec_id: String = str(save_data.get("current_section_id", "1"))
+	current_section_id = saved_sec_id
+	return save_data
+
+## Deletes save game file
+func clear_save_game() -> void:
+	if FileAccess.file_exists(SAVE_PATH):
+		DirAccess.remove_absolute(SAVE_PATH)
+		print("[StoryManager] Save game file cleared.")
+
 ## Updates active state and emits section_changed signal
 func go_to_section(sec_id) -> Dictionary:
 	var key_str: String = str(sec_id)

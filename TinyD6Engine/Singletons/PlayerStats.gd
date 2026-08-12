@@ -43,6 +43,45 @@ func set_flag(flag_id: String, value) -> void:
 func get_flag(flag_id: String, default_value = false):
 	return flags.get(flag_id, default_value)
 
+## Returns dictionary of all player variables for autosave serialization
+func get_save_data() -> Dictionary:
+	return {
+		"skill": skill,
+		"current_skill": current_skill,
+		"stamina": stamina,
+		"current_stamina": current_stamina,
+		"luck": luck,
+		"current_luck": current_luck,
+		"patience": patience,
+		"current_patience": current_patience,
+		"inventory": inventory.duplicate(),
+		"flags": flags.duplicate()
+	}
+
+## Restores all player variables from save dictionary and emits stats_changed
+func load_save_data(data: Dictionary) -> void:
+	skill = int(data.get("skill", 0))
+	current_skill = int(data.get("current_skill", skill))
+	stamina = int(data.get("stamina", 0))
+	current_stamina = int(data.get("current_stamina", stamina))
+	luck = int(data.get("luck", 0))
+	current_luck = int(data.get("current_luck", luck))
+	patience = int(data.get("patience", 0))
+	current_patience = int(data.get("current_patience", patience))
+	
+	inventory.clear()
+	var raw_inv = data.get("inventory", [])
+	for item in raw_inv:
+		inventory.append(str(item))
+		
+	flags.clear()
+	var raw_flags = data.get("flags", {})
+	if raw_flags is Dictionary:
+		for k in raw_flags:
+			flags[str(k)] = raw_flags[k]
+			
+	stats_changed.emit()
+
 ## Roll Initial Skill: (1d6 + 6)
 func roll_initial_skill() -> int:
 	var val: int = randi_range(1, 6) + 6

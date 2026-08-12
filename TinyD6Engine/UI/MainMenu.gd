@@ -11,8 +11,23 @@ func _populate_adventure_list() -> void:
 		adventure_list_container.remove_child(child)
 		child.queue_free()
 		
-	var adventure_files: Array[String] = StoryManager.scan_for_adventures()
 	var instantiated_buttons: Array[Button] = []
+	
+	# Check if an autosave file exists
+	if StoryManager.has_save_file():
+		var continue_btn: Button = Button.new()
+		continue_btn.text = "  Continue Saved Game (Resume Quest)"
+		continue_btn.custom_minimum_size = Vector2(0, 52)
+		continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		continue_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
+		continue_btn.add_theme_font_size_override("font_size", 18)
+		continue_btn.add_theme_color_override("font_color", Color(1.0, 0.85, 0.4))
+		
+		continue_btn.pressed.connect(_on_continue_pressed)
+		adventure_list_container.add_child(continue_btn)
+		instantiated_buttons.append(continue_btn)
+		
+	var adventure_files: Array[String] = StoryManager.scan_for_adventures()
 	
 	for file_path in adventure_files:
 		var file_name: String = file_path.get_file().trim_suffix(".json")
@@ -47,9 +62,24 @@ func _populate_adventure_list() -> void:
 		btn.focus_neighbor_top = prev_btn.get_path()
 		btn.focus_neighbor_bottom = next_btn.get_path()
 		
-	# Focus-Grab Rule: Grab focus on first adventure button immediately
+	# Focus-Grab Rule: Grab focus on first button (Continue if present) immediately
 	if count > 0:
 		instantiated_buttons[0].call_deferred("grab_focus")
+
+func _on_continue_pressed() -> void:
+	print("[MainMenu] Continuing saved game...")
+	var save_data: Dictionary = StoryManager.load_game()
+	if not save_data.is_empty():
+		var saved_title: String = str(save_data.get("active_adventure_title", ""))
+		var available_files = StoryManager.scan_for_adventures()
+		for path in available_files:
+			if path.to_lower().contains("knight") and (saved_title.to_lower().contains("albert") or saved_title.to_lower().contains("pudding")):
+				StoryManager.load_adventure_from_file(path)
+				break
+				
+		# Re-apply save data (player stats and section)
+		StoryManager.load_game()
+		get_tree().change_scene_to_file("res://TinyD6Engine/UI/DialogueUI.tscn")
 
 func _on_adventure_selected(file_path: String) -> void:
 	print("[MainMenu] Adventure selected: %s" % file_path)
