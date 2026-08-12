@@ -180,7 +180,7 @@ func _render_continue_button(next_section_id: String) -> void:
 	_clear_choice_container()
 	
 	var continue_btn: Button = Button.new()
-	continue_btn.text = "  Continue ➔  "
+	continue_btn.text = "  Continue ->  "
 	continue_btn.custom_minimum_size = Vector2(0, 56)
 	continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	continue_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
