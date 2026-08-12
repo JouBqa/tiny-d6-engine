@@ -271,12 +271,12 @@ func _render_current_page(section_data: Dictionary) -> void:
 			CombatEngine.in_combat = false
 			_render_narrative_choices(section_data.get("choices", []))
 
-## Renders the single focus-grabbed "Turn Page ->" button for multi-page sections
+## Renders the single focus-grabbed "Turn Page" button for multi-page sections
 func _render_turn_page_button(section_data: Dictionary) -> void:
 	_clear_choice_container()
 	
 	var page_btn: Button = Button.new()
-	page_btn.text = "  Turn Page ->  "
+	page_btn.text = "  Turn Page  "
 	page_btn.custom_minimum_size = Vector2(0, 48)
 	page_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	page_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -366,12 +366,12 @@ func _render_narrative_choices(choices: Array) -> void:
 	
 	_setup_focus_loop_and_grab(instantiated_buttons)
 
-## Manual "Page Forward" Transition Button ("Continue ➔")
+## Manual "Page Forward" Transition Button ("Continue")
 func _render_continue_button(next_section_id: String) -> void:
 	_clear_choice_container()
 	
 	var continue_btn: Button = Button.new()
-	continue_btn.text = "  Continue ->  "
+	continue_btn.text = "  Continue  "
 	continue_btn.custom_minimum_size = Vector2(0, 48)
 	continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	continue_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
