@@ -31,7 +31,7 @@
     "text": "Sir Reginald strokes his chin thoughtfully, puffing his chest further.\n\n'Ah, my memory of last night is a magnificent, unbroken blank. I woke up with dirt in my teeth.'",
     "choices": [
       {
-        "text": "Go to the Royal Gardens.",
+        "text": "Go to the Farmer's Garden.",
         "target": "4"
       }
     ]
@@ -40,7 +40,7 @@
     "text": "You search the town and enter the local tavern, where you find [color=yellow]Giles Bittergreen[/color], a grumpy and hungover cabbage farmer holding a mug of warm water.\n\n[color=yellow]\"Ugh... keep your heroic voice down, traveler. My skull is ringing like a cathedral bell. If you are looking for Sir Reginald, I chased that proud 'protector of the bridge' out of my prized cabbage patch at dawn. The man was passed out cold, snoring like a sick boar, and clutching a half-eaten head of raw cabbage. Now, please, let me suffer in peace.\"[/color]",
     "choices": [
       {
-        "text": "Go to the Royal Gardens.",
+        "text": "Go to the Farmer's Garden.",
         "target": "4"
       }
     ]
@@ -65,7 +65,7 @@
     ]
   },
   "4": {
-    "text": "In the Royal Gardens, you find a highly suspicious squirrel sitting directly on top of the heavy, brass embossing stamp, staring at you with unlicensed rodent hostility.",
+    "text": "In the Farmer's Garden, you find a highly suspicious squirrel sitting directly on top of the heavy, brass embossing stamp, staring at you with unlicensed rodent hostility.",
     "choices": [
       {
         "text": "Test your Skill to outwit the rodent and grab the stamp.",
