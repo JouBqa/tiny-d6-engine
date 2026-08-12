@@ -1,0 +1,262 @@
+{
+  "title": "Sir Albert and the Pudding of Perpetual Wobble",
+  "1": {
+    "text": "You are [color=yellow]Sir Albert Bumblethwaite[/color], Knight-Apprentice of the Order of the Soft Cushion. Lord Gerald of the Royal Dessert Ministry summons you to his oak desk.\n\n'Sir Albert,' Gerald sighs, polishing his spectacles, 'the Royal Custard Tower has gone quiet. More importantly, the [color=yellow]Pudding of Perpetual Wobble[/color], our kingdom's most sacred wobbly artifact, is wobbling without ministerial supervision! You must retrieve it immediately!'",
+    "consequences": {
+      "set_flags": {
+        "flag_quest_understood": true
+      }
+    },
+    "choices": [
+      {
+        "text": "Accept the quest politely and ask for a map of the Custard Tower.",
+        "target": "sec02_approach_tower",
+        "consequences": {
+          "items_added": [
+            "item_tower_map"
+          ]
+        }
+      },
+      {
+        "text": "Demand double payment and a shiny medal before leaving.",
+        "target": "sec02_approach_tower",
+        "test_type": "patience",
+        "target_fail": "sec02_approach_tower"
+      }
+    ]
+  },
+  "sec02_approach_tower": {
+    "text": "You stand before the towering, yellow-stone [color=yellow]Custard Tower[/color]. The air smells strongly of nutmeg and caramelized sugar. Rain falls steadily, making your heavy plate armor squelch with every step.",
+    "choices": [
+      {
+        "text": "Use the Tower Map to locate the hidden side entrance.",
+        "target": "sec04_lower_tower_interior",
+        "requirements": {
+          "item": "item_tower_map"
+        },
+        "consequences": {
+          "set_flags": {
+            "flag_used_map": true
+          }
+        }
+      },
+      {
+        "text": "March directly to the front door and kick it open.",
+        "target": "sec03_front_door_trap"
+      },
+      {
+        "text": "Test your Heroic Patience while examining the lock.",
+        "target": "sec04_lower_tower_interior",
+        "test_type": "patience",
+        "target_fail": "sec03_front_door_trap"
+      }
+    ]
+  },
+  "sec03_front_door_trap": {
+    "text": "[color=red]CRASH![/color] Your boot hits the front door, triggering an ancient defense mechanism. A trapdoor opens overhead, raining thick, tepid custard onto your helmet! The sticky dessert slows your movements and weighs down your cloak.\n\n[color=red]You suffer 1 Stamina Damage from the heavy custard avalanche![/color]",
+    "consequences": {
+      "stamina_change": -1,
+      "set_flags": {
+        "sticky_custard_trap": true
+      }
+    },
+    "choices": [
+      {
+        "text": "Wipe your visor and scrape into the lower tower.",
+        "target": "sec04_lower_tower_interior"
+      }
+    ]
+  },
+  "sec04_lower_tower_interior": {
+    "text": "Inside the damp lower tower, a magical guardian blocking the spiral stairs springs to life: an [color=red]Animated Broom Guardian[/color] holding a mop like a deadly lance!",
+    "combat": {
+      "enemy_name": "Animated Broom Guardian",
+      "enemy_skill": 6,
+      "enemy_stamina": 4,
+      "victory_target": "sec05_spiral_stairs",
+      "defeat_target": "ending_embarrassing_defeat"
+    },
+    "choices": []
+  },
+  "sec05_spiral_stairs": {
+    "text": "Having defeated the Broom Guardian, you climb the winding spiral stairs. Halfway up, you find [color=yellow]Pocket[/color], a small goblin merchant sitting on a sack of stolen silver spoons.\n\n'Hey knightly-guy!' Pocket squeaks. 'Want to trade for a Sturdy Rope or something shiny?'",
+    "choices": [
+      {
+        "text": "Buy the Sturdy Rope using your shiny brass button.",
+        "target": "sec06_tower_upper_mildred",
+        "consequences": {
+          "items_added": [
+            "item_sturdy_rope"
+          ],
+          "set_flags": {
+            "flag_pocket_friendly": true
+          }
+        }
+      },
+      {
+        "text": "Politely decline and continue up the stairs.",
+        "target": "sec06_tower_upper_mildred"
+      }
+    ]
+  },
+  "sec06_tower_upper_mildred": {
+    "text": "You reach the upper alchemy lab. [color=yellow]Alchemist Mildred[/color] stands near a bubbling cauldron.\n\n'Ah, Sir Albert!' Mildred says. 'If you seek the Pudding of Perpetual Wobble, you must respect its delicate temperament! Take this Calming Recipe, or grab the Iron Tower Key from that shelf.'",
+    "choices": [
+      {
+        "text": "Accept Mildred's Calming Recipe.",
+        "target": "sec07_sanctum_entrance",
+        "consequences": {
+          "items_added": [
+            "item_calming_recipe"
+          ]
+        }
+      },
+      {
+        "text": "Take the heavy Iron Tower Key.",
+        "target": "sec07_sanctum_entrance",
+        "consequences": {
+          "items_added": [
+            "item_tower_key"
+          ]
+        }
+      },
+      {
+        "text": "Test your Skill to quickly snag both items without spilling a potion.",
+        "target": "sec07_sanctum_entrance",
+        "test_type": "skill",
+        "target_fail": "sec07_sanctum_entrance",
+        "consequences": {
+          "items_added": [
+            "item_calming_recipe",
+            "item_tower_key"
+          ]
+        }
+      }
+    ]
+  },
+  "sec07_sanctum_entrance": {
+    "text": "You stand before the golden reinforced door of the Pudding Sanctum. A glowing inscription reads: [color=yellow]'Only those with patience or the key may enter without disturbing the wobble.'[/color]",
+    "choices": [
+      {
+        "text": "Unlock the door using the Iron Tower Key.",
+        "target": "sec08_pudding_sanctum",
+        "requirements": {
+          "item": "item_tower_key"
+        }
+      },
+      {
+        "text": "Test your Heroic Patience to pick the lock quietly.",
+        "target": "sec08_pudding_sanctum",
+        "test_type": "patience",
+        "target_fail": "sec08_pudding_sanctum"
+      },
+      {
+        "text": "Ram the golden door with your shoulder!",
+        "target": "sec08_pudding_sanctum",
+        "consequences": {
+          "stamina_change": -1
+        }
+      }
+    ]
+  },
+  "sec08_pudding_sanctum": {
+    "text": "You enter the magnificent chamber. In the center, floating on a velvet pedestal, wobbles the magnificent, glowing [color=yellow]Pudding of Perpetual Wobble[/color]! It trembles with ancient dessert power.",
+    "choices": [
+      {
+        "text": "Recite Mildred's Calming Recipe with deep respect.",
+        "target": "ending_glorious_wobble",
+        "requirements": {
+          "item": "item_calming_recipe"
+        }
+      },
+      {
+        "text": "Reach out carefully and scoop up the Pudding.",
+        "target": "ending_adequate_dessert"
+      },
+      {
+        "text": "Sit down next to the Pudding and admire its wobble forever.",
+        "target": "ending_tower_resident"
+      },
+      {
+        "text": "Test your Luck to grab the Pudding without making a sound.",
+        "target": "ending_adequate_dessert",
+        "test_type": "luck",
+        "target_fail": "ending_pudding_refusal"
+      }
+    ]
+  },
+  "sec09_escape_route": {
+    "text": "With your prize in hand, you locate the shortcut stairs leading down from the tower balcony.",
+    "choices": [
+      {
+        "text": "Descend safely to the courtyard.",
+        "target": "sec10_return_triumph"
+      }
+    ]
+  },
+  "sec10_return_triumph": {
+    "text": "You return to the Royal Dessert Ministry in triumph!",
+    "choices": [
+      {
+        "text": "Claim Heroic Victory",
+        "target": "victory_screen"
+      }
+    ]
+  },
+  "10": {
+    "text": "That is it. You let out a deep, existential sigh. The endless rules, tedious paperwork, and sticky custard have broken your spirit. You abandon the quest for the pudding, move to the countryside, and [color=yellow]open a peaceful Bed & Breakfast[/color].",
+    "choices": [
+      {
+        "text": "Give up on innkeeping and try adventuring again",
+        "target": "1"
+      }
+    ]
+  },
+  "ending_glorious_wobble": {
+    "text": "[color=green][b]VICTORY: GLORIOUS WOBBLE![/b][/color]\n\nAs you recite the Calming Recipe, the Pudding wobbles in perfect, joyful harmony! It settles gently into your velvet container. Lord Gerald declares your mission a triumph of ministerial diplomacy! You are awarded the Gold Medal of Dessert Preservation.",
+    "choices": [
+      {
+        "text": "Claim Heroic Victory",
+        "target": "victory_screen",
+        "is_victory": true
+      }
+    ]
+  },
+  "ending_adequate_dessert": {
+    "text": "[color=yellow][b]VICTORY: ADEQUATE DESSERT[/b][/color]\n\nYou secure the Pudding! Though slightly squished from the journey, Lord Gerald accepts it into the Royal Vaults with a nodding seal of approval. You receive your standard knightly stipend.",
+    "choices": [
+      {
+        "text": "Claim Victory",
+        "target": "victory_screen",
+        "is_victory": true
+      }
+    ]
+  },
+  "ending_embarrassing_defeat": {
+    "text": "[color=red][b]PHYSICAL DEFEAT[/b][/color]\n\nYour Stamina has been depleted! The Animated Broom Guardian sweeps you out of the tower into a pile of dry leaves. Lord Gerald hands you an Official Heroic Defeat Waiver.",
+    "choices": [
+      {
+        "text": "Sign the waiver and try again.",
+        "target": "1"
+      }
+    ]
+  },
+  "ending_pudding_refusal": {
+    "text": "[color=red][b]MISSION FAILURE[/b][/color]\n\nYour clumsy grab offends the Pudding's delicate sensibilities! It emits a loud splat and wobbles aggressively out the tower window into the moat below. Lord Gerald is deeply disappointed.",
+    "choices": [
+      {
+        "text": "Try again.",
+        "target": "1"
+      }
+    ]
+  },
+  "ending_tower_resident": {
+    "text": "[color=cyan][b]UNUSUAL ENDING: TOWER RESIDENT[/b][/color]\n\nYou realize that questing is overrated. You pull up a chair, share a snack with Mildred and Pocket, and spend the rest of your days admiring the soothing, perpetual wobble of the Pudding.",
+    "choices": [
+      {
+        "text": "Restart Adventure",
+        "target": "1"
+      }
+    ]
+  }
+}
