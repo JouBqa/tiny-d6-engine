@@ -11,11 +11,27 @@ def normalize_id(sec_id):
         "sec01quest_briefing": "sec01_quest_briefing",
         "sec02meadow_crossroads": "sec02_meadow_crossroads",
         "sec06tower_upper_mildred": "sec06_tower_upper_mildred",
+        "sec06_towerupper_mildred": "sec06_tower_upper_mildred",
         "sec07towerupper_bypass": "sec07_tower_upper_bypass",
         "sec09pudding_negotiation": "sec09_pudding_negotiation",
         "sec10return_triumph": "sec10_return_triumph"
     }
     return mapping.get(s, s)
+
+def parse_target(t_str, default_sec="1"):
+    if not t_str:
+        return default_sec
+    sec_m = re.search(r'(sec\d+[\w_]*|ending_[\w_]+)', t_str)
+    if sec_m:
+        return normalize_id(sec_m.group(1))
+    t_lower = t_str.lower()
+    if "help" in t_lower or "choice 1" in t_lower or "drainage" in t_lower:
+        return "sec03_grumbleton_village"
+    if "village" in t_lower or "grumbleton" in t_lower:
+        return "sec03_grumbleton_village"
+    if "tower" in t_lower:
+        return "sec04_tower_entrance"
+    return default_sec
 
 def parse_knight_markdown(md_path):
     if not os.path.exists(md_path):
@@ -43,7 +59,7 @@ def parse_knight_markdown(md_path):
         title_match = re.search(r'SECTION_TITLE:\s*(.*)', sec_body)
         sec_title = title_match.group(1).strip() if title_match else sec_id
 
-        # 2. Extract Full Narrative Prose (Every paragraph down to AUTOMATIC_ITEMS/CHOICES/COMBAT)
+        # 2. Extract Full Narrative Prose
         narr_match = re.search(r'NARRATIVE:\s*(.*?)(?=\n(?:AUTOMATIC_ITEMS|CHOICES|COMBAT|---|\Z))', sec_body, re.DOTALL)
         narr_text = narr_match.group(1).strip() if narr_match else ""
         
@@ -84,42 +100,44 @@ def parse_knight_markdown(md_path):
             name_m = re.search(r'ENEMY_NAME:\s*(.*)', c_text)
             skill_m = re.search(r'ENEMY_SKILL:\s*(\d+)', c_text)
             stam_m = re.search(r'ENEMY_STAMINA:\s*(\d+)', c_text)
-            vic_m = re.search(r'VICTORY_TARGET:\s*([\w_]+)', c_text)
-            def_m = re.search(r'DEFEAT_TARGET:\s*([\w_]+)', c_text)
+            vic_m = re.search(r'VICTORY_TARGET:\s*(.*)', c_text)
+            def_m = re.search(r'DEFEAT_TARGET:\s*(.*)', c_text)
             if name_m and skill_m and stam_m:
                 combat_data = {
                     "enemy_name": name_m.group(1).strip(),
                     "enemy_skill": int(skill_m.group(1)),
                     "enemy_stamina": int(stam_m.group(1)),
-                    "victory_target": normalize_id(vic_m.group(1)) if vic_m else "sec05_tower_lower",
-                    "defeat_target": normalize_id(def_m.group(1)) if def_m else "ending_embarrassing_defeat"
+                    "victory_target": parse_target(vic_m.group(1) if vic_m else "", "sec05_tower_lower"),
+                    "defeat_target": parse_target(def_m.group(1) if def_m else "", "ending_embarrassing_defeat")
                 }
 
-        # 5. Parse Choices
+        # 5. Parse Choices (including sub-choices)
         parsed_choices = []
         choices_block = re.search(r'CHOICES:(.*)', sec_body, re.DOTALL)
         if choices_block:
-            raw_choices = re.findall(r'CHOICE\s*\d+:(.*?)(?=\nCHOICE\s*\d+:|\Z)', choices_block.group(1), re.DOTALL)
+            raw_choices = re.findall(r'(?:CHOICE|SUB_CHOICE(?:_[A-Z])?)\s*\d*:(.*?)(?=\n(?:CHOICE|SUB_CHOICE(?:_[A-Z])?)\s*\d*:|\Z)', choices_block.group(1), re.DOTALL)
             for rc in raw_choices:
                 text_m = re.search(r'TEXT:\s*(.*)', rc)
-                target_m = re.search(r'TARGET:\s*([\w_]+)', rc)
+                target_m = re.search(r'TARGET:\s*(.*)', rc)
                 req_m = re.search(r'REQUIREMENTS:\s*(.*)', rc)
                 stat_m = re.search(r'STAT:\s*([\w_]+)', rc)
-                fail_m = re.search(r'FAILURE_OUTCOME:\s*([\w_]+)', rc)
+                fail_m = re.search(r'FAILURE_OUTCOME:\s*(.*)', rc)
                 
                 if not text_m or not target_m:
                     continue
                     
+                target_sec_id = parse_target(target_m.group(1))
+                
                 choice_obj = {
                     "text": text_m.group(1).strip(),
-                    "target": normalize_id(target_m.group(1))
+                    "target": target_sec_id
                 }
                 
                 # Check for Stat Tests (PATIENCE, SKILL, LUCK)
                 if stat_m and stat_m.group(1).strip().upper() != "NONE":
                     choice_obj["test_type"] = stat_m.group(1).strip().lower()
                     if fail_m and fail_m.group(1).strip().upper() != "N/A":
-                        choice_obj["target_fail"] = normalize_id(fail_m.group(1))
+                        choice_obj["target_fail"] = parse_target(fail_m.group(1), target_sec_id)
                     else:
                         choice_obj["target_fail"] = choice_obj["target"]
                         
@@ -175,7 +193,7 @@ def parse_knight_markdown(md_path):
         database[sec_id] = sec_data
         sec_map[sec_id] = sec_data
 
-        print(f"Section [{sec_id}]: Compiled {len(narr_text)} characters across {len(pages)} pages.")
+        print(f"Section [{sec_id}]: Compiled {len(narr_text)} characters across {len(pages)} pages with {len(parsed_choices)} choices.")
 
     # Create convenient shortcuts for section numeric IDs ("1", "2", etc.)
     num_shortcuts = {

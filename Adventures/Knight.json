@@ -36,7 +36,7 @@
         "text": "Ask Herald Pip to repeat the quest details",
         "target": "sec02_meadow_crossroads",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec02_meadow_crossroads",
         "consequences": {
           "set_flags": {
             "flagquestunderstood": true
@@ -82,30 +82,30 @@
         "target": "sec04_tower_entrance"
       },
       {
-        "text": "Explore the Resting Stone before continuing",
+        "text": "Head to Grumbleton Village",
         "target": "sec03_grumbleton_village",
-        "test_type": "luck",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_grumbleton_visited": true
-          },
-          "items_added": [
-            "item_smooth_stone"
-          ]
+          }
         }
       },
       {
-        "text": "Attempt to cross the Inconvenient Stream dramatically (instead of using the bridge)",
+        "text": "Head directly to the Tower",
+        "target": "sec04_tower_entrance"
+      },
+      {
+        "text": "Head to Grumbleton Village",
         "target": "sec03_grumbleton_village",
-        "test_type": "skill",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_grumbleton_visited": true
-          },
-          "stamina_change": -1
+          }
         }
+      },
+      {
+        "text": "Head directly to the Tower",
+        "target": "sec04_tower_entrance"
       }
     ]
   },
@@ -121,7 +121,7 @@
         "text": "Help Agnes clear the drainage ditch",
         "target": "sec04_tower_entrance",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec03_grumbleton_village",
         "consequences": {
           "set_flags": {
             "flag_agnes_helped": true
@@ -137,19 +137,24 @@
         "target": "sec04_tower_entrance"
       },
       {
-        "text": "Visit The Adequate Turnip inn first",
-        "target": "Resolve",
-        "consequences": {
-          "items_added": [
-            "item_sturdy_rope"
-          ]
-        }
+        "text": "Return to help Agnes with the drainage",
+        "target": "sec03_grumbleton_village"
       },
       {
-        "text": "Ask villagers about the Tower without offering to help",
-        "target": "Resolve",
-        "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "text": "Thank Agnes and head to the tower",
+        "target": "sec04_tower_entrance"
+      },
+      {
+        "text": "Offer to help Agnes with the drainage",
+        "target": "sec03_grumbleton_village"
+      },
+      {
+        "text": "Visit The Adequate Turnip inn",
+        "target": "1"
+      },
+      {
+        "text": "Head directly to the tower",
+        "target": "sec04_tower_entrance"
       }
     ]
   },
@@ -165,7 +170,7 @@
         "text": "Attempt to impress Gerald with a display of knightly virtue",
         "target": "sec05_tower_lower",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -176,7 +181,7 @@
         "text": "Tell Gerald a joke",
         "target": "sec05_tower_lower",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -196,7 +201,7 @@
         "text": "Use the secret entrance shown on Agnes's map",
         "target": "sec05_tower_lower",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_secret": true
@@ -208,7 +213,7 @@
         "text": "Attempt to force the door open",
         "target": "sec05_tower_lower",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -217,10 +222,8 @@
         }
       },
       {
-        "text": "Notice Pocket watching and try to communicate with him",
+        "text": "Offer Pocket the unusually smooth stone",
         "target": "sec05_tower_lower",
-        "test_type": "patience",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_secret": true
@@ -229,6 +232,10 @@
             "item_smooth_stone"
           ]
         }
+      },
+      {
+        "text": "Admit you have nothing interesting to trade",
+        "target": "1"
       }
     ]
   },
@@ -243,13 +250,13 @@
         "text": "Navigate carefully through the Winding Staircase",
         "target": "sec06_tower_upper_mildred",
         "test_type": "skill",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec06_tower_upper_mildred"
       },
       {
         "text": "Search the Storage Room",
-        "target": "Return",
+        "target": "1",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "1",
         "consequences": {
           "set_flags": {
             "flag_dusty_tome_read": true
@@ -263,7 +270,7 @@
         "text": "Take the Narrow Passage shortcut",
         "target": "sec07_tower_upper_bypass",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec07_tower_upper_bypass",
         "consequences": {
           "set_flags": {
             "flag_mildred_bypassed": true
@@ -272,7 +279,7 @@
         }
       },
       {
-        "text": "Accept Pocket's offer of a shortcut",
+        "text": "Trade the unusually smooth stone",
         "target": "sec07_tower_upper_bypass",
         "consequences": {
           "set_flags": {
@@ -284,10 +291,31 @@
         }
       },
       {
+        "text": "Trade the packed lunch",
+        "target": "sec07_tower_upper_bypass",
+        "consequences": {
+          "set_flags": {
+            "flag_pocket_friendly": true
+          },
+          "items_removed": [
+            "item_packed_lunch"
+          ]
+        }
+      },
+      {
+        "text": "Refuse to trade",
+        "target": "1",
+        "consequences": {
+          "set_flags": {
+            "flag_pocket_hostile": true
+          }
+        }
+      },
+      {
         "text": "Confront Pocket about the stolen trinket",
-        "target": "Return",
+        "target": "1",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "1",
         "consequences": {
           "set_flags": {
             "flag_pocket_friendly": true
@@ -325,7 +353,7 @@
         "text": "Attempt to convince Mildred the quest is urgent",
         "target": "sec08_pudding_chamber",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flag_mildred_helped": true
@@ -336,7 +364,7 @@
         }
       },
       {
-        "text": "Offer to trade an item for passage",
+        "text": "Offer the philosophical treatise on sentient desserts",
         "target": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
@@ -351,10 +379,25 @@
         }
       },
       {
+        "text": "Offer Agnes's wooden spoon",
+        "target": "sec08_pudding_chamber",
+        "consequences": {
+          "set_flags": {
+            "flag_mildred_helped": true
+          },
+          "items_added": [
+            "item_tower_key"
+          ],
+          "items_removed": [
+            "item_wooden_spoon"
+          ]
+        }
+      },
+      {
         "text": "Attempt to sneak past Mildred while she is distracted",
         "target": "sec08_pudding_chamber",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flag_mildred_bypassed": true
@@ -363,9 +406,9 @@
       },
       {
         "text": "Ask Mildred about the Pudding before deciding",
-        "target": "Return",
+        "target": "1",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "1"
       }
     ]
   },
@@ -390,7 +433,7 @@
         "text": "Attempt the external window climb",
         "target": "sec08_pudding_chamber",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flagmildred_bypassed": true
@@ -400,13 +443,13 @@
       },
       {
         "text": "Reconsider and approach Mildred properly",
-        "target": "sec06_towerupper_mildred"
+        "target": "sec06_tower_upper_mildred"
       },
       {
         "text": "Have Pocket attempt to unlock the Pudding Chamber door directly",
         "target": "sec08_pudding_chamber",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flagmildred_bypassed": true
@@ -427,7 +470,7 @@
         "text": "Approach the Pudding with genuine respect and introduce yourself politely",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec09_pudding_negotiation"
       },
       {
         "text": "Use Mildred's Calming Recipe",
@@ -442,7 +485,7 @@
         "text": "Attempt to grab the Pudding quickly",
         "target": "sec10_return_triumph",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec04_tower_entrance",
         "consequences": {
           "set_flags": {
             "flag_pudding_grabbed": true
@@ -454,7 +497,7 @@
         "text": "Speak to the Pudding about philosophy",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec09_pudding_negotiation",
         "consequences": {
           "set_flags": {
             "flag_pudding_respected": true
@@ -465,7 +508,7 @@
         "text": "Bow deeply and wait for the Pudding to acknowledge you",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec09_pudding_negotiation",
         "consequences": {
           "set_flags": {
             "flag_pudding_respected": true
@@ -485,7 +528,7 @@
         "text": "Promise to treat the Pudding with dignity and ensure it is appreciated, not merely consumed",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec10_return_triumph",
         "consequences": {
           "set_flags": {
             "flagpudding_respected": true
@@ -496,19 +539,19 @@
         "text": "Explain that the kingdom needs the Pudding to avoid diplomatic embarrassment",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Offer to return the Pudding to the tower after the banquet",
         "target": "sec10_return_triumph",
         "test_type": "luck",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Share a moment of genuine connection, admitting your own struggles with being underestimated",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec10_return_triumph",
         "consequences": {
           "set_flags": {
             "flagpudding_respected": true
@@ -519,7 +562,7 @@
         "text": "Apologize sincerely and ask if there is anything you can do",
         "target": "sec10_return_triumph",
         "test_type": "luck",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Abandon the quest and offer to stay and keep the Pudding company instead",
@@ -576,7 +619,7 @@
         "text": "Ask Herald Pip to repeat the quest details",
         "target": "sec02_meadow_crossroads",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec02_meadow_crossroads",
         "consequences": {
           "set_flags": {
             "flagquestunderstood": true
@@ -622,30 +665,30 @@
         "target": "sec04_tower_entrance"
       },
       {
-        "text": "Explore the Resting Stone before continuing",
+        "text": "Head to Grumbleton Village",
         "target": "sec03_grumbleton_village",
-        "test_type": "luck",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_grumbleton_visited": true
-          },
-          "items_added": [
-            "item_smooth_stone"
-          ]
+          }
         }
       },
       {
-        "text": "Attempt to cross the Inconvenient Stream dramatically (instead of using the bridge)",
+        "text": "Head directly to the Tower",
+        "target": "sec04_tower_entrance"
+      },
+      {
+        "text": "Head to Grumbleton Village",
         "target": "sec03_grumbleton_village",
-        "test_type": "skill",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_grumbleton_visited": true
-          },
-          "stamina_change": -1
+          }
         }
+      },
+      {
+        "text": "Head directly to the Tower",
+        "target": "sec04_tower_entrance"
       }
     ]
   },
@@ -661,7 +704,7 @@
         "text": "Help Agnes clear the drainage ditch",
         "target": "sec04_tower_entrance",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec03_grumbleton_village",
         "consequences": {
           "set_flags": {
             "flag_agnes_helped": true
@@ -677,19 +720,24 @@
         "target": "sec04_tower_entrance"
       },
       {
-        "text": "Visit The Adequate Turnip inn first",
-        "target": "Resolve",
-        "consequences": {
-          "items_added": [
-            "item_sturdy_rope"
-          ]
-        }
+        "text": "Return to help Agnes with the drainage",
+        "target": "sec03_grumbleton_village"
       },
       {
-        "text": "Ask villagers about the Tower without offering to help",
-        "target": "Resolve",
-        "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "text": "Thank Agnes and head to the tower",
+        "target": "sec04_tower_entrance"
+      },
+      {
+        "text": "Offer to help Agnes with the drainage",
+        "target": "sec03_grumbleton_village"
+      },
+      {
+        "text": "Visit The Adequate Turnip inn",
+        "target": "1"
+      },
+      {
+        "text": "Head directly to the tower",
+        "target": "sec04_tower_entrance"
       }
     ]
   },
@@ -705,7 +753,7 @@
         "text": "Attempt to impress Gerald with a display of knightly virtue",
         "target": "sec05_tower_lower",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -716,7 +764,7 @@
         "text": "Tell Gerald a joke",
         "target": "sec05_tower_lower",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -736,7 +784,7 @@
         "text": "Use the secret entrance shown on Agnes's map",
         "target": "sec05_tower_lower",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_secret": true
@@ -748,7 +796,7 @@
         "text": "Attempt to force the door open",
         "target": "sec05_tower_lower",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec05_tower_lower",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_diplomacy": true
@@ -757,10 +805,8 @@
         }
       },
       {
-        "text": "Notice Pocket watching and try to communicate with him",
+        "text": "Offer Pocket the unusually smooth stone",
         "target": "sec05_tower_lower",
-        "test_type": "patience",
-        "target_fail": "NARRATIVE",
         "consequences": {
           "set_flags": {
             "flag_gerald_passed_secret": true
@@ -769,6 +815,10 @@
             "item_smooth_stone"
           ]
         }
+      },
+      {
+        "text": "Admit you have nothing interesting to trade",
+        "target": "1"
       }
     ]
   },
@@ -783,13 +833,13 @@
         "text": "Navigate carefully through the Winding Staircase",
         "target": "sec06_tower_upper_mildred",
         "test_type": "skill",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec06_tower_upper_mildred"
       },
       {
         "text": "Search the Storage Room",
-        "target": "Return",
+        "target": "1",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "1",
         "consequences": {
           "set_flags": {
             "flag_dusty_tome_read": true
@@ -803,7 +853,7 @@
         "text": "Take the Narrow Passage shortcut",
         "target": "sec07_tower_upper_bypass",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec07_tower_upper_bypass",
         "consequences": {
           "set_flags": {
             "flag_mildred_bypassed": true
@@ -812,7 +862,7 @@
         }
       },
       {
-        "text": "Accept Pocket's offer of a shortcut",
+        "text": "Trade the unusually smooth stone",
         "target": "sec07_tower_upper_bypass",
         "consequences": {
           "set_flags": {
@@ -824,10 +874,31 @@
         }
       },
       {
+        "text": "Trade the packed lunch",
+        "target": "sec07_tower_upper_bypass",
+        "consequences": {
+          "set_flags": {
+            "flag_pocket_friendly": true
+          },
+          "items_removed": [
+            "item_packed_lunch"
+          ]
+        }
+      },
+      {
+        "text": "Refuse to trade",
+        "target": "1",
+        "consequences": {
+          "set_flags": {
+            "flag_pocket_hostile": true
+          }
+        }
+      },
+      {
         "text": "Confront Pocket about the stolen trinket",
-        "target": "Return",
+        "target": "1",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "1",
         "consequences": {
           "set_flags": {
             "flag_pocket_friendly": true
@@ -865,7 +936,7 @@
         "text": "Attempt to convince Mildred the quest is urgent",
         "target": "sec08_pudding_chamber",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flag_mildred_helped": true
@@ -876,7 +947,7 @@
         }
       },
       {
-        "text": "Offer to trade an item for passage",
+        "text": "Offer the philosophical treatise on sentient desserts",
         "target": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
@@ -891,10 +962,25 @@
         }
       },
       {
+        "text": "Offer Agnes's wooden spoon",
+        "target": "sec08_pudding_chamber",
+        "consequences": {
+          "set_flags": {
+            "flag_mildred_helped": true
+          },
+          "items_added": [
+            "item_tower_key"
+          ],
+          "items_removed": [
+            "item_wooden_spoon"
+          ]
+        }
+      },
+      {
         "text": "Attempt to sneak past Mildred while she is distracted",
         "target": "sec08_pudding_chamber",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flag_mildred_bypassed": true
@@ -903,9 +989,9 @@
       },
       {
         "text": "Ask Mildred about the Pudding before deciding",
-        "target": "Return",
+        "target": "1",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "1"
       }
     ]
   },
@@ -930,7 +1016,7 @@
         "text": "Attempt the external window climb",
         "target": "sec08_pudding_chamber",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flagmildred_bypassed": true
@@ -940,13 +1026,13 @@
       },
       {
         "text": "Reconsider and approach Mildred properly",
-        "target": "sec06_towerupper_mildred"
+        "target": "sec06_tower_upper_mildred"
       },
       {
         "text": "Have Pocket attempt to unlock the Pudding Chamber door directly",
         "target": "sec08_pudding_chamber",
         "test_type": "luck",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec08_pudding_chamber",
         "consequences": {
           "set_flags": {
             "flagmildred_bypassed": true
@@ -967,7 +1053,7 @@
         "text": "Approach the Pudding with genuine respect and introduce yourself politely",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec09_pudding_negotiation"
       },
       {
         "text": "Use Mildred's Calming Recipe",
@@ -982,7 +1068,7 @@
         "text": "Attempt to grab the Pudding quickly",
         "target": "sec10_return_triumph",
         "test_type": "skill",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec04_tower_entrance",
         "consequences": {
           "set_flags": {
             "flag_pudding_grabbed": true
@@ -994,7 +1080,7 @@
         "text": "Speak to the Pudding about philosophy",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec09_pudding_negotiation",
         "consequences": {
           "set_flags": {
             "flag_pudding_respected": true
@@ -1005,7 +1091,7 @@
         "text": "Bow deeply and wait for the Pudding to acknowledge you",
         "target": "sec09_pudding_negotiation",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec09_pudding_negotiation",
         "consequences": {
           "set_flags": {
             "flag_pudding_respected": true
@@ -1025,7 +1111,7 @@
         "text": "Promise to treat the Pudding with dignity and ensure it is appreciated, not merely consumed",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec10_return_triumph",
         "consequences": {
           "set_flags": {
             "flagpudding_respected": true
@@ -1036,19 +1122,19 @@
         "text": "Explain that the kingdom needs the Pudding to avoid diplomatic embarrassment",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Offer to return the Pudding to the tower after the banquet",
         "target": "sec10_return_triumph",
         "test_type": "luck",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Share a moment of genuine connection, admitting your own struggles with being underestimated",
         "target": "sec10_return_triumph",
         "test_type": "patience",
-        "target_fail": "NARRATIVE",
+        "target_fail": "sec10_return_triumph",
         "consequences": {
           "set_flags": {
             "flagpudding_respected": true
@@ -1059,7 +1145,7 @@
         "text": "Apologize sincerely and ask if there is anything you can do",
         "target": "sec10_return_triumph",
         "test_type": "luck",
-        "target_fail": "NARRATIVE"
+        "target_fail": "sec10_return_triumph"
       },
       {
         "text": "Abandon the quest and offer to stay and keep the Pudding company instead",
