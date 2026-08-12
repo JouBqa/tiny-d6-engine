@@ -25,9 +25,9 @@ func _populate_adventure_list() -> void:
 	var instantiated_buttons: Array[Button] = []
 	
 	# Check if an autosave file exists
-	if StoryManager.has_save_file():
+	if StoryManager.has_autosave_state():
 		var continue_btn: Button = Button.new()
-		continue_btn.text = "  Continue Saved Game (Resume Quest)"
+		continue_btn.text = "  Resume Adventure (Continue Quest)"
 		continue_btn.custom_minimum_size = Vector2(0, 52)
 		continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		continue_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -83,18 +83,9 @@ func _populate_adventure_list() -> void:
 		instantiated_buttons[0].call_deferred("grab_focus")
 
 func _on_continue_pressed() -> void:
-	print("[MainMenu] Continuing saved game...")
-	var save_data: Dictionary = StoryManager.load_game()
+	print("[MainMenu] Resuming saved adventure...")
+	var save_data: Dictionary = StoryManager.load_autosave_state()
 	if not save_data.is_empty():
-		var saved_title: String = str(save_data.get("active_adventure_title", ""))
-		var available_files = StoryManager.scan_for_adventures()
-		for path in available_files:
-			if path.to_lower().contains("knight") and (saved_title.to_lower().contains("albert") or saved_title.to_lower().contains("pudding")):
-				StoryManager.load_adventure_from_file(path)
-				break
-				
-		# Re-apply save data (player stats and section)
-		StoryManager.load_game()
 		get_tree().change_scene_to_file("res://UI/DialogueUI.tscn")
 
 func _on_adventure_selected(file_path: String) -> void:

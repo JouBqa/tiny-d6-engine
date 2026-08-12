@@ -56,13 +56,10 @@ func _ready() -> void:
 	if current_data.is_empty():
 		current_data = StoryManager.go_to_section("1")
 	else:
-		if StoryManager.has_save_file():
-			var save_file = FileAccess.open(StoryManager.SAVE_PATH, FileAccess.READ)
-			if save_file:
-				var json_parser = JSON.new()
-				if json_parser.parse(save_file.get_as_text()) == OK and json_parser.data is Dictionary:
-					current_page_index = int(json_parser.data.get("current_page_index", 0))
-				save_file.close()
+		if StoryManager.has_autosave_state():
+			var save_data = StoryManager.load_autosave_state()
+			if not save_data.is_empty():
+				current_page_index = int(save_data.get("current_page_index", 0))
 		_render_current_page(current_data)
 		
 	_update_stats_hud()
@@ -279,7 +276,7 @@ func _render_current_page(section_data: Dictionary) -> void:
 	story_text_label.text = str(pages[current_page_index])
 	
 	# Autosave game state at active section and page index
-	StoryManager.save_game(current_page_index)
+	StoryManager.save_autosave_state(current_page_index)
 	
 	# Append epilogue bonus text on the final page of ending sections
 	if current_page_index == pages.size() - 1:
@@ -514,14 +511,14 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 ## Transitions to dedicated VictoryScreen.tscn
 func _on_victory_screen_transition() -> void:
 	print("[DialogueUI] Victory condition achieved! Transitioning to VictoryScreen...")
-	StoryManager.clear_save_game()
+	StoryManager.clear_autosave_state()
 	CombatEngine.in_combat = false
 	get_tree().change_scene_to_file("res://UI/VictoryScreen.tscn")
 
 ## Restarts the game clean: resets stats and transitions back to MainMenu.tscn
 func _on_restart_pressed() -> void:
 	print("[DialogueUI] Resetting PlayerStats and returning to MainMenu screen...")
-	StoryManager.clear_save_game()
+	StoryManager.clear_autosave_state()
 	CombatEngine.in_combat = false
 	PlayerStats.reset_stats()
 	get_tree().change_scene_to_file("res://UI/MainMenu.tscn")

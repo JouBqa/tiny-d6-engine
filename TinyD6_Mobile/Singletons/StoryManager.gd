@@ -178,17 +178,21 @@ func start_adventure() -> void:
 	story_started.emit()
 	go_to_section("1")
 
-const SAVE_PATH: String = "user://save_game.json"
+const AUTOSAVE_PATH: String = "user://saves/autosave.json"
 
-## Checks if an active save file exists
-func has_save_file() -> bool:
-	return FileAccess.file_exists(SAVE_PATH)
+## Checks if an active mobile autosave file exists
+func has_autosave_state() -> bool:
+	return FileAccess.file_exists(AUTOSAVE_PATH) or FileAccess.file_exists("user://save_game.json")
 
-## Saves game state to user://save_game.json
-func save_game(current_page_idx: int = 0) -> void:
+## Saves active mobile session state to user://saves/autosave.json
+func save_autosave_state(current_page_idx: int = 0) -> void:
 	if current_section_id.begins_with("ending_") or current_section_id == "10":
-		clear_save_game()
+		clear_autosave_state()
 		return
+		
+	var dir_path = "user://saves"
+	if not DirAccess.dir_exists_absolute(dir_path):
+		DirAccess.make_dir_recursive_absolute(dir_path)
 		
 	var save_dict = {
 		"current_section_id": current_section_id,
@@ -196,19 +200,23 @@ func save_game(current_page_idx: int = 0) -> void:
 		"active_adventure_title": active_adventure_title,
 		"player_stats": PlayerStats.get_save_data()
 	}
-	var file = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	var file = FileAccess.open(AUTOSAVE_PATH, FileAccess.WRITE)
 	if file:
 		file.store_string(JSON.stringify(save_dict, "\t"))
 		file.close()
-		print("[StoryManager] Game autosaved at section '%s', page %d." % [current_section_id, current_page_idx])
+		print("[StoryManager] Mobile session autosaved at section '%s', page %d." % [current_section_id, current_page_idx])
 
-## Loads game state from user://save_game.json
-func load_game() -> Dictionary:
-	if not has_save_file():
-		push_error("[StoryManager] No save file found at: " + SAVE_PATH)
+## Loads mobile session state from user://saves/autosave.json
+func load_autosave_state() -> Dictionary:
+	var path_to_load = AUTOSAVE_PATH
+	if not FileAccess.file_exists(path_to_load) and FileAccess.file_exists("user://save_game.json"):
+		path_to_load = "user://save_game.json"
+		
+	if not FileAccess.file_exists(path_to_load):
+		print("[StoryManager] No mobile autosave file found.")
 		return {}
 		
-	var file = FileAccess.open(SAVE_PATH, FileAccess.READ)
+	var file = FileAccess.open(path_to_load, FileAccess.READ)
 	if not file:
 		return {}
 		
@@ -217,7 +225,7 @@ func load_game() -> Dictionary:
 	file.close()
 	
 	if error != OK or not (json_parser.data is Dictionary):
-		push_error("[StoryManager] Failed to parse save file.")
+		push_error("[StoryManager] Failed to parse mobile autosave JSON.")
 		return {}
 		
 	var save_data: Dictionary = json_parser.data
@@ -228,11 +236,13 @@ func load_game() -> Dictionary:
 	current_section_id = saved_sec_id
 	return save_data
 
-## Deletes save game file
-func clear_save_game() -> void:
-	if FileAccess.file_exists(SAVE_PATH):
-		DirAccess.remove_absolute(SAVE_PATH)
-		print("[StoryManager] Save game file cleared.")
+## Deletes mobile autosave file
+func clear_autosave_state() -> void:
+	if FileAccess.file_exists(AUTOSAVE_PATH):
+		DirAccess.remove_absolute(AUTOSAVE_PATH)
+	if FileAccess.file_exists("user://save_game.json"):
+		DirAccess.remove_absolute("user://save_game.json")
+	print("[StoryManager] Mobile autosave file cleared.")
 
 ## Updates active state and emits section_changed signal
 func go_to_section(sec_id) -> Dictionary:
