@@ -1,5 +1,10 @@
 extends Control
 
+# Static preloads for Web export PCK bundling
+const SCENE_MAIN_MENU = preload("res://TinyD6Engine/UI/MainMenu.tscn")
+const SCENE_VICTORY_SCREEN = preload("res://TinyD6Engine/UI/VictoryScreen.tscn")
+const SCENE_CHARACTER_CREATION = preload("res://TinyD6Engine/UI/CharacterCreation.tscn")
+
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
 @onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceContainer
 @onready var stats_hud_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDLabel
