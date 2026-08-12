@@ -28,3 +28,9 @@ CombatEngine="*res://TinyD6Engine/Singletons/CombatEngine.gd"
 
 movie_writer/video_quality=1.0
 movie_writer/movie_file="/home/yoni/Videos/Godot Movie Writer/Stirringham.avi"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
