@@ -14,6 +14,10 @@ signal tap_right_edge
 var _touch_start_pos: Vector2 = Vector2.ZERO
 var _touch_active: bool = false
 
+func trigger_haptic(duration_ms: int = 20) -> void:
+	if OS.has_feature("mobile") or OS.get_name() in ["Android", "iOS"]:
+		Input.vibrate_handheld(duration_ms)
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventScreenTouch:
 		if event.pressed:
@@ -24,6 +28,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				_touch_active = false
 				var delta: Vector2 = event.position - _touch_start_pos
 				if abs(delta.x) > swipe_threshold and abs(delta.x) > abs(delta.y) * 1.5:
+					trigger_haptic(25)
 					if delta.x < 0:
 						swipe_left.emit()
 					else:
@@ -31,6 +36,8 @@ func _unhandled_input(event: InputEvent) -> void:
 				elif delta.length() < 15.0:
 					var screen_width: float = get_viewport().get_visible_rect().size.x
 					if event.position.x < edge_margin:
+						trigger_haptic(15)
 						tap_left_edge.emit()
 					elif event.position.x > screen_width - edge_margin:
+						trigger_haptic(15)
 						tap_right_edge.emit()

@@ -445,6 +445,22 @@ func _apply_choice_consequences(choice: Dictionary) -> void:
 		elif change < 0:
 			PlayerStats.deduct_stamina(abs(change))
 
+func trigger_haptic(duration_ms: int = 20) -> void:
+	if OS.has_feature("mobile") or OS.get_name() in ["Android", "iOS"]:
+		Input.vibrate_handheld(duration_ms)
+
+func _apply_button_micro_animations(btn: Button) -> void:
+	btn.pivot_offset = btn.size / 2.0
+	btn.button_down.connect(func():
+		trigger_haptic(15)
+		var tween = btn.create_tween()
+		tween.tween_property(btn, "scale", Vector2(0.96, 0.96), 0.06).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+	)
+	btn.button_up.connect(func():
+		var tween = btn.create_tween()
+		tween.tween_property(btn, "scale", Vector2(1.0, 1.0), 0.08).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	)
+
 ## Renders standard branching narrative choice buttons
 func _render_narrative_choices(choices: Array) -> void:
 	_clear_choice_container()
@@ -463,6 +479,7 @@ func _render_narrative_choices(choices: Array) -> void:
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		btn.add_theme_font_size_override("font_size", 18)
+		_apply_button_micro_animations(btn)
 		
 		btn.pressed.connect(func(): _on_choice_pressed(choice))
 		
@@ -648,14 +665,17 @@ func _on_fight_round_pressed() -> void:
 	_scroll_to_bottom()
 	
 	if winner == "draw":
+		trigger_haptic(20)
 		story_text_label.append_text("\n[color=yellow] -> Standoff! Both attacks match. No damage inflicts.[/color]")
 		_scroll_to_bottom()
 		_render_fight_round_button()
 	elif winner == "player":
+		trigger_haptic(40)
 		story_text_label.append_text("\n[color=green] -> Hit! You wound the %s![/color]" % CombatEngine.enemy_name)
 		_scroll_to_bottom()
 		_render_player_hit_luck_choices()
 	elif winner == "enemy":
+		trigger_haptic(75)
 		story_text_label.append_text("\n[color=red] -> Wounded! The %s hits you![/color]" % CombatEngine.enemy_name)
 		_scroll_to_bottom()
 		_render_enemy_hit_luck_choices()
