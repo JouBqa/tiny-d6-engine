@@ -9,7 +9,7 @@ var _typewriter_tween: Tween
 var _is_typing: bool = false
 
 func _ready() -> void:
-	# Enable scroll following on RichTextLabel
+	# Configure scroll_following = true on narrative RichTextLabel
 	story_text_label.scroll_following = true
 	
 	# Connect to StoryManager section_changed signal
@@ -59,14 +59,14 @@ func _skip_typewriter_effect() -> void:
 	_scroll_to_bottom()
 
 ## Automatic Scrolling Fix (CRITICAL)
-## Pins vertical scrollbar directly to maximum value so appended text is immediately visible
+## Yields a frame to recalculate text layout, then programmatically forces vertical scrollbar to max_value
 func _scroll_to_bottom() -> void:
 	await get_tree().process_frame
 	if story_text_label:
 		story_text_label.scroll_to_line(max(0, story_text_label.get_line_count() - 1))
-		var v_scroll = story_text_label.get_v_scroll_bar()
-		if v_scroll:
-			v_scroll.value = v_scroll.max_value
+		var scrollbar = story_text_label.get_v_scroll_bar()
+		if scrollbar:
+			scrollbar.value = scrollbar.max_value
 
 func _update_stats_hud() -> void:
 	if stats_hud_label:
@@ -90,13 +90,13 @@ func _on_patience_depleted() -> void:
 	story_text_label.append_text("\n\n[color=yellow][b]SANITY LOSS: Your Heroic Patience has reached 0! You abandon the quest and open a B&B.[/b][/color]")
 	_scroll_to_bottom()
 	_clear_choice_container()
-	StoryManager.go_to_section("10")
+	_render_continue_button("10")
 	_handling_loss_state = false
 
 func _on_stamina_depleted() -> void:
 	if _handling_loss_state:
 		return
-	if StoryManager.current_section_id == "6":
+	if StoryManager.current_section_id == "6" or StoryManager.current_section_id == "10":
 		return
 		
 	_handling_loss_state = true
@@ -105,15 +105,16 @@ func _on_stamina_depleted() -> void:
 	story_text_label.append_text("\n\n[color=red][b]PHYSICAL DEFEAT: Your Stamina has been depleted![/b][/color]")
 	_scroll_to_bottom()
 	_clear_choice_container()
-	StoryManager.go_to_section("6")
+	_render_continue_button("6")
 	_handling_loss_state = false
 
 func _on_section_changed(section_data: Dictionary) -> void:
 	_display_section(section_data)
 	_update_stats_hud()
 
+## Displays narrative section, completely wiping previous text to fix the clear bleed bug
 func _display_section(section_data: Dictionary) -> void:
-	# Set base story text with BBCode parsing
+	# Completely clear story_text_label text to prevent text bleed from combat or past rolls
 	story_text_label.text = section_data.get("text", "")
 	_start_typewriter_effect()
 	_scroll_to_bottom()
@@ -153,8 +154,36 @@ func _render_narrative_choices(choices: Array) -> void:
 	
 	_setup_focus_loop_and_grab(instantiated_buttons)
 
+## Manual "Page Forward" Transition Button ("Continue ➔")
+func _render_continue_button(next_section_id: String) -> void:
+	_clear_choice_container()
+	
+	var continue_btn: Button = Button.new()
+	continue_btn.text = "  Continue ➔  "
+	continue_btn.custom_minimum_size = Vector2(0, 50)
+	continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	continue_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
+	continue_btn.add_theme_font_size_override("font_size", 18)
+	
+	continue_btn.pressed.connect(func():
+		if next_section_id == "victory_screen":
+			_on_victory_screen_transition()
+		else:
+			StoryManager.go_to_section(next_section_id)
+	)
+	
+	choice_container.add_child(continue_btn)
+	_setup_focus_loop_and_grab([continue_btn])
+
 func _on_choice_pressed(choice: Dictionary) -> void:
 	_skip_typewriter_effect()
+	
+	var target_sec: String = str(choice.get("target", "1"))
+	
+	# Check if choice triggers Victory Screen transition
+	if target_sec == "victory_screen" or choice.get("is_victory", false):
+		_on_victory_screen_transition()
+		return
 	
 	# Apply inline patience_change if present
 	if choice.has("patience_change"):
@@ -162,18 +191,17 @@ func _on_choice_pressed(choice: Dictionary) -> void:
 		if change < 0:
 			PlayerStats.deduct_patience(abs(change))
 			if PlayerStats.current_patience <= 0:
-				return # patience_depleted signal automatically handles redirect to Section 10
+				return # patience_depleted signal automatically handles redirect
 				
 	# Process stat tests (patience, skill, luck) if specified
 	if choice.has("test_type"):
 		_resolve_choice_stat_test(choice)
 		return
 		
-	var target_sec: String = str(choice.get("target", "1"))
 	var text_str: String = str(choice.get("text", ""))
 	
-	# Check if this choice restarts the run
-	if target_sec == "1" and (text_str.contains("Restart") or text_str.contains("try again") or text_str.contains("try adventuring again")):
+	# Check if this choice restarts the run back to MainMenu.tscn
+	if target_sec == "1" and (text_str.contains("Restart") or text_str.contains("try again") or text_str.contains("try adventuring again") or text_str.contains("Sign the waiver")):
 		_on_restart_pressed()
 	else:
 		StoryManager.go_to_section(target_sec)
@@ -191,14 +219,20 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 		target_val = PlayerStats.current_patience
 		roll_val = randi_range(1, 6)
 		is_success = roll_val <= target_val
-		story_text_label.append_text("\n\n[color=yellow]Patience Test! Rolled %d vs Heroic Patience %d -> %s[/color]" % [roll_val, target_val, "SUCCESS!" if is_success else "FAILED!"])
+		var res_tag = "[color=green]SUCCESS![/color]" if is_success else "[color=red]FAILED![/color]"
+		story_text_label.append_text("\n\nPatience Test! Rolled 1d6 (%d) vs Heroic Patience (%d) -> %s" % [
+			roll_val, target_val, res_tag
+		])
 	elif test_type == "skill":
 		target_val = PlayerStats.skill
 		var d1 = randi_range(1, 6)
 		var d2 = randi_range(1, 6)
 		roll_val = d1 + d2
 		is_success = roll_val <= target_val
-		story_text_label.append_text("\n\n[color=yellow]Skill Test! Rolled %d vs Skill %d -> %s[/color]" % [roll_val, target_val, "SUCCESS!" if is_success else "FAILED!"])
+		var res_tag = "[color=green]SUCCESS![/color]" if is_success else "[color=red]FAILED![/color]"
+		story_text_label.append_text("\n\nSkill Test! Rolled 2d6 [%d, %d] = %d vs Skill (%d) -> %s" % [
+			d1, d2, roll_val, target_val, res_tag
+		])
 	elif test_type == "luck":
 		target_val = PlayerStats.current_luck
 		PlayerStats.deduct_luck(1)
@@ -206,22 +240,28 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 		var d2 = randi_range(1, 6)
 		roll_val = d1 + d2
 		is_success = roll_val <= target_val
-		story_text_label.append_text("\n\n[color=yellow]Luck Test! Rolled %d vs Luck %d -> %s[/color]" % [roll_val, target_val, "LUCKY!" if is_success else "UNLUCKY!"])
+		var res_tag = "[color=green]LUCKY![/color]" if is_success else "[color=red]UNLUCKY![/color]"
+		story_text_label.append_text("\n\nLuck Test! Rolled 2d6 [%d, %d] = %d vs Current Luck (%d) -> %s" % [
+			d1, d2, roll_val, target_val, res_tag
+		])
 		
 	_scroll_to_bottom()
-	await get_tree().create_timer(0.3).timeout
 	
-	if is_success:
-		StoryManager.go_to_section(target_win)
-	else:
-		StoryManager.go_to_section(target_fail)
+	var next_target = target_win if is_success else target_fail
+	_render_continue_button(next_target)
 
-## Restarts the game clean: resets stats and transitions back to CharacterCreation.tscn
+## Transitions to dedicated VictoryScreen.tscn
+func _on_victory_screen_transition() -> void:
+	print("[DialogueUI] Victory condition achieved! Transitioning to VictoryScreen...")
+	CombatEngine.in_combat = false
+	get_tree().change_scene_to_file("res://TinyD6Engine/UI/VictoryScreen.tscn")
+
+## Restarts the game clean: resets stats and transitions back to MainMenu.tscn
 func _on_restart_pressed() -> void:
-	print("[DialogueUI] Resetting PlayerStats and returning to CharacterCreation screen...")
+	print("[DialogueUI] Resetting PlayerStats and returning to MainMenu screen...")
 	CombatEngine.in_combat = false
 	PlayerStats.reset_stats()
-	get_tree().change_scene_to_file("res://TinyD6Engine/UI/CharacterCreation.tscn")
+	get_tree().change_scene_to_file("res://TinyD6Engine/UI/MainMenu.tscn")
 
 ## Renders the "Fight Round ⚔️" button at start of combat step
 func _render_fight_round_button() -> void:
@@ -243,23 +283,36 @@ func _render_fight_round_button() -> void:
 	choice_container.add_child(fight_btn)
 	_setup_focus_loop_and_grab([fight_btn])
 
-## Executes combat round calculation and presents Luck options or outcome
+## Executes combat round calculation with color-coded Player Total (green) & Enemy Total (red)
 func _on_fight_round_pressed() -> void:
 	_skip_typewriter_effect()
 	var round_data: Dictionary = CombatEngine.roll_round()
 	if round_data.is_empty():
 		return
 		
-	var log_entry = "\n\n[color=yellow]Round %d: Player (%d) vs %s (%d)[/color]" % [
+	var winner: String = round_data["winner"]
+	var result_str: String = "Standoff!"
+	if winner == "player":
+		result_str = "[color=green]Hit![/color]"
+	elif winner == "enemy":
+		result_str = "[color=red]Wounded![/color]"
+		
+	var log_entry = "\n\nRound %d: Player rolls [%d, %d] + Skill (%d) = [color=green]Player Total: %d[/color] vs %s rolls [%d, %d] + Skill (%d) = [color=red]Enemy Total: %d[/color]. %s" % [
 		round_data["round"],
+		round_data["player_dice"][0],
+		round_data["player_dice"][1],
+		round_data["player_skill"],
 		round_data["player_as"],
 		CombatEngine.enemy_name,
-		round_data["enemy_as"]
+		round_data["enemy_dice"][0],
+		round_data["enemy_dice"][1],
+		round_data["enemy_skill"],
+		round_data["enemy_as"],
+		result_str
 	]
 	story_text_label.append_text(log_entry)
 	_scroll_to_bottom()
 	
-	var winner: String = round_data["winner"]
 	if winner == "draw":
 		story_text_label.append_text("\n[color=yellow] -> Standoff! Both attacks match. No damage inflicts.[/color]")
 		_scroll_to_bottom()
@@ -340,9 +393,16 @@ func _resolve_base_wounding(player_wounded_enemy: bool) -> void:
 
 func _resolve_luck_test(player_wounded_enemy: bool) -> void:
 	var res: Dictionary = CombatEngine.test_luck_on_wounding()
-	var luck_str = "LUCKY!" if res["is_lucky"] else "UNLUCKY!"
+	var luck_str = "[color=green]Success (Lucky)![/color]" if res["is_lucky"] else "[color=red]Failure (Unlucky)![/color]"
 	
-	story_text_label.append_text("\n[color=yellow]Luck Test! Rolled %d vs Luck %d -> %s[/color]" % [res["luck_roll"], res["luck_target"], luck_str])
+	var luck_log = "\nPlayer tests Luck! Rolls [%d, %d] = %d vs Current Luck (%d). %s" % [
+		res["luck_dice"][0],
+		res["luck_dice"][1],
+		res["luck_roll"],
+		res["luck_target"],
+		luck_str
+	]
+	story_text_label.append_text(luck_log)
 	
 	if player_wounded_enemy:
 		if res["is_lucky"]:
@@ -363,11 +423,11 @@ func _check_combat_status_or_continue() -> void:
 	if PlayerStats.current_stamina <= 0:
 		story_text_label.append_text("\n\n[color=red][b]DEFEAT! Your Stamina has been depleted![/b][/color]")
 		_scroll_to_bottom()
-		StoryManager.go_to_section(str(CombatEngine.defeat_target_section))
+		_render_continue_button(str(CombatEngine.defeat_target_section))
 	elif CombatEngine.enemy_stamina <= 0:
 		story_text_label.append_text("\n\n[color=green][b]VICTORY! You defeated the %s![/b][/color]" % CombatEngine.enemy_name)
 		_scroll_to_bottom()
-		StoryManager.go_to_section(str(CombatEngine.victory_target_section))
+		_render_continue_button(str(CombatEngine.victory_target_section))
 	else:
 		_render_fight_round_button()
 

@@ -14,8 +14,8 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="The B&B Retirement Plan"
-run/main_scene="res://TinyD6Engine/UI/CharacterCreation.tscn"
+config/name="Tiny D6 Engine"
+run/main_scene="res://TinyD6Engine/UI/MainMenu.tscn"
 config/features=PackedStringArray("4.7")
 
 [autoload]

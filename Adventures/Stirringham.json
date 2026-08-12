@@ -1,0 +1,193 @@
+{
+  "1": {
+    "text": "Ah, traveler! Thank the heavens you've arrived. Our peaceful village—no, the entire realm—is facing a crisis of unparalleled magnitude! The [color=yellow]Legendary Spoon of Stirringham[/color] has been... taken! Well, technically, it was borrowed by Garrick the Spoon-Keeper. He claimed he needed it to stir a dramatic stew, but he was supposed to return it three weeks ago under Clause 9 of our Local Utensil Treaty. Without the gold-plated zinc of the Legendary Spoon, our formal broth-based diplomacy will utterly collapse! Garrick has locked himself inside the Cave at the far end of The Mostly Sacred Forest.",
+    "choices": [
+      {
+        "text": "Accept the quest with dignity and head out.",
+        "target": "2"
+      },
+      {
+        "text": "Tell him it's just a spoon.",
+        "target": "3",
+        "test_type": "patience",
+        "target_fail": "3_fail"
+      }
+    ]
+  },
+  "2": {
+    "text": "You march to the edge of the village, where [color=yellow]Sir Reginald Slightlybrave[/color] stands at the bridge guard post, chest puffed out proudly.\n\n'Halt, traveler!' he declares with solemn dignity. 'The Kingdom is at peace, but the Royal Bridge remains legally impassable! As Acting Bridge Inspector, I am forbidden from letting anyone cross without an officially stamped Crossing Permit. I would gladly stamp yours, but I misplaced the Official Inspector Stamp somewhere in the village. Retrieve it, and I shall authorize your crossing.'",
+    "choices": [
+      {
+        "text": "Search the village gardens for the stamp.",
+        "target": "4"
+      },
+      {
+        "text": "Ask Reginald where he last saw the stamp.",
+        "target": "reginald_inquire"
+      }
+    ]
+  },
+  "reginald_inquire": {
+    "text": "Sir Reginald strokes his chin thoughtfully, puffing his chest further.\n\n'Ah! Where did I last see it? Well, citizen, to be entirely transparent under the Municipal Inspector Code... I have absolutely no recollection whatsoever! I got magnificently drunk at the tavern last night celebrating National Spoon Day. I woke up wearing a cabbage leaf as a hat, and the stamp was gone.'",
+    "choices": [
+      {
+        "text": "Search the village gardens for the stamp.",
+        "target": "4"
+      }
+    ]
+  },
+  "3": {
+    "text": "You hum and nod patiently. The Mayor sniffles, deeply grateful that a hero understands the geopolitical weight of high-end tableware. He hands you Form 4-B (Intent to Retrieve Utensils).",
+    "choices": [
+      {
+        "text": "Head toward the Royal Bridge.",
+        "target": "2"
+      }
+    ]
+  },
+  "3_fail": {
+    "text": "The Mayor gasps in pure administrative horror. He spends the next forty minutes explaining the cultural, economic, and philosophical history of the soup spoon in painful, eye-watering detail.\n\n[color=red]You lose 2 Heroic Patience![/color]",
+    "choices": [
+      {
+        "text": "Groan, accept Form 4-B, and escape to the bridge.",
+        "target": "2",
+        "patience_change": -2
+      }
+    ]
+  },
+  "4": {
+    "text": "In the municipal gardens, you find a highly suspicious squirrel sitting directly on top of the heavy, brass embossing stamp, staring at you with unlicensed rodent hostility.",
+    "choices": [
+      {
+        "text": "Test your Skill to outwit the rodent and grab the stamp.",
+        "target": "reginald_complete",
+        "test_type": "skill",
+        "target_fail": "4_fail"
+      }
+    ]
+  },
+  "4_fail": {
+    "text": "The squirrel shrieks and leaps at your face! You scramble back in panic, getting bit on the hand. You manage to yank the stamp away, but the humiliation is deep.\n\n[color=red]You lose 2 Stamina![/color]",
+    "choices": [
+      {
+        "text": "Limp back to Sir Reginald with the stamp.",
+        "target": "reginald_complete"
+      }
+    ]
+  },
+  "5": {
+    "text": "Sir Reginald beams at your diligence. You hand over the stamp and proceed to the bridge.",
+    "choices": [
+      {
+        "text": "Proceed to the bridge.",
+        "target": "reginald_complete"
+      }
+    ]
+  },
+  "5_fail": {
+    "text": "Sir Reginald clears his throat and points to the village gardens. 'The stamp is over in the gardens, citizen!'",
+    "choices": [
+      {
+        "text": "Search the village gardens for the stamp.",
+        "target": "4"
+      }
+    ]
+  },
+  "reginald_complete": {
+    "text": "'Ah, the official embossing stamp!' Sir Reginald beams. 'Excellent work, traveler! I shall now stamp your Crossing Permit... [color=yellow]*STAMP!*[/color] Here you go! The bridge is now legally open. Safe travels, citizen!'",
+    "choices": [
+      {
+        "text": "Cross the bridge into the Mostly Sacred Forest.",
+        "target": "6"
+      }
+    ]
+  },
+  "6": {
+    "text": "You enter the damp, green depths of [color=green]The Mostly Sacred Forest[/color]. Suddenly, a feral Wolf blocks your path. It growls fiercely, but you notice it wears a small, laminated badge from the [color=red]Royal Ministry of Wolves[/color]. It growls but politely waits for you to present your paperwork.",
+    "choices": [
+      {
+        "text": "Fight the Ministry Wolf in traditional combat!",
+        "target": "wolf_combat"
+      },
+      {
+        "text": "Flash your stamped permit (Requires a Skill test to bluff).",
+        "target": "7",
+        "test_type": "skill",
+        "target_fail": "wolf_combat"
+      }
+    ]
+  },
+  "wolf_combat": {
+    "text": "The Ministry Wolf barks, checks its union regulations, and leaps into battle!",
+    "combat": {
+      "enemy_name": "Ministry Wolf",
+      "enemy_skill": 7,
+      "enemy_stamina": 6,
+      "victory_target": "7"
+    },
+    "choices": []
+  },
+  "10": {
+    "text": "[color=red]Your Stamina has reached 0![/color] You do not die in a cold, bloodtipped tragedy; instead, the Ministry Wolf stops attacking, hands you an [color=yellow]Official Heroic Defeat Waiver[/color], and politely asks you to go back to the village.",
+    "choices": [
+      {
+        "text": "Sign the waiver and try again.",
+        "target": "1"
+      }
+    ]
+  },
+  "7": {
+    "text": "You reach the Cave and confront [color=red]Garrick the Spoon-Keeper[/color] (the 'Dark Lord'), who is wearing an overdesigned, drafty velvet cape. \n\n'Aha! You have penetrated my dark lair!' he bellows theatrically. 'But you shall never wrest the Legendary Spoon of Stirringham from my grasp! Unless... you listen to my highly rehearsed, 12-page tragic monologue about my culinary isolation.'",
+    "choices": [
+      {
+        "text": "Sigh and listen to his entire monologue.",
+        "target": "8_monologue",
+        "patience_change": -1
+      },
+      {
+        "text": "Try to snatch the spoon mid-speech (Requires Luck test).",
+        "target": "8_snatch",
+        "test_type": "luck",
+        "target_fail": "garrick_combat"
+      }
+    ]
+  },
+  "garrick_combat": {
+    "text": "Garrick gasps at your terrible audience manners and draws a dramatic prop sword! 'En garde!'",
+    "combat": {
+      "enemy_name": "Garrick the Spoon-Keeper",
+      "enemy_skill": 6,
+      "enemy_stamina": 10,
+      "victory_target": "8_snatch"
+    },
+    "choices": []
+  },
+  "8_monologue": {
+    "text": "Garrick delivers an incredibly loud, dramatic speech about how the Mayor never invites him to broth night. It is thoroughly exhausting. [color=red]You lose 1 Heroic Patience.[/color]\n\nMoved by his own performance, Garrick weeps and hands you the spoon.",
+    "choices": [
+      {
+        "text": "Take the spoon and head back to the village.",
+        "target": "9"
+      }
+    ]
+  },
+  "8_snatch": {
+    "text": "With lightning speed, you lunge forward and pluck the gold-plated zinc spoon right out of his theatrical grasp! He is too stunned by your complete disregard for dramatic timing to stop you.",
+    "choices": [
+      {
+        "text": "Sprint out of the cave with the spoon!",
+        "target": "9"
+      }
+    ]
+  },
+  "9": {
+    "text": "You return to Stirringham. The Mayor gasps: 'By the Great Cauldron... you've actually returned with it. The Legendary Spoon of Stirringham! Look how its premium gold-plated zinc catches the damp air.\n\nAs promised, please accept your reward: Official Village Citizenship (Pending Notarization), this single, vaguely circular, lightly chewed copper coin, and my eternal, tax-deductible gratitude. Orders of soup will have to wait—we still only have the one spoon.'\n\n[color=green][b]CONGRATULATIONS! YOU HAVE SAVED BROTH-BASED DIPLOMACY![/b][/color]",
+    "choices": [
+      {
+        "text": "Claim Heroic Victory 🏆",
+        "target": "victory_screen",
+        "is_victory": true
+      }
+    ]
+  }
+}

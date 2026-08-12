@@ -33,7 +33,7 @@ func start_combat(p_enemy_name: String, p_enemy_skill: int, p_enemy_stamina: int
 	print("[CombatEngine] Combat started against %s (Skill: %d, Stamina: %d)" % [enemy_name, enemy_skill, enemy_stamina])
 	combat_started.emit(enemy_name, enemy_skill, enemy_stamina)
 
-## Rolls a simultaneous combat round (Player AS vs Enemy AS)
+## Rolls a simultaneous combat round (Player AS vs Enemy AS) with individual dice breakdown
 func roll_round() -> Dictionary:
 	if not in_combat:
 		return {}
@@ -60,13 +60,18 @@ func roll_round() -> Dictionary:
 	var round_data = {
 		"round": round_count,
 		"player_dice": [player_dice_1, player_dice_2],
+		"player_skill": PlayerStats.skill,
 		"player_as": player_as,
 		"enemy_dice": [enemy_dice_1, enemy_dice_2],
+		"enemy_skill": enemy_skill,
 		"enemy_as": enemy_as,
 		"winner": winner
 	}
 	
-	print("[CombatEngine] Round %d: Player AS %d vs %s AS %d -> Winner: %s" % [round_count, player_as, enemy_name, enemy_as, winner])
+	print("[CombatEngine] Round %d: Player rolls [%d,%d]+%d=%d vs %s rolls [%d,%d]+%d=%d -> Winner: %s" % [
+		round_count, player_dice_1, player_dice_2, PlayerStats.skill, player_as,
+		enemy_name, enemy_dice_1, enemy_dice_2, enemy_skill, enemy_as, winner
+	])
 	round_resolved.emit(round_data)
 	return round_data
 
@@ -91,7 +96,7 @@ func apply_base_wounding() -> Dictionary:
 	_check_combat_termination()
 	return result
 
-## Resolves high-stakes Combat Luck Test with Decaying Luck Rule
+## Resolves high-stakes Combat Luck Test with Decaying Luck Rule & individual die breakdown
 func test_luck_on_wounding() -> Dictionary:
 	var luck_target = PlayerStats.current_luck
 	# Decaying Luck Rule: Deduct 1 point from player's current Luck stat after test
@@ -105,18 +110,14 @@ func test_luck_on_wounding() -> Dictionary:
 	var damage_dealt = 0
 	if last_round_winner == "player":
 		if is_lucky:
-			# Success: Deal +2 bonus damage (4 total)
 			damage_dealt = 4
 		else:
-			# Failure: Deal 1 less damage (1 total)
 			damage_dealt = 1
 		enemy_stamina = max(0, enemy_stamina - damage_dealt)
 	elif last_round_winner == "enemy":
 		if is_lucky:
-			# Success: Reduce damage taken by 1 (1 total)
 			damage_dealt = 1
 		else:
-			# Failure: Suffer 1 extra damage (3 total)
 			damage_dealt = 3
 		PlayerStats.current_stamina = max(0, PlayerStats.current_stamina - damage_dealt)
 		
@@ -124,6 +125,7 @@ func test_luck_on_wounding() -> Dictionary:
 		"winner": last_round_winner,
 		"tested_luck": true,
 		"luck_target": luck_target,
+		"luck_dice": [d1, d2],
 		"luck_roll": luck_roll,
 		"is_lucky": is_lucky,
 		"damage": damage_dealt,
@@ -131,7 +133,9 @@ func test_luck_on_wounding() -> Dictionary:
 		"enemy_stamina": enemy_stamina
 	}
 	
-	print("[CombatEngine] Luck Test: Rolled %d vs Luck %d -> %s! Damage: %d" % [luck_roll, luck_target, "LUCKY" if is_lucky else "UNLUCKY", damage_dealt])
+	print("[CombatEngine] Luck Test: Rolled [%d,%d]=%d vs Luck %d -> %s! Damage: %d" % [
+		d1, d2, luck_roll, luck_target, "LUCKY" if is_lucky else "UNLUCKY", damage_dealt
+	])
 	luck_test_resolved.emit(result)
 	_check_combat_termination()
 	return result
