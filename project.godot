@@ -1,0 +1,11 @@
+config_version=5
+
+[application]
+config/name="The B&B Retirement Plan"
+config/features=PackedStringArray("4.3")
+run/main_scene="res://TinyD6Engine/UI/CharacterCreation.tscn"
+
+[autoload]
+PlayerStats="*res://TinyD6Engine/Singletons/PlayerStats.gd"
+StoryManager="*res://TinyD6Engine/Singletons/StoryManager.gd"
+CombatEngine="*res://TinyD6Engine/Singletons/CombatEngine.gd"
