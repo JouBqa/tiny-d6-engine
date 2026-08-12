@@ -6,7 +6,7 @@
 
 [PREMISE]
 
-**Title:** Sir Reginald Bumblethwaite and the Pudding of Perpetual Wobble
+**Title:** Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble
 
 **Genre:** Comedy-fantasy
 
@@ -14,9 +14,9 @@
 
 **Setting:** The Kingdom of Blandovia, a small, unremarkable realm where nothing exciting ever happens (much to everyone's relief). The adventure takes place across the Meadow of Slightly Damp Grass, the Village of Grumbleton, and the Tower of Minor Inconveniences.
 
-**Protagonist:** Sir Reginald Bumblethwaite, a knight of middling reputation and exceptional clumsiness. He means well. He really does. Things just tend to fall over, catch fire, or run away screaming when he is involved.
+**Protagonist:** Sir Albert Bumblethwaite, a knight of middling reputation and exceptional clumsiness. He means well. He really does. Things just tend to fall over, catch fire, or run away screaming when he is involved.
 
-**Protagonist Motivation:** Sir Reginald desperately wants to prove himself worthy of his knighthood, which he received by accident when the King sneezed during a different ceremony and accidentally dubbed him. He believes completing this quest will finally earn him respect.
+**Protagonist Motivation:** Sir Albert desperately wants to prove himself worthy of his knighthood, which he received by accident when the King sneezed during a different ceremony and accidentally dubbed him. He believes completing this quest will finally earn him respect.
 
 **Central Conflict:** The Pudding of Perpetual Wobble is guarded by creatures who find intruders mildly irritating rather than threatening. The real challenge is navigating social awkwardness, solving absurd problems, and not making everything worse through sheer incompetence.
 
@@ -66,9 +66,9 @@ STEP 2: CHARACTER CREATION
 
 [CHARACTERS]
 
-CHARACTER: sir_reginald
+CHARACTER: sir_albert
 
-Name: Sir Reginald Bumblethwaite
+Name: Sir Albert Bumblethwaite
 
 Role: Protagonist
 
@@ -106,11 +106,11 @@ Motivation: Wants the Annual Royal Banquet to proceed without embarrassment. The
 
 Background: Inherited the throne from King Mundane III, who inherited it from King Mundane II. The Mundane dynasty has ruled Blandovia for twelve generations through a strict policy of avoiding anything interesting. Their motto is "Nothing Much Happened Today."
 
-Secrets: Actually finds Sir Reginald rather endearing, though he would never admit it. Once, in his youth, he considered having an adventure, but had a lie-down until the feeling passed.
+Secrets: Actually finds Sir Albert rather endearing, though he would never admit it. Once, in his youth, he considered having an adventure, but had a lie-down until the feeling passed.
 
 Abilities: Can bore assassins into surrendering. Extensive knowledge of tax codes. Surprisingly good at checkers.
 
-Relationships: Employs Sir Reginald out of a vague sense of guilt about the sneezing incident. Married to Queen Beige, who shares his commitment to tedium.
+Relationships: Employs Sir Albert out of a vague sense of guilt about the sneezing incident. Married to Queen Beige, who shares his commitment to tedium.
 
 Notes: Will provide quest briefing in Section 1. Does not expect success but hopes for minimal embarrassment.
 
@@ -134,7 +134,7 @@ Secrets: Can be bypassed entirely if someone simply asks nicely and seems genuin
 
 Abilities: Can refuse to open (very effective). Can insult visitors (extremely effective). Can provide hints if sufficiently impressed or amused.
 
-Relationships: Respects Mildred, who brings him wood polish. Finds Pocket annoying. Has never met Sir Reginald but will form an opinion within seconds.
+Relationships: Respects Mildred, who brings him wood polish. Finds Pocket annoying. Has never met Sir Albert but will form an opinion within seconds.
 
 Gameplay Role: Gatekeeper encounter. Can be passed through diplomacy, humor, or discovery of the hidden passage.
 
@@ -178,7 +178,7 @@ Motivation: Wants "shinies" (anything that glitters, makes noise, or seems impor
 
 Background: Moved into the tower decades ago after being evicted from a cave for "excessive acquisition of neighbors' property." Has mapped every shortcut, secret passage, and hiding spot. Tolerated by Mildred because he deals with the mice.
 
-Secrets: Knows a direct route to the Pudding Chamber that bypasses most obstacles. Will share this information for the right price (not gold; he wants something interesting). Has accidentally stolen something important from Sir Reginald's inventory if given the opportunity.
+Secrets: Knows a direct route to the Pudding Chamber that bypasses most obstacles. Will share this information for the right price (not gold; he wants something interesting). Has accidentally stolen something important from Sir Albert's inventory if given the opportunity.
 
 Abilities: Stealth, lockpicking, climbing, fitting into small spaces, knowing things he should not know.
 
@@ -230,7 +230,7 @@ Secrets: Has a map showing a back entrance to the Tower, inherited from her gran
 
 Abilities: Extensive local knowledge. Intimidating presence. Makes excellent scones (relevant if the player needs provisions).
 
-Relationships: Respected and slightly feared by Grumbleton residents. Has heard of Sir Reginald ("the one who set a lake on fire?").
+Relationships: Respected and slightly feared by Grumbleton residents. Has heard of Sir Albert ("the one who set a lake on fire?").
 
 Gameplay Role: Optional NPC in Grumbleton who can provide the item_tower_map if the player helps with village tasks.
 
@@ -246,15 +246,15 @@ Description: A young, enthusiastic herald with an unfortunate voice that cracks 
 
 Personality: Desperately eager to please. Overestimates the drama of every situation. Narrates events in real-time to no one in particular. Has not yet learned that enthusiasm cannot substitute for competence.
 
-Motivation: Wants to be the greatest herald in Blandovian history (the competition is not fierce). Sees Sir Reginald's quest as an opportunity to practice "heroic announcement."
+Motivation: Wants to be the greatest herald in Blandovian history (the competition is not fierce). Sees Sir Albert's quest as an opportunity to practice "heroic announcement."
 
 Background: Nephew of the previous Royal Herald, who retired after the incident where he accidentally declared war on a potted plant. Pip is technically qualified through nepotism but tries very hard.
 
-Secrets: Overheard courtiers betting against Sir Reginald's success. Feels guilty about not warning him.
+Secrets: Overheard courtiers betting against Sir Albert's success. Feels guilty about not warning him.
 
 Abilities: Loud voice (when it cooperates). Official knowledge of quest protocols. Can provide the starting equipment.
 
-Relationships: Admires Sir Reginald for reasons he cannot articulate. Terrified of the King (specifically the sneezing).
+Relationships: Admires Sir Albert for reasons he cannot articulate. Terrified of the King (specifically the sneezing).
 
 Gameplay Role: Provides context and starting equipment in Section 1. May appear in endings to announce results.
 
@@ -272,7 +272,7 @@ Name: The Royal Castle of Blandovia
 
 Type: Starting Location, Quest Hub
 
-Description: A castle of aggressive mediocrity. The stones are grey, the banners are beige, and the architecture suggests that several generations of builders kept saying "that'll do." The Great Hall features a throne that wobbles slightly (no one has fixed it in forty years because that would require initiative). Servants move through corridors with practiced efficiency, having learned exactly which flagstones creak and which suits of armor Sir Reginald is likely to collide with.
+Description: A castle of aggressive mediocrity. The stones are grey, the banners are beige, and the architecture suggests that several generations of builders kept saying "that'll do." The Great Hall features a throne that wobbles slightly (no one has fixed it in forty years because that would require initiative). Servants move through corridors with practiced efficiency, having learned exactly which flagstones creak and which suits of armor Sir Albert is likely to collide with.
 
 Features:
 
@@ -284,7 +284,7 @@ The Kitchens (background detail, source of provisions)
 
 The Courtyard (exit point)
 
-NPCs Present: king_mundane, herald_pip, sir_reginald (starting)
+NPCs Present: king_mundane, herald_pip, sir_albert (starting)
 
 Connections: loc_meadow (exit via courtyard)
 
@@ -492,7 +492,7 @@ Notes: Final challenge. The Pudding must be convinced, tricked, or (inadvisably)
 
 ITEM: item_rusty_sword
 
-Name: Sir Reginald's Rusty Sword
+Name: Sir Albert's Rusty Sword
 
 Type: Weapon, Starting Equipment
 
@@ -512,7 +512,7 @@ Name: The Dented Shield
 
 Type: Armor, Starting Equipment
 
-Description: A shield bearing the Bumblethwaite family crest (a turnip rampant on a field of mild confusion). The dents tell stories that Sir Reginald would prefer remain untold.
+Description: A shield bearing the Bumblethwaite family crest (a turnip rampant on a field of mild confusion). The dents tell stories that Sir Albert would prefer remain untold.
 
 Effects: Reduces damage by 1 in combat (minimum 1 damage taken).
 
@@ -528,7 +528,7 @@ Name: The Royal Quest Scroll
 
 Type: Quest Item, Documentation
 
-Description: An official scroll bearing the King's seal and a detailed description of the quest that Sir Reginald definitely did not hear because of the butterfly. Contains useful information if actually read.
+Description: An official scroll bearing the King's seal and a detailed description of the quest that Sir Albert definitely did not hear because of the butterfly. Contains useful information if actually read.
 
 Effects: Provides quest details if examined. Required proof of royal authority.
 
@@ -544,7 +544,7 @@ Name: Packed Lunch from the Royal Kitchens
 
 Type: Consumable, Healing
 
-Description: A bundle wrapped in cloth containing bread, cheese, a small apple, and a note from the kitchen staff reading "Please try not to die, Sir Reginald. You're the only knight who thanks us."
+Description: A bundle wrapped in cloth containing bread, cheese, a small apple, and a note from the kitchen staff reading "Please try not to die, Sir Albert. You're the only knight who thanks us."
 
 Effects: Restores 4 Stamina when consumed. Single use.
 
@@ -656,7 +656,7 @@ Name: Pocket's Stolen Trinket
 
 Type: Plot Item
 
-Description: A small brass button that Pocket stole from Sir Reginald's armor. Worthless to anyone but Sir Reginald, invaluable to Pocket's collection.
+Description: A small brass button that Pocket stole from Sir Albert's armor. Worthless to anyone but Sir Albert, invaluable to Pocket's collection.
 
 Effects: Can be traded back to Pocket for assistance, or its theft can be used as leverage.
 
@@ -672,7 +672,7 @@ Name: Agnes's Threatening Wooden Spoon
 
 Type: Comedy Item, Gift
 
-Description: A wooden spoon that Agnes pressed upon Sir Reginald "for protection." It is a spoon. It protects nothing. But it was given with genuine concern.
+Description: A wooden spoon that Agnes pressed upon Sir Albert "for protection." It is a spoon. It protects nothing. But it was given with genuine concern.
 
 Effects: No mechanical effect. Demonstrates Agnes's approval. May influence ending.
 
@@ -688,7 +688,7 @@ Name: The Royal Court of Blandovia
 
 Description: The governing body of the kingdom, consisting of King Mundane IV, his advisors (who advise caution), and various bureaucrats committed to maintaining the status quo. They view the quest as necessary but inconvenient.
 
-Disposition: Neutral (hopeful but skeptical toward Sir Reginald)
+Disposition: Neutral (hopeful but skeptical toward Sir Albert)
 
 Key Members: king_mundane, herald_pip
 
@@ -990,7 +990,7 @@ Heroic Patience is a special stat for this adventure:
 
 Certain situations test Patience instead of other stats
 
-Low Patience results cause Sir Reginald to act impulsively
+Low Patience results cause Sir Albert to act impulsively
 
 High Patience results allow careful, considered responses
 
@@ -1096,13 +1096,13 @@ Purpose: Introduction, quest assignment, character establishment, starting equip
 
 Location: locroyalcastle
 
-NPCs Present: king_mundane, herald_pip, sir_reginald
+NPCs Present: king_mundane, herald_pip, sir_albert
 
 Major Events:
 
 King Mundane IV delivers quest briefing in the Great Hall
 
-Sir Reginald is distracted by a butterfly during the briefing
+Sir Albert is distracted by a butterfly during the briefing
 
 Herald Pip provides starting equipment and quest scroll
 
@@ -1148,7 +1148,7 @@ Items Obtained: itemrustysword, itemdentedshield, itemquestscroll, itempackedlun
 
 Flags Changed: flagquestunderstood (conditional)
 
-Notes: Establishes Sir Reginald's character through his distraction. The butterfly incident is played for comedy. Reading the scroll provides mechanical advantage later.
+Notes: Establishes Sir Albert's character through his distraction. The butterfly incident is played for comedy. Reading the scroll provides mechanical advantage later.
 
 ---
 
@@ -1162,7 +1162,7 @@ NPCs Present: None (sheep are ambient)
 
 Major Events:
 
-Sir Reginald travels across the Meadow of Slightly Damp Grass
+Sir Albert travels across the Meadow of Slightly Damp Grass
 
 Encounters the Inconvenient Stream (minor obstacle)
 
@@ -1236,7 +1236,7 @@ NPCs Present: agnes, various villagers
 
 Major Events:
 
-Sir Reginald arrives in the complaining village
+Sir Albert arrives in the complaining village
 
 Meets Agnes Crumbwell in the village square
 
@@ -1298,7 +1298,7 @@ Items Obtained: itemtowermap (conditional), itemwoodenspoon (conditional), items
 
 Flags Changed: flagagneshelped (conditional), flagtimepressure (conditional)
 
-Notes: The drainage task is comedic (Sir Reginald will inevitably cause some chaos). The map is the key reward, revealing the secret entrance. Time pressure increases but the advantages outweigh the cost.
+Notes: The drainage task is comedic (Sir Albert will inevitably cause some chaos). The map is the key reward, revealing the secret entrance. Time pressure increases but the advantages outweigh the cost.
 
 ---
 
@@ -1312,13 +1312,13 @@ NPCs Present: gerald, pocket (hidden initially)
 
 Major Events:
 
-Sir Reginald arrives at the Tower of Minor Inconveniences
+Sir Albert arrives at the Tower of Minor Inconveniences
 
 Confronted by Gerald the Adequate, the talking door
 
 Gerald demands proof of worthiness
 
-Pocket lurks nearby and steals itempockettrinket from Sir Reginald's armor
+Pocket lurks nearby and steals itempockettrinket from Sir Albert's armor
 
 Player must find a way past Gerald
 
@@ -1330,9 +1330,9 @@ Requirements: None
 
 Tests: PATIENCE test (target 7)
 
-Success: Gerald finds Sir Reginald's earnest bumbling "refreshingly genuine," opens door, SET flaggeraldpassed_diplomacy = true, Gerald provides hint about Mildred
+Success: Gerald finds Sir Albert's earnest bumbling "refreshingly genuine," opens door, SET flaggeraldpassed_diplomacy = true, Gerald provides hint about Mildred
 
-Failure: Gerald sighs heavily, calls Sir Reginald "disappointing but harmless," opens door anyway (he is bored), SET flaggeraldpassed_diplomacy = true
+Failure: Gerald sighs heavily, calls Sir Albert "disappointing but harmless," opens door anyway (he is bored), SET flaggeraldpassed_diplomacy = true
 
 Target: sec05_tower_lower
 
@@ -1412,7 +1412,7 @@ NPCs Present: pocket (mobile)
 
 Major Events:
 
-Sir Reginald navigates the confusing lower floors
+Sir Albert navigates the confusing lower floors
 
 Encounters the Room of Inconvenient Furniture (obstacle)
 
@@ -1484,7 +1484,7 @@ Requirements: Player must have noticed the theft (narrative cue provided)
 
 Tests: PATIENCE test (target 8)
 
-Success: Pocket returns itempockettrinket, impressed by Sir Reginald's perception, offers alliance, SET flagpocketfriendly = true
+Success: Pocket returns itempockettrinket, impressed by Sir Albert's perception, offers alliance, SET flagpocketfriendly = true
 
 Failure: Pocket flees with trinket, SET flagpockethostile = true
 
@@ -1520,7 +1520,7 @@ NPCs Present: mildred, several cats
 
 Major Events:
 
-Sir Reginald reaches Mildred's workshop
+Sir Albert reaches Mildred's workshop
 
 Mildred is mildly vexed at the intrusion
 
@@ -1578,7 +1578,7 @@ Tests: SKILL test (target 9, difficult)
 
 Success: Bypass Mildred, SET flagmildredbypassed = true, no key needed (use window route)
 
-Failure: Mildred catches Sir Reginald, mildly vexed, must now complete extra trial before standard trials
+Failure: Mildred catches Sir Albert, mildly vexed, must now complete extra trial before standard trials
 
 Target: sec08_pudding_chamber (success via window) or return to choices with penalty (failure)
 
@@ -1598,7 +1598,7 @@ Items Obtained: itemcalmingrecipe (conditional), itemtowerkey (conditional)
 
 Flags Changed: flagmildredhelped (conditional), flagmildredbypassed (conditional)
 
-Notes: The "trials" are comedic chores. Sir Reginald's clumsiness makes them challenging. Completing them fully provides the best setup for the Pudding encounter.
+Notes: The "trials" are comedic chores. Sir Albert's clumsiness makes them challenging. Completing them fully provides the best setup for the Pudding encounter.
 
 ---
 
@@ -1612,7 +1612,7 @@ NPCs Present: pocket (if flagpocketfriendly = true)
 
 Major Events:
 
-Sir Reginald arrives via shortcut, bypassing Mildred
+Sir Albert arrives via shortcut, bypassing Mildred
 
 Pocket guides through secret passages (if friendly)
 
@@ -1682,13 +1682,13 @@ NPCs Present: pudding
 
 Major Events:
 
-Sir Reginald enters the Pudding Chamber
+Sir Albert enters the Pudding Chamber
 
 The Pudding of Perpetual Wobble sits upon its pedestal, wobbling magnificently
 
-The Pudding regards Sir Reginald with ancient, gelatinous judgment
+The Pudding regards Sir Albert with ancient, gelatinous judgment
 
-Sir Reginald must decide how to approach the Pudding
+Sir Albert must decide how to approach the Pudding
 
 Choices:
 
@@ -1706,7 +1706,7 @@ flagmildredhelped = true: Target reduced to 6
 
 flagpuddinggrabbed = true (from previous attempt): Automatic failure
 
-Success: Pudding acknowledges Sir Reginald, proceed to negotiation
+Success: Pudding acknowledges Sir Albert, proceed to negotiation
 
 Failure: Pudding wobbles dismissively, one more chance before it refuses
 
@@ -1742,7 +1742,7 @@ Tests: PATIENCE test (target 6, knowledge helps)
 
 Success: Pudding impressed, initiates deeper conversation, SET flagpuddingrespected = true, proceed to negotiation with advantage
 
-Failure: Pudding finds Sir Reginald's philosophy "undergraduate level," proceed to negotiation without advantage
+Failure: Pudding finds Sir Albert's philosophy "undergraduate level," proceed to negotiation without advantage
 
 Target: sec09_pudding_negotiation
 
@@ -1754,7 +1754,7 @@ Tests: PATIENCE test (target 8, requires significant patience)
 
 Success: Pudding appreciates the gesture, SET flagpuddingrespected = true, proceed to negotiation
 
-Failure: Sir Reginald's knee gives out, embarrassing collapse, proceed to negotiation without advantage
+Failure: Sir Albert's knee gives out, embarrassing collapse, proceed to negotiation without advantage
 
 Target: sec09_pudding_negotiation
 
@@ -1774,11 +1774,11 @@ NPCs Present: pudding
 
 Major Events:
 
-Sir Reginald communicates with the Pudding
+Sir Albert communicates with the Pudding
 
 The Pudding expresses its grievances (always being objectified as a dessert)
 
-Sir Reginald must convince the Pudding to accompany him willingly
+Sir Albert must convince the Pudding to accompany him willingly
 
 Final choices determine ending
 
@@ -1834,7 +1834,7 @@ flagmildredhelped = true: Target reduced to 6
 
 Three or more friendly NPC encounters: Additional advantage
 
-Success: Pudding moved by Sir Reginald's sincerity, agrees to help willingly, best possible outcome
+Success: Pudding moved by Sir Albert's sincerity, agrees to help willingly, best possible outcome
 
 Failure: Pudding appreciates the effort but needs more convincing
 
@@ -1878,7 +1878,7 @@ NPCs Present: king_mundane, herald_pip, the Pudding
 
 Major Events:
 
-Sir Reginald returns to the castle with the Pudding
+Sir Albert returns to the castle with the Pudding
 
 Herald Pip announces the triumphant return (voice cracks)
 
@@ -1924,11 +1924,11 @@ flagpuddinggrabbed = false
 
 Pudding obtained willingly
 
-Description: Sir Reginald returns triumphant with the Pudding of Perpetual Wobble, which has chosen to accompany him as a friend rather than a prize. The banquet is a magnificent success. The dignitaries from Pomponia are awed not just by the legendary dessert, but by the remarkable knight who earned its respect. King Mundane IV, for the first time in his reign, shows genuine emotion (mild approval). Sir Reginald is awarded a new title: "Sir Reginald the Surprisingly Adequate." The Pudding, after fulfilling its banquet duties, chooses to remain at the castle, finding Sir Reginald's ongoing mishaps "philosophically interesting." They become unlikely friends. Things still fall over when Sir Reginald enters rooms, but now they fall over near a supportive, wobbling companion.
+Description: Sir Albert returns triumphant with the Pudding of Perpetual Wobble, which has chosen to accompany him as a friend rather than a prize. The banquet is a magnificent success. The dignitaries from Pomponia are awed not just by the legendary dessert, but by the remarkable knight who earned its respect. King Mundane IV, for the first time in his reign, shows genuine emotion (mild approval). Sir Albert is awarded a new title: "Sir Albert the Surprisingly Adequate." The Pudding, after fulfilling its banquet duties, chooses to remain at the castle, finding Sir Albert's ongoing mishaps "philosophically interesting." They become unlikely friends. Things still fall over when Sir Albert enters rooms, but now they fall over near a supportive, wobbling companion.
 
-Bonus Text (if flagagneshelped = true): Agnes's wooden spoon becomes a treasured keepsake displayed in Sir Reginald's chambers, and Grumbleton receives a royal thank-you note (the first exciting thing to happen there in decades).
+Bonus Text (if flagagneshelped = true): Agnes's wooden spoon becomes a treasured keepsake displayed in Sir Albert's chambers, and Grumbleton receives a royal thank-you note (the first exciting thing to happen there in decades).
 
-Bonus Text (if flagpocketfriendly = true): Pocket appears at the castle, having followed Sir Reginald. He is appointed "Royal Acquisitions Specialist" (the missing silverware is never discussed).
+Bonus Text (if flagpocketfriendly = true): Pocket appears at the castle, having followed Sir Albert. He is appointed "Royal Acquisitions Specialist" (the missing silverware is never discussed).
 
 Bonus Text (if flagmildredhelped = true): Mildred receives an invitation to the castle as a guest of honor. She attends, complains about the seating, and secretly enjoys herself immensely.
 
@@ -1946,9 +1946,9 @@ Pudding obtained (any method)
 
 NOT flagpuddingrespected = true OR flagpuddinggrabbed = true
 
-Description: Sir Reginald returns with the Pudding of Perpetual Wobble, though the journey has been... complicated. The Pudding wobbles with dignified resentment throughout the banquet, telepathically projecting mild disappointment at anyone who makes eye contact. The dignitaries from Pomponia are impressed by the dessert but unsettled by its judgmental quivering. King Mundane IV declares the quest "adequately completed" and awards Sir Reginald a certificate of participation. The Pudding returns to the tower afterward, having made its opinions about the experience very clear. Sir Reginald's reputation improves slightly; he is now known as "the knight who retrieved the Pudding" rather than "the knight who set a lake on fire." Progress.
+Description: Sir Albert returns with the Pudding of Perpetual Wobble, though the journey has been... complicated. The Pudding wobbles with dignified resentment throughout the banquet, telepathically projecting mild disappointment at anyone who makes eye contact. The dignitaries from Pomponia are impressed by the dessert but unsettled by its judgmental quivering. King Mundane IV declares the quest "adequately completed" and awards Sir Albert a certificate of participation. The Pudding returns to the tower afterward, having made its opinions about the experience very clear. Sir Albert's reputation improves slightly; he is now known as "the knight who retrieved the Pudding" rather than "the knight who set a lake on fire." Progress.
 
-Penalty Text (if flagpuddinggrabbed = true): The Pudding makes the return journey as difficult as possible, wobbling at inopportune moments and causing three separate incidents involving stairs. Sir Reginald arrives at the banquet covered in mysterious stains.
+Penalty Text (if flagpuddinggrabbed = true): The Pudding makes the return journey as difficult as possible, wobbling at inopportune moments and causing three separate incidents involving stairs. Sir Albert arrives at the banquet covered in mysterious stains.
 
 ---
 
@@ -1962,7 +1962,7 @@ Requirements:
 
 Player Stamina reaches 0
 
-Description: Sir Reginald's quest ends not with glory, but with unconsciousness. Whether felled by an animated broom, a treacherous climb, or simply too many unfortunate incidents accumulated over the journey, the knight collapses in an undignified heap. He awakens later in the castle infirmary, having been discovered by Mildred (who found the whole situation "tediously predictable") and returned home via magical means. The Annual Royal Banquet proceeds without the legendary Pudding. Ordinary dessert is served. The dignitaries from Pomponia are politely unimpressed. King Mundane IV adds a forty-eighth volume to his collection of "mild disappointments." Sir Reginald's reputation does not improve, but at least he has another story for his journal of mishaps. There is always next year.
+Description: Sir Albert's quest ends not with glory, but with unconsciousness. Whether felled by an animated broom, a treacherous climb, or simply too many unfortunate incidents accumulated over the journey, the knight collapses in an undignified heap. He awakens later in the castle infirmary, having been discovered by Mildred (who found the whole situation "tediously predictable") and returned home via magical means. The Annual Royal Banquet proceeds without the legendary Pudding. Ordinary dessert is served. The dignitaries from Pomponia are politely unimpressed. King Mundane IV adds a forty-eighth volume to his collection of "mild disappointments." Sir Albert's reputation does not improve, but at least he has another story for his journal of mishaps. There is always next year.
 
 ---
 
@@ -1980,7 +1980,7 @@ Failed all negotiation attempts
 
 Did not grab Pudding
 
-Description: The Pudding of Perpetual Wobble, ancient and dignified, has rendered its judgment: No. Sir Reginald is not worthy. Not because he lacks virtue, the Pudding clarifies, but because he lacks the patience to truly understand a sentient dessert's perspective. Sir Reginald returns to the castle empty-handed. The Annual Royal Banquet features ordinary pudding, which does not wobble and has no opinions. The dignitaries from Pomponia are politely scathing. King Mundane IV sighs for a full minute without interruption. Sir Reginald is not punished (King Mundane lacks the energy for punishment) but is assigned to "inventory duty" for the foreseeable future. In his journal, Sir Reginald writes: "Note to self: puddings have feelings. Who knew?" He vows to return someday, better prepared, more patient. The Pudding, observing this resolution through means unknown, wobbles with something that might be hope.
+Description: The Pudding of Perpetual Wobble, ancient and dignified, has rendered its judgment: No. Sir Albert is not worthy. Not because he lacks virtue, the Pudding clarifies, but because he lacks the patience to truly understand a sentient dessert's perspective. Sir Albert returns to the castle empty-handed. The Annual Royal Banquet features ordinary pudding, which does not wobble and has no opinions. The dignitaries from Pomponia are politely scathing. King Mundane IV sighs for a full minute without interruption. Sir Albert is not punished (King Mundane lacks the energy for punishment) but is assigned to "inventory duty" for the foreseeable future. In his journal, Sir Albert writes: "Note to self: puddings have feelings. Who knew?" He vows to return someday, better prepared, more patient. The Pudding, observing this resolution through means unknown, wobbles with something that might be hope.
 
 ---
 
@@ -1994,7 +1994,7 @@ Requirements:
 
 Player chose to abandon quest and stay with the Pudding in sec09
 
-Description: Sir Reginald makes an unexpected choice. Rather than complete the quest, he offers to stay in the tower and keep the Pudding company. The Pudding, which has existed for five hundred years without anyone making such an offer, wobbles with unprecedented emotion. "That," it conveys telepathically, "is the kindest thing anyone has ever said to me." Sir Reginald becomes the Tower of Minor Inconveniences' newest resident. He learns philosophy from the Pudding, shares meals with Mildred (who finds him "slightly less tedious than expected"), and even befriends Gerald (who upgrades his assessment to "acceptable"). Pocket steals his belongings regularly, but always returns them. Meanwhile, in Blandovia, the banquet proceeds with ordinary dessert. King Mundane IV is mildly disappointed but also mildly relieved (heroic quests are exhausting to administrate). Sir Reginald's official status becomes "on extended assignment." Unofficially, everyone knows he has found something more valuable than a successful quest: a place where being catastrophically clumsy and unfailingly kind is exactly enough.
+Description: Sir Albert makes an unexpected choice. Rather than complete the quest, he offers to stay in the tower and keep the Pudding company. The Pudding, which has existed for five hundred years without anyone making such an offer, wobbles with unprecedented emotion. "That," it conveys telepathically, "is the kindest thing anyone has ever said to me." Sir Albert becomes the Tower of Minor Inconveniences' newest resident. He learns philosophy from the Pudding, shares meals with Mildred (who finds him "slightly less tedious than expected"), and even befriends Gerald (who upgrades his assessment to "acceptable"). Pocket steals his belongings regularly, but always returns them. Meanwhile, in Blandovia, the banquet proceeds with ordinary dessert. King Mundane IV is mildly disappointed but also mildly relieved (heroic quests are exhausting to administrate). Sir Albert's official status becomes "on extended assignment." Unofficially, everyone knows he has found something more valuable than a successful quest: a place where being catastrophically clumsy and unfailingly kind is exactly enough.
 
 Bonus Text: Years later, visitors to the tower report seeing a tall, gangly figure in ill-fitting armor bumping into furniture and apologizing to it, while a magnificent pudding wobbles approvingly nearby.
 
@@ -2134,7 +2134,7 @@ king_mundane (quest giver, delivers briefing)
 
 herald_pip (provides equipment, announces)
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 ---
 
@@ -2142,9 +2142,9 @@ SCENE STRUCTURE:
 
 Opening:
 
-Herald Pip announces Sir Reginald's summons to the Great Hall
+Herald Pip announces Sir Albert's summons to the Great Hall
 
-Sir Reginald enters, armor clanking, nearly collides with suit of armor
+Sir Albert enters, armor clanking, nearly collides with suit of armor
 
 Establish comedic tone through physical description and internal monologue
 
@@ -2158,11 +2158,11 @@ The Pudding of Perpetual Wobble must be retrieved from the Tower of Minor Inconv
 
 During the explanation, a butterfly enters through a window
 
-Sir Reginald becomes distracted by the butterfly
+Sir Albert becomes distracted by the butterfly
 
 The King continues obliviously
 
-Sir Reginald misses most critical details
+Sir Albert misses most critical details
 
 Resolution:
 
@@ -2170,7 +2170,7 @@ King concludes briefing
 
 Herald Pip provides starting equipment
 
-Sir Reginald must decide how to proceed
+Sir Albert must decide how to proceed
 
 Player choice determines whether quest details are understood
 
@@ -2178,7 +2178,7 @@ Player choice determines whether quest details are understood
 
 NARRATIVE BEATS:
 
-Establish Sir Reginald's character (clumsy, well-meaning, apologetic)
+Establish Sir Albert's character (clumsy, well-meaning, apologetic)
 
 Establish King Mundane's character (boring, droning, committed to tedium)
 
@@ -2216,7 +2216,7 @@ Tests: None
 
 Consequences: SET flag_quest_understood = true
 
-Flavor: Sir Reginald takes the time to actually read the instructions
+Flavor: Sir Albert takes the time to actually read the instructions
 
 Target: sec02meadow_crossroads
 
@@ -2228,7 +2228,7 @@ Tests: None
 
 Consequences: flag_quest_understood remains false
 
-Flavor: Sir Reginald pretends he understood everything
+Flavor: Sir Albert pretends he understood everything
 
 Target: sec02meadow_crossroads
 
@@ -2276,19 +2276,19 @@ The King's droning voice should be conveyed through prose rhythm
 
 The butterfly distraction should be sympathetic, not mocking
 
-Sir Reginald's inner thoughts show his genuine desire to succeed
+Sir Albert's inner thoughts show his genuine desire to succeed
 
 ---
 
 CONTINUITY NOTES:
 
-Establish that Sir Reginald was knighted by accident (the sneezing incident)
+Establish that Sir Albert was knighted by accident (the sneezing incident)
 
 Reference the lake fire incident in passing
 
-The servants know to stand clear of Sir Reginald
+The servants know to stand clear of Sir Albert
 
-Herald Pip admires Sir Reginald for unclear reasons
+Herald Pip admires Sir Albert for unclear reasons
 
 The quest scroll contains actual useful information if consulted
 
@@ -2308,25 +2308,25 @@ NARRATIVE:
 
 The Great Hall of Blandovia's Royal Castle was precisely as magnificent as its name suggested, which is to say, not particularly. Grey stones formed walls of aggressive ordinariness. Beige banners hung from rafters with the enthusiasm of laundry left too long on the line. The throne at the far end wobbled slightly on its dais, a structural flaw that had persisted for forty years because fixing it would require someone to care.
 
-Sir Reginald Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.
+Sir Albert Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.
 
 "Sorry," he whispered to the table. "Terribly sorry."
 
 The servants along the walls had already positioned themselves at safe distances. They had learned.
 
-"HEAR YE, HEAR YE!" Herald Pip's voice cracked magnificently on the second "ye," climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. "His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Reginald Bumblethwaite to receive a quest of... um..." He squinted at the scroll. "Moderate importance!"
+"HEAR YE, HEAR YE!" Herald Pip's voice cracked magnificently on the second "ye," climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. "His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Albert Bumblethwaite to receive a quest of... um..." He squinted at the scroll. "Moderate importance!"
 
 King Mundane IV sat upon his wobbling throne, a portly figure whose magnificent beard bore the evidence of that morning's breakfast (eggs, possibly with toast). His crown sat askew on his somewhat lopsided head, and his expression suggested he had already grown tired of this ceremony before it began.
 
-"Ah, yes. Sir Reginald." The King's voice emerged in a monotone that could cure insomnia at twenty paces. "You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good."
+"Ah, yes. Sir Albert." The King's voice emerged in a monotone that could cure insomnia at twenty paces. "You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good."
 
-Sir Reginald positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.
+Sir Albert positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.
 
 "Now then," King Mundane continued, his words flowing with all the urgency of cold porridge, "as you may be aware, the Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. They are, as you know, insufferably snobbish about everything, particularly dessert. We require the legendary Pudding of Perpetual Wobble."
 
 It was at this precise moment that a butterfly entered through a high window.
 
-It was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Reginald found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall.
+It was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Albert found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall.
 
 Such graceful movement, he thought. Such carefree existence. No one ever asked butterflies to prove themselves worthy of being butterflies. They simply were butterflies, and that was enough.
 
@@ -2334,17 +2334,17 @@ Such graceful movement, he thought. Such carefree existence. No one ever asked b
 
 The butterfly executed a particularly elegant loop near a chandelier.
 
-Magnificent, Sir Reginald thought.
+Magnificent, Sir Albert thought.
 
 "...diplomatic catastrophe requiring extensive paperwork. The Pudding itself is said to be sentient, with opinions about philosophy and proper treatment. You must approach it with respect and patience, qualities which I am told you possess in... some quantity. Any questions?"
 
 The butterfly exited through another window.
 
-Sir Reginald blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.
+Sir Albert blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.
 
-"Questions, Sir Reginald?" the King repeated.
+"Questions, Sir Albert?" the King repeated.
 
-"No, Your Majesty!" Sir Reginald snapped to attention so quickly that his armor clanked like an enthusiastic gong. "Perfectly clear! Pudding! Tower! Banquet! Consider it done!"
+"No, Your Majesty!" Sir Albert snapped to attention so quickly that his armor clanked like an enthusiastic gong. "Perfectly clear! Pudding! Tower! Banquet! Consider it done!"
 
 He had absolutely no idea what he had just agreed to.
 
@@ -2352,39 +2352,39 @@ King Mundane IV regarded him with an expression that might have been skepticism,
 
 "The lake was not entirely my fault, Your Majesty."
 
-"The lake was made of water, Sir Reginald. Water. And you set it on fire."
+"The lake was made of water, Sir Albert. Water. And you set it on fire."
 
 "Only briefly!"
 
 The King waved a weary hand. "Go. Complete this quest. Return with the Pudding. Do not set anything on fire, including but not limited to bodies of water, diplomatic gifts, or innocent livestock."
 
-Sir Reginald bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.
+Sir Albert bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.
 
-"Sorry," Sir Reginald said to the servant, collecting his helmet. "Terribly sorry."
+"Sorry," Sir Albert said to the servant, collecting his helmet. "Terribly sorry."
 
-Herald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young herald's eyes shone with genuine excitement. "Sir Reginald! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!"
+Herald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young herald's eyes shone with genuine excitement. "Sir Albert! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!"
 
 "That is very kind, Pip, but perhaps not necessary..."
 
 "Your sword, sir!" Pip presented a blade that had clearly seen better days, worse days, and days it preferred not to discuss. The rust formed patterns that might, generously, be called decorative. "A weapon of considerable... character!"
 
-Sir Reginald accepted his rusty sword, which made an apologetic sound as he sheathed it.
+Sir Albert accepted his rusty sword, which made an apologetic sound as he sheathed it.
 
-"Your shield!" The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Reginald would prefer remained untold.
+"Your shield!" The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Albert would prefer remained untold.
 
 "Your official Quest Scroll, bearing the Royal Seal and complete details of your mission!" Pip handed over a rolled parchment with evident pride.
 
-Sir Reginald tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?
+Sir Albert tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?
 
 "And finally, sir, a packed lunch from the Royal Kitchens!" Pip presented a cloth bundle with unusual tenderness. "The kitchen staff asked me to give you this note."
 
-Sir Reginald unfolded the small piece of paper. It read: "Please try not to die, Sir Reginald. You're the only knight who thanks us."
+Sir Albert unfolded the small piece of paper. It read: "Please try not to die, Sir Albert. You're the only knight who thanks us."
 
 Something warm bloomed in his chest. He carefully tucked the lunch and the note into his pack.
 
 "Is there anything else you require, sir?" Pip asked. "I could repeat the quest details, if you like. I was listening very carefully. Well, mostly carefully. The King's voice does rather make one drowsy, does it not? But I caught most of it, I think. The important bits, anyway."
 
-Sir Reginald looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.
+Sir Albert looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.
 
 After all, how complicated could retrieving a pudding possibly be?
 
@@ -2394,7 +2394,7 @@ CHOICES:
 
 CHOICE 1: Read the quest scroll carefully before departing
 
-"Actually, Pip, give me just a moment." Sir Reginald retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. Useful information, that.
+"Actually, Pip, give me just a moment." Sir Albert retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. Useful information, that.
 
 Requirements: None
 
@@ -2410,7 +2410,7 @@ Target: sec02_meadow_crossroads
 
 CHOICE 2: Nod confidently and depart without reading the scroll
 
-"No need, Pip! Onward to glory!" Sir Reginald strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Reginald has no doubts whatsoever.
+"No need, Pip! Onward to glory!" Sir Albert strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Albert has no doubts whatsoever.
 
 He has no information, either, but that seems less important at the moment.
 
@@ -2430,19 +2430,19 @@ CHOICE 3: Ask Herald Pip to repeat the quest details
 
 "Actually, Pip, I wonder if you might... that is to say, the King's voice is rather... could you perhaps summarize what I have agreed to do?"
 
-Pip's face lights up with importance. "Of course, Sir Reginald! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and..."
+Pip's face lights up with importance. "Of course, Sir Albert! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and..."
 
 Requirements: None
 
 Tests: PATIENCE test (target 6)
 
-Success: Pip manages to convey the essential information despite his voice cracking three times. Sir Reginald learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. This seems like important context.
+Success: Pip manages to convey the essential information despite his voice cracking three times. Sir Albert learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. This seems like important context.
 
 SET flag_quest_understood = true
 
 Gain hint: "The Pudding apparently has opinions about being treated as mere dessert. Approach with respect."
 
-Failure: Pip's voice cracks so spectacularly on the word "sentient" that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Sir Reginald nods along, understanding less with each passing moment.
+Failure: Pip's voice cracks so spectacularly on the word "sentient" that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Sir Albert nods along, understanding less with each passing moment.
 
 flag_quest_understood remains false
 
@@ -2486,7 +2486,7 @@ The Great Hall description matches locroyalcastle world data
 
 The wobbling throne is established (referenced in world data)
 
-Servants standing at safe distances is consistent with Sir Reginald's character background
+Servants standing at safe distances is consistent with Sir Albert's character background
 
 The butterfly distraction is the central comedic beat and works well
 
@@ -2520,11 +2520,11 @@ Oversized uniform: Mentioned
 
 Excessive enthusiasm: Clearly shown
 
-Admiration for Sir Reginald: Demonstrated
+Admiration for Sir Albert: Demonstrated
 
 Consulting scroll: Mentioned
 
-sir_reginald:
+sir_albert:
 
 Clumsiness: Multiple physical comedy moments (armor clanking, helmet falling, near-collision)
 
@@ -2564,7 +2564,7 @@ Notes:
 
 Opening establishes setting efficiently
 
-Sir Reginald's entrance provides immediate physical comedy
+Sir Albert's entrance provides immediate physical comedy
 
 King's briefing maintains comedic momentum through interruption device (butterfly)
 
@@ -2820,7 +2820,7 @@ Choice 3 hint text could be slightly more specific about what "patience and resp
 
 REVISION RECOMMENDATIONS:
 
-Expand butterfly moment slightly (one additional sentence of Sir Reginald's internal thought)
+Expand butterfly moment slightly (one additional sentence of Sir Albert's internal thought)
 
 Make Choice 3 success hint more explicit about mechanical advantage
 
@@ -2848,7 +2848,7 @@ SECTION_TITLE: A Quest Most Confusing
 
 LOCATION: locroyalcastle
 
-CHARACTERS_PRESENT: king_mundane, herald_pip, sir_reginald
+CHARACTERS_PRESENT: king_mundane, herald_pip, sir_albert
 
 ---
 
@@ -2856,41 +2856,41 @@ NARRATIVE:
 
 The Great Hall of Blandovia's Royal Castle was precisely as magnificent as its name suggested, which is to say, not particularly. Grey stones formed walls of aggressive ordinariness. Beige banners hung from rafters with the enthusiasm of laundry left too long on the line. The throne at the far end wobbled slightly on its dais, a structural flaw that had persisted for forty years because fixing it would require someone to care.
 
-Sir Reginald Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.
+Sir Albert Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.
 
 "Sorry," he whispered to the table. "Terribly sorry."
 
 The servants along the walls had already positioned themselves at safe distances. They had learned.
 
-"HEAR YE, HEAR YE!" Herald Pip's voice cracked magnificently on the second "ye," climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. "His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Reginald Bumblethwaite to receive a quest of... um..." He squinted at the scroll. "Moderate importance!"
+"HEAR YE, HEAR YE!" Herald Pip's voice cracked magnificently on the second "ye," climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. "His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Albert Bumblethwaite to receive a quest of... um..." He squinted at the scroll. "Moderate importance!"
 
 King Mundane IV sat upon his wobbling throne, a portly figure whose magnificent beard bore the evidence of that morning's breakfast (eggs, possibly with toast). His crown sat askew on his somewhat lopsided head, and his expression suggested he had already grown tired of this ceremony before it began.
 
-"Ah, yes. Sir Reginald." The King's voice emerged in a monotone that could cure insomnia at twenty paces. "You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good."
+"Ah, yes. Sir Albert." The King's voice emerged in a monotone that could cure insomnia at twenty paces. "You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good."
 
-Sir Reginald positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.
+Sir Albert positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.
 
 "Now then," King Mundane continued, his words flowing with all the urgency of cold porridge, "as you may be aware, the Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. They are, as you know, insufferably snobbish about everything, particularly dessert. We require the legendary Pudding of Perpetual Wobble."
 
 It was at this precise moment that a butterfly entered through a high window.
 
-It was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Reginald found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall. Such graceful movement, he thought. Such carefree existence. No one ever asked butterflies to prove themselves worthy of being butterflies. They simply were butterflies, and that was enough. He wondered, briefly, what it would be like to drift through life without the weight of armor, expectations, or the memory of that unfortunate lake incident.
+It was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Albert found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall. Such graceful movement, he thought. Such carefree existence. No one ever asked butterflies to prove themselves worthy of being butterflies. They simply were butterflies, and that was enough. He wondered, briefly, what it would be like to drift through life without the weight of armor, expectations, or the memory of that unfortunate lake incident.
 
 "...located in the Tower of Minor Inconveniences, which lies beyond the Meadow of Slightly Damp Grass," the King droned on. "The tower is guarded by various creatures who will find you mildly irritating. You must retrieve the Pudding and return before sunset on the day of the banquet, or we shall be forced to serve ordinary dessert, which would be..."
 
 The butterfly executed a particularly elegant loop near a chandelier.
 
-Magnificent, Sir Reginald thought.
+Magnificent, Sir Albert thought.
 
 "...diplomatic catastrophe requiring extensive paperwork. The Pudding itself is said to be sentient, with opinions about philosophy and proper treatment. You must approach it with respect and patience, qualities which I am told you possess in... some quantity. Any questions?"
 
 The butterfly exited through another window.
 
-Sir Reginald blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.
+Sir Albert blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.
 
-"Questions, Sir Reginald?" the King repeated.
+"Questions, Sir Albert?" the King repeated.
 
-"No, Your Majesty!" Sir Reginald snapped to attention so quickly that his armor clanked like an enthusiastic gong. "Perfectly clear! Pudding! Tower! Banquet! Consider it done!"
+"No, Your Majesty!" Sir Albert snapped to attention so quickly that his armor clanked like an enthusiastic gong. "Perfectly clear! Pudding! Tower! Banquet! Consider it done!"
 
 He had absolutely no idea what he had just agreed to.
 
@@ -2898,39 +2898,39 @@ King Mundane IV regarded him with an expression that might have been skepticism,
 
 "The lake was not entirely my fault, Your Majesty."
 
-"The lake was made of water, Sir Reginald. Water. And you set it on fire."
+"The lake was made of water, Sir Albert. Water. And you set it on fire."
 
 "Only briefly!"
 
 The King waved a weary hand. "Go. Complete this quest. Return with the Pudding. Do not set anything on fire, including but not limited to bodies of water, diplomatic gifts, or innocent livestock."
 
-Sir Reginald bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.
+Sir Albert bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.
 
-"Sorry," Sir Reginald said to the servant, collecting his helmet. "Terribly sorry."
+"Sorry," Sir Albert said to the servant, collecting his helmet. "Terribly sorry."
 
-Herald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young herald's eyes shone with genuine excitement. "Sir Reginald! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!"
+Herald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young herald's eyes shone with genuine excitement. "Sir Albert! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!"
 
 "That is very kind, Pip, but perhaps not necessary..."
 
 "Your sword, sir!" Pip presented a blade that had clearly seen better days, worse days, and days it preferred not to discuss. The rust formed patterns that might, generously, be called decorative. "A weapon of considerable... character!"
 
-Sir Reginald accepted his rusty sword, which made an apologetic sound as he sheathed it.
+Sir Albert accepted his rusty sword, which made an apologetic sound as he sheathed it.
 
-"Your shield!" The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Reginald would prefer remained untold.
+"Your shield!" The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Albert would prefer remained untold.
 
 "Your official Quest Scroll, bearing the Royal Seal and complete details of your mission!" Pip handed over a rolled parchment with evident pride.
 
-Sir Reginald tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?
+Sir Albert tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?
 
 "And finally, sir, a packed lunch from the Royal Kitchens!" Pip presented a cloth bundle with unusual tenderness. "The kitchen staff asked me to give you this note."
 
-Sir Reginald unfolded the small piece of paper. It read: "Please try not to die, Sir Reginald. You're the only knight who thanks us."
+Sir Albert unfolded the small piece of paper. It read: "Please try not to die, Sir Albert. You're the only knight who thanks us."
 
 Something warm bloomed in his chest. He carefully tucked the lunch and the note into his pack.
 
 "Is there anything else you require, sir?" Pip asked. "I could repeat the quest details, if you like. I was listening very carefully. Well, mostly carefully. The King's voice does rather make one drowsy, does it not? But I caught most of it, I think. The important bits, anyway."
 
-Sir Reginald looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.
+Sir Albert looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.
 
 After all, how complicated could retrieving a pudding possibly be?
 
@@ -2956,7 +2956,7 @@ ID: choice_read_scroll
 
 TEXT: Read the quest scroll carefully before departing
 
-FLAVOR: "Actually, Pip, give me just a moment." Sir Reginald retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. This seems like important information.
+FLAVOR: "Actually, Pip, give me just a moment." Sir Albert retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. This seems like important information.
 
 REQUIREMENTS: None
 
@@ -2982,7 +2982,7 @@ ID: choice_depart_confident
 
 TEXT: Nod confidently and depart without reading the scroll
 
-FLAVOR: "No need, Pip! Onward to glory!" Sir Reginald strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Reginald has no doubts whatsoever. He has no information, either, but that seems less important at the moment.
+FLAVOR: "No need, Pip! Onward to glory!" Sir Albert strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Albert has no doubts whatsoever. He has no information, either, but that seems less important at the moment.
 
 REQUIREMENTS: None
 
@@ -3008,7 +3008,7 @@ ID: choice_ask_pip
 
 TEXT: Ask Herald Pip to repeat the quest details
 
-FLAVOR: "Actually, Pip, I wonder if you might... that is to say, the King's voice is rather... could you perhaps summarize what I have agreed to do?" Pip's face lights up with importance. "Of course, Sir Reginald! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and..."
+FLAVOR: "Actually, Pip, I wonder if you might... that is to say, the King's voice is rather... could you perhaps summarize what I have agreed to do?" Pip's face lights up with importance. "Of course, Sir Albert! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and..."
 
 REQUIREMENTS: None
 
@@ -3022,7 +3022,7 @@ DIFFICULTY: Easy
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Pip manages to convey the essential information despite his voice cracking three times. Sir Reginald learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. "The Pudding apparently considers itself more than mere dessert," Pip explains. "Approach with respect, and it may cooperate willingly." This seems like vital context for the quest ahead.
+NARRATIVE: Pip manages to convey the essential information despite his voice cracking three times. Sir Albert learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. "The Pudding apparently considers itself more than mere dessert," Pip explains. "Approach with respect, and it may cooperate willingly." This seems like vital context for the quest ahead.
 
 CONSEQUENCES:
 
@@ -3032,7 +3032,7 @@ HINT_GAINED: "The Pudding is sentient and responds to patience and genuine respe
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Pip's voice cracks so spectacularly on the word "sentient" that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Something about wobbling? Philosophical desserts? Sir Reginald nods along, understanding less with each passing moment. Eventually Pip trails off, looking slightly embarrassed, and Sir Reginald decides he has probably gathered the gist of it.
+NARRATIVE: Pip's voice cracks so spectacularly on the word "sentient" that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Something about wobbling? Philosophical desserts? Sir Albert nods along, understanding less with each passing moment. Eventually Pip trails off, looking slightly embarrassed, and Sir Albert decides he has probably gathered the gist of it.
 
 CONSEQUENCES:
 
@@ -3098,7 +3098,7 @@ Location: loc_meadow
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 Ambient sheep (non-interactive, atmospheric)
 
@@ -3108,13 +3108,13 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald departs the castle and enters the Meadow of Slightly Damp Grass
+Sir Albert departs the castle and enters the Meadow of Slightly Damp Grass
 
 Establish the landscape: neither wet nor dry, aggressively mediocre
 
 The sky is described as dishwater grey
 
-Sir Reginald's armor squelches slightly from the damp
+Sir Albert's armor squelches slightly from the damp
 
 Middle:
 
@@ -3148,11 +3148,11 @@ Establish Blandovia's commitment to mediocrity through landscape description
 
 The Inconvenient Stream as comedic obstacle (has a perfectly good bridge)
 
-Sir Reginald's internal optimism despite unpromising surroundings
+Sir Albert's internal optimism despite unpromising surroundings
 
 The vandalized signpost as world-building (even vandals here are half-hearted)
 
-Sheep as silent judges of Sir Reginald's quest
+Sheep as silent judges of Sir Albert's quest
 
 The Resting Stone as optional discovery point
 
@@ -3176,7 +3176,7 @@ Tests: None
 
 Consequences: SET flag_grumbleton_visited = true
 
-Flavor: Sir Reginald decides local knowledge might prove useful
+Flavor: Sir Albert decides local knowledge might prove useful
 
 Target: sec03_grumbleton_village
 
@@ -3188,7 +3188,7 @@ Tests: None
 
 Consequences: No flag changes, no time pressure (direct route)
 
-Flavor: Sir Reginald presses onward with knightly determination
+Flavor: Sir Albert presses onward with knightly determination
 
 Target: sec04_tower_entrance
 
@@ -3216,7 +3216,7 @@ Success: Cross with a mighty leap, impress a watching sheep, continue to path ch
 
 Failure: Fall in stream, LOSE 1 Stamina, armor makes embarrassing squelching sounds
 
-Flavor: The bridge is RIGHT THERE but Sir Reginald feels heroic
+Flavor: The bridge is RIGHT THERE but Sir Albert feels heroic
 
 Target: Player chooses sec03_grumbleton_village or sec04_tower_entrance after resolution
 
@@ -3250,7 +3250,7 @@ Sheep are silent comedic observers
 
 The stream crossing option satirizes heroic fantasy tropes
 
-Sir Reginald's optimism contrasts with dreary landscape
+Sir Albert's optimism contrasts with dreary landscape
 
 The signpost vandalism shows even troublemakers lack enthusiasm here
 
@@ -3262,7 +3262,7 @@ CONTINUITY NOTES:
 
 Reference the quest (Pudding, Tower, Banquet) based on flag_quest_understood
 
-Sir Reginald's armor should still be clanking
+Sir Albert's armor should still be clanking
 
 If Choice 4 fails, the squelching armor becomes a running detail
 
@@ -3278,9 +3278,9 @@ Set up Tower as visible in distance
 
 CONDITIONAL DIALOGUE:
 
-If flag_quest_understood = true: Sir Reginald thinks about the sentient Pudding and what "respect" might mean
+If flag_quest_understood = true: Sir Albert thinks about the sentient Pudding and what "respect" might mean
 
-If flag_quest_understood = false: Sir Reginald wonders vaguely what a "Pudding of Perpetual Wobble" actually is
+If flag_quest_understood = false: Sir Albert wonders vaguely what a "Pudding of Perpetual Wobble" actually is
 
 [/SECTION_PLAN]
 
@@ -3296,23 +3296,23 @@ Section Title: The Crossroads of Mild Inconvenience
 
 NARRATIVE:
 
-The Meadow of Slightly Damp Grass stretched before Sir Reginald like a promise of absolutely nothing in particular. The grass was, as advertised, slightly damp. Not wet enough to squelch dramatically underfoot, not dry enough for comfortable sitting. It existed in a state of determined mediocrity that seemed almost aggressive in its commitment to being unremarkable.
+The Meadow of Slightly Damp Grass stretched before Sir Albert like a promise of absolutely nothing in particular. The grass was, as advertised, slightly damp. Not wet enough to squelch dramatically underfoot, not dry enough for comfortable sitting. It existed in a state of determined mediocrity that seemed almost aggressive in its commitment to being unremarkable.
 
 The sky above matched the landscape's ambition, presenting itself in a shade best described as "old dishwater" or perhaps "the color of mild disappointment." Somewhere in the distance, a bird made a sound that might have been singing but was probably just complaining.
 
-Sir Reginald's armor clanked companionably as he walked, the sound startling a sheep that had been grazing nearby. The sheep looked up, regarded Sir Reginald with an expression of profound existential weariness, and returned to its grass. It had seen knights before. It had not been impressed then, either.
+Sir Albert's armor clanked companionably as he walked, the sound startling a sheep that had been grazing nearby. The sheep looked up, regarded Sir Albert with an expression of profound existential weariness, and returned to its grass. It had seen knights before. It had not been impressed then, either.
 
-"Lovely day for a quest," Sir Reginald announced to no one in particular.
+"Lovely day for a quest," Sir Albert announced to no one in particular.
 
 The sheep did not respond. Several of its companions looked up briefly, their collective gaze suggesting that they had opinions about the definition of "lovely" but could not be bothered to share them.
 
-Sir Reginald pressed onward, his spirits remarkably undiminished by the oppressive ordinariness of his surroundings. The packed lunch from the kitchen staff sat safely in his pack, and ahead lay adventure. Or at least, something that might eventually become adventure if approached with sufficient optimism.
+Sir Albert pressed onward, his spirits remarkably undiminished by the oppressive ordinariness of his surroundings. The packed lunch from the kitchen staff sat safely in his pack, and ahead lay adventure. Or at least, something that might eventually become adventure if approached with sufficient optimism.
 
 The first obstacle presented itself in the form of the Inconvenient Stream.
 
 It was not a particularly impressive stream. Perhaps three feet across at its widest point, with water that burbled along at a pace suggesting it had somewhere to be but was in no particular hurry to get there. A perfectly serviceable wooden bridge crossed it at a sensible point, complete with handrails and everything.
 
-Sir Reginald stopped at the stream's edge, considering his options.
+Sir Albert stopped at the stream's edge, considering his options.
 
 The bridge was right there. Sturdy. Safe. Practical. The sort of bridge that responsible knights used when they wanted to arrive at their destinations without incident.
 
@@ -3320,33 +3320,33 @@ But there was something about the way the water sparkled in the dishwater light.
 
 A sheep nearby made a sound that might have been skeptical.
 
-"I am a knight," Sir Reginald said to the sheep. "Knights do not always take the easy path."
+"I am a knight," Sir Albert said to the sheep. "Knights do not always take the easy path."
 
 The sheep continued chewing, radiating doubt.
 
 Beyond the stream, the path split at a crossroads marked by a signpost that had clearly seen better days. Someone had vandalized it at some point, though even the vandalism seemed half-hearted. One sign had been turned to point at the ground. Another indicated a direction that would require the traveler to walk through a solid boulder. A third simply read "ELSEWHERE" in letters that suggested the vandal had grown bored halfway through.
 
-Sir Reginald squinted at the signs, trying to make sense of them. One arm, relatively unmolested, pointed leftward with the word "GRUMBLETON" carved into it. Another, pointing rightward, bore the words "TOWER OF MINOR INCONVENIENCES" along with a small carved symbol that might have been a pudding or might have been a hat. It was difficult to tell.
+Sir Albert squinted at the signs, trying to make sense of them. One arm, relatively unmolested, pointed leftward with the word "GRUMBLETON" carved into it. Another, pointing rightward, bore the words "TOWER OF MINOR INCONVENIENCES" along with a small carved symbol that might have been a pudding or might have been a hat. It was difficult to tell.
 
 Past the crossroads, the Tower itself was visible on the horizon. It rose from the landscape like an architectural apology, neither tall enough to be imposing nor short enough to be quaint. Even from this distance, it radiated a sense of vague disappointment.
 
-To the left, smoke rose from what must be Grumbleton Village. Sir Reginald had heard of Grumbleton. Everyone had heard of Grumbleton, mostly because Grumbleton residents made a point of telling everyone how Grumbleton had been overlooked, underappreciated, and generally treated poorly by the universe at large.
+To the left, smoke rose from what must be Grumbleton Village. Sir Albert had heard of Grumbleton. Everyone had heard of Grumbleton, mostly because Grumbleton residents made a point of telling everyone how Grumbleton had been overlooked, underappreciated, and generally treated poorly by the universe at large.
 
-Near the crossroads, set back from the path, a large flat stone caught Sir Reginald's eye. It was the sort of stone that invited sitting, carved by time and weather into a comfortable natural seat. Moss grew on its northern face, and something glinted near its base where the Inconvenient Stream had deposited various treasures during spring floods.
+Near the crossroads, set back from the path, a large flat stone caught Sir Albert's eye. It was the sort of stone that invited sitting, carved by time and weather into a comfortable natural seat. Moss grew on its northern face, and something glinted near its base where the Inconvenient Stream had deposited various treasures during spring floods.
 
 The sheep had lost interest entirely and wandered off to join its companions in a patch of grass that was presumably slightly less damp than the surrounding grass, though the difference was imperceptible to the untrained eye.
 
-Sir Reginald stood at the crossroads of mild inconvenience, contemplating his options. He could make directly for the Tower and his quest. He could detour through Grumbleton, where local knowledge might prove useful. He could investigate the Resting Stone and whatever glinted beside it. Or he could prove his knightly prowess by leaping heroically across the stream that the bridge crossed perfectly adequately.
+Sir Albert stood at the crossroads of mild inconvenience, contemplating his options. He could make directly for the Tower and his quest. He could detour through Grumbleton, where local knowledge might prove useful. He could investigate the Resting Stone and whatever glinted beside it. Or he could prove his knightly prowess by leaping heroically across the stream that the bridge crossed perfectly adequately.
 
 The quest awaited. The Pudding of Perpetual Wobble sat in its tower, wobbling perpetually, unaware that a catastrophically well-meaning knight was coming to retrieve it.
 
 If flagquestunderstood = true:
 
-Sir Reginald thought about what he had learned from the Quest Scroll. The Pudding was sentient. It had opinions. It responded to patience and respect. Perhaps gathering information before confronting such a creature would be wise. Villages had information. Villagers talked, especially if those villagers were from Grumbleton, where complaining was the primary form of communication.
+Sir Albert thought about what he had learned from the Quest Scroll. The Pudding was sentient. It had opinions. It responded to patience and respect. Perhaps gathering information before confronting such a creature would be wise. Villages had information. Villagers talked, especially if those villagers were from Grumbleton, where complaining was the primary form of communication.
 
 If flagquestunderstood = false:
 
-Sir Reginald wondered, not for the first time, what exactly a "Pudding of Perpetual Wobble" was. Was it large? Small? Hostile? Delicious? These seemed like the sort of details a knight ought to know before attempting to retrieve one. Perhaps the locals would have answers. Locals always had answers, though whether those answers were useful was another matter entirely.
+Sir Albert wondered, not for the first time, what exactly a "Pudding of Perpetual Wobble" was. Was it large? Small? Hostile? Delicious? These seemed like the sort of details a knight ought to know before attempting to retrieve one. Perhaps the locals would have answers. Locals always had answers, though whether those answers were useful was another matter entirely.
 
 ---
 
@@ -3354,7 +3354,7 @@ CHOICES:
 
 CHOICE 1: Take the path to Grumbleton Village
 
-Sir Reginald turns left at the crossroads, his armor clanking a jaunty rhythm as he heads toward the rising smoke of Grumbleton Village. Local knowledge has saved many a quest, and surely the villagers would appreciate a visiting knight. Surely.
+Sir Albert turns left at the crossroads, his armor clanking a jaunty rhythm as he heads toward the rising smoke of Grumbleton Village. Local knowledge has saved many a quest, and surely the villagers would appreciate a visiting knight. Surely.
 
 The sheep watch him go with expressions suggesting they know something he does not.
 
@@ -3372,7 +3372,7 @@ Target: sec03grumbleton_village
 
 CHOICE 2: Take the direct path to the Tower of Minor Inconveniences
 
-Sir Reginald turns right at the crossroads, fixing his gaze on the distant tower. The quest is clear. The destination is known. A true knight does not dawdle in villages when puddings await retrieval.
+Sir Albert turns right at the crossroads, fixing his gaze on the distant tower. The quest is clear. The destination is known. A true knight does not dawdle in villages when puddings await retrieval.
 
 The path stretches ahead, slightly damp and utterly unremarkable. The Tower grows slowly larger on the horizon, its architectural mediocrity becoming more apparent with each step.
 
@@ -3390,7 +3390,7 @@ Target: sec04tower_entrance
 
 CHOICE 3: Explore the Resting Stone before continuing
 
-Something glints near the base of that comfortable-looking stone. Sir Reginald approaches, his curiosity overcoming his sense of urgency. After all, the banquet is not until tomorrow. Surely a few moments of exploration cannot hurt.
+Something glints near the base of that comfortable-looking stone. Sir Albert approaches, his curiosity overcoming his sense of urgency. After all, the banquet is not until tomorrow. Surely a few moments of exploration cannot hurt.
 
 The Resting Stone proves to be as comfortable as it appeared. The moss is pleasantly soft. The view of the meadow is pleasantly unremarkable. And there, half-buried in the silt where the stream deposited it during some past flood, something catches the light.
 
@@ -3398,15 +3398,15 @@ Requirements: None
 
 Tests: LUCK test (target 7)
 
-Success: Sir Reginald's fingers close around an unusually smooth stone, worn to perfect roundness by the Inconvenient Stream. It fits comfortably in his palm, its weight satisfying. Not valuable in any conventional sense, but interesting. The sort of thing someone might collect. The sort of thing a certain type of creature might find fascinating.
+Success: Sir Albert's fingers close around an unusually smooth stone, worn to perfect roundness by the Inconvenient Stream. It fits comfortably in his palm, its weight satisfying. Not valuable in any conventional sense, but interesting. The sort of thing someone might collect. The sort of thing a certain type of creature might find fascinating.
 
 OBTAIN itemsmoothstone
 
-After pocketing his discovery, Sir Reginald must still choose his path: the village or the tower?
+After pocketing his discovery, Sir Albert must still choose his path: the village or the tower?
 
-Failure: Sir Reginald searches the area thoroughly but finds only ordinary pebbles, a disappointed snail, and the faint sense that he has wasted time. The glinting was merely sunlight on wet stone. Or perhaps it was something that washed away long ago. The meadow keeps its secrets.
+Failure: Sir Albert searches the area thoroughly but finds only ordinary pebbles, a disappointed snail, and the faint sense that he has wasted time. The glinting was merely sunlight on wet stone. Or perhaps it was something that washed away long ago. The meadow keeps its secrets.
 
-After his fruitless search, Sir Reginald must still choose his path: the village or the tower?
+After his fruitless search, Sir Albert must still choose his path: the village or the tower?
 
 Sub-choice after resolution: Player chooses sec03grumbleton_village (Grumbleton) or sec04tower_entrance (Tower)
 
@@ -3418,7 +3418,7 @@ CHOICE 4: Attempt to cross the Inconvenient Stream dramatically (instead of usin
 
 The bridge is RIGHT THERE. Sturdy. Sensible. Handrailed.
 
-Sir Reginald ignores it entirely.
+Sir Albert ignores it entirely.
 
 "A knight," he declares to the watching sheep, "embraces challenge!"
 
@@ -3428,27 +3428,27 @@ Requirements: None
 
 Tests: SKILL test (target 8, difficult)
 
-Success: Sir Reginald launches himself across the Inconvenient Stream with surprising grace. His armor clanks magnificently in mid-air. He lands on the far bank with both feet, arms pinwheeling only slightly before he regains his balance.
+Success: Sir Albert launches himself across the Inconvenient Stream with surprising grace. His armor clanks magnificently in mid-air. He lands on the far bank with both feet, arms pinwheeling only slightly before he regains his balance.
 
 "HA!" he shouts triumphantly.
 
 One of the sheep makes a sound that might, possibly, be impressed. It is difficult to tell with sheep.
 
-Sir Reginald's dignity intact, he proceeds to the crossroads to choose his path: the village or the tower?
+Sir Albert's dignity intact, he proceeds to the crossroads to choose his path: the village or the tower?
 
-Failure: Sir Reginald launches himself across the Inconvenient Stream with rather less grace than he had hoped. His armor, which has never been designed for aerodynamics, drags him downward at a crucial moment. He lands with one foot on the bank and one foot in the stream, which promptly decides to claim the rest of him.
+Failure: Sir Albert launches himself across the Inconvenient Stream with rather less grace than he had hoped. His armor, which has never been designed for aerodynamics, drags him downward at a crucial moment. He lands with one foot on the bank and one foot in the stream, which promptly decides to claim the rest of him.
 
 SPLASH.
 
-The water is cold. The mud at the bottom is surprisingly deep. Sir Reginald emerges dripping, his armor making embarrassing squelching sounds that will persist for some time. The sheep observe with what appears to be profound satisfaction.
+The water is cold. The mud at the bottom is surprisingly deep. Sir Albert emerges dripping, his armor making embarrassing squelching sounds that will persist for some time. The sheep observe with what appears to be profound satisfaction.
 
 LOSE 1 Stamina (the cold and the indignity take their toll)
 
-His dignity thoroughly dampened but his spirit unbroken, Sir Reginald squelches his way to the crossroads to choose his path: the village or the tower?
+His dignity thoroughly dampened but his spirit unbroken, Sir Albert squelches his way to the crossroads to choose his path: the village or the tower?
 
 Sub-choice after resolution: Player chooses sec03grumbleton_village (Grumbleton) or sec04tower_entrance (Tower)
 
-Note: If this choice fails, Sir Reginald's armor makes squelching sounds for the remainder of the adventure (narrative flavor, no mechanical effect)
+Note: If this choice fails, Sir Albert's armor makes squelching sounds for the remainder of the adventure (narrative flavor, no mechanical effect)
 
 Items: None
 
@@ -3512,7 +3512,7 @@ CHARACTER CONSISTENCY CHECK:
 
 Status: PASS
 
-sir_reginald:
+sir_albert:
 
 Armor clanking: Consistent with established character detail
 
@@ -3884,29 +3884,29 @@ SECTION_TITLE: The Crossroads of Mild Inconvenience
 
 LOCATION: loc_meadow
 
-CHARACTERS_PRESENT: sir_reginald
+CHARACTERS_PRESENT: sir_albert
 
 ---
 
 NARRATIVE:
 
-The Meadow of Slightly Damp Grass stretched before Sir Reginald like a promise of absolutely nothing in particular. The grass was, as advertised, slightly damp. Not wet enough to squelch dramatically underfoot, not dry enough for comfortable sitting. It existed in a state of determined mediocrity that seemed almost aggressive in its commitment to being unremarkable.
+The Meadow of Slightly Damp Grass stretched before Sir Albert like a promise of absolutely nothing in particular. The grass was, as advertised, slightly damp. Not wet enough to squelch dramatically underfoot, not dry enough for comfortable sitting. It existed in a state of determined mediocrity that seemed almost aggressive in its commitment to being unremarkable.
 
 The sky above matched the landscape's ambition, presenting itself in a shade best described as "old dishwater" or perhaps "the color of mild disappointment." Somewhere in the distance, a bird made a sound that might have been singing but was probably just complaining.
 
-Sir Reginald's armor clanked companionably as he walked, the sound startling a sheep that had been grazing nearby. The sheep looked up, regarded Sir Reginald with an expression of profound existential weariness, and returned to its grass. It had seen knights before. It had not been impressed then, either.
+Sir Albert's armor clanked companionably as he walked, the sound startling a sheep that had been grazing nearby. The sheep looked up, regarded Sir Albert with an expression of profound existential weariness, and returned to its grass. It had seen knights before. It had not been impressed then, either.
 
-"Lovely day for a quest," Sir Reginald announced to no one in particular.
+"Lovely day for a quest," Sir Albert announced to no one in particular.
 
 The sheep did not respond. Several of its companions looked up briefly, their collective gaze suggesting that they had opinions about the definition of "lovely" but could not be bothered to share them.
 
-Sir Reginald pressed onward, his spirits remarkably undiminished by the oppressive ordinariness of his surroundings. The packed lunch from the kitchen staff sat safely in his pack, and ahead lay adventure. Or at least, something that might eventually become adventure if approached with sufficient optimism.
+Sir Albert pressed onward, his spirits remarkably undiminished by the oppressive ordinariness of his surroundings. The packed lunch from the kitchen staff sat safely in his pack, and ahead lay adventure. Or at least, something that might eventually become adventure if approached with sufficient optimism.
 
 The first obstacle presented itself in the form of the Inconvenient Stream.
 
 It was not a particularly impressive stream. Perhaps three feet across at its widest point, with water that burbled along at a pace suggesting it had somewhere to be but was in no particular hurry to get there. A perfectly serviceable wooden bridge crossed it at a sensible point, complete with handrails and everything.
 
-Sir Reginald stopped at the stream's edge, considering his options.
+Sir Albert stopped at the stream's edge, considering his options.
 
 The bridge was right there. Sturdy. Safe. Practical. The sort of bridge that responsible knights used when they wanted to arrive at their destinations without incident.
 
@@ -3914,23 +3914,23 @@ But there was something about the way the water sparkled in the dishwater light.
 
 A sheep nearby made a sound that might have been skeptical.
 
-"I am a knight," Sir Reginald said to the sheep. "Knights do not always take the easy path."
+"I am a knight," Sir Albert said to the sheep. "Knights do not always take the easy path."
 
 The sheep continued chewing, radiating doubt.
 
 Beyond the stream, the path split at a crossroads marked by a signpost that had clearly seen better days. Someone had vandalized it at some point, though even the vandalism seemed half-hearted. One sign had been turned to point at the ground. Another indicated a direction that would require the traveler to walk through a solid boulder. A third simply read "ELSEWHERE" in letters that suggested the vandal had grown bored halfway through.
 
-Sir Reginald squinted at the signs, trying to make sense of them. One arm, relatively unmolested, pointed leftward with the word "GRUMBLETON" carved into it. Another, pointing rightward, bore the words "TOWER OF MINOR INCONVENIENCES" along with a small carved symbol that might have been a pudding or might have been a hat. It was difficult to tell.
+Sir Albert squinted at the signs, trying to make sense of them. One arm, relatively unmolested, pointed leftward with the word "GRUMBLETON" carved into it. Another, pointing rightward, bore the words "TOWER OF MINOR INCONVENIENCES" along with a small carved symbol that might have been a pudding or might have been a hat. It was difficult to tell.
 
 Past the crossroads, the Tower itself was visible on the horizon. It rose from the landscape like an architectural apology, neither tall enough to be imposing nor short enough to be quaint. Even from this distance, it radiated a sense of vague disappointment.
 
-To the left, smoke rose from what must be Grumbleton Village. Sir Reginald had heard of Grumbleton. Everyone had heard of Grumbleton, mostly because Grumbleton residents made a point of telling everyone how Grumbleton had been overlooked, underappreciated, and generally treated poorly by the universe at large.
+To the left, smoke rose from what must be Grumbleton Village. Sir Albert had heard of Grumbleton. Everyone had heard of Grumbleton, mostly because Grumbleton residents made a point of telling everyone how Grumbleton had been overlooked, underappreciated, and generally treated poorly by the universe at large.
 
-Near the crossroads, set back from the path, a large flat stone caught Sir Reginald's eye. It was the sort of stone that invited sitting, carved by time and weather into a comfortable natural seat. Moss grew on its northern face, and something glinted near its base where the Inconvenient Stream had deposited various treasures during spring floods.
+Near the crossroads, set back from the path, a large flat stone caught Sir Albert's eye. It was the sort of stone that invited sitting, carved by time and weather into a comfortable natural seat. Moss grew on its northern face, and something glinted near its base where the Inconvenient Stream had deposited various treasures during spring floods.
 
 The sheep had lost interest entirely and wandered off to join its companions in a patch of grass that was presumably slightly less damp than the surrounding grass, though the difference was imperceptible to the untrained eye.
 
-Sir Reginald stood at the crossroads of mild inconvenience, contemplating his options. He could make directly for the Tower and his quest. He could detour through Grumbleton, where local knowledge might prove useful. He could investigate the Resting Stone and whatever glinted beside it. Or he could prove his knightly prowess by leaping heroically across the stream that the bridge crossed perfectly adequately.
+Sir Albert stood at the crossroads of mild inconvenience, contemplating his options. He could make directly for the Tower and his quest. He could detour through Grumbleton, where local knowledge might prove useful. He could investigate the Resting Stone and whatever glinted beside it. Or he could prove his knightly prowess by leaping heroically across the stream that the bridge crossed perfectly adequately.
 
 The quest awaited. The Pudding of Perpetual Wobble sat in its tower, wobbling perpetually, unaware that a catastrophically well-meaning knight was coming to retrieve it.
 
@@ -3940,11 +3940,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_quest_understood = true
 
-TEXT: Sir Reginald thought about what he had learned from the Quest Scroll. The Pudding was sentient. It had opinions. It responded to patience and respect. Perhaps gathering information before confronting such a creature would be wise. Villages had information. Villagers talked, especially if those villagers were from Grumbleton, where complaining was the primary form of communication.
+TEXT: Sir Albert thought about what he had learned from the Quest Scroll. The Pudding was sentient. It had opinions. It responded to patience and respect. Perhaps gathering information before confronting such a creature would be wise. Villages had information. Villagers talked, especially if those villagers were from Grumbleton, where complaining was the primary form of communication.
 
 CONDITION: flag_quest_understood = false
 
-TEXT: Sir Reginald wondered, not for the first time, what exactly a "Pudding of Perpetual Wobble" was. Was it large? Small? Hostile? Delicious? These seemed like the sort of details a knight ought to know before attempting to retrieve one. Perhaps the locals would have answers. Locals always had answers, though whether those answers were useful was another matter entirely.
+TEXT: Sir Albert wondered, not for the first time, what exactly a "Pudding of Perpetual Wobble" was. Was it large? Small? Hostile? Delicious? These seemed like the sort of details a knight ought to know before attempting to retrieve one. Perhaps the locals would have answers. Locals always had answers, though whether those answers were useful was another matter entirely.
 
 ---
 
@@ -3956,7 +3956,7 @@ ID: choice_grumbleton_path
 
 TEXT: Take the path to Grumbleton Village
 
-FLAVOR: Sir Reginald turns left at the crossroads, his armor clanking a jaunty rhythm as he heads toward the rising smoke of Grumbleton Village. Local knowledge has saved many a quest, and surely the villagers would appreciate a visiting knight. Surely. The sheep watch him go with expressions suggesting they know something he does not.
+FLAVOR: Sir Albert turns left at the crossroads, his armor clanking a jaunty rhythm as he heads toward the rising smoke of Grumbleton Village. Local knowledge has saved many a quest, and surely the villagers would appreciate a visiting knight. Surely. The sheep watch him go with expressions suggesting they know something he does not.
 
 REQUIREMENTS: None
 
@@ -3982,7 +3982,7 @@ ID: choice_tower_direct
 
 TEXT: Take the direct path to the Tower of Minor Inconveniences
 
-FLAVOR: Sir Reginald turns right at the crossroads, fixing his gaze on the distant tower. The quest is clear. The destination is known. A true knight does not dawdle in villages when puddings await retrieval. The path stretches ahead, slightly damp and utterly unremarkable. The Tower grows slowly larger on the horizon, its architectural mediocrity becoming more apparent with each step.
+FLAVOR: Sir Albert turns right at the crossroads, fixing his gaze on the distant tower. The quest is clear. The destination is known. A true knight does not dawdle in villages when puddings await retrieval. The path stretches ahead, slightly damp and utterly unremarkable. The Tower grows slowly larger on the horizon, its architectural mediocrity becoming more apparent with each step.
 
 REQUIREMENTS: None
 
@@ -4006,7 +4006,7 @@ ID: choice_explore_stone
 
 TEXT: Explore the Resting Stone before continuing
 
-FLAVOR: Something glints near the base of that comfortable-looking stone. Sir Reginald approaches, his curiosity overcoming his sense of urgency. After all, the banquet is not until tomorrow. Surely a few moments of exploration cannot hurt. The Resting Stone proves to be as comfortable as it appeared. The moss is pleasantly soft. The view of the meadow is pleasantly unremarkable. And there, half-buried in the silt where the stream deposited it during some past flood, something catches the light.
+FLAVOR: Something glints near the base of that comfortable-looking stone. Sir Albert approaches, his curiosity overcoming his sense of urgency. After all, the banquet is not until tomorrow. Surely a few moments of exploration cannot hurt. The Resting Stone proves to be as comfortable as it appeared. The moss is pleasantly soft. The view of the meadow is pleasantly unremarkable. And there, half-buried in the silt where the stream deposited it during some past flood, something catches the light.
 
 REQUIREMENTS: None
 
@@ -4020,7 +4020,7 @@ DIFFICULTY: Standard
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald's fingers close around an unusually smooth stone, worn to perfect roundness by the Inconvenient Stream. It fits comfortably in his palm, its weight satisfying. Not valuable in any conventional sense, but interesting. The sort of thing someone might collect. The sort of thing a certain type of creature might find fascinating.
+NARRATIVE: Sir Albert's fingers close around an unusually smooth stone, worn to perfect roundness by the Inconvenient Stream. It fits comfortably in his palm, its weight satisfying. Not valuable in any conventional sense, but interesting. The sort of thing someone might collect. The sort of thing a certain type of creature might find fascinating.
 
 CONSEQUENCES:
 
@@ -4030,7 +4030,7 @@ SUB_CHOICE_REQUIRED: true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald searches the area thoroughly but finds only ordinary pebbles, a disappointed snail, and the faint sense that he has wasted time. The glinting was merely sunlight on wet stone. Or perhaps it was something that washed away long ago. The meadow keeps its secrets.
+NARRATIVE: Sir Albert searches the area thoroughly but finds only ordinary pebbles, a disappointed snail, and the faint sense that he has wasted time. The glinting was merely sunlight on wet stone. Or perhaps it was something that washed away long ago. The meadow keeps its secrets.
 
 CONSEQUENCES: None
 
@@ -4066,7 +4066,7 @@ ID: choice_dramatic_crossing
 
 TEXT: Attempt to cross the Inconvenient Stream dramatically (instead of using the bridge)
 
-FLAVOR: The bridge is RIGHT THERE. Sturdy. Sensible. Handrailed. Sir Reginald ignores it entirely. "A knight," he declares to the watching sheep, "embraces challenge!" He takes several steps back, preparing for a running leap. The sheep, despite themselves, stop chewing to observe. One might almost call their expressions anticipatory.
+FLAVOR: The bridge is RIGHT THERE. Sturdy. Sensible. Handrailed. Sir Albert ignores it entirely. "A knight," he declares to the watching sheep, "embraces challenge!" He takes several steps back, preparing for a running leap. The sheep, despite themselves, stop chewing to observe. One might almost call their expressions anticipatory.
 
 REQUIREMENTS: None
 
@@ -4080,7 +4080,7 @@ DIFFICULTY: Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald launches himself across the Inconvenient Stream with surprising grace. His armor clanks magnificently in mid-air. He lands on the far bank with both feet, arms pinwheeling only slightly before he regains his balance. "HA!" he shouts triumphantly. One of the sheep makes a sound that might, possibly, be impressed. It is difficult to tell with sheep. Sir Reginald's dignity intact, he proceeds to the crossroads.
+NARRATIVE: Sir Albert launches himself across the Inconvenient Stream with surprising grace. His armor clanks magnificently in mid-air. He lands on the far bank with both feet, arms pinwheeling only slightly before he regains his balance. "HA!" he shouts triumphantly. One of the sheep makes a sound that might, possibly, be impressed. It is difficult to tell with sheep. Sir Albert's dignity intact, he proceeds to the crossroads.
 
 CONSEQUENCES: None
 
@@ -4088,7 +4088,7 @@ SUB_CHOICE_REQUIRED: true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald launches himself across the Inconvenient Stream with rather less grace than he had hoped. His armor, which has never been designed for aerodynamics, drags him downward at a crucial moment. He lands with one foot on the bank and one foot in the stream, which promptly decides to claim the rest of him. SPLASH. The water is cold. The mud at the bottom is surprisingly deep. Sir Reginald emerges dripping, his armor making embarrassing squelching sounds that will persist for some time. The sheep observe with what appears to be profound satisfaction.
+NARRATIVE: Sir Albert launches himself across the Inconvenient Stream with rather less grace than he had hoped. His armor, which has never been designed for aerodynamics, drags him downward at a crucial moment. He lands with one foot on the bank and one foot in the stream, which promptly decides to claim the rest of him. SPLASH. The water is cold. The mud at the bottom is surprisingly deep. Sir Albert emerges dripping, his armor making embarrassing squelching sounds that will persist for some time. The sheep observe with what appears to be profound satisfaction.
 
 CONSEQUENCES:
 
@@ -4176,7 +4176,7 @@ Location: loc_grumbleton
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 agnes (village elder, information source, quest giver)
 
@@ -4188,7 +4188,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald arrives in Grumbleton Village
+Sir Albert arrives in Grumbleton Village
 
 Establish the village's character: buildings leaning together conspiratorially, general atmosphere of complaint
 
@@ -4200,7 +4200,7 @@ If armor_squelching narrative note is true, villagers comment on his dampness
 
 Middle:
 
-Sir Reginald encounters Agnes Crumbwell in the village square
+Sir Albert encounters Agnes Crumbwell in the village square
 
 Agnes is immediately suspicious but intrigued by a visiting knight
 
@@ -4232,7 +4232,7 @@ Establish Grumbleton's identity (complaining elevated to art form)
 
 Agnes as a formidable but secretly kind elderly woman
 
-The drainage ditch as comedic obstacle (Sir Reginald will cause chaos)
+The drainage ditch as comedic obstacle (Sir Albert will cause chaos)
 
 The Adequate Turnip inn as source of rumors and supplies
 
@@ -4242,7 +4242,7 @@ The grandmother's map as tangible connection to past adventurers
 
 Village suspicion of outsiders balanced by grudging helpfulness
 
-Sir Reginald's genuine kindness winning over reluctant villagers
+Sir Albert's genuine kindness winning over reluctant villagers
 
 ---
 
@@ -4340,13 +4340,13 @@ The Adequate Turnip inn name exemplifies Blandovian mediocrity
 
 Information about the Tower should be delivered through complaints and legends
 
-Sir Reginald's politeness should contrast with villagers' suspicion
+Sir Albert's politeness should contrast with villagers' suspicion
 
 ---
 
 CONTINUITY NOTES:
 
-Reference flagquestunderstood for Sir Reginald's internal thoughts about the Pudding
+Reference flagquestunderstood for Sir Albert's internal thoughts about the Pudding
 
 If armor_squelching is true from sec02, reference the squelching sounds
 
@@ -4364,11 +4364,11 @@ Set up that the Pudding has philosophical opinions (relevant for sec08/09)
 
 CONDITIONAL ELEMENTS:
 
-If armor_squelching = true: Villagers comment on Sir Reginald's dampness; Agnes offers to let him dry by the fire (declined; he presses on)
+If armor_squelching = true: Villagers comment on Sir Albert's dampness; Agnes offers to let him dry by the fire (declined; he presses on)
 
-If flagquestunderstood = true: Sir Reginald's internal thoughts reference what he knows about the sentient Pudding
+If flagquestunderstood = true: Sir Albert's internal thoughts reference what he knows about the sentient Pudding
 
-If flagquestunderstood = false: Sir Reginald asks more basic questions about what the Pudding actually is
+If flagquestunderstood = false: Sir Albert asks more basic questions about what the Pudding actually is
 
 [/SECTION_PLAN]
 
@@ -4384,11 +4384,11 @@ Section Title: The Village That Complained
 
 NARRATIVE:
 
-Grumbleton announced itself long before Sir Reginald reached its borders. The smoke rising from chimneys carried with it a faint but unmistakable aura of dissatisfaction, and even the road seemed to sag slightly as it approached, as though it too had heard complaints about its condition and taken them personally.
+Grumbleton announced itself long before Sir Albert reached its borders. The smoke rising from chimneys carried with it a faint but unmistakable aura of dissatisfaction, and even the road seemed to sag slightly as it approached, as though it too had heard complaints about its condition and taken them personally.
 
 The village itself was a collection of buildings that appeared to be sharing grievances. Houses leaned toward one another at conspiratorial angles, their shutters hanging at expressions of permanent disappointment. The central square featured a well that had clearly not seen water in some time; a sign beside it read "TEMPORARILY OUT OF SERVICE" in letters so faded they had clearly been there for at least a decade.
 
-Sir Reginald's armor clanked as he entered the square, drawing the immediate attention of several villagers. They regarded him with the practiced suspicion of people who had been let down by the universe on numerous occasions and expected this trend to continue.
+Sir Albert's armor clanked as he entered the square, drawing the immediate attention of several villagers. They regarded him with the practiced suspicion of people who had been let down by the universe on numerous occasions and expected this trend to continue.
 
 CONDITIONAL_NARRATIVE_ARMOR_SQUELCHING:
 
@@ -4396,7 +4396,7 @@ If armor_squelching = true:
 
 The squelching sounds from his still-damp armor added an unfortunate percussion to his entrance. An elderly woman near the well looked up and sniffed. "Fell in the stream, did you?" she called out. "That stream's been inconveniencing travelers since my grandmother's time. You'd think someone would do something about it."
 
-"I used the bridge, actually," Sir Reginald began, then stopped. "Well. Mostly used the bridge. In spirit."
+"I used the bridge, actually," Sir Albert began, then stopped. "Well. Mostly used the bridge. In spirit."
 
 The woman's expression suggested she had heard better excuses.
 
@@ -4404,17 +4404,17 @@ If armor_squelching = false:
 
 "A knight, is it?" An elderly woman near the well looked up from her apparent contemplation of its emptiness. "We don't get many knights through here. They usually have the sense to go around."
 
-"I am on a quest," Sir Reginald announced, attempting to sound heroic. "For the Pudding of Perpetual Wobble."
+"I am on a quest," Sir Albert announced, attempting to sound heroic. "For the Pudding of Perpetual Wobble."
 
 "The Pudding?" The woman's eyebrows rose. "Well, that's a fool's errand if ever I heard one. But at least you're honest about it."
 
 END_CONDITIONAL
 
-The elderly woman pushed herself up from the stone bench where she had been sitting and approached Sir Reginald with the determined stride of someone who had outlived everyone who might have argued with her. She was wiry and weathered, with steel-grey hair pulled back in a bun so tight it seemed to be engaged in a personal battle with her scalp. Her arms, bare below rolled sleeves, resembled tree branches that had seen many seasons and survived them all through sheer stubbornness.
+The elderly woman pushed herself up from the stone bench where she had been sitting and approached Sir Albert with the determined stride of someone who had outlived everyone who might have argued with her. She was wiry and weathered, with steel-grey hair pulled back in a bun so tight it seemed to be engaged in a personal battle with her scalp. Her arms, bare below rolled sleeves, resembled tree branches that had seen many seasons and survived them all through sheer stubbornness.
 
 "Agnes Crumbwell," she announced, not so much introducing herself as stating a fact that the universe would have to accommodate. "Village elder. Which means I'm the one who has to deal with whatever nonsense you're about to cause."
 
-"Sir Reginald Bumblethwaite," he replied with a bow. "I assure you, madam, I intend to cause no nonsense whatsoever."
+"Sir Albert Bumblethwaite," he replied with a bow. "I assure you, madam, I intend to cause no nonsense whatsoever."
 
 "That's what the last knight said. Before the incident with the chickens." Agnes's eyes narrowed. "You're not here about chickens, are you?"
 
@@ -4426,21 +4426,21 @@ The elderly woman pushed herself up from the stone bench where she had been sitt
 
 "Hmph." Agnes folded her arms, which seemed to require several joints that normal arms did not possess. A wooden spoon protruded from her apron pocket, and she gestured with it as she spoke. "My grandmother went up to that tower once, you know. Came back with opinions about the architecture and a map she drew herself. Said the front door was guarded by something insufferable and there was a better way in through a crack in the foundation."
 
-Sir Reginald's interest sharpened. "A map, you say?"
+Sir Albert's interest sharpened. "A map, you say?"
 
 "Might still have it somewhere. Might." Agnes's gaze drifted meaningfully toward a ditch at the edge of the square, where water had clearly backed up and created a small swamp of mud and debris. "Course, I've been so busy dealing with that drainage problem, haven't had time to look for old family documents. Been blocked for three days now. Village council said they'd send someone, but the village council is my nephew Herbert, and Herbert couldn't find his own feet if they weren't attached."
 
 The implication hung in the air like the smell from the blocked drain, which was considerable.
 
-Sir Reginald looked at the drainage ditch. It was not an impressive drainage ditch. Perhaps ten feet long, clogged with branches, leaves, mud, and what appeared to be a single determined duck who had decided this was home now. The duck regarded Sir Reginald with the same suspicion as the villagers.
+Sir Albert looked at the drainage ditch. It was not an impressive drainage ditch. Perhaps ten feet long, clogged with branches, leaves, mud, and what appeared to be a single determined duck who had decided this was home now. The duck regarded Sir Albert with the same suspicion as the villagers.
 
-"I would be happy to assist," Sir Reginald offered, because he was constitutionally incapable of not offering to help when help was needed.
+"I would be happy to assist," Sir Albert offered, because he was constitutionally incapable of not offering to help when help was needed.
 
 "Would you now." Agnes's expression shifted almost imperceptibly toward something that might, in adequate lighting, be mistaken for approval. "Well then. Let's see what you're made of, Sir Knight."
 
 Around the square, villagers had gathered to watch. This was, apparently, the most interesting thing to happen in Grumbleton in some time. Several had brought chairs.
 
-Beyond the square, Sir Reginald noticed another establishment: a building with a sign depicting what might generously be called a turnip, accompanied by the words "THE ADEQUATE TURNIP" in letters that suggested the painter had lost enthusiasm partway through. Smoke rose from its chimney, and the smell of cooking food drifted across the square.
+Beyond the square, Sir Albert noticed another establishment: a building with a sign depicting what might generously be called a turnip, accompanied by the words "THE ADEQUATE TURNIP" in letters that suggested the painter had lost enthusiasm partway through. Smoke rose from its chimney, and the smell of cooking food drifted across the square.
 
 "The inn," Agnes noted, following his gaze. "If you're needing supplies or gossip, that's where you'll find both. Margery runs it. She's adequate. So's her turnip stew."
 
@@ -4448,15 +4448,15 @@ CONDITIONAL_NARRATIVE_QUEST_UNDERSTOOD:
 
 If flagquestunderstood = true:
 
-Sir Reginald considered his options. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the locals would know more about what that meant in practice. Villages on the edge of mysterious towers often accumulated useful knowledge, passed down through generations of people who had learned which parts of the forest to avoid and which local legends contained actual warnings.
+Sir Albert considered his options. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the locals would know more about what that meant in practice. Villages on the edge of mysterious towers often accumulated useful knowledge, passed down through generations of people who had learned which parts of the forest to avoid and which local legends contained actual warnings.
 
 If flagquestunderstood = false:
 
-Sir Reginald still was not entirely certain what a Pudding of Perpetual Wobble actually was, or why it required retrieving rather than simply making a new one. Surely the villagers would have answers. Villages always had answers, or at least opinions, and in Grumbleton, opinions seemed to be the primary export.
+Sir Albert still was not entirely certain what a Pudding of Perpetual Wobble actually was, or why it required retrieving rather than simply making a new one. Surely the villagers would have answers. Villages always had answers, or at least opinions, and in Grumbleton, opinions seemed to be the primary export.
 
 END_CONDITIONAL
 
-The village of Grumbleton awaited Sir Reginald's decision. The drainage ditch gurgled ominously. The duck quacked once, establishing dominance. Agnes Crumbwell stood with arms folded, wooden spoon ready for emphasis. And somewhere in the distance, the Tower of Minor Inconveniences lurked on the horizon, its Pudding wobbling with ancient and philosophical patience.
+The village of Grumbleton awaited Sir Albert's decision. The drainage ditch gurgled ominously. The duck quacked once, establishing dominance. Agnes Crumbwell stood with arms folded, wooden spoon ready for emphasis. And somewhere in the distance, the Tower of Minor Inconveniences lurked on the horizon, its Pudding wobbling with ancient and philosophical patience.
 
 ---
 
@@ -4464,17 +4464,17 @@ CHOICES:
 
 CHOICE 1: Help Agnes clear the drainage ditch
 
-"I shall clear your drainage, Madam Crumbwell!" Sir Reginald declared with the enthusiasm of someone who had never actually cleared a drainage ditch before.
+"I shall clear your drainage, Madam Crumbwell!" Sir Albert declared with the enthusiasm of someone who had never actually cleared a drainage ditch before.
 
 He approached the blockage with knightly determination. The duck retreated to a safe distance, clearly having seen this sort of thing before.
 
-What followed could charitably be described as "problem-solving" and more accurately described as "a series of increasingly unfortunate events involving mud, branches, and at one point the accidental liberation of a family of frogs." Sir Reginald's armor provided surprisingly little protection against splashing, and his attempts to remove the main blockage resulted in several secondary blockages, a minor flood, and the duck's very vocal displeasure.
+What followed could charitably be described as "problem-solving" and more accurately described as "a series of increasingly unfortunate events involving mud, branches, and at one point the accidental liberation of a family of frogs." Sir Albert's armor provided surprisingly little protection against splashing, and his attempts to remove the main blockage resulted in several secondary blockages, a minor flood, and the duck's very vocal displeasure.
 
 Requirements: None
 
 Tests: SKILL test (target 7)
 
-Success: Despite the chaos, or perhaps because of it, Sir Reginald eventually dislodges the central blockage: an improbably large branch that someone had apparently wedged there deliberately. Water flows freely once more, draining the accumulated muck into the proper channels. Sir Reginald emerges covered in mud, leaves, and what might be frog spawn, but victorious.
+Success: Despite the chaos, or perhaps because of it, Sir Albert eventually dislodges the central blockage: an improbably large branch that someone had apparently wedged there deliberately. Water flows freely once more, draining the accumulated muck into the proper channels. Sir Albert emerges covered in mud, leaves, and what might be frog spawn, but victorious.
 
 Agnes Crumbwell regards him with an expression that has shifted entirely into approval. "Well," she says, "you've made a mess of yourself, but you've unmade the mess of my drainage. That's more than Herbert ever managed."
 
@@ -4496,13 +4496,13 @@ Agnes provides information: "That witch in the tower, Mildred, she's not so bad.
 
 INCREMENT flagtimepressure by 1
 
-Failure: Despite his best efforts, or perhaps because of them, Sir Reginald manages to make the drainage situation significantly worse. His attempt to remove the central blockage results in a cascade failure that splashes mud across the entire square, startles the duck into flight (directly into his face), and leaves him lying in three inches of swamp water, staring up at the dishwater sky.
+Failure: Despite his best efforts, or perhaps because of them, Sir Albert manages to make the drainage situation significantly worse. His attempt to remove the central blockage results in a cascade failure that splashes mud across the entire square, startles the duck into flight (directly into his face), and leaves him lying in three inches of swamp water, staring up at the dishwater sky.
 
 LOSE 1 Stamina
 
 Agnes Crumbwell watches this catastrophe unfold with the expression of someone whose expectations have been precisely met. "Well," she says, "you're definitely the lake-fire knight, aren't you."
 
-She sighs heavily and retrieves a long-handled rake from somewhere, proceeding to fix the drainage herself with the efficiency of someone who should have just done this from the start. Sir Reginald helps where he can, which mostly involves standing out of the way.
+She sighs heavily and retrieves a long-handled rake from somewhere, proceeding to fix the drainage herself with the efficiency of someone who should have just done this from the start. Sir Albert helps where he can, which mostly involves standing out of the way.
 
 "Here," Agnes says when the job is done, pressing a yellowed parchment into his hands. "My grandmother's map of the tower. You clearly need the help. There's a crack in the foundation that leads inside, bypasses that insufferable door. Use it."
 
@@ -4522,7 +4522,7 @@ Target: sec04_tower_entrance
 
 CHOICE 2: Politely decline Agnes's request and head to the tower immediately
 
-"I thank you for the information, Madam Crumbwell, but I fear my quest is urgent," Sir Reginald says, and means it sincerely. "The banquet approaches, and every moment I delay is a moment the Pudding remains unretrieved."
+"I thank you for the information, Madam Crumbwell, but I fear my quest is urgent," Sir Albert says, and means it sincerely. "The banquet approaches, and every moment I delay is a moment the Pudding remains unretrieved."
 
 Agnes's expression cools noticeably. "Urgent, is it? Too urgent to help an old woman with a blocked drain?" She sniffs. "Knights these days. All quest this and glory that. My grandmother's generation would have helped first and quested second."
 
@@ -4532,7 +4532,7 @@ Agnes's expression cools noticeably. "Urgent, is it? Too urgent to help an old w
 
 She does not mention the map or the secret entrance. Some information must be earned.
 
-The villagers part to let Sir Reginald through, their expressions suggesting they will be complaining about this for weeks.
+The villagers part to let Sir Albert through, their expressions suggesting they will be complaining about this for weeks.
 
 Requirements: None
 
@@ -4546,7 +4546,7 @@ Target: sec04_tower_entrance
 
 CHOICE 3: Visit The Adequate Turnip inn first
 
-"If you will excuse me a moment, Madam Crumbwell," Sir Reginald says, "I believe some provisions and local knowledge might serve me well before I tackle any drains."
+"If you will excuse me a moment, Madam Crumbwell," Sir Albert says, "I believe some provisions and local knowledge might serve me well before I tackle any drains."
 
 "Suit yourself," Agnes replies. "Margery's turnip stew is... acceptable. She might know some things about the tower, too. Used to do fortune-telling before she discovered it was less work to just serve food and let people complain to her."
 
@@ -4558,11 +4558,11 @@ She provides a bowl of stew (adequate) and, more usefully, information.
 
 "That tower's full of strange folk. There's a door that talks, which is inconvenient because it has opinions. There's a witch called Mildred who guards the upper floors. Not evil, mind, just particular. She likes things done properly. Help her with her little tasks and she's cooperative enough. Annoy her and she'll make your life difficult in small but persistent ways."
 
-"And the Pudding?" Sir Reginald asks.
+"And the Pudding?" Sir Albert asks.
 
 "The Pudding." Margery shakes her head. "My grandmother met it once. Said it wobbled at her disapprovingly for ten minutes before deigning to communicate. It thinks very highly of itself, for a dessert. Treats it with respect and it might cooperate. Treat it as just a pudding and you'll get nowhere."
 
-Sir Reginald also notices, hanging on a hook behind the bar, a coil of rope. "Is that for sale?"
+Sir Albert also notices, hanging on a hook behind the bar, a coil of rope. "Is that for sale?"
 
 "That? Found it last spring, washed up by the stream. Sturdy enough. You can have it for..." Margery squints at him. "Actually, take it. You look like you need all the help you can get."
 
@@ -4572,7 +4572,7 @@ Information gained: Mildred responds to helpfulness. The Pudding demands respect
 
 INCREMENT flagtimepressure by 1
 
-After his visit to the inn, Sir Reginald returns to the village square, where Agnes and her drainage problem await a decision.
+After his visit to the inn, Sir Albert returns to the village square, where Agnes and her drainage problem await a decision.
 
 Target: Return to village square; player must then choose Choice 1 (help Agnes) or Choice 2 (decline and depart)
 
@@ -4580,7 +4580,7 @@ Target: Return to village square; player must then choose Choice 1 (help Agnes) 
 
 CHOICE 4: Ask villagers about the Tower without offering to help
 
-Sir Reginald approaches a cluster of villagers who have gathered to watch the drainage situation develop. Perhaps they have useful information that does not require wading through muck.
+Sir Albert approaches a cluster of villagers who have gathered to watch the drainage situation develop. Perhaps they have useful information that does not require wading through muck.
 
 "Good folk," he begins, "I seek knowledge of the Tower of Minor Inconveniences. Any wisdom you might share would be most welcome."
 
@@ -4596,11 +4596,11 @@ Requirements: None
 
 Tests: PATIENCE test (target 8)
 
-Success: Sir Reginald takes a deep breath. "I apologize. You are right. What does Grumbleton need?"
+Success: Sir Albert takes a deep breath. "I apologize. You are right. What does Grumbleton need?"
 
 The villagers, apparently not expecting this response, are momentarily silenced. Then everyone starts talking at once about drainage, about the dry well, about Herbert's incompetence, about the way the kingdom overlooks them, about taxes, about the weather.
 
-Sir Reginald listens. He listens patiently. He nods at appropriate moments. He makes sympathetic sounds.
+Sir Albert listens. He listens patiently. He nods at appropriate moments. He makes sympathetic sounds.
 
 Eventually, somewhat mollified by the experience of being heard, the thin man speaks again. "The tower. Right. There's a witch up there. Mildred. She's not bad, actually. Helped my cousin with a boil once. She likes things done properly. Help her out and she's friendly enough."
 
@@ -4610,13 +4610,13 @@ Eventually, somewhat mollified by the experience of being heard, the thin man sp
 
 No items obtained, but information gained.
 
-Failure: Sir Reginald attempts to engage the villagers in conversation, but they are not interested in talking to someone who is not interested in helping.
+Failure: Sir Albert attempts to engage the villagers in conversation, but they are not interested in talking to someone who is not interested in helping.
 
 "Questions, questions," one villager mutters. "Always questions. Never 'how can I assist your clearly struggling village.'"
 
 "We have a drainage problem," another adds pointedly. "But I suppose that's not dramatic enough for a knight on a quest."
 
-They return to their conversations, pointedly excluding Sir Reginald from useful information.
+They return to their conversations, pointedly excluding Sir Albert from useful information.
 
 No information gained. Villagers remain unhelpful.
 
@@ -4690,7 +4690,7 @@ agnes:
 
 Blunt and practical: Demonstrated throughout dialogue
 
-Suspicious of outsiders: Shows suspicion of Sir Reginald initially
+Suspicious of outsiders: Shows suspicion of Sir Albert initially
 
 Secretly soft-hearted: Gives map even on failure; wooden spoon as gift
 
@@ -4700,7 +4700,7 @@ Knowledge of tower legends: Shares grandmother's information
 
 "Not completely useless" threshold: Demonstrated through drainage task
 
-sir_reginald:
+sir_albert:
 
 Politeness: Offers to help unprompted
 
@@ -4990,7 +4990,7 @@ Packed lunch still in inventory (mentioned in packed provisions context)
 
 Quest objective referenced (Pudding, Tower, Banquet)
 
-Lake fire incident referenced (Agnes recognizes Sir Reginald)
+Lake fire incident referenced (Agnes recognizes Sir Albert)
 
 Setup for future sections:
 
@@ -5118,17 +5118,17 @@ SECTION_TITLE: The Village That Complained
 
 LOCATION: loc_grumbleton
 
-CHARACTERS_PRESENT: sir_reginald, agnes
+CHARACTERS_PRESENT: sir_albert, agnes
 
 ---
 
 NARRATIVE:
 
-Grumbleton announced itself long before Sir Reginald reached its borders. The smoke rising from chimneys carried with it a faint but unmistakable aura of dissatisfaction, and even the road seemed to sag slightly as it approached, as though it too had heard complaints about its condition and taken them personally.
+Grumbleton announced itself long before Sir Albert reached its borders. The smoke rising from chimneys carried with it a faint but unmistakable aura of dissatisfaction, and even the road seemed to sag slightly as it approached, as though it too had heard complaints about its condition and taken them personally.
 
 The village itself was a collection of buildings that appeared to be sharing grievances. Houses leaned toward one another at conspiratorial angles, their shutters hanging at expressions of permanent disappointment. The central square featured a well that had clearly not seen water in some time; a sign beside it read "TEMPORARILY OUT OF SERVICE" in letters so faded they had clearly been there for at least a decade.
 
-Sir Reginald's armor clanked as he entered the square, drawing the immediate attention of several villagers. They regarded him with the practiced suspicion of people who had been let down by the universe on numerous occasions and expected this trend to continue.
+Sir Albert's armor clanked as he entered the square, drawing the immediate attention of several villagers. They regarded him with the practiced suspicion of people who had been let down by the universe on numerous occasions and expected this trend to continue.
 
 ---
 
@@ -5138,7 +5138,7 @@ CONDITION: armor_squelching = true
 
 TEXT: The squelching sounds from his still-damp armor added an unfortunate percussion to his entrance. An elderly woman near the well looked up and sniffed. "Fell in the stream, did you?" she called out. "That stream's been inconveniencing travelers since my grandmother's time. You'd think someone would do something about it."
 
-"I used the bridge, actually," Sir Reginald began, then stopped. "Well. Mostly used the bridge. In spirit."
+"I used the bridge, actually," Sir Albert began, then stopped. "Well. Mostly used the bridge. In spirit."
 
 The woman's expression suggested she had heard better excuses.
 
@@ -5146,7 +5146,7 @@ CONDITION: armor_squelching = false
 
 TEXT: "A knight, is it?" An elderly woman near the well looked up from her apparent contemplation of its emptiness. "We don't get many knights through here. They usually have the sense to go around."
 
-"I am on a quest," Sir Reginald announced, attempting to sound heroic. "For the Pudding of Perpetual Wobble."
+"I am on a quest," Sir Albert announced, attempting to sound heroic. "For the Pudding of Perpetual Wobble."
 
 "The Pudding?" The woman's eyebrows rose. "Well, that's a fool's errand if ever I heard one. But at least you're honest about it."
 
@@ -5154,11 +5154,11 @@ TEXT: "A knight, is it?" An elderly woman near the well looked up from her appar
 
 NARRATIVE_CONTINUED:
 
-The elderly woman pushed herself up from the stone bench where she had been sitting and approached Sir Reginald with the determined stride of someone who had outlived everyone who might have argued with her. She was wiry and weathered, with steel-grey hair pulled back in a bun so tight it seemed to be engaged in a personal battle with her scalp. Her arms, bare below rolled sleeves, resembled tree branches that had seen many seasons and survived them all through sheer stubbornness.
+The elderly woman pushed herself up from the stone bench where she had been sitting and approached Sir Albert with the determined stride of someone who had outlived everyone who might have argued with her. She was wiry and weathered, with steel-grey hair pulled back in a bun so tight it seemed to be engaged in a personal battle with her scalp. Her arms, bare below rolled sleeves, resembled tree branches that had seen many seasons and survived them all through sheer stubbornness.
 
 "Agnes Crumbwell," she announced, not so much introducing herself as stating a fact that the universe would have to accommodate. "Village elder. Which means I'm the one who has to deal with whatever nonsense you're about to cause."
 
-"Sir Reginald Bumblethwaite," he replied with a bow. "I assure you, madam, I intend to cause no nonsense whatsoever."
+"Sir Albert Bumblethwaite," he replied with a bow. "I assure you, madam, I intend to cause no nonsense whatsoever."
 
 "That's what the last knight said. Before the incident with the chickens." Agnes's eyes narrowed. "You're not here about chickens, are you?"
 
@@ -5170,21 +5170,21 @@ The elderly woman pushed herself up from the stone bench where she had been sitt
 
 "Hmph." Agnes folded her arms, which seemed to require several joints that normal arms did not possess. A wooden spoon protruded from her apron pocket, and she gestured with it as she spoke. "My grandmother went up to that tower once, you know. Came back with opinions about the architecture and a map she drew herself. Said the front door was guarded by something insufferable and there was a better way in through a crack in the foundation."
 
-Sir Reginald's interest sharpened. "A map, you say?"
+Sir Albert's interest sharpened. "A map, you say?"
 
 "Might still have it somewhere. Might." Agnes's gaze drifted meaningfully toward a ditch at the edge of the square, where water had clearly backed up and created a small swamp of mud and debris. "Course, I've been so busy dealing with that drainage problem, haven't had time to look for old family documents. Been blocked for three days now. Village council said they'd send someone, but the village council is my nephew Herbert, and Herbert couldn't find his own feet if they weren't attached."
 
 The implication hung in the air like the smell from the blocked drain, which was considerable.
 
-Sir Reginald looked at the drainage ditch. It was not an impressive drainage ditch. Perhaps ten feet long, clogged with branches, leaves, mud, and what appeared to be a single determined duck who had decided this was home now. The duck regarded Sir Reginald with the same suspicion as the villagers.
+Sir Albert looked at the drainage ditch. It was not an impressive drainage ditch. Perhaps ten feet long, clogged with branches, leaves, mud, and what appeared to be a single determined duck who had decided this was home now. The duck regarded Sir Albert with the same suspicion as the villagers.
 
-"I would be happy to assist," Sir Reginald offered, because he was constitutionally incapable of not offering to help when help was needed.
+"I would be happy to assist," Sir Albert offered, because he was constitutionally incapable of not offering to help when help was needed.
 
 "Would you now." Agnes's expression shifted almost imperceptibly toward something that might, in adequate lighting, be mistaken for approval. "Well then. Let's see what you're made of, Sir Knight."
 
 Around the square, villagers had gathered to watch. This was, apparently, the most interesting thing to happen in Grumbleton in some time. Several had brought chairs.
 
-Beyond the square, Sir Reginald noticed another establishment: a building with a sign depicting what might generously be called a turnip, accompanied by the words "THE ADEQUATE TURNIP" in letters that suggested the painter had lost enthusiasm partway through. Smoke rose from its chimney, and the smell of cooking food drifted across the square.
+Beyond the square, Sir Albert noticed another establishment: a building with a sign depicting what might generously be called a turnip, accompanied by the words "THE ADEQUATE TURNIP" in letters that suggested the painter had lost enthusiasm partway through. Smoke rose from its chimney, and the smell of cooking food drifted across the square.
 
 "The inn," Agnes noted, following his gaze. "If you're needing supplies or gossip, that's where you'll find both. Margery runs it. She's adequate. So's her turnip stew."
 
@@ -5194,17 +5194,17 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_quest_understood = true
 
-TEXT: Sir Reginald considered his options. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the locals would know more about what that meant in practice. Villages on the edge of mysterious towers often accumulated useful knowledge, passed down through generations of people who had learned which parts of the forest to avoid and which local legends contained actual warnings.
+TEXT: Sir Albert considered his options. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the locals would know more about what that meant in practice. Villages on the edge of mysterious towers often accumulated useful knowledge, passed down through generations of people who had learned which parts of the forest to avoid and which local legends contained actual warnings.
 
 CONDITION: flag_quest_understood = false
 
-TEXT: Sir Reginald still was not entirely certain what a Pudding of Perpetual Wobble actually was, or why it required retrieving rather than simply making a new one. Surely the villagers would have answers. Villages always had answers, or at least opinions, and in Grumbleton, opinions seemed to be the primary export.
+TEXT: Sir Albert still was not entirely certain what a Pudding of Perpetual Wobble actually was, or why it required retrieving rather than simply making a new one. Surely the villagers would have answers. Villages always had answers, or at least opinions, and in Grumbleton, opinions seemed to be the primary export.
 
 ---
 
 NARRATIVE_CONTINUED:
 
-The village of Grumbleton awaited Sir Reginald's decision. The drainage ditch gurgled ominously. The duck quacked once, establishing dominance. Agnes Crumbwell stood with arms folded, wooden spoon ready for emphasis. And somewhere in the distance, the Tower of Minor Inconveniences lurked on the horizon, its Pudding wobbling with ancient and philosophical patience.
+The village of Grumbleton awaited Sir Albert's decision. The drainage ditch gurgled ominously. The duck quacked once, establishing dominance. Agnes Crumbwell stood with arms folded, wooden spoon ready for emphasis. And somewhere in the distance, the Tower of Minor Inconveniences lurked on the horizon, its Pudding wobbling with ancient and philosophical patience.
 
 ---
 
@@ -5216,7 +5216,7 @@ ID: choice_help_drainage
 
 TEXT: Help Agnes clear the drainage ditch
 
-FLAVOR: "I shall clear your drainage, Madam Crumbwell!" Sir Reginald declared with the enthusiasm of someone who had never actually cleared a drainage ditch before. He approached the blockage with knightly determination. The duck retreated to a safe distance, clearly having seen this sort of thing before.
+FLAVOR: "I shall clear your drainage, Madam Crumbwell!" Sir Albert declared with the enthusiasm of someone who had never actually cleared a drainage ditch before. He approached the blockage with knightly determination. The duck retreated to a safe distance, clearly having seen this sort of thing before.
 
 REQUIREMENTS: None
 
@@ -5230,9 +5230,9 @@ DIFFICULTY: Standard
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: What followed could charitably be described as "problem-solving" and more accurately described as "a series of increasingly unfortunate events involving mud, branches, and at one point the accidental liberation of a family of frogs." Sir Reginald's armor provided surprisingly little protection against splashing, and his attempts to remove the main blockage resulted in several secondary blockages, a minor flood, and the duck's very vocal displeasure.
+NARRATIVE: What followed could charitably be described as "problem-solving" and more accurately described as "a series of increasingly unfortunate events involving mud, branches, and at one point the accidental liberation of a family of frogs." Sir Albert's armor provided surprisingly little protection against splashing, and his attempts to remove the main blockage resulted in several secondary blockages, a minor flood, and the duck's very vocal displeasure.
 
-Despite the chaos, or perhaps because of it, Sir Reginald eventually dislodges the central blockage: an improbably large branch that someone had apparently wedged there deliberately. Water flows freely once more, draining the accumulated muck into the proper channels. Sir Reginald emerges covered in mud, leaves, and what might be frog spawn, but victorious.
+Despite the chaos, or perhaps because of it, Sir Albert eventually dislodges the central blockage: an improbably large branch that someone had apparently wedged there deliberately. Water flows freely once more, draining the accumulated muck into the proper channels. Sir Albert emerges covered in mud, leaves, and what might be frog spawn, but victorious.
 
 Agnes Crumbwell regards him with an expression that has shifted entirely into approval. "Well," she says, "you've made a mess of yourself, but you've unmade the mess of my drainage. That's more than Herbert ever managed."
 
@@ -5258,11 +5258,11 @@ HINT_GAINED: "Mildred responds to helpfulness. The Pudding demands respect and p
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Despite his best efforts, or perhaps because of them, Sir Reginald manages to make the drainage situation significantly worse. His attempt to remove the central blockage results in a cascade failure that splashes mud across the entire square, startles the duck into flight (directly into his face), and leaves him lying in three inches of swamp water, staring up at the dishwater sky.
+NARRATIVE: Despite his best efforts, or perhaps because of them, Sir Albert manages to make the drainage situation significantly worse. His attempt to remove the central blockage results in a cascade failure that splashes mud across the entire square, startles the duck into flight (directly into his face), and leaves him lying in three inches of swamp water, staring up at the dishwater sky.
 
 Agnes Crumbwell watches this catastrophe unfold with the expression of someone whose expectations have been precisely met. "Well," she says, "you're definitely the lake-fire knight, aren't you."
 
-She sighs heavily and retrieves a long-handled rake from somewhere, proceeding to fix the drainage herself with the efficiency of someone who should have just done this from the start. Sir Reginald helps where he can, which mostly involves standing out of the way.
+She sighs heavily and retrieves a long-handled rake from somewhere, proceeding to fix the drainage herself with the efficiency of someone who should have just done this from the start. Sir Albert helps where he can, which mostly involves standing out of the way.
 
 "Here," Agnes says when the job is done, pressing a yellowed parchment into his hands. "My grandmother's map of the tower. You clearly need the help. There's a crack in the foundation that leads inside, bypasses that insufferable door. Use it."
 
@@ -5292,7 +5292,7 @@ ID: choice_decline_agnes
 
 TEXT: Politely decline Agnes's request and head to the tower immediately
 
-FLAVOR: "I thank you for the information, Madam Crumbwell, but I fear my quest is urgent," Sir Reginald says, and means it sincerely. "The banquet approaches, and every moment I delay is a moment the Pudding remains unretrieved."
+FLAVOR: "I thank you for the information, Madam Crumbwell, but I fear my quest is urgent," Sir Albert says, and means it sincerely. "The banquet approaches, and every moment I delay is a moment the Pudding remains unretrieved."
 
 Agnes's expression cools noticeably. "Urgent, is it? Too urgent to help an old woman with a blocked drain?" She sniffs. "Knights these days. All quest this and glory that. My grandmother's generation would have helped first and quested second."
 
@@ -5302,7 +5302,7 @@ Agnes's expression cools noticeably. "Urgent, is it? Too urgent to help an old w
 
 She does not mention the map or the secret entrance. Some information must be earned.
 
-The villagers part to let Sir Reginald through, their expressions suggesting they will be complaining about this for weeks.
+The villagers part to let Sir Albert through, their expressions suggesting they will be complaining about this for weeks.
 
 REQUIREMENTS: None
 
@@ -5330,7 +5330,7 @@ ID: choice_visit_inn
 
 TEXT: Visit The Adequate Turnip inn first
 
-FLAVOR: "If you will excuse me a moment, Madam Crumbwell," Sir Reginald says, "I believe some provisions and local knowledge might serve me well before I tackle any drains."
+FLAVOR: "If you will excuse me a moment, Madam Crumbwell," Sir Albert says, "I believe some provisions and local knowledge might serve me well before I tackle any drains."
 
 "Suit yourself," Agnes replies. "Margery's turnip stew is... acceptable. She might know some things about the tower, too. Used to do fortune-telling before she discovered it was less work to just serve food and let people complain to her."
 
@@ -5352,11 +5352,11 @@ She provides a bowl of stew (adequate) and, more usefully, information.
 
 "That tower's full of strange folk. There's a door that talks, which is inconvenient because it has opinions. There's a witch called Mildred who guards the upper floors. Not evil, mind, just particular. She likes things done properly. Help her with her little tasks and she's cooperative enough. Annoy her and she'll make your life difficult in small but persistent ways."
 
-"And the Pudding?" Sir Reginald asks.
+"And the Pudding?" Sir Albert asks.
 
 "The Pudding." Margery shakes her head. "My grandmother met it once. Said it wobbled at her disapprovingly for ten minutes before deigning to communicate. It thinks very highly of itself, for a dessert. Treat it with respect and it might cooperate. Treat it as just a pudding and you'll get nowhere."
 
-Sir Reginald also notices, hanging on a hook behind the bar, a coil of rope. "Is that for sale?"
+Sir Albert also notices, hanging on a hook behind the bar, a coil of rope. "Is that for sale?"
 
 "That? Found it last spring, washed up by the stream. Sturdy enough. You can have it for..." Margery squints at him. "Actually, take it. You look like you need all the help you can get."
 
@@ -5396,7 +5396,7 @@ ID: choice_ask_villagers
 
 TEXT: Ask villagers about the Tower without offering to help
 
-FLAVOR: Sir Reginald approaches a cluster of villagers who have gathered to watch the drainage situation develop. Perhaps they have useful information that does not require wading through muck.
+FLAVOR: Sir Albert approaches a cluster of villagers who have gathered to watch the drainage situation develop. Perhaps they have useful information that does not require wading through muck.
 
 "Good folk," he begins, "I seek knowledge of the Tower of Minor Inconveniences. Any wisdom you might share would be most welcome."
 
@@ -5420,11 +5420,11 @@ DIFFICULTY: Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald takes a deep breath. "I apologize. You are right. What does Grumbleton need?"
+NARRATIVE: Sir Albert takes a deep breath. "I apologize. You are right. What does Grumbleton need?"
 
 The villagers, apparently not expecting this response, are momentarily silenced. Then everyone starts talking at once about drainage, about the dry well, about Herbert's incompetence, about the way the kingdom overlooks them, about taxes, about the weather.
 
-Sir Reginald listens. He listens patiently. He nods at appropriate moments. He makes sympathetic sounds.
+Sir Albert listens. He listens patiently. He nods at appropriate moments. He makes sympathetic sounds.
 
 Eventually, somewhat mollified by the experience of being heard, the thin man speaks again. "The tower. Right. There's a witch up there. Mildred. She's not bad, actually. Helped my cousin with a boil once. She likes things done properly. Help her out and she's friendly enough."
 
@@ -5440,13 +5440,13 @@ SUB_CHOICE_REQUIRED: true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald attempts to engage the villagers in conversation, but they are not interested in talking to someone who is not interested in helping.
+NARRATIVE: Sir Albert attempts to engage the villagers in conversation, but they are not interested in talking to someone who is not interested in helping.
 
 "Questions, questions," one villager mutters. "Always questions. Never 'how can I assist your clearly struggling village.'"
 
 "We have a drainage problem," another adds pointedly. "But I suppose that's not dramatic enough for a knight on a quest."
 
-They return to their conversations, pointedly excluding Sir Reginald from useful information.
+They return to their conversations, pointedly excluding Sir Albert from useful information.
 
 CONSEQUENCES: None
 
@@ -5542,7 +5542,7 @@ Location: loctower_entrance
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 gerald (talking door guardian, main obstacle)
 
@@ -5554,7 +5554,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald arrives at the Tower of Minor Inconveniences
+Sir Albert arrives at the Tower of Minor Inconveniences
 
 Establish the tower's underwhelming appearance (architectural apology)
 
@@ -5566,7 +5566,7 @@ Pocket lurking nearby, unnoticed initially
 
 Middle:
 
-Gerald addresses Sir Reginald with weary sarcasm
+Gerald addresses Sir Albert with weary sarcasm
 
 Gerald demands proof of worthiness (but has no clear criteria)
 
@@ -5574,7 +5574,7 @@ Multiple approaches available to pass Gerald
 
 If player has itemtowermap, secret entrance option available
 
-Pocket steals itempockettrinket from Sir Reginald during the encounter
+Pocket steals itempockettrinket from Sir Albert during the encounter
 
 Player may notice Pocket and attempt interaction
 
@@ -5628,9 +5628,9 @@ Requirements: None
 
 Tests: PATIENCE test (target 7)
 
-Success: Gerald finds Sir Reginald "refreshingly genuine," opens door, SET flaggeraldpassed_diplomacy = true, Gerald provides hint about Mildred
+Success: Gerald finds Sir Albert "refreshingly genuine," opens door, SET flaggeraldpassed_diplomacy = true, Gerald provides hint about Mildred
 
-Failure: Gerald sighs, calls Sir Reginald "disappointing but harmless," opens door anyway (he is bored), SET flaggeraldpassed_diplomacy = true
+Failure: Gerald sighs, calls Sir Albert "disappointing but harmless," opens door anyway (he is bored), SET flaggeraldpassed_diplomacy = true
 
 Target: sec05tower_lower
 
@@ -5722,7 +5722,7 @@ The irony of his secret (just ask nicely) should be comedic
 
 Pocket's introduction should be mischievous but not malicious
 
-Sir Reginald's earnest attempts to impress should be endearing
+Sir Albert's earnest attempts to impress should be endearing
 
 The tower's underwhelming appearance continues Blandovian aesthetic
 
@@ -5740,7 +5740,7 @@ Reference itemsmoothstone from meadow for Pocket trade option
 
 If armor_squelching = true, Gerald comments on the dampness
 
-Gerald has never met Sir Reginald but forms opinion within seconds (per character data)
+Gerald has never met Sir Albert but forms opinion within seconds (per character data)
 
 Pocket's theft sets up later interaction in sec05
 
@@ -5756,7 +5756,7 @@ If itemsmoothstone possessed: Can trade to Pocket in Choice 6
 
 If flagquestunderstood = true: Choice 3 available (polite asking)
 
-If armor_squelching = true: Gerald comments on Sir Reginald's dampness
+If armor_squelching = true: Gerald comments on Sir Albert's dampness
 
 [/SECTION_PLAN]
 
@@ -5774,7 +5774,7 @@ NARRATIVE:
 
 The Tower of Minor Inconveniences rose from the landscape like an architectural apology. It was not tall enough to be imposing, not short enough to be quaint, and not interesting enough to be memorable. The stones were a color that resisted description, somewhere between "old porridge" and "regret." Windows dotted its surface at irregular intervals, as though the original architect had kept changing his mind about where light should be allowed to enter.
 
-Sir Reginald approached the entrance with what he hoped was knightly determination. A small sign beside the door read: "Visitors by Appointment Only" in faded letters. Beneath it, someone had added: "(Appointments Not Available)" in slightly fresher paint.
+Sir Albert approached the entrance with what he hoped was knightly determination. A small sign beside the door read: "Visitors by Appointment Only" in faded letters. Beneath it, someone had added: "(Appointments Not Available)" in slightly fresher paint.
 
 The door itself dominated the entrance. It was large, oak, and ancient, with iron bands that had long since surrendered to rust. But most notably, carved into its surface, was a face.
 
@@ -5792,13 +5792,13 @@ CONDITION: armor_squelching = true
 
 TEXT: The door's carved nose wrinkled slightly. "And a damp one at that. Did you fall in the stream? The bridge is right there. It has been right there for two hundred years. I watched them build it. It was not complicated."
 
-"I am aware of the bridge," Sir Reginald said with as much dignity as a squelching knight could muster.
+"I am aware of the bridge," Sir Albert said with as much dignity as a squelching knight could muster.
 
 "And yet," the door observed, "here you are. Dripping."
 
 CONDITION: armor_squelching = false
 
-TEXT: The door's carved eyes traveled slowly from Sir Reginald's helmet to his boots, taking in the rusty sword, the dented shield, and the general air of well-meaning incompetence.
+TEXT: The door's carved eyes traveled slowly from Sir Albert's helmet to his boots, taking in the rusty sword, the dented shield, and the general air of well-meaning incompetence.
 
 "A knight," the door observed. "How... expected. They do keep sending knights. As though knighthood were somehow a qualification for anything beyond wearing uncomfortable clothing and bumping into furniture."
 
@@ -5806,11 +5806,11 @@ TEXT: The door's carved eyes traveled slowly from Sir Reginald's helmet to his b
 
 NARRATIVE_CONTINUED:
 
-"I am Sir Reginald Bumblethwaite," Sir Reginald announced, attempting a bow that was somewhat complicated by the need to address a door. "I have come on a quest of great importance."
+"I am Sir Albert Bumblethwaite," Sir Albert announced, attempting a bow that was somewhat complicated by the need to address a door. "I have come on a quest of great importance."
 
-"They always have." The door's voice carried the weight of centuries of identical conversations. "Great importance. Vital urgency. Desperate necessity. And yet, somehow, the world continues to turn regardless of whether the quest succeeds or fails. I have been here for four hundred years, Sir Reginald Bumblethwaite. I have seen many quests. Most of them were not, in fact, of great importance."
+"They always have." The door's voice carried the weight of centuries of identical conversations. "Great importance. Vital urgency. Desperate necessity. And yet, somehow, the world continues to turn regardless of whether the quest succeeds or fails. I have been here for four hundred years, Sir Albert Bumblethwaite. I have seen many quests. Most of them were not, in fact, of great importance."
 
-"This one involves a pudding," Sir Reginald offered.
+"This one involves a pudding," Sir Albert offered.
 
 "Ah." Something shifted in the door's expression. Not quite interest, but perhaps a reduction in active disinterest. "The Pudding. Yes. It is still up there. Still wobbling. Still having opinions about everything. You wish to retrieve it?"
 
@@ -5818,23 +5818,23 @@ NARRATIVE_CONTINUED:
 
 "The kingdom." The door made a sound that might have been a sigh, if doors could sigh. "I am Gerald, by the way. Gerald the Adequate. I guard this entrance. I determine who is worthy to enter the Tower of Minor Inconveniences." He paused. "The criteria for worthiness have never been clearly defined. I have had four centuries to develop my own standards."
 
-"And what are those standards?" Sir Reginald asked.
+"And what are those standards?" Sir Albert asked.
 
 "That," Gerald said, "is what we are about to discover."
 
-Behind Sir Reginald, unnoticed, something small and green shifted in the shadows near the tower's foundation. Bulging yellow eyes watched the exchange with keen interest. Fingers with too many joints flexed with anticipation.
+Behind Sir Albert, unnoticed, something small and green shifted in the shadows near the tower's foundation. Bulging yellow eyes watched the exchange with keen interest. Fingers with too many joints flexed with anticipation.
 
 Pocket the goblin had spotted something shiny on the knight's armor. A small brass button, perhaps. Nothing valuable. But interesting. Definitely interesting.
 
-While Sir Reginald focused his attention entirely on the talking door, Pocket crept closer. The goblin moved with the practiced silence of someone who had spent decades acquiring things that did not technically belong to him. His fingers, nimble and quick, found the brass button on Sir Reginald's armor and, with a twist that made no sound at all, liberated it from its position.
+While Sir Albert focused his attention entirely on the talking door, Pocket crept closer. The goblin moved with the practiced silence of someone who had spent decades acquiring things that did not technically belong to him. His fingers, nimble and quick, found the brass button on Sir Albert's armor and, with a twist that made no sound at all, liberated it from its position.
 
-Sir Reginald felt nothing. His armor made so many sounds that one fewer component went entirely unnoticed.
+Sir Albert felt nothing. His armor made so many sounds that one fewer component went entirely unnoticed.
 
 Pocket retreated to the shadows, examining his prize with satisfaction. Shiny. Small. Interesting. A good day's work, and the day had barely begun.
 
 Gerald's heavy-lidded eyes had observed this entire exchange but said nothing. The goblin was a minor annoyance, nothing more. Besides, watching visitors lose their possessions to Pocket provided a small entertainment in an otherwise tedious existence.
 
-"Well then, Sir Reginald Bumblethwaite," Gerald continued, as though nothing had happened. "Convince me. Why should I open? What makes you worthy of entering this tower and disturbing its inhabitants?"
+"Well then, Sir Albert Bumblethwaite," Gerald continued, as though nothing had happened. "Convince me. Why should I open? What makes you worthy of entering this tower and disturbing its inhabitants?"
 
 ---
 
@@ -5842,11 +5842,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagquestunderstood = true
 
-TEXT: Sir Reginald remembered what he had learned about the tower and its guardians. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the door would appreciate the same approach. Perhaps, he thought, the secret was not to prove himself worthy through grand gestures, but simply to be genuine.
+TEXT: Sir Albert remembered what he had learned about the tower and its guardians. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the door would appreciate the same approach. Perhaps, he thought, the secret was not to prove himself worthy through grand gestures, but simply to be genuine.
 
 CONDITION: flagquestunderstood = false
 
-TEXT: Sir Reginald was not entirely certain what qualified as "worthy" in the context of entering a tower to retrieve a pudding. Strength? Courage? A detailed understanding of dessert philosophy? He would have to improvise. Improvisation had rarely served him well in the past, but there was always a first time.
+TEXT: Sir Albert was not entirely certain what qualified as "worthy" in the context of entering a tower to retrieve a pudding. Strength? Courage? A detailed understanding of dessert philosophy? He would have to improvise. Improvisation had rarely served him well in the past, but there was always a first time.
 
 ---
 
@@ -5854,7 +5854,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: HAVE item_tower_map
 
-TEXT: Of course, Sir Reginald also remembered Agnes's map, safely tucked in his pack. The yellowed parchment showed a crack in the foundation, a secret way inside that bypassed the door entirely. Gerald need never know he had entered at all.
+TEXT: Of course, Sir Albert also remembered Agnes's map, safely tucked in his pack. The yellowed parchment showed a crack in the foundation, a secret way inside that bypassed the door entirely. Gerald need never know he had entered at all.
 
 But that seemed somehow impolite.
 
@@ -5862,7 +5862,7 @@ But that seemed somehow impolite.
 
 NARRATIVE_CONTINUED:
 
-The entrance to the Tower of Minor Inconveniences awaited Sir Reginald's decision. Gerald the door watched with four centuries of accumulated skepticism. And somewhere in the shadows, a goblin clutched a stolen brass button and wondered what interesting things might happen next.
+The entrance to the Tower of Minor Inconveniences awaited Sir Albert's decision. Gerald the door watched with four centuries of accumulated skepticism. And somewhere in the shadows, a goblin clutched a stolen brass button and wondered what interesting things might happen next.
 
 ---
 
@@ -5870,7 +5870,7 @@ CHOICES:
 
 CHOICE 1: Attempt to impress Gerald with a display of knightly virtue
 
-"I am a knight of Blandovia," Sir Reginald declared, drawing himself up to his full height (which was considerable, if somewhat gangly). "I have sworn oaths of honor, courage, and... and other knightly things. I seek the Pudding not for personal glory, but because my kingdom requires it. The Royal Banquet approaches, and the dignitaries of Pomponia must be impressed, or there will be diplomatic consequences. Embarrassing ones. Involving paperwork."
+"I am a knight of Blandovia," Sir Albert declared, drawing himself up to his full height (which was considerable, if somewhat gangly). "I have sworn oaths of honor, courage, and... and other knightly things. I seek the Pudding not for personal glory, but because my kingdom requires it. The Royal Banquet approaches, and the dignitaries of Pomponia must be impressed, or there will be diplomatic consequences. Embarrassing ones. Involving paperwork."
 
 He paused, uncertain whether this was impressive or merely pathetic.
 
@@ -5910,7 +5910,7 @@ Target: sec05tower_lower
 
 CHOICE 2: Tell Gerald a joke
 
-Sir Reginald searched his memory for something humorous. Comedy had never been his strength. He had once attempted to tell a joke at a feast and somehow started a small fire. (The joke had involved a candle. In retrospect, the physical demonstration had been ill-advised.)
+Sir Albert searched his memory for something humorous. Comedy had never been his strength. He had once attempted to tell a joke at a feast and somehow started a small fire. (The joke had involved a candle. In retrospect, the physical demonstration had been ill-advised.)
 
 "Why did the knight bring a ladder to the castle?" he asked.
 
@@ -5920,7 +5920,7 @@ Gerald's expression did not change.
 
 Silence. Profound, judgmental silence.
 
-"It is a play on words," Sir Reginald explained, desperately. "Night. Knight. They sound similar. And shift, as in a period of work, but also... actually, I am not certain what the ladder has to do with it. I may have told it wrong."
+"It is a play on words," Sir Albert explained, desperately. "Night. Knight. They sound similar. And shift, as in a period of work, but also... actually, I am not certain what the ladder has to do with it. I may have told it wrong."
 
 Requirements: None
 
@@ -5930,7 +5930,7 @@ Success: Gerald's eyes close. When they open again, there is something in them t
 
 "That," he says, "was adequate."
 
-Sir Reginald blinks. "It was?"
+Sir Albert blinks. "It was?"
 
 "No. It was terrible. But the delivery was so earnestly poor that it circled back around to something approaching entertainment. I have not been genuinely surprised by a joke in three centuries. You have surprised me. That counts for something."
 
@@ -5956,7 +5956,7 @@ Target: sec05towerlower (success) or return to choices (failure)
 
 CHOICE 3: Simply ask Gerald nicely if you may enter
 
-Sir Reginald took a breath. He thought about what he had learned from the Quest Scroll. The Pudding responded to patience and respect. Perhaps Gerald would as well. Perhaps the secret was not to perform worthiness, but to simply be polite.
+Sir Albert took a breath. He thought about what he had learned from the Quest Scroll. The Pudding responded to patience and respect. Perhaps Gerald would as well. Perhaps the secret was not to perform worthiness, but to simply be polite.
 
 "Gerald," he said, "I apologize for the intrusion. I understand that you have guarded this door for four centuries, and that visitors must grow tiresome. I am not here to prove anything or to demonstrate my worth through grand gestures. I am simply a knight with a task, and I am asking, politely, if you would allow me to enter. Please."
 
@@ -5970,7 +5970,7 @@ Gerald's carved face went very still.
 
 A long pause.
 
-"You may enter, Sir Reginald Bumblethwaite."
+"You may enter, Sir Albert Bumblethwaite."
 
 The door swings open with a creak that might, impossibly, contain a note of respect.
 
@@ -5992,19 +5992,19 @@ Target: sec05tower_lower
 
 CHOICE 4: Use the secret entrance shown on Agnes's map
 
-Sir Reginald remembered the yellowed map in his pack. Agnes's grandmother had found a way inside that bypassed the front door entirely. A crack in the foundation, she had written, wide enough for a determined visitor to squeeze through.
+Sir Albert remembered the yellowed map in his pack. Agnes's grandmother had found a way inside that bypassed the front door entirely. A crack in the foundation, she had written, wide enough for a determined visitor to squeeze through.
 
 "Gerald," he said, "I thank you for your time, but I believe I shall explore the exterior a bit."
 
-"Suit yourself," Gerald said, his tone suggesting he knew exactly what Sir Reginald was planning. "I shall be here. I am always here. I am a door."
+"Suit yourself," Gerald said, his tone suggesting he knew exactly what Sir Albert was planning. "I shall be here. I am always here. I am a door."
 
-Sir Reginald circled the tower, following the landmarks on the map. There, just as Agnes's grandmother had drawn, was a crack in the foundation stones. Wide enough for a person to squeeze through, if that person was determined and did not mind enclosed spaces.
+Sir Albert circled the tower, following the landmarks on the map. There, just as Agnes's grandmother had drawn, was a crack in the foundation stones. Wide enough for a person to squeeze through, if that person was determined and did not mind enclosed spaces.
 
 Requirements: HAVE item_tower_map
 
 Tests: SKILL test (target 6, easy with map)
 
-Success: Sir Reginald wedges himself into the crack. His armor scrapes against stone. His shield catches briefly on a protrusion. But Agnes's grandmother's map is accurate, and the passage opens into the tower's interior.
+Success: Sir Albert wedges himself into the crack. His armor scrapes against stone. His shield catches briefly on a protrusion. But Agnes's grandmother's map is accurate, and the passage opens into the tower's interior.
 
 He emerges in a dusty storage area, having bypassed Gerald entirely. The talking door, four hundred years old and desperate for conversation, will never know he entered this way.
 
@@ -6012,7 +6012,7 @@ SET flaggeraldpassed_secret = true
 
 Target: sec05tower_lower
 
-Failure: Sir Reginald wedges himself into the crack. His armor scrapes against stone. His shield catches on a protrusion. His helmet jams against a narrow point. He is, briefly but definitively, stuck.
+Failure: Sir Albert wedges himself into the crack. His armor scrapes against stone. His shield catches on a protrusion. His helmet jams against a narrow point. He is, briefly but definitively, stuck.
 
 "Oh no," he says to no one in particular.
 
@@ -6030,9 +6030,9 @@ Target: sec05tower_lower
 
 CHOICE 5: Attempt to force the door open
 
-Sir Reginald was not, by nature, a forceful person. But he was a knight. Knights, traditionally, dealt with obstacles through direct action. Perhaps Gerald would respect strength.
+Sir Albert was not, by nature, a forceful person. But he was a knight. Knights, traditionally, dealt with obstacles through direct action. Perhaps Gerald would respect strength.
 
-"I appreciate the conversation," Sir Reginald said, "but I believe I shall simply... proceed."
+"I appreciate the conversation," Sir Albert said, "but I believe I shall simply... proceed."
 
 He lowered his shoulder and charged.
 
@@ -6040,7 +6040,7 @@ Requirements: None
 
 Tests: SKILL test (target 10, very difficult)
 
-Success: Sir Reginald's shoulder connects with ancient oak. Gerald is enchanted, of course, and cannot be forced open by mere physical strength. The impact accomplishes nothing except a tremendous bruising sensation.
+Success: Sir Albert's shoulder connects with ancient oak. Gerald is enchanted, of course, and cannot be forced open by mere physical strength. The impact accomplishes nothing except a tremendous bruising sensation.
 
 But Gerald, surprisingly, laughs. It is a strange sound, like wind through old wood.
 
@@ -6052,7 +6052,7 @@ The door swings open.
 
 SET flaggeraldpassed_diplomacy = true
 
-Failure: Sir Reginald's shoulder connects with ancient oak. The oak does not move. Sir Reginald's shoulder moves quite a lot, mostly in directions shoulders are not designed to move.
+Failure: Sir Albert's shoulder connects with ancient oak. The oak does not move. Sir Albert's shoulder moves quite a lot, mostly in directions shoulders are not designed to move.
 
 "OW."
 
@@ -6072,11 +6072,11 @@ Target: sec05towerlower (success) or return to choices (failure)
 
 CHOICE 6: Notice Pocket watching and try to communicate with him
 
-As Sir Reginald considered his options, something caught his attention. A flicker of movement in the shadows near the tower's foundation. Bulging yellow eyes, watching with keen interest. A small green figure, clutching something that glinted in the light.
+As Sir Albert considered his options, something caught his attention. A flicker of movement in the shadows near the tower's foundation. Bulging yellow eyes, watching with keen interest. A small green figure, clutching something that glinted in the light.
 
 Something that looked rather like a brass button from a knight's armor.
 
-"Hello there," Sir Reginald called softly, turning away from Gerald. "I see you."
+"Hello there," Sir Albert called softly, turning away from Gerald. "I see you."
 
 The figure froze. Then, slowly, it emerged from the shadows.
 
@@ -6084,7 +6084,7 @@ The goblin was perhaps three feet tall, with enormous ears, bulging yellow eyes,
 
 "Knight sees Pocket," the goblin said, its voice a rapid patter. "Most don't see Pocket. Pocket is good at not being seen. Knight has good eyes. Or Pocket is losing touch. Pocket hopes is the first thing."
 
-"Pocket?" Sir Reginald asked.
+"Pocket?" Sir Albert asked.
 
 "Is name. Is also what Pocket has many of." The goblin gestured to his vest. "Pockets in pockets. Very useful. Hold many things. Interesting things. Shiny things."
 
@@ -6094,25 +6094,25 @@ Requirements: None
 
 Tests: PATIENCE test (target 6)
 
-Success: Sir Reginald did not mention the button. Some instinct told him that confronting the goblin about theft would end poorly. Instead, he crouched down to Pocket's level and spoke gently.
+Success: Sir Albert did not mention the button. Some instinct told him that confronting the goblin about theft would end poorly. Instead, he crouched down to Pocket's level and spoke gently.
 
 "Pocket," he said, "I am trying to enter this tower. Gerald is... particular. Do you know another way inside?"
 
 Pocket's eyes widened. "Knight asks Pocket for help? Not demands? Not threatens? Not calls Pocket thief and tries to grab?"
 
-"I am asking," Sir Reginald said. "Politely."
+"I am asking," Sir Albert said. "Politely."
 
 "Politely." Pocket tasted the word as though it were unfamiliar. "Pocket knows tower. Knows every crack, every passage, every hiding spot. Could show knight. Could help. But..." His eyes narrowed. "What does knight have that is interesting? Pocket likes interesting things. Trades help for interesting things."
 
 If player HAS itemsmoothstone:
 
-Sir Reginald remembered the smooth stone he had found by the stream. He produced it from his pack.
+Sir Albert remembered the smooth stone he had found by the stream. He produced it from his pack.
 
 "Is this interesting?"
 
 Pocket's eyes went very wide. "SMOOTH," he breathed. "Perfect smooth. Stream-worn. Pocket has wanted one. Pocket has looked. Stream is inconvenient. Knight has found perfect smooth stone."
 
-"It is yours," Sir Reginald said, "if you show me the way inside."
+"It is yours," Sir Albert said, "if you show me the way inside."
 
 "DEAL." Pocket snatched the stone with reverent fingers. "Come, come. Pocket shows. Secret way. Better than door. Door is full of itself. This way, this way."
 
@@ -6122,7 +6122,7 @@ SET flaggeraldpassed_secret = true
 
 SET flagpocketfriendly = true
 
-Pocket guides Sir Reginald to the secret entrance, pointing out the crack in the foundation.
+Pocket guides Sir Albert to the secret entrance, pointing out the crack in the foundation.
 
 "Through there. Opens to lower floors. Pocket uses all the time. Door never knows. Door is very annoyed about that."
 
@@ -6132,7 +6132,7 @@ If player does NOT HAVE itemsmoothstone:
 
 "What does knight have that is interesting?" Pocket repeated.
 
-Sir Reginald searched his pack. The packed lunch? Pocket did not seem interested in food. The rusty sword? Too large for a goblin. The quest scroll? Official documents rarely counted as "interesting."
+Sir Albert searched his pack. The packed lunch? Pocket did not seem interested in food. The rusty sword? Too large for a goblin. The quest scroll? Official documents rarely counted as "interesting."
 
 "I... do not have anything interesting at the moment," he admitted.
 
@@ -6144,9 +6144,9 @@ The goblin retreated toward the shadows, still clutching the stolen button.
 
 No trade made. Return to choices. Pocket opportunity may arise again in sec05.
 
-Failure: Sir Reginald turned toward the shadows, but his movement was too sudden. The goblin startled, yellow eyes going wide, and in an instant had vanished into a crack in the masonry far too small for any creature that size to fit through.
+Failure: Sir Albert turned toward the shadows, but his movement was too sudden. The goblin startled, yellow eyes going wide, and in an instant had vanished into a crack in the masonry far too small for any creature that size to fit through.
 
-"Wait," Sir Reginald called. "I only wanted to..."
+"Wait," Sir Albert called. "I only wanted to..."
 
 But Pocket was gone. The opportunity for an early alliance had passed.
 
@@ -6166,7 +6166,7 @@ EFFECT: REMOVE itempockettrinket from inventory (note: this item was not in star
 
 SET itempockettrinket as stolen by Pocket
 
-NARRATIVE CUE: Player may notice something is missing from armor later (Sir Reginald does not notice during this section)
+NARRATIVE CUE: Player may notice something is missing from armor later (Sir Albert does not notice during this section)
 
 ---
 
@@ -6260,7 +6260,7 @@ Responds to kindness over threats: Demonstrated in Choice 6
 
 Trade-based relationship: Implemented with item_smooth_stone option
 
-sir_reginald:
+sir_albert:
 
 Politeness: Multiple dialogue options show this
 
@@ -6620,9 +6620,9 @@ All dialogue uses standard punctuation
 
 ISSUES IDENTIFIED:
 
-Minor Issue 1: The AUTOMATIC_EVENTS section introduces item_pocket_trinket as "created" but the world data already defines it as an existing item that Pocket steals. The narrative should clarify this is a loss from Sir Reginald's armor (a button that was always there) rather than a new item creation.
+Minor Issue 1: The AUTOMATIC_EVENTS section introduces item_pocket_trinket as "created" but the world data already defines it as an existing item that Pocket steals. The narrative should clarify this is a loss from Sir Albert's armor (a button that was always there) rather than a new item creation.
 
-Resolution: Reframe in final version as "Item noted as stolen: item_pocket_trinket (brass button from Sir Reginald's armor, now in Pocket's possession)"
+Resolution: Reframe in final version as "Item noted as stolen: item_pocket_trinket (brass button from Sir Albert's armor, now in Pocket's possession)"
 
 Minor Issue 2: Choice 6 has nested conditional logic (success -> has stone vs doesn't have stone). This should be formatted more explicitly for engine parsing.
 
@@ -6668,7 +6668,7 @@ SECTION_TITLE: The Door With Opinions
 
 LOCATION: loc_tower_entrance
 
-CHARACTERS_PRESENT: sir_reginald, gerald, pocket
+CHARACTERS_PRESENT: sir_albert, gerald, pocket
 
 ---
 
@@ -6676,7 +6676,7 @@ NARRATIVE:
 
 The Tower of Minor Inconveniences rose from the landscape like an architectural apology. It was not tall enough to be imposing, not short enough to be quaint, and not interesting enough to be memorable. The stones were a color that resisted description, somewhere between "old porridge" and "regret." Windows dotted its surface at irregular intervals, as though the original architect had kept changing his mind about where light should be allowed to enter.
 
-Sir Reginald approached the entrance with what he hoped was knightly determination. A small sign beside the door read: "Visitors by Appointment Only" in faded letters. Beneath it, someone had added: "(Appointments Not Available)" in slightly fresher paint.
+Sir Albert approached the entrance with what he hoped was knightly determination. A small sign beside the door read: "Visitors by Appointment Only" in faded letters. Beneath it, someone had added: "(Appointments Not Available)" in slightly fresher paint.
 
 The door itself dominated the entrance. It was large, oak, and ancient, with iron bands that had long since surrendered to rust. But most notably, carved into its surface, was a face.
 
@@ -6694,13 +6694,13 @@ CONDITION: armor_squelching = true
 
 TEXT: The door's carved nose wrinkled slightly. "And a damp one at that. Did you fall in the stream? The bridge is right there. It has been right there for two hundred years. I watched them build it. It was not complicated."
 
-"I am aware of the bridge," Sir Reginald said with as much dignity as a squelching knight could muster.
+"I am aware of the bridge," Sir Albert said with as much dignity as a squelching knight could muster.
 
 "And yet," the door observed, "here you are. Dripping."
 
 CONDITION: armor_squelching = false
 
-TEXT: The door's carved eyes traveled slowly from Sir Reginald's helmet to his boots, taking in the rusty sword, the dented shield, and the general air of well-meaning incompetence.
+TEXT: The door's carved eyes traveled slowly from Sir Albert's helmet to his boots, taking in the rusty sword, the dented shield, and the general air of well-meaning incompetence.
 
 "A knight," the door observed. "How... expected. They do keep sending knights. As though knighthood were somehow a qualification for anything beyond wearing uncomfortable clothing and bumping into furniture."
 
@@ -6708,11 +6708,11 @@ TEXT: The door's carved eyes traveled slowly from Sir Reginald's helmet to his b
 
 NARRATIVE_CONTINUED:
 
-"I am Sir Reginald Bumblethwaite," Sir Reginald announced, attempting a bow that was somewhat complicated by the need to address a door. "I have come on a quest of great importance."
+"I am Sir Albert Bumblethwaite," Sir Albert announced, attempting a bow that was somewhat complicated by the need to address a door. "I have come on a quest of great importance."
 
-"They always have." The door's voice carried the weight of centuries of identical conversations. "Great importance. Vital urgency. Desperate necessity. And yet, somehow, the world continues to turn regardless of whether the quest succeeds or fails. I have been here for four hundred years, Sir Reginald Bumblethwaite. I have seen many quests. Most of them were not, in fact, of great importance."
+"They always have." The door's voice carried the weight of centuries of identical conversations. "Great importance. Vital urgency. Desperate necessity. And yet, somehow, the world continues to turn regardless of whether the quest succeeds or fails. I have been here for four hundred years, Sir Albert Bumblethwaite. I have seen many quests. Most of them were not, in fact, of great importance."
 
-"This one involves a pudding," Sir Reginald offered.
+"This one involves a pudding," Sir Albert offered.
 
 "Ah." Something shifted in the door's expression. Not quite interest, but perhaps a reduction in active disinterest. "The Pudding. Yes. It is still up there. Still wobbling. Still having opinions about everything. You wish to retrieve it?"
 
@@ -6720,23 +6720,23 @@ NARRATIVE_CONTINUED:
 
 "The kingdom." The door made a sound that might have been a sigh, if doors could sigh. "I am Gerald, by the way. Gerald the Adequate. I guard this entrance. I determine who is worthy to enter the Tower of Minor Inconveniences." He paused. "The criteria for worthiness have never been clearly defined. I have had four centuries to develop my own standards."
 
-"And what are those standards?" Sir Reginald asked.
+"And what are those standards?" Sir Albert asked.
 
 "That," Gerald said, "is what we are about to discover."
 
-Behind Sir Reginald, unnoticed, something small and green shifted in the shadows near the tower's foundation. Bulging yellow eyes watched the exchange with keen interest. Fingers with too many joints flexed with anticipation.
+Behind Sir Albert, unnoticed, something small and green shifted in the shadows near the tower's foundation. Bulging yellow eyes watched the exchange with keen interest. Fingers with too many joints flexed with anticipation.
 
 Pocket the goblin had spotted something shiny on the knight's armor. A small brass button, perhaps. Nothing valuable. But interesting. Definitely interesting.
 
-While Sir Reginald focused his attention entirely on the talking door, Pocket crept closer. The goblin moved with the practiced silence of someone who had spent decades acquiring things that did not technically belong to him. His fingers, nimble and quick, found the brass button on Sir Reginald's armor and, with a twist that made no sound at all, liberated it from its position.
+While Sir Albert focused his attention entirely on the talking door, Pocket crept closer. The goblin moved with the practiced silence of someone who had spent decades acquiring things that did not technically belong to him. His fingers, nimble and quick, found the brass button on Sir Albert's armor and, with a twist that made no sound at all, liberated it from its position.
 
-Sir Reginald felt nothing. His armor made so many sounds that one fewer component went entirely unnoticed.
+Sir Albert felt nothing. His armor made so many sounds that one fewer component went entirely unnoticed.
 
 Pocket retreated to the shadows, examining his prize with satisfaction. Shiny. Small. Interesting. A good day's work, and the day had barely begun.
 
 Gerald's heavy-lidded eyes had observed this entire exchange but said nothing. The goblin was a minor annoyance, nothing more. Besides, watching visitors lose their possessions to Pocket provided a small entertainment in an otherwise tedious existence.
 
-"Well then, Sir Reginald Bumblethwaite," Gerald continued, as though nothing had happened. "Convince me. Why should I open? What makes you worthy of entering this tower and disturbing its inhabitants?"
+"Well then, Sir Albert Bumblethwaite," Gerald continued, as though nothing had happened. "Convince me. Why should I open? What makes you worthy of entering this tower and disturbing its inhabitants?"
 
 ---
 
@@ -6744,11 +6744,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_quest_understood = true
 
-TEXT: Sir Reginald remembered what he had learned about the tower and its guardians. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the door would appreciate the same approach. Perhaps, he thought, the secret was not to prove himself worthy through grand gestures, but simply to be genuine.
+TEXT: Sir Albert remembered what he had learned about the tower and its guardians. The Quest Scroll had mentioned that the Pudding responded to patience and respect. Perhaps the door would appreciate the same approach. Perhaps, he thought, the secret was not to prove himself worthy through grand gestures, but simply to be genuine.
 
 CONDITION: flag_quest_understood = false
 
-TEXT: Sir Reginald was not entirely certain what qualified as "worthy" in the context of entering a tower to retrieve a pudding. Strength? Courage? A detailed understanding of dessert philosophy? He would have to improvise. Improvisation had rarely served him well in the past, but there was always a first time.
+TEXT: Sir Albert was not entirely certain what qualified as "worthy" in the context of entering a tower to retrieve a pudding. Strength? Courage? A detailed understanding of dessert philosophy? He would have to improvise. Improvisation had rarely served him well in the past, but there was always a first time.
 
 ---
 
@@ -6756,7 +6756,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: HAVE item_tower_map
 
-TEXT: Of course, Sir Reginald also remembered Agnes's map, safely tucked in his pack. The yellowed parchment showed a crack in the foundation, a secret way inside that bypassed the door entirely. Gerald need never know he had entered at all.
+TEXT: Of course, Sir Albert also remembered Agnes's map, safely tucked in his pack. The yellowed parchment showed a crack in the foundation, a secret way inside that bypassed the door entirely. Gerald need never know he had entered at all.
 
 But that seemed somehow impolite.
 
@@ -6764,7 +6764,7 @@ But that seemed somehow impolite.
 
 NARRATIVE_CONTINUED:
 
-The entrance to the Tower of Minor Inconveniences awaited Sir Reginald's decision. Gerald the door watched with four centuries of accumulated skepticism. And somewhere in the shadows, a goblin clutched a stolen brass button and wondered what interesting things might happen next.
+The entrance to the Tower of Minor Inconveniences awaited Sir Albert's decision. Gerald the door watched with four centuries of accumulated skepticism. And somewhere in the shadows, a goblin clutched a stolen brass button and wondered what interesting things might happen next.
 
 ---
 
@@ -6774,9 +6774,9 @@ EVENT: Pocket's Theft
 
 TRIGGER: Automatic, occurs during narrative regardless of player choice
 
-EFFECT: Item noted as stolen: item_pocket_trinket (brass button from Sir Reginald's armor, now in Pocket's possession)
+EFFECT: Item noted as stolen: item_pocket_trinket (brass button from Sir Albert's armor, now in Pocket's possession)
 
-NARRATIVE_CUE: Player may notice something is missing from armor in sec05_tower_lower. Sir Reginald does not notice during this section.
+NARRATIVE_CUE: Player may notice something is missing from armor in sec05_tower_lower. Sir Albert does not notice during this section.
 
 RECOVERY_OPPORTUNITY: item_pocket_trinket can be recovered through negotiation with Pocket in sec05_tower_lower.
 
@@ -6790,7 +6790,7 @@ ID: choice_impress_gerald
 
 TEXT: Attempt to impress Gerald with a display of knightly virtue
 
-FLAVOR: "I am a knight of Blandovia," Sir Reginald declared, drawing himself up to his full height (which was considerable, if somewhat gangly). "I have sworn oaths of honor, courage, and... and other knightly things. I seek the Pudding not for personal glory, but because my kingdom requires it. The Royal Banquet approaches, and the dignitaries of Pomponia must be impressed, or there will be diplomatic consequences. Embarrassing ones. Involving paperwork."
+FLAVOR: "I am a knight of Blandovia," Sir Albert declared, drawing himself up to his full height (which was considerable, if somewhat gangly). "I have sworn oaths of honor, courage, and... and other knightly things. I seek the Pudding not for personal glory, but because my kingdom requires it. The Royal Banquet approaches, and the dignitaries of Pomponia must be impressed, or there will be diplomatic consequences. Embarrassing ones. Involving paperwork."
 
 He paused, uncertain whether this was impressive or merely pathetic.
 
@@ -6850,7 +6850,7 @@ ID: choice_tell_joke
 
 TEXT: Tell Gerald a joke
 
-FLAVOR: Sir Reginald searched his memory for something humorous. Comedy had never been his strength. He had once attempted to tell a joke at a feast and somehow started a small fire. (The joke had involved a candle. In retrospect, the physical demonstration had been ill-advised.)
+FLAVOR: Sir Albert searched his memory for something humorous. Comedy had never been his strength. He had once attempted to tell a joke at a feast and somehow started a small fire. (The joke had involved a candle. In retrospect, the physical demonstration had been ill-advised.)
 
 "Why did the knight bring a ladder to the castle?" he asked.
 
@@ -6860,7 +6860,7 @@ Gerald's expression did not change.
 
 Silence. Profound, judgmental silence.
 
-"It is a play on words," Sir Reginald explained, desperately. "Night. Knight. They sound similar. And shift, as in a period of work, but also... actually, I am not certain what the ladder has to do with it. I may have told it wrong."
+"It is a play on words," Sir Albert explained, desperately. "Night. Knight. They sound similar. And shift, as in a period of work, but also... actually, I am not certain what the ladder has to do with it. I may have told it wrong."
 
 REQUIREMENTS: None
 
@@ -6878,7 +6878,7 @@ NARRATIVE: Gerald's eyes close. When they open again, there is something in them
 
 "That," he says, "was adequate."
 
-Sir Reginald blinks. "It was?"
+Sir Albert blinks. "It was?"
 
 "No. It was terrible. But the delivery was so earnestly poor that it circled back around to something approaching entertainment. I have not been genuinely surprised by a joke in three centuries. You have surprised me. That counts for something."
 
@@ -6914,7 +6914,7 @@ ID: choice_ask_politely
 
 TEXT: Simply ask Gerald nicely if you may enter
 
-FLAVOR: Sir Reginald took a breath. He thought about what he had learned from the Quest Scroll. The Pudding responded to patience and respect. Perhaps Gerald would as well. Perhaps the secret was not to perform worthiness, but to simply be polite.
+FLAVOR: Sir Albert took a breath. He thought about what he had learned from the Quest Scroll. The Pudding responded to patience and respect. Perhaps Gerald would as well. Perhaps the secret was not to perform worthiness, but to simply be polite.
 
 "Gerald," he said, "I apologize for the intrusion. I understand that you have guarded this door for four centuries, and that visitors must grow tiresome. I am not here to prove anything or to demonstrate my worth through grand gestures. I am simply a knight with a task, and I am asking, politely, if you would allow me to enter. Please."
 
@@ -6934,7 +6934,7 @@ NARRATIVE: "You..." The door's voice carried a strange quality. "You are asking.
 
 A long pause.
 
-"You may enter, Sir Reginald Bumblethwaite."
+"You may enter, Sir Albert Bumblethwaite."
 
 The door swings open with a creak that might, impossibly, contain a note of respect.
 
@@ -6962,13 +6962,13 @@ ID: choice_secret_entrance
 
 TEXT: Use the secret entrance shown on Agnes's map
 
-FLAVOR: Sir Reginald remembered the yellowed map in his pack. Agnes's grandmother had found a way inside that bypassed the front door entirely. A crack in the foundation, she had written, wide enough for a determined visitor to squeeze through.
+FLAVOR: Sir Albert remembered the yellowed map in his pack. Agnes's grandmother had found a way inside that bypassed the front door entirely. A crack in the foundation, she had written, wide enough for a determined visitor to squeeze through.
 
 "Gerald," he said, "I thank you for your time, but I believe I shall explore the exterior a bit."
 
-"Suit yourself," Gerald said, his tone suggesting he knew exactly what Sir Reginald was planning. "I shall be here. I am always here. I am a door."
+"Suit yourself," Gerald said, his tone suggesting he knew exactly what Sir Albert was planning. "I shall be here. I am always here. I am a door."
 
-Sir Reginald circled the tower, following the landmarks on the map. There, just as Agnes's grandmother had drawn, was a crack in the foundation stones. Wide enough for a person to squeeze through, if that person was determined and did not mind enclosed spaces.
+Sir Albert circled the tower, following the landmarks on the map. There, just as Agnes's grandmother had drawn, was a crack in the foundation stones. Wide enough for a person to squeeze through, if that person was determined and did not mind enclosed spaces.
 
 REQUIREMENTS: HAVE item_tower_map
 
@@ -6982,7 +6982,7 @@ DIFFICULTY: Easy (with map guidance)
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald wedges himself into the crack. His armor scrapes against stone. His shield catches briefly on a protrusion. But Agnes's grandmother's map is accurate, and the passage opens into the tower's interior.
+NARRATIVE: Sir Albert wedges himself into the crack. His armor scrapes against stone. His shield catches briefly on a protrusion. But Agnes's grandmother's map is accurate, and the passage opens into the tower's interior.
 
 He emerges in a dusty storage area, having bypassed Gerald entirely. The talking door, four hundred years old and desperate for conversation, will never know he entered this way.
 
@@ -6992,7 +6992,7 @@ SET_FLAG: flag_gerald_passed_secret = true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald wedges himself into the crack. His armor scrapes against stone. His shield catches on a protrusion. His helmet jams against a narrow point. He is, briefly but definitively, stuck.
+NARRATIVE: Sir Albert wedges himself into the crack. His armor scrapes against stone. His shield catches on a protrusion. His helmet jams against a narrow point. He is, briefly but definitively, stuck.
 
 "Oh no," he says to no one in particular.
 
@@ -7020,9 +7020,9 @@ ID: choice_force_door
 
 TEXT: Attempt to force the door open
 
-FLAVOR: Sir Reginald was not, by nature, a forceful person. But he was a knight. Knights, traditionally, dealt with obstacles through direct action. Perhaps Gerald would respect strength.
+FLAVOR: Sir Albert was not, by nature, a forceful person. But he was a knight. Knights, traditionally, dealt with obstacles through direct action. Perhaps Gerald would respect strength.
 
-"I appreciate the conversation," Sir Reginald said, "but I believe I shall simply... proceed."
+"I appreciate the conversation," Sir Albert said, "but I believe I shall simply... proceed."
 
 He lowered his shoulder and charged.
 
@@ -7038,7 +7038,7 @@ DIFFICULTY: Very Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald's shoulder connects with ancient oak. Gerald is enchanted, of course, and cannot be forced open by mere physical strength. The impact accomplishes nothing except a tremendous bruising sensation.
+NARRATIVE: Sir Albert's shoulder connects with ancient oak. Gerald is enchanted, of course, and cannot be forced open by mere physical strength. The impact accomplishes nothing except a tremendous bruising sensation.
 
 But Gerald, surprisingly, laughs. It is a strange sound, like wind through old wood.
 
@@ -7054,7 +7054,7 @@ SET_FLAG: flag_gerald_passed_diplomacy = true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald's shoulder connects with ancient oak. The oak does not move. Sir Reginald's shoulder moves quite a lot, mostly in directions shoulders are not designed to move.
+NARRATIVE: Sir Albert's shoulder connects with ancient oak. The oak does not move. Sir Albert's shoulder moves quite a lot, mostly in directions shoulders are not designed to move.
 
 "OW."
 
@@ -7080,11 +7080,11 @@ ID: choice_notice_pocket
 
 TEXT: Notice Pocket watching and try to communicate with him
 
-FLAVOR: As Sir Reginald considered his options, something caught his attention. A flicker of movement in the shadows near the tower's foundation. Bulging yellow eyes, watching with keen interest. A small green figure, clutching something that glinted in the light.
+FLAVOR: As Sir Albert considered his options, something caught his attention. A flicker of movement in the shadows near the tower's foundation. Bulging yellow eyes, watching with keen interest. A small green figure, clutching something that glinted in the light.
 
 Something that looked rather like a brass button from a knight's armor.
 
-"Hello there," Sir Reginald called softly, turning away from Gerald. "I see you."
+"Hello there," Sir Albert called softly, turning away from Gerald. "I see you."
 
 The figure froze. Then, slowly, it emerged from the shadows.
 
@@ -7092,7 +7092,7 @@ The goblin was perhaps three feet tall, with enormous ears, bulging yellow eyes,
 
 "Knight sees Pocket," the goblin said, its voice a rapid patter. "Most don't see Pocket. Pocket is good at not being seen. Knight has good eyes. Or Pocket is losing touch. Pocket hopes is the first thing."
 
-"Pocket?" Sir Reginald asked.
+"Pocket?" Sir Albert asked.
 
 "Is name. Is also what Pocket has many of." The goblin gestured to his vest. "Pockets in pockets. Very useful. Hold many things. Interesting things. Shiny things."
 
@@ -7110,13 +7110,13 @@ DIFFICULTY: Easy
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald did not mention the button. Some instinct told him that confronting the goblin about theft would end poorly. Instead, he crouched down to Pocket's level and spoke gently.
+NARRATIVE: Sir Albert did not mention the button. Some instinct told him that confronting the goblin about theft would end poorly. Instead, he crouched down to Pocket's level and spoke gently.
 
 "Pocket," he said, "I am trying to enter this tower. Gerald is... particular. Do you know another way inside?"
 
 Pocket's eyes widened. "Knight asks Pocket for help? Not demands? Not threatens? Not calls Pocket thief and tries to grab?"
 
-"I am asking," Sir Reginald said. "Politely."
+"I am asking," Sir Albert said. "Politely."
 
 "Politely." Pocket tasted the word as though it were unfamiliar. "Pocket knows tower. Knows every crack, every passage, every hiding spot. Could show knight. Could help. But..." His eyes narrowed. "What does knight have that is interesting? Pocket likes interesting things. Trades help for interesting things."
 
@@ -7126,9 +7126,9 @@ SUB_CHOICE_REQUIRED: true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald turned toward the shadows, but his movement was too sudden. The goblin startled, yellow eyes going wide, and in an instant had vanished into a crack in the masonry far too small for any creature that size to fit through.
+NARRATIVE: Sir Albert turned toward the shadows, but his movement was too sudden. The goblin startled, yellow eyes going wide, and in an instant had vanished into a crack in the masonry far too small for any creature that size to fit through.
 
-"Wait," Sir Reginald called. "I only wanted to..."
+"Wait," Sir Albert called. "I only wanted to..."
 
 But Pocket was gone. The opportunity for an early alliance had passed.
 
@@ -7146,17 +7146,17 @@ TEXT: Offer Pocket the unusually smooth stone
 
 REQUIREMENTS: HAVE item_smooth_stone
 
-NARRATIVE: Sir Reginald remembered the smooth stone he had found by the stream. He produced it from his pack.
+NARRATIVE: Sir Albert remembered the smooth stone he had found by the stream. He produced it from his pack.
 
 "Is this interesting?"
 
 Pocket's eyes went very wide. "SMOOTH," he breathed. "Perfect smooth. Stream-worn. Pocket has wanted one. Pocket has looked. Stream is inconvenient. Knight has found perfect smooth stone."
 
-"It is yours," Sir Reginald said, "if you show me the way inside."
+"It is yours," Sir Albert said, "if you show me the way inside."
 
 "DEAL." Pocket snatched the stone with reverent fingers. "Come, come. Pocket shows. Secret way. Better than door. Door is full of itself. This way, this way."
 
-Pocket guides Sir Reginald to the secret entrance, pointing out the crack in the foundation.
+Pocket guides Sir Albert to the secret entrance, pointing out the crack in the foundation.
 
 "Through there. Opens to lower floors. Pocket uses all the time. Door never knows. Door is very annoyed about that."
 
@@ -7182,7 +7182,7 @@ REQUIREMENTS: NOT HAVE item_smooth_stone
 
 NARRATIVE: "What does knight have that is interesting?" Pocket repeated.
 
-Sir Reginald searched his pack. The packed lunch? Pocket did not seem interested in food. The rusty sword? Too large for a goblin. The quest scroll? Official documents rarely counted as "interesting."
+Sir Albert searched his pack. The packed lunch? Pocket did not seem interested in food. The rusty sword? Too large for a goblin. The quest scroll? Official documents rarely counted as "interesting."
 
 "I... do not have anything interesting at the moment," he admitted.
 
@@ -7234,7 +7234,7 @@ Choice 4 is only available if player has item_tower_map (obtained in sec03 from 
 
 Choice 6 sub-choice A is only available if player has item_smooth_stone (obtained in sec02 from Resting Stone exploration).
 
-The item_pocket_trinket theft is automatic and narrative; player did not possess this item previously. It represents something Pocket stole from Sir Reginald's armor. This creates a plot hook for sec05 where player can attempt to recover it.
+The item_pocket_trinket theft is automatic and narrative; player did not possess this item previously. It represents something Pocket stole from Sir Albert's armor. This creates a plot hook for sec05 where player can attempt to recover it.
 
 flag_gerald_passed_diplomacy vs flag_gerald_passed_secret tracks method of entry and may affect Gerald's disposition if referenced later.
 
@@ -7260,7 +7260,7 @@ Location: loctower_lower
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 pocket (mobile, appears if not already befriended or if relationship needs development)
 
@@ -7270,7 +7270,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald enters the tower's lower floors
+Sir Albert enters the tower's lower floors
 
 Establish the confusing, poorly designed interior
 
@@ -7322,7 +7322,7 @@ Establish the tower's interior as comically poorly designed
 
 The furniture seems actively hostile (but is just furniture)
 
-Sir Reginald's clumsiness in an environment designed for clumsiness
+Sir Albert's clumsiness in an environment designed for clumsiness
 
 Pocket as recurring presence (watching, following, potentially helping)
 
@@ -7450,7 +7450,7 @@ Continue absurdist comedy with the actively inconvenient architecture
 
 The furniture is not malicious, just very poorly placed
 
-Sir Reginald's internal monologue about the design choices
+Sir Albert's internal monologue about the design choices
 
 Pocket as mischievous but potentially sympathetic
 
@@ -7466,7 +7466,7 @@ CONTINUITY NOTES:
 
 Reference method of entry (Gerald or secret entrance) from sec04
 
-If flagpocketfriendly = true from sec04, Pocket greets Sir Reginald as friend
+If flagpocketfriendly = true from sec04, Pocket greets Sir Albert as friend
 
 If armor_squelching = true from sec02, the dampness causes additional slipping hazards
 
@@ -7474,7 +7474,7 @@ Reference the packed lunch if player considers trading it
 
 The wobbling sound connects to the Pudding waiting above
 
-Information from Gerald (if obtained) should inform Sir Reginald's approach
+Information from Gerald (if obtained) should inform Sir Albert's approach
 
 Set up Mildred's awareness based on Squeaky Floorboard outcome
 
@@ -7482,9 +7482,9 @@ Set up Mildred's awareness based on Squeaky Floorboard outcome
 
 CONDITIONAL ELEMENTS:
 
-If flaggeraldpassed_secret = true: Sir Reginald entered via foundation crack, starts in storage area
+If flaggeraldpassed_secret = true: Sir Albert entered via foundation crack, starts in storage area
 
-If flaggeraldpassed_diplomacy = true: Sir Reginald entered via Gerald, starts in main foyer
+If flaggeraldpassed_diplomacy = true: Sir Albert entered via Gerald, starts in main foyer
 
 If flagpocketfriendly = true: Pocket appears as ally, offers guidance automatically
 
@@ -7506,7 +7506,7 @@ NARRATIVE:
 
 The interior of the Tower of Minor Inconveniences lived up to its name with immediate and aggressive enthusiasm.
 
-Sir Reginald found himself in a space that seemed designed by an architect who had changed his mind repeatedly, possibly while intoxicated, and definitely without access to a level. Corridors branched off at angles that were not quite right angles. Stairs climbed upward for three steps, then sideways for two, then upward again as though apologizing for the detour. The ceiling was either too low or too high, never comfortable, and the lighting existed in a state of perpetual inadequacy.
+Sir Albert found himself in a space that seemed designed by an architect who had changed his mind repeatedly, possibly while intoxicated, and definitely without access to a level. Corridors branched off at angles that were not quite right angles. Stairs climbed upward for three steps, then sideways for two, then upward again as though apologizing for the detour. The ceiling was either too low or too high, never comfortable, and the lighting existed in a state of perpetual inadequacy.
 
 ---
 
@@ -7514,11 +7514,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_gerald_passed_secret = true
 
-TEXT: The dusty storage area where Sir Reginald had emerged from the foundation crack opened into a larger chamber filled with forgotten furniture. Cobwebs connected everything to everything else, creating a secondary architecture of silk. Gerald, four hundred years old and desperate for conversation, would never know he had entered this way. Sir Reginald felt slightly guilty about that, but pressed onward.
+TEXT: The dusty storage area where Sir Albert had emerged from the foundation crack opened into a larger chamber filled with forgotten furniture. Cobwebs connected everything to everything else, creating a secondary architecture of silk. Gerald, four hundred years old and desperate for conversation, would never know he had entered this way. Sir Albert felt slightly guilty about that, but pressed onward.
 
 CONDITION: flag_gerald_passed_diplomacy = true
 
-TEXT: The foyer beyond Gerald's now-closed frame was surprisingly mundane. A coat rack stood near the entrance, bearing a single dusty cloak that had clearly not been moved in decades. A small table held a guest book whose last entry, Sir Reginald noted, was dated forty-seven years ago and read simply: "Disappointing. Would not recommend." Gerald had not mentioned this detail.
+TEXT: The foyer beyond Gerald's now-closed frame was surprisingly mundane. A coat rack stood near the entrance, bearing a single dusty cloak that had clearly not been moved in decades. A small table held a guest book whose last entry, Sir Albert noted, was dated forty-seven years ago and read simply: "Disappointing. Would not recommend." Gerald had not mentioned this detail.
 
 ---
 
@@ -7528,7 +7528,7 @@ The first challenge presented itself almost immediately: the Room of Inconvenien
 
 It was not, technically, a room designed for inconvenience. It appeared to be a former sitting room, or perhaps a study, or possibly a dining area. The furniture suggested all three purposes had been attempted simultaneously and abandoned in frustration. Chairs clustered in the center of the room as though holding a secret meeting. Tables of varying heights blocked every logical path. A wardrobe stood directly in front of the most obvious exit, not quite against the wall, not quite away from it, positioned at precisely the angle most likely to catch a passing hip.
 
-Sir Reginald surveyed the obstacle course before him. His armor clanked ominously.
+Sir Albert surveyed the obstacle course before him. His armor clanked ominously.
 
 "This," he said to no one in particular, "is going to hurt."
 
@@ -7544,15 +7544,15 @@ TEXT: The still-damp condition of his armor added an additional complication. Wa
 
 NARRATIVE_CONTINUED:
 
-From somewhere above, a sound drifted down through the tower's poorly constructed passages. A rhythmic, gentle wobbling. The Pudding, Sir Reginald realized. He could hear it. Wobbling with philosophical patience, waiting to be retrieved by someone worthy.
+From somewhere above, a sound drifted down through the tower's poorly constructed passages. A rhythmic, gentle wobbling. The Pudding, Sir Albert realized. He could hear it. Wobbling with philosophical patience, waiting to be retrieved by someone worthy.
 
 Or, failing that, by him.
 
-Sir Reginald began to navigate the furniture maze. He turned sideways to squeeze between a bookshelf and an armchair. He ducked under an inexplicable beam that crossed the room at chest height. He stepped over a footstool that had positioned itself exactly where a foot would naturally land.
+Sir Albert began to navigate the furniture maze. He turned sideways to squeeze between a bookshelf and an armchair. He ducked under an inexplicable beam that crossed the room at chest height. He stepped over a footstool that had positioned itself exactly where a foot would naturally land.
 
 The sound of clinking armor echoed through the tower. If anyone, or anything, was listening, they now knew exactly where he was.
 
-As Sir Reginald extracted himself from between a writing desk and what appeared to be an exceedingly ambitious hat stand, movement caught his eye. Something small. Quick. Green.
+As Sir Albert extracted himself from between a writing desk and what appeared to be an exceedingly ambitious hat stand, movement caught his eye. Something small. Quick. Green.
 
 Yellow eyes watching from behind an overturned settee.
 
@@ -7562,25 +7562,25 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pocket_friendly = true
 
-TEXT: "Knight!" The familiar voice of Pocket emerged from behind the settee, followed shortly by the goblin himself. He clutched the smooth stone Sir Reginald had given him, stroking it with evident affection. "Knight came! Knight is in tower! Pocket said would show the way, and Pocket did, and here is Knight!"
+TEXT: "Knight!" The familiar voice of Pocket emerged from behind the settee, followed shortly by the goblin himself. He clutched the smooth stone Sir Albert had given him, stroking it with evident affection. "Knight came! Knight is in tower! Pocket said would show the way, and Pocket did, and here is Knight!"
 
 The goblin scurried across the furniture-strewn room with a nimbleness that suggested either decades of practice or a complete disregard for the laws of physics.
 
-"Upper floors are this way," Pocket announced, pointing toward a narrow passage that Sir Reginald had not noticed. "Witch lives there. Mildred. She is grumpy but not bad. Has cats. Many cats. Cats do not like Pocket. Cats have no taste."
+"Upper floors are this way," Pocket announced, pointing toward a narrow passage that Sir Albert had not noticed. "Witch lives there. Mildred. She is grumpy but not bad. Has cats. Many cats. Cats do not like Pocket. Cats have no taste."
 
-He paused, studying Sir Reginald with those enormous yellow eyes.
+He paused, studying Sir Albert with those enormous yellow eyes.
 
 "Pocket can show shortcuts. Pocket knows all the ways. What does Knight want? Careful way? Fast way? Secret way?"
 
 CONDITION: flag_pocket_friendly = false
 
-TEXT: The goblin emerged slowly, watching Sir Reginald with a combination of curiosity and calculation. The same creature from the tower entrance. Pocket, he had called himself.
+TEXT: The goblin emerged slowly, watching Sir Albert with a combination of curiosity and calculation. The same creature from the tower entrance. Pocket, he had called himself.
 
 "Knight again," Pocket said, his voice a rapid patter. "Knight got past door. Door is very full of itself. Did Knight talk? Trick? Find the crack?" His eyes narrowed. "Pocket knows about the crack. Pocket uses the crack. Pocket thought was Pocket's secret."
 
 He clutched something in his fingers. Something small and metallic. Something that glinted like brass.
 
-Sir Reginald's hand moved unconsciously to his armor. There, near his shoulder, a gap where a button had been. He had not noticed it before. He noticed it now.
+Sir Albert's hand moved unconsciously to his armor. There, near his shoulder, a gap where a button had been. He had not noticed it before. He noticed it now.
 
 "Pocket has interesting thing," the goblin said, following his gaze. "Knight's thing. Was on armor. Now is in pocket. In Pocket's pocket." He grinned, revealing teeth that were small, sharp, and numerous. "Pocket trades. Pocket always trades. Knight wants thing back? Knight gives Pocket something interesting. Is fair, yes?"
 
@@ -7588,13 +7588,13 @@ Sir Reginald's hand moved unconsciously to his armor. There, near his shoulder, 
 
 NARRATIVE_CONTINUED:
 
-Beyond the furniture room, Sir Reginald could see multiple passages leading upward. The Winding Staircase was the most obvious route: a spiral of stone steps that climbed toward the upper floors with the confidence of architecture that had not yet realized how impractical it was. Beside it, a narrower passage disappeared into shadow, too small for comfortable passage but perhaps manageable with the right equipment.
+Beyond the furniture room, Sir Albert could see multiple passages leading upward. The Winding Staircase was the most obvious route: a spiral of stone steps that climbed toward the upper floors with the confidence of architecture that had not yet realized how impractical it was. Beside it, a narrower passage disappeared into shadow, too small for comfortable passage but perhaps manageable with the right equipment.
 
 He also noticed a door, partially hidden behind a collapsed bookshelf. A storage room, perhaps. The dust on the floor suggested it had not been opened in years, but something about it caught his attention. A faint sense that it might contain something useful, if only he took the time to look.
 
 The wobbling from above continued. Rhythmic. Patient. Eternal.
 
-Sir Reginald had decisions to make. Navigate carefully? Search for useful items? Deal with the goblin? The tower awaited his choice.
+Sir Albert had decisions to make. Navigate carefully? Search for useful items? Deal with the goblin? The tower awaited his choice.
 
 ---
 
@@ -7616,7 +7616,7 @@ CHOICES:
 
 CHOICE 1: Navigate carefully through the Winding Staircase
 
-Sir Reginald approached the Winding Staircase with the caution of someone who had learned, through extensive painful experience, that stairs were not to be trusted. Each step was tested before weight was committed. Each turn was taken slowly, armor pressed against the central pillar to minimize noise.
+Sir Albert approached the Winding Staircase with the caution of someone who had learned, through extensive painful experience, that stairs were not to be trusted. Each step was tested before weight was committed. Each turn was taken slowly, armor pressed against the central pillar to minimize noise.
 
 The stone was old. Some steps were worn smooth by centuries of feet. Others had developed cracks that caught boot heels. And one, approximately halfway up, had developed a creak.
 
@@ -7626,13 +7626,13 @@ Requirements: None
 
 Tests: SKILL test (target 7)
 
-Success: Sir Reginald navigates with unexpected grace. His foot touches the creaking step, begins to transfer weight, and stops. Some instinct, some fragment of self-preservation that had survived decades of mishaps, warns him just in time. He steps over it instead, completing the climb in silence.
+Success: Sir Albert navigates with unexpected grace. His foot touches the creaking step, begins to transfer weight, and stops. Some instinct, some fragment of self-preservation that had survived decades of mishaps, warns him just in time. He steps over it instead, completing the climb in silence.
 
 The upper floors await. Whoever dwells there remains unaware of his approach.
 
 No alert triggered.
 
-Failure: Sir Reginald's foot finds the creaking step with the unerring accuracy of someone destined to make noise at the worst possible moment.
+Failure: Sir Albert's foot finds the creaking step with the unerring accuracy of someone destined to make noise at the worst possible moment.
 
 CREEEEEEAK.
 
@@ -7648,17 +7648,17 @@ Target: sec06_tower_upper_mildred
 
 CHOICE 2: Search the Storage Room
 
-The collapsed bookshelf blocked most of the door, but not all of it. Sir Reginald managed to squeeze through the gap, disturbing a layer of dust that had clearly been accumulating since before he was born.
+The collapsed bookshelf blocked most of the door, but not all of it. Sir Albert managed to squeeze through the gap, disturbing a layer of dust that had clearly been accumulating since before he was born.
 
 The storage room was small and cluttered with the detritus of centuries. Broken furniture. Moth-eaten tapestries. A collection of bottles containing liquids that had long since turned mysterious colors. And there, on a shelf that had somehow remained intact, a leather-bound book.
 
-Sir Reginald approached, curiosity overcoming caution.
+Sir Albert approached, curiosity overcoming caution.
 
 Requirements: None
 
 Tests: LUCK test (target 6)
 
-Success: The book's cover bore the title, nearly obscured by dust and age: "On the Philosophy of Sentient Desserts: A Treatise." Sir Reginald opened it carefully, the binding cracking with protest.
+Success: The book's cover bore the title, nearly obscured by dust and age: "On the Philosophy of Sentient Desserts: A Treatise." Sir Albert opened it carefully, the binding cracking with protest.
 
 The contents were... unusual. Rambling discussions of consciousness and confectionery. Arguments about whether a pudding could truly be said to think, or merely to wobble with the appearance of thought. Detailed observations of the Pudding of Perpetual Wobble itself, written by someone who had clearly spent far too much time alone.
 
@@ -7672,7 +7672,7 @@ SET flag_dusty_tome_read = true
 
 INCREMENT flag_time_pressure by 1
 
-Failure: The book crumbles as Sir Reginald lifts it, centuries of neglect finally claiming their due. He is left holding fragments of leather and dust, the contents lost forever.
+Failure: The book crumbles as Sir Albert lifts it, centuries of neglect finally claiming their due. He is left holding fragments of leather and dust, the contents lost forever.
 
 A disappointing spider watches from a nearby corner, somehow conveying judgment without possessing a face capable of expression.
 
@@ -7686,7 +7686,7 @@ Target: Return to choices, then must choose path upward
 
 CHOICE 3: Take the Narrow Passage shortcut
 
-Sir Reginald eyed the narrow passage. It was clearly not designed for someone in full armor. It was barely designed for someone without armor. But it climbed steeply upward, and something about its trajectory suggested it might bypass significant portions of the tower.
+Sir Albert eyed the narrow passage. It was clearly not designed for someone in full armor. It was barely designed for someone without armor. But it climbed steeply upward, and something about its trajectory suggested it might bypass significant portions of the tower.
 
 He reached for the sturdy rope in his pack. With something to anchor himself, the climb might be manageable.
 
@@ -7694,7 +7694,7 @@ Requirements: HAVE item_sturdy_rope
 
 Tests: SKILL test (target 6, rope makes it easier)
 
-Success: The rope proved its worth almost immediately. Sir Reginald secured it around a sturdy-looking beam, tested his weight, and began to climb. The passage was tight. His armor scraped against stone. His shield caught on protrusions. But the rope held, and foot by foot, he ascended.
+Success: The rope proved its worth almost immediately. Sir Albert secured it around a sturdy-looking beam, tested his weight, and began to climb. The passage was tight. His armor scraped against stone. His shield caught on protrusions. But the rope held, and foot by foot, he ascended.
 
 He emerged in a part of the tower he had not expected to reach: a small chamber with a window overlooking the Meadow of Slightly Damp Grass, and beyond it, a door that seemed to lead directly toward the Pudding Chamber.
 
@@ -7704,7 +7704,7 @@ SET flag_mildred_bypassed = true
 
 Target: sec07_tower_upper_bypass
 
-Failure: The rope proved its worth almost immediately, then stopped proving its worth at a critical moment. The fibers, stressed by armor and climbing, began to fray. Sir Reginald felt himself slipping before he understood why.
+Failure: The rope proved its worth almost immediately, then stopped proving its worth at a critical moment. The fibers, stressed by armor and climbing, began to fray. Sir Albert felt himself slipping before he understood why.
 
 The fall was not long, but it was informative. He learned several things about the passage, including that it had a sharp turn he had not noticed, a protruding stone that caught his shin at high speed, and a landing that was somewhat softer than expected because it deposited him on a pile of old tapestries.
 
@@ -7738,7 +7738,7 @@ REMOVE item_smooth_stone
 
 SET flag_pocket_friendly = true
 
-Pocket leads Sir Reginald through a series of passages that should not exist: gaps between walls, spaces behind furniture, a route that somehow passes through the inside of a pillar. They emerge near the upper chambers, far above where they started.
+Pocket leads Sir Albert through a series of passages that should not exist: gaps between walls, spaces behind furniture, a route that somehow passes through the inside of a pillar. They emerge near the upper chambers, far above where they started.
 
 "There," Pocket announces proudly. "Witch is that way. Pudding is further. Pocket helped. Now Pocket has stone. Everyone is happy."
 
@@ -7770,7 +7770,7 @@ If player refuses trade:
 
 "No trade? Knight says no?" Pocket's expression shifts from hopeful to calculating to something approaching offense. "Pocket offers help. Pocket offers secret ways. Knight refuses? Knight thinks Pocket's help is not worth trade?"
 
-The goblin retreats into the shadows, but not before fixing Sir Reginald with a look of wounded pride.
+The goblin retreats into the shadows, but not before fixing Sir Albert with a look of wounded pride.
 
 "Knight will regret. Pocket remembers. Pocket always remembers those who say no."
 
@@ -7784,15 +7784,15 @@ Target: Return to choices
 
 CHOICE 5: Confront Pocket about the stolen trinket
 
-Sir Reginald's hand went to the gap in his armor. The brass button, missing. The goblin, watching. The connection was not difficult to make.
+Sir Albert's hand went to the gap in his armor. The brass button, missing. The goblin, watching. The connection was not difficult to make.
 
-"That button," Sir Reginald said, keeping his voice carefully neutral. "The one in your hand. That is mine."
+"That button," Sir Albert said, keeping his voice carefully neutral. "The one in your hand. That is mine."
 
 Pocket's eyes went wide, then narrow, then wide again. His fingers closed protectively around the button.
 
 "Knight noticed? Knight actually noticed?" He sounded almost impressed. "Most don't notice. Pocket is very good. Very quiet. Very quick. But Knight noticed. Knight has good eyes, or Pocket is losing touch." He paused. "Pocket hopes is the first thing."
 
-"I would like it back," Sir Reginald said.
+"I would like it back," Sir Albert said.
 
 "Would Knight?" Pocket tilted his head. "Button is shiny. Small. Interesting. Is now Pocket's button. Was Knight's button. Now is Pocket's. That is how things work."
 
@@ -7800,7 +7800,7 @@ Requirements: Player noticed the theft (narrative cue provided in earlier sectio
 
 Tests: PATIENCE test (target 8)
 
-Success: Sir Reginald took a slow breath. He did not reach for his sword. He did not raise his voice. He simply looked at Pocket with an expression of mild disappointment.
+Success: Sir Albert took a slow breath. He did not reach for his sword. He did not raise his voice. He simply looked at Pocket with an expression of mild disappointment.
 
 "I understand," he said quietly. "You collect things. Interesting things. I do not begrudge you that. But that button was part of my armor. My grandfather's armor, actually. It has been in my family for three generations. It is not valuable, not really. But it matters to me."
 
@@ -7842,11 +7842,11 @@ COMBAT ENCOUNTER (Conditional):
 
 TRIGGER: flag_pocket_hostile = true AND player chooses Winding Staircase (Choice 1)
 
-NARRATIVE: Sir Reginald was halfway up the Winding Staircase when he heard it: a clicking, clattering sound from above. Then below. Then beside him, which should have been impossible given the solid stone walls.
+NARRATIVE: Sir Albert was halfway up the Winding Staircase when he heard it: a clicking, clattering sound from above. Then below. Then beside him, which should have been impossible given the solid stone walls.
 
 "Pocket warned!" The goblin's voice echoed from somewhere unseen. "Pocket said Knight would be sorry! Now Pocket shows!"
 
-A broom emerged from the shadows. Not a broom someone had thrown, but a broom that was moving under its own power. It swept toward Sir Reginald with hostile intent, bristles first, handle whipping through the air like a weapon.
+A broom emerged from the shadows. Not a broom someone had thrown, but a broom that was moving under its own power. It swept toward Sir Albert with hostile intent, bristles first, handle whipping through the air like a weapon.
 
 "ANIMATED BROOM GUARDIAN!" Pocket cackled from his hiding place. "Mildred made it! Pocket borrowed it! Now it SWEEPS THE KNIGHT!"
 
@@ -7854,11 +7854,11 @@ ENEMY: Animated Broom Guardian
 
 STATS: Skill 6, Stamina 4
 
-COMBAT RULES: Standard TinyD6 combat. Sir Reginald's item_dented_shield reduces damage by 1 (minimum 1 damage taken).
+COMBAT RULES: Standard TinyD6 combat. Sir Albert's item_dented_shield reduces damage by 1 (minimum 1 damage taken).
 
-VICTORY NARRATIVE: The broom fought with the determination of a cleaning implement that had finally found purpose in violence. It swept. It jabbed. It attempted to dust Sir Reginald's face at an inconvenient moment.
+VICTORY NARRATIVE: The broom fought with the determination of a cleaning implement that had finally found purpose in violence. It swept. It jabbed. It attempted to dust Sir Albert's face at an inconvenient moment.
 
-But Sir Reginald had fought stranger things. (He had once been attacked by an angry goose. The broom was less terrifying than the goose.)
+But Sir Albert had fought stranger things. (He had once been attacked by an angry goose. The broom was less terrifying than the goose.)
 
 His rusty sword found its mark. The broom shattered into splinters and bristles, its brief career as a guardian ending in a scattered pile of cleaning supplies.
 
@@ -7866,7 +7866,7 @@ From somewhere in the walls, Pocket made a sound of disappointed frustration. "B
 
 Proceed to sec06_tower_upper_mildred.
 
-DEFEAT NARRATIVE: The broom was relentless. It swept Sir Reginald off his feet. It jabbed. It prodded. It dusted with malicious precision. And Sir Reginald, exhausted and battered by furniture, fell.
+DEFEAT NARRATIVE: The broom was relentless. It swept Sir Albert off his feet. It jabbed. It prodded. It dusted with malicious precision. And Sir Albert, exhausted and battered by furniture, fell.
 
 The last thing he heard was Pocket's cackle and the distant sound of wobbling from above.
 
@@ -7956,7 +7956,7 @@ Can become hostile: Choice 4 refusal and Choice 5 failure outcomes
 
 Knows tower secrets: Offers shortcuts, triggers traps when hostile
 
-sir_reginald:
+sir_albert:
 
 Clumsiness in environment: Furniture navigation emphasizes this
 
@@ -8374,7 +8374,7 @@ SECTION_TITLE: The Floors of Frustrating Furniture
 
 LOCATION: loc_tower_lower
 
-CHARACTERS_PRESENT: sir_reginald, pocket
+CHARACTERS_PRESENT: sir_albert, pocket
 
 ---
 
@@ -8382,7 +8382,7 @@ NARRATIVE:
 
 The interior of the Tower of Minor Inconveniences lived up to its name with immediate and aggressive enthusiasm.
 
-Sir Reginald found himself in a space that seemed designed by an architect who had changed his mind repeatedly, possibly while intoxicated, and definitely without access to a level. Corridors branched off at angles that were not quite right angles. Stairs climbed upward for three steps, then sideways for two, then upward again as though apologizing for the detour. The ceiling was either too low or too high, never comfortable, and the lighting existed in a state of perpetual inadequacy.
+Sir Albert found himself in a space that seemed designed by an architect who had changed his mind repeatedly, possibly while intoxicated, and definitely without access to a level. Corridors branched off at angles that were not quite right angles. Stairs climbed upward for three steps, then sideways for two, then upward again as though apologizing for the detour. The ceiling was either too low or too high, never comfortable, and the lighting existed in a state of perpetual inadequacy.
 
 ---
 
@@ -8390,11 +8390,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_gerald_passed_secret = true
 
-TEXT: The dusty storage area where Sir Reginald had emerged from the foundation crack opened into a larger chamber filled with forgotten furniture. Cobwebs connected everything to everything else, creating a secondary architecture of silk. Gerald, four hundred years old and desperate for conversation, would never know he had entered this way. Sir Reginald felt slightly guilty about that, but pressed onward.
+TEXT: The dusty storage area where Sir Albert had emerged from the foundation crack opened into a larger chamber filled with forgotten furniture. Cobwebs connected everything to everything else, creating a secondary architecture of silk. Gerald, four hundred years old and desperate for conversation, would never know he had entered this way. Sir Albert felt slightly guilty about that, but pressed onward.
 
 CONDITION: flag_gerald_passed_diplomacy = true
 
-TEXT: The foyer beyond Gerald's now-closed frame was surprisingly mundane. A coat rack stood near the entrance, bearing a single dusty cloak that had clearly not been moved in decades. A small table held a guest book whose last entry, Sir Reginald noted, was dated forty-seven years ago and read simply: "Disappointing. Would not recommend." Gerald had not mentioned this detail.
+TEXT: The foyer beyond Gerald's now-closed frame was surprisingly mundane. A coat rack stood near the entrance, bearing a single dusty cloak that had clearly not been moved in decades. A small table held a guest book whose last entry, Sir Albert noted, was dated forty-seven years ago and read simply: "Disappointing. Would not recommend." Gerald had not mentioned this detail.
 
 ---
 
@@ -8404,7 +8404,7 @@ The first challenge presented itself almost immediately: the Room of Inconvenien
 
 It was not, technically, a room designed for inconvenience. It appeared to be a former sitting room, or perhaps a study, or possibly a dining area. The furniture suggested all three purposes had been attempted simultaneously and abandoned in frustration. Chairs clustered in the center of the room as though holding a secret meeting. Tables of varying heights blocked every logical path. A wardrobe stood directly in front of the most obvious exit, not quite against the wall, not quite away from it, positioned at precisely the angle most likely to catch a passing hip.
 
-Sir Reginald surveyed the obstacle course before him. His armor clanked ominously.
+Sir Albert surveyed the obstacle course before him. His armor clanked ominously.
 
 "This," he said to no one in particular, "is going to hurt."
 
@@ -8420,15 +8420,15 @@ TEXT: The still-damp condition of his armor added an additional complication. Wa
 
 NARRATIVE_CONTINUED:
 
-From somewhere above, a sound drifted down through the tower's poorly constructed passages. A rhythmic, gentle wobbling. The Pudding, Sir Reginald realized. He could hear it. Wobbling with philosophical patience, waiting to be retrieved by someone worthy.
+From somewhere above, a sound drifted down through the tower's poorly constructed passages. A rhythmic, gentle wobbling. The Pudding, Sir Albert realized. He could hear it. Wobbling with philosophical patience, waiting to be retrieved by someone worthy.
 
 Or, failing that, by him.
 
-Sir Reginald began to navigate the furniture maze. He turned sideways to squeeze between a bookshelf and an armchair. He ducked under an inexplicable beam that crossed the room at chest height. He stepped over a footstool that had positioned itself exactly where a foot would naturally land.
+Sir Albert began to navigate the furniture maze. He turned sideways to squeeze between a bookshelf and an armchair. He ducked under an inexplicable beam that crossed the room at chest height. He stepped over a footstool that had positioned itself exactly where a foot would naturally land.
 
 The sound of clinking armor echoed through the tower. If anyone, or anything, was listening, they now knew exactly where he was.
 
-As Sir Reginald extracted himself from between a writing desk and what appeared to be an exceedingly ambitious hat stand, movement caught his eye. Something small. Quick. Green.
+As Sir Albert extracted himself from between a writing desk and what appeared to be an exceedingly ambitious hat stand, movement caught his eye. Something small. Quick. Green.
 
 Yellow eyes watching from behind an overturned settee.
 
@@ -8438,25 +8438,25 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pocket_friendly = true
 
-TEXT: "Knight!" The familiar voice of Pocket emerged from behind the settee, followed shortly by the goblin himself. He clutched the smooth stone Sir Reginald had given him, stroking it with evident affection. "Knight came! Knight is in tower! Pocket said would show the way, and Pocket did, and here is Knight!"
+TEXT: "Knight!" The familiar voice of Pocket emerged from behind the settee, followed shortly by the goblin himself. He clutched the smooth stone Sir Albert had given him, stroking it with evident affection. "Knight came! Knight is in tower! Pocket said would show the way, and Pocket did, and here is Knight!"
 
 The goblin scurried across the furniture-strewn room with a nimbleness that suggested either decades of practice or a complete disregard for the laws of physics.
 
-"Upper floors are this way," Pocket announced, pointing toward a narrow passage that Sir Reginald had not noticed. "Witch lives there. Mildred. She is grumpy but not bad. Has cats. Many cats. Cats do not like Pocket. Cats have no taste."
+"Upper floors are this way," Pocket announced, pointing toward a narrow passage that Sir Albert had not noticed. "Witch lives there. Mildred. She is grumpy but not bad. Has cats. Many cats. Cats do not like Pocket. Cats have no taste."
 
-He paused, studying Sir Reginald with those enormous yellow eyes.
+He paused, studying Sir Albert with those enormous yellow eyes.
 
 "Pocket can show shortcuts. Pocket knows all the ways. What does Knight want? Careful way? Fast way? Secret way?"
 
 CONDITION: flag_pocket_friendly = false
 
-TEXT: The goblin emerged slowly, watching Sir Reginald with a combination of curiosity and calculation. The same creature from the tower entrance. Pocket, he had called himself.
+TEXT: The goblin emerged slowly, watching Sir Albert with a combination of curiosity and calculation. The same creature from the tower entrance. Pocket, he had called himself.
 
 "Knight again," Pocket said, his voice a rapid patter. "Knight got past door. Door is very full of itself. Did Knight talk? Trick? Find the crack?" His eyes narrowed. "Pocket knows about the crack. Pocket uses the crack. Pocket thought was Pocket's secret."
 
 He clutched something in his fingers. Something small and metallic. Something that glinted like brass.
 
-Sir Reginald's hand moved unconsciously to his armor. There, near his shoulder, a gap where a button had been. He had not noticed it before. He noticed it now.
+Sir Albert's hand moved unconsciously to his armor. There, near his shoulder, a gap where a button had been. He had not noticed it before. He noticed it now.
 
 "Pocket has interesting thing," the goblin said, following his gaze. "Knight's thing. Was on armor. Now is in pocket. In Pocket's pocket." He grinned, revealing teeth that were small, sharp, and numerous. "Pocket trades. Pocket always trades. Knight wants thing back? Knight gives Pocket something interesting. Is fair, yes?"
 
@@ -8464,13 +8464,13 @@ Sir Reginald's hand moved unconsciously to his armor. There, near his shoulder, 
 
 NARRATIVE_CONTINUED:
 
-Beyond the furniture room, Sir Reginald could see multiple passages leading upward. The Winding Staircase was the most obvious route: a spiral of stone steps that climbed toward the upper floors with the confidence of architecture that had not yet realized how impractical it was. Beside it, a narrower passage disappeared into shadow, too small for comfortable passage but perhaps manageable with the right equipment.
+Beyond the furniture room, Sir Albert could see multiple passages leading upward. The Winding Staircase was the most obvious route: a spiral of stone steps that climbed toward the upper floors with the confidence of architecture that had not yet realized how impractical it was. Beside it, a narrower passage disappeared into shadow, too small for comfortable passage but perhaps manageable with the right equipment.
 
 He also noticed a door, partially hidden behind a collapsed bookshelf. A storage room, perhaps. The dust on the floor suggested it had not been opened in years, but something about it caught his attention. A faint sense that it might contain something useful, if only he took the time to look.
 
 The wobbling from above continued. Rhythmic. Patient. Eternal.
 
-Sir Reginald had decisions to make. Navigate carefully? Search for useful items? Deal with the goblin? The tower awaited his choice.
+Sir Albert had decisions to make. Navigate carefully? Search for useful items? Deal with the goblin? The tower awaited his choice.
 
 ---
 
@@ -8508,7 +8508,7 @@ ID: choice_winding_staircase
 
 TEXT: Navigate carefully through the Winding Staircase
 
-FLAVOR: Sir Reginald approached the Winding Staircase with the caution of someone who had learned, through extensive painful experience, that stairs were not to be trusted. Each step was tested before weight was committed. Each turn was taken slowly, armor pressed against the central pillar to minimize noise.
+FLAVOR: Sir Albert approached the Winding Staircase with the caution of someone who had learned, through extensive painful experience, that stairs were not to be trusted. Each step was tested before weight was committed. Each turn was taken slowly, armor pressed against the central pillar to minimize noise.
 
 The stone was old. Some steps were worn smooth by centuries of feet. Others had developed cracks that caught boot heels. And one, approximately halfway up, had developed a creak.
 
@@ -8528,7 +8528,7 @@ DIFFICULTY: Standard
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald navigates with unexpected grace. His foot touches the creaking step, begins to transfer weight, and stops. Some instinct, some fragment of self-preservation that had survived decades of mishaps, warns him just in time. He steps over it instead, completing the climb in silence.
+NARRATIVE: Sir Albert navigates with unexpected grace. His foot touches the creaking step, begins to transfer weight, and stops. Some instinct, some fragment of self-preservation that had survived decades of mishaps, warns him just in time. He steps over it instead, completing the climb in silence.
 
 The upper floors await. Whoever dwells there remains unaware of his approach.
 
@@ -8538,7 +8538,7 @@ SET_NARRATIVE_NOTE: mildred_unaware = true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald's foot finds the creaking step with the unerring accuracy of someone destined to make noise at the worst possible moment.
+NARRATIVE: Sir Albert's foot finds the creaking step with the unerring accuracy of someone destined to make noise at the worst possible moment.
 
 CREEEEEEAK.
 
@@ -8564,11 +8564,11 @@ ID: choice_search_storage
 
 TEXT: Search the Storage Room
 
-FLAVOR: The collapsed bookshelf blocked most of the door, but not all of it. Sir Reginald managed to squeeze through the gap, disturbing a layer of dust that had clearly been accumulating since before he was born.
+FLAVOR: The collapsed bookshelf blocked most of the door, but not all of it. Sir Albert managed to squeeze through the gap, disturbing a layer of dust that had clearly been accumulating since before he was born.
 
 The storage room was small and cluttered with the detritus of centuries. Broken furniture. Moth-eaten tapestries. A collection of bottles containing liquids that had long since turned mysterious colors. And there, on a shelf that had somehow remained intact, a leather-bound book.
 
-Sir Reginald approached, curiosity overcoming caution.
+Sir Albert approached, curiosity overcoming caution.
 
 REQUIREMENTS: None
 
@@ -8582,7 +8582,7 @@ DIFFICULTY: Easy
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The book's cover bore the title, nearly obscured by dust and age: "On the Philosophy of Sentient Desserts: A Treatise." Sir Reginald opened it carefully, the binding cracking with protest.
+NARRATIVE: The book's cover bore the title, nearly obscured by dust and age: "On the Philosophy of Sentient Desserts: A Treatise." Sir Albert opened it carefully, the binding cracking with protest.
 
 The contents were unusual. Rambling discussions of consciousness and confectionery. Arguments about whether a pudding could truly be said to think, or merely to wobble with the appearance of thought. Detailed observations of the Pudding of Perpetual Wobble itself, written by someone who had clearly spent far too much time alone.
 
@@ -8602,7 +8602,7 @@ HINT_GAINED: "The Pudding responds to genuine respect and can sense insincerity.
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The book crumbles as Sir Reginald lifts it, centuries of neglect finally claiming their due. He is left holding fragments of leather and dust, the contents lost forever.
+NARRATIVE: The book crumbles as Sir Albert lifts it, centuries of neglect finally claiming their due. He is left holding fragments of leather and dust, the contents lost forever.
 
 A disappointed spider watches from a nearby corner, somehow conveying judgment without possessing a face capable of expression.
 
@@ -8624,7 +8624,7 @@ ID: choice_narrow_passage
 
 TEXT: Take the Narrow Passage shortcut
 
-FLAVOR: Sir Reginald eyed the narrow passage. It was clearly not designed for someone in full armor. It was barely designed for someone without armor. But it climbed steeply upward, and something about its trajectory suggested it might bypass significant portions of the tower.
+FLAVOR: Sir Albert eyed the narrow passage. It was clearly not designed for someone in full armor. It was barely designed for someone without armor. But it climbed steeply upward, and something about its trajectory suggested it might bypass significant portions of the tower.
 
 He reached for the sturdy rope in his pack. With something to anchor himself, the climb might be manageable.
 
@@ -8640,7 +8640,7 @@ DIFFICULTY: Easy (with rope guidance)
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The rope proved its worth almost immediately. Sir Reginald secured it around a sturdy-looking beam, tested his weight, and began to climb. The passage was tight. His armor scraped against stone. His shield caught on protrusions. But the rope held, and foot by foot, he ascended.
+NARRATIVE: The rope proved its worth almost immediately. Sir Albert secured it around a sturdy-looking beam, tested his weight, and began to climb. The passage was tight. His armor scraped against stone. His shield caught on protrusions. But the rope held, and foot by foot, he ascended.
 
 He emerged in a part of the tower he had not expected to reach: a small chamber with a window overlooking the Meadow of Slightly Damp Grass, and beyond it, a door that seemed to lead directly toward the Pudding Chamber.
 
@@ -8652,7 +8652,7 @@ SET_FLAG: flag_mildred_bypassed = true
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The rope proved its worth almost immediately, then stopped proving its worth at a critical moment. The fibers, stressed by armor and climbing, began to fray. Sir Reginald felt himself slipping before he understood why.
+NARRATIVE: The rope proved its worth almost immediately, then stopped proving its worth at a critical moment. The fibers, stressed by armor and climbing, began to fray. Sir Albert felt himself slipping before he understood why.
 
 The fall was not long, but it was informative. He learned several things about the passage, including that it had a sharp turn he had not noticed, a protruding stone that caught his shin at high speed, and a landing that was somewhat softer than expected because it deposited him on a pile of old tapestries.
 
@@ -8696,11 +8696,11 @@ REQUIREMENTS: HAVE item_smooth_stone
 
 NARRATIVE: "Stone," Pocket breathes, recognizing it immediately. "Perfect smooth stone. Pocket wanted. Knight found. Trade? Stone for shortcut? Good trade. Fair trade. Best trade."
 
-Sir Reginald hands over the stone. Pocket clutches it with reverent fingers, turning it over and over in the inadequate light.
+Sir Albert hands over the stone. Pocket clutches it with reverent fingers, turning it over and over in the inadequate light.
 
 "Deal is deal. Come, come. Pocket shows."
 
-The goblin leads Sir Reginald through a series of passages that should not exist: gaps between walls, spaces behind furniture, a route that somehow passes through the inside of a pillar. They emerge near the upper chambers, far above where they started.
+The goblin leads Sir Albert through a series of passages that should not exist: gaps between walls, spaces behind furniture, a route that somehow passes through the inside of a pillar. They emerge near the upper chambers, far above where they started.
 
 "There," Pocket announces proudly. "Witch is that way. Pudding is further. Pocket helped. Now Pocket has stone. Everyone is happy."
 
@@ -8726,7 +8726,7 @@ He eyes the packed lunch with undisguised longing.
 
 "Trade? Food for shortcut? Pocket knows is valuable trade. Food is good. Shortcut is also good. Fair?"
 
-Sir Reginald considers. The kitchen staff had packed this lunch with care. Their note still sits in his pack: "Please try not to die." Trading away his only healing item seems unwise.
+Sir Albert considers. The kitchen staff had packed this lunch with care. Their note still sits in his pack: "Please try not to die." Trading away his only healing item seems unwise.
 
 But the shortcut would save considerable time and danger.
 
@@ -8748,11 +8748,11 @@ TEXT: Refuse to trade
 
 REQUIREMENTS: None
 
-NARRATIVE: "I appreciate the offer," Sir Reginald says carefully, "but I cannot part with these items at present."
+NARRATIVE: "I appreciate the offer," Sir Albert says carefully, "but I cannot part with these items at present."
 
 Pocket's expression shifts from hopeful to calculating to something approaching offense. "No trade? Knight says no?" His voice rises. "Pocket offers help. Pocket offers secret ways. Knight refuses? Knight thinks Pocket's help is not worth trade?"
 
-The goblin retreats into the shadows, but not before fixing Sir Reginald with a look of wounded pride.
+The goblin retreats into the shadows, but not before fixing Sir Albert with a look of wounded pride.
 
 "Knight will regret. Pocket remembers. Pocket always remembers those who say no."
 
@@ -8772,15 +8772,15 @@ ID: choice_confront_pocket
 
 TEXT: Confront Pocket about the stolen trinket
 
-FLAVOR: Sir Reginald's hand went to the gap in his armor. The brass button, missing. The goblin, watching. The connection was not difficult to make.
+FLAVOR: Sir Albert's hand went to the gap in his armor. The brass button, missing. The goblin, watching. The connection was not difficult to make.
 
-"That button," Sir Reginald said, keeping his voice carefully neutral. "The one in your hand. That is mine."
+"That button," Sir Albert said, keeping his voice carefully neutral. "The one in your hand. That is mine."
 
 Pocket's eyes went wide, then narrow, then wide again. His fingers closed protectively around the button.
 
 "Knight noticed? Knight actually noticed?" He sounded almost impressed. "Most don't notice. Pocket is very good. Very quiet. Very quick. But Knight noticed. Knight has good eyes, or Pocket is losing touch." He paused. "Pocket hopes is the first thing."
 
-"I would like it back," Sir Reginald said.
+"I would like it back," Sir Albert said.
 
 "Would Knight?" Pocket tilted his head. "Button is shiny. Small. Interesting. Is now Pocket's button. Was Knight's button. Now is Pocket's. That is how things work."
 
@@ -8796,7 +8796,7 @@ DIFFICULTY: Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald took a slow breath. He did not reach for his sword. He did not raise his voice. He simply looked at Pocket with an expression of mild disappointment.
+NARRATIVE: Sir Albert took a slow breath. He did not reach for his sword. He did not raise his voice. He simply looked at Pocket with an expression of mild disappointment.
 
 "I understand," he said quietly. "You collect things. Interesting things. I do not begrudge you that. But that button was part of my armor. My grandfather's armor, actually. It has been in my family for three generations. It is not valuable, not really. But it matters to me."
 
@@ -8846,11 +8846,11 @@ COMBAT_ENCOUNTER:
 
 TRIGGER: flag_pocket_hostile = true AND player selects Choice 1 (Winding Staircase)
 
-NARRATIVE: Sir Reginald was halfway up the Winding Staircase when he heard it: a clicking, clattering sound from above. Then below. Then beside him, which should have been impossible given the solid stone walls.
+NARRATIVE: Sir Albert was halfway up the Winding Staircase when he heard it: a clicking, clattering sound from above. Then below. Then beside him, which should have been impossible given the solid stone walls.
 
 "Pocket warned!" The goblin's voice echoed from somewhere unseen. "Pocket said Knight would be sorry! Now Pocket shows!"
 
-A broom emerged from the shadows. Not a broom someone had thrown, but a broom that was moving under its own power. It swept toward Sir Reginald with hostile intent, bristles first, handle whipping through the air like a weapon.
+A broom emerged from the shadows. Not a broom someone had thrown, but a broom that was moving under its own power. It swept toward Sir Albert with hostile intent, bristles first, handle whipping through the air like a weapon.
 
 "ANIMATED BROOM GUARDIAN!" Pocket cackled from his hiding place. "Mildred made it! Pocket borrowed it! Now it SWEEPS THE KNIGHT!"
 
@@ -8866,9 +8866,9 @@ COMBAT_RULES: Standard TinyD6 combat. Player's item_dented_shield reduces damage
 
 VICTORY_OUTCOME:
 
-NARRATIVE: The broom fought with the determination of a cleaning implement that had finally found purpose in violence. It swept. It jabbed. It attempted to dust Sir Reginald's face at an inconvenient moment.
+NARRATIVE: The broom fought with the determination of a cleaning implement that had finally found purpose in violence. It swept. It jabbed. It attempted to dust Sir Albert's face at an inconvenient moment.
 
-But Sir Reginald had fought stranger things. (He had once been attacked by an angry goose. The broom was less terrifying than the goose.)
+But Sir Albert had fought stranger things. (He had once been attacked by an angry goose. The broom was less terrifying than the goose.)
 
 His rusty sword found its mark. The broom shattered into splinters and bristles, its brief career as a guardian ending in a scattered pile of cleaning supplies.
 
@@ -8880,7 +8880,7 @@ TARGET: sec06_tower_upper_mildred
 
 DEFEAT_OUTCOME:
 
-NARRATIVE: The broom was relentless. It swept Sir Reginald off his feet. It jabbed. It prodded. It dusted with malicious precision. And Sir Reginald, exhausted and battered by furniture, fell.
+NARRATIVE: The broom was relentless. It swept Sir Albert off his feet. It jabbed. It prodded. It dusted with malicious precision. And Sir Albert, exhausted and battered by furniture, fell.
 
 The last thing he heard was Pocket's cackle and the distant sound of wobbling from above.
 
@@ -8900,7 +8900,7 @@ EFFECT: Choices 4 and 5 are replaced with the following automatic assistance:
 
 REPLACEMENT_NARRATIVE: Pocket scurries ahead, beckoning eagerly. "This way, this way! Pocket knows the best paths. Knight trusted Pocket, so Pocket helps Knight. Is how friendship works, yes?"
 
-The goblin leads Sir Reginald through the tower with confident efficiency, pointing out hazards, indicating shortcuts, and chattering happily about the various interesting things he has found in the walls over the years.
+The goblin leads Sir Albert through the tower with confident efficiency, pointing out hazards, indicating shortcuts, and chattering happily about the various interesting things he has found in the walls over the years.
 
 "Witch is up there," Pocket says eventually, pointing toward a doorway. "She is grumpy but not mean. Help her and she helps back. Or..." He grins. "Pocket can show way around. Knight chooses."
 
@@ -8998,7 +8998,7 @@ Location: loctower_upper
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 mildred (witch guardian, main NPC of this section)
 
@@ -9010,7 +9010,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald arrives at the upper floors of the tower
+Sir Albert arrives at the upper floors of the tower
 
 Establish Mildred's domain: cluttered with magical paraphernalia, herbs, cats
 
@@ -9018,11 +9018,11 @@ The smell of reheated tea and mild disappointment
 
 If mildred_alerted = true: Mildred is waiting, arms crossed, already annoyed
 
-If mildred_unaware = true: Sir Reginald catches Mildred mid-research, slightly less annoyed
+If mildred_unaware = true: Sir Albert catches Mildred mid-research, slightly less annoyed
 
 Middle:
 
-Mildred confronts Sir Reginald about his intrusion
+Mildred confronts Sir Albert about his intrusion
 
 She explains she guards the upper tower and the path to the Pudding
 
@@ -9056,7 +9056,7 @@ Her cats as silent judges who watch everything
 
 The comedy of "fearsome trials" being mundane chores
 
-Sir Reginald's genuine helpfulness vs. Mildred's expectations of complaints
+Sir Albert's genuine helpfulness vs. Mildred's expectations of complaints
 
 Mildred's grudging respect for someone who actually helps without whining
 
@@ -9126,7 +9126,7 @@ Tests: SKILL test (target 9, difficult)
 
 Success: Bypass Mildred, SET flagmildredbypassed = true, use window route to Pudding Chamber
 
-Failure: Mildred catches Sir Reginald, extra trial added as "penalty," then standard trials
+Failure: Mildred catches Sir Albert, extra trial added as "penalty," then standard trials
 
 Target: sec08puddingchamber (success via window) or return to choices with penalty (failure)
 
@@ -9174,7 +9174,7 @@ The "fearsome trials" should be obviously mundane from the start
 
 Cats provide silent comedic commentary throughout
 
-Sir Reginald's earnest helpfulness should eventually win Mildred over
+Sir Albert's earnest helpfulness should eventually win Mildred over
 
 The cauldron cleaning should involve comedic bubbling mishaps
 
@@ -9210,7 +9210,7 @@ If mildred_alerted = true: Mildred's opening is more hostile, test difficulties 
 
 If mildred_unaware = true: Mildred is surprised but less annoyed, normal difficulties
 
-If flagdustytome_read = true: Sir Reginald can reference the book's contents in dialogue
+If flagdustytome_read = true: Sir Albert can reference the book's contents in dialogue
 
 If armor_squelching = true: Mildred comments on the dampness, offers to dry armor (declined)
 
@@ -9228,9 +9228,9 @@ Section Title: The Witch Who Was Mildly Vexed
 
 NARRATIVE:
 
-The upper floors of the Tower of Minor Inconveniences smelled of dried herbs, old magic, and tea that had been reheated one too many times. Sir Reginald emerged from the stairwell into a space that could only be described as "cluttered with intent." Shelves lined every wall, stuffed with bottles, jars, books, and objects that defied easy categorization. Cauldrons of varying sizes occupied corners, some bubbling gently, others sitting cold and judgmental. And everywhere, absolutely everywhere, there were cats.
+The upper floors of the Tower of Minor Inconveniences smelled of dried herbs, old magic, and tea that had been reheated one too many times. Sir Albert emerged from the stairwell into a space that could only be described as "cluttered with intent." Shelves lined every wall, stuffed with bottles, jars, books, and objects that defied easy categorization. Cauldrons of varying sizes occupied corners, some bubbling gently, others sitting cold and judgmental. And everywhere, absolutely everywhere, there were cats.
 
-The cats watched Sir Reginald with the focused intensity of creatures who had seen many visitors and found them all wanting. A tabby perched on a stack of grimoires. A black cat with one white ear occupied the only comfortable-looking chair. Three kittens of indeterminate color sat in a row on a windowsill, their heads turning in unison to track his movements.
+The cats watched Sir Albert with the focused intensity of creatures who had seen many visitors and found them all wanting. A tabby perched on a stack of grimoires. A black cat with one white ear occupied the only comfortable-looking chair. Three kittens of indeterminate color sat in a row on a windowsill, their heads turning in unison to track his movements.
 
 "Mrow," said the tabby, in a tone that conveyed profound disappointment.
 
@@ -9252,11 +9252,11 @@ She picked up a cup of tea from a nearby surface, sipped it, grimaced, and set i
 
 CONDITION: mildred_unaware = true
 
-TEXT: Sir Reginald had a moment to observe the space before its occupant noticed him. A woman sat hunched over a workbench, surrounded by bottles and notes, muttering to herself as she measured something into a small vial. Her frizzy grey hair escaped from beneath a pointed hat that had seen better centuries. Spectacles perched on her nose. Her robes bore the stains of countless experiments.
+TEXT: Sir Albert had a moment to observe the space before its occupant noticed him. A woman sat hunched over a workbench, surrounded by bottles and notes, muttering to herself as she measured something into a small vial. Her frizzy grey hair escaped from beneath a pointed hat that had seen better centuries. Spectacles perched on her nose. Her robes bore the stains of countless experiments.
 
 "No, no, that is not right either," she murmured. "Perhaps if I added more... no. Less? Definitely less. Or perhaps more but of a different thing entirely."
 
-Sir Reginald cleared his throat.
+Sir Albert cleared his throat.
 
 The woman startled, spinning around and nearly knocking over three bottles in the process. "WHO... what... oh." Her expression shifted from alarm to annoyance with impressive speed. "A visitor. Of course. Just when I was making progress. Tuesdays. Always Tuesdays."
 
@@ -9268,13 +9268,13 @@ She removed her spectacles, cleaned them on a relatively clean patch of her robe
 
 NARRATIVE_CONTINUED:
 
-Sir Reginald bowed, his armor clanking in the enclosed space and startling two of the cats.
+Sir Albert bowed, his armor clanking in the enclosed space and startling two of the cats.
 
-"Sir Reginald Bumblethwaite, madam. I am indeed here about the Pudding. The Pudding of Perpetual Wobble. I have been sent by King Mundane the Fourth to retrieve it for the Annual Royal Banquet."
+"Sir Albert Bumblethwaite, madam. I am indeed here about the Pudding. The Pudding of Perpetual Wobble. I have been sent by King Mundane the Fourth to retrieve it for the Annual Royal Banquet."
 
 "The banquet." Mildred sighed. It was a sigh that contained multitudes: resignation, exasperation, and a hint of something that might have been amusement if it had not been too tired to commit. "Yes. The banquet. They send someone every few decades, you know. When they remember the Pudding exists. When some dignitary needs impressing." She sipped her tea again and made the same face. "The Pudding does not particularly want to be retrieved. It has opinions about being served as dessert."
 
-"So I have heard," Sir Reginald said.
+"So I have heard," Sir Albert said.
 
 "Have you?" Mildred's eyebrows rose slightly. "That is more than most manage. Most just charge in here demanding the Pudding, as though I am simply going to hand it over because they wave a sword about." She eyed his rusty blade. "Though I use the term 'sword' generously in your case."
 
@@ -9286,11 +9286,11 @@ CONDITION: armor_squelching = true
 
 TEXT: Mildred's nose wrinkled. "And you are damp. Very damp. Did you fall in the stream? There is a bridge, you know."
 
-"I am aware of the bridge," Sir Reginald said, with what dignity he could muster.
+"I am aware of the bridge," Sir Albert said, with what dignity he could muster.
 
 "And yet." Mildred shook her head. "Would you like me to dry your armor? I have a spell for that. Well, I have a spell that is supposed to dry things. Fifty percent of the time it works perfectly. The other fifty percent it sets things on fire. Your choice."
 
-Sir Reginald politely declined.
+Sir Albert politely declined.
 
 ---
 
@@ -9298,13 +9298,13 @@ NARRATIVE_CONTINUED:
 
 "Here is how this works," Mildred said, settling into what appeared to be a lecture mode. Several cats adjusted their positions to listen; this was apparently a familiar speech. "I guard the upper floors of this tower. The Pudding resides in the chamber above. To reach the Pudding, you must pass through my domain. To pass through my domain, you must prove yourself worthy."
 
-"Worthy?" Sir Reginald asked.
+"Worthy?" Sir Albert asked.
 
 "Worthy. Or at least useful, which I have found to be a more practical standard." She gestured vaguely at the cluttered room. "I have TRIALS, you see. Fearsome trials that test the mettle of all who seek the Pudding. Complete my trials, and I shall grant you access to the Pudding Chamber. Fail, and..." She paused. "Well, actually, nothing particularly terrible happens if you fail. You just have to try again. Or leave. Most leave."
 
 The cats seemed to nod in agreement.
 
-"What are these trials?" Sir Reginald asked.
+"What are these trials?" Sir Albert asked.
 
 Mildred's expression shifted into something almost approaching enthusiasm. "Trial the First: the Sorting of the Ingredients. Trial the Second: the Cleansing of the Cauldrons. Trial the Third: the Feeding of the Cats."
 
@@ -9320,7 +9320,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagdustytome_read = true
 
-TEXT: Sir Reginald thought about the book he had found in the storage room. "On the Philosophy of Sentient Desserts." The author had written about this tower, about the guardians, about the Pudding itself. He recalled a passage about Mildred: "The witch of the upper floors is particular but not cruel. She values practicality over pageantry. Help her with her small problems, and she will help you with your large ones."
+TEXT: Sir Albert thought about the book he had found in the storage room. "On the Philosophy of Sentient Desserts." The author had written about this tower, about the guardians, about the Pudding itself. He recalled a passage about Mildred: "The witch of the upper floors is particular but not cruel. She values practicality over pageantry. Help her with her small problems, and she will help you with your large ones."
 
 It seemed the book's advice was accurate.
 
@@ -9330,9 +9330,9 @@ NARRATIVE_CONTINUED:
 
 The cats watched. The cauldrons bubbled. Somewhere above, faint but unmistakable, came the sound of wobbling.
 
-Mildred set down her tea cup and fixed Sir Reginald with a look that managed to be simultaneously bored and evaluating.
+Mildred set down her tea cup and fixed Sir Albert with a look that managed to be simultaneously bored and evaluating.
 
-"Well, Sir Reginald Bumblethwaite? What will it be? Will you complete my fearsome trials? Will you attempt to convince me you are too important for chores? Will you try to sneak past me, as three visitors before you have attempted and all three have failed?" She paused. "One of them is still stuck in the wall, actually. I should probably do something about that. Add it to the list."
+"Well, Sir Albert Bumblethwaite? What will it be? Will you complete my fearsome trials? Will you attempt to convince me you are too important for chores? Will you try to sneak past me, as three visitors before you have attempted and all three have failed?" She paused. "One of them is still stuck in the wall, actually. I should probably do something about that. Add it to the list."
 
 She produced a piece of parchment from somewhere and made a note.
 
@@ -9344,15 +9344,15 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flaggerald_passed_diplomacy = true
 
-TEXT: "I spoke with him," Sir Reginald said. "He was... particular. But we reached an understanding."
+TEXT: "I spoke with him," Sir Albert said. "He was... particular. But we reached an understanding."
 
-"Spoke with him." Mildred's eyebrows rose. "Spoke with him. In four hundred years of guarding that door, I have never heard of anyone simply SPEAKING with Gerald and succeeding. Usually there is trickery involved. Or bribery. Once, memorably, interpretive dance." She studied Sir Reginald with new interest. "Perhaps you are less hopeless than you appear. No offense."
+"Spoke with him." Mildred's eyebrows rose. "Spoke with him. In four hundred years of guarding that door, I have never heard of anyone simply SPEAKING with Gerald and succeeding. Usually there is trickery involved. Or bribery. Once, memorably, interpretive dance." She studied Sir Albert with new interest. "Perhaps you are less hopeless than you appear. No offense."
 
-"None taken," Sir Reginald said, because he was used to it.
+"None taken," Sir Albert said, because he was used to it.
 
 CONDITION: flaggerald_passed_secret = true
 
-TEXT: "I found an alternative entrance," Sir Reginald admitted.
+TEXT: "I found an alternative entrance," Sir Albert admitted.
 
 "The crack in the foundation." Mildred nodded. "Yes. That has been there for three centuries. Gerald is VERY annoyed that it exists. I could seal it, but his annoyance is one of my few entertainments." She almost smiled. "At least you are resourceful. That is something."
 
@@ -9362,11 +9362,11 @@ CHOICES:
 
 CHOICE 1: Agree to complete Mildred's trials willingly
 
-"I shall complete your trials, Madam Mildred," Sir Reginald said with a bow. "Sorting, cleansing, and feeding. I am at your service."
+"I shall complete your trials, Madam Mildred," Sir Albert said with a bow. "Sorting, cleansing, and feeding. I am at your service."
 
 Mildred blinked. "Just like that? No complaints? No demands to know why a KNIGHT should lower himself to household chores? No speeches about the urgency of your quest?"
 
-"I have asked for your help," Sir Reginald said simply. "It seems only fair that I offer help in return."
+"I have asked for your help," Sir Albert said simply. "It seems only fair that I offer help in return."
 
 Several cats turned to look at each other. This was, apparently, not the usual response.
 
@@ -9374,11 +9374,11 @@ Several cats turned to look at each other. This was, apparently, not the usual r
 
 TRIAL ONE: THE SORTING OF THE INGREDIENTS
 
-Mildred led Sir Reginald to a corner of the room dominated by a massive apothecary cabinet. Its hundreds of tiny drawers stood in various states of disarray, many of them open, their contents scattered across the surrounding surfaces.
+Mildred led Sir Albert to a corner of the room dominated by a massive apothecary cabinet. Its hundreds of tiny drawers stood in various states of disarray, many of them open, their contents scattered across the surrounding surfaces.
 
 "Beetle carapace, bat wing, dried newt, powdered moonstone, essence of Tuesday, crystallized regret." Mildred gestured at the chaos. "All of it needs to go back in the correct drawers. The drawers are labeled. The ingredients are labeled. It should be simple. It is not simple. Nothing in this tower is ever simple."
 
-She handed Sir Reginald a pair of tweezers.
+She handed Sir Albert a pair of tweezers.
 
 "Try not to touch the crystallized regret with your bare hands. It causes mild existential dread. Nothing permanent. Probably."
 
@@ -9386,7 +9386,7 @@ Requirements: None
 
 Tests: PATIENCE test (target 7, or target 8 if mildred_alerted = true)
 
-Success: Sir Reginald approached the task with methodical determination. The labels were faded but readable. The ingredients were strange but manageable. Beetle carapace went in drawer 17B. Bat wing went in drawer 34A. The dried newt seemed to have opinions about its placement but eventually accepted drawer 22C.
+Success: Sir Albert approached the task with methodical determination. The labels were faded but readable. The ingredients were strange but manageable. Beetle carapace went in drawer 17B. Bat wing went in drawer 34A. The dried newt seemed to have opinions about its placement but eventually accepted drawer 22C.
 
 The crystallized regret, he handled with extreme care.
 
@@ -9396,7 +9396,7 @@ Two hours later, the cabinet was organized. Not perfectly, perhaps, but adequate
 
 TRIAL ONE: COMPLETE
 
-Failure: Sir Reginald approached the task with enthusiasm. The enthusiasm lasted approximately four minutes.
+Failure: Sir Albert approached the task with enthusiasm. The enthusiasm lasted approximately four minutes.
 
 The labels were faded and contradictory. Drawer 17B was already occupied by something that hissed. The bat wing turned out to be three bat wings that did not want to be separated. And the crystallized regret, despite his caution, somehow ended up touching his thumb.
 
@@ -9414,7 +9414,7 @@ TRIAL TWO: THE CLEANSING OF THE CAULDRONS
 
 The cauldrons occupied a separate area of the workshop, arranged by size from "large cooking pot" to "could comfortably bathe a horse." All of them were encrusted with the residue of countless experiments. Some residues bubbled. Some glowed faintly. One appeared to be attempting to evolve into a new life form.
 
-"Standard cleaning does not work," Mildred explained. "Magical residue requires magical cleaning. I have prepared a solution." She handed Sir Reginald a bucket containing a liquid that sparkled with an inner light. "Apply liberally. Scrub thoroughly. Try not to inhale the fumes. The fumes cause temporary hiccups. Very annoying hiccups."
+"Standard cleaning does not work," Mildred explained. "Magical residue requires magical cleaning. I have prepared a solution." She handed Sir Albert a bucket containing a liquid that sparkled with an inner light. "Apply liberally. Scrub thoroughly. Try not to inhale the fumes. The fumes cause temporary hiccups. Very annoying hiccups."
 
 She provided a brush that had clearly seen many battles.
 
@@ -9424,11 +9424,11 @@ Requirements: None
 
 Tests: PATIENCE test (target 7, or target 8 if mildred_alerted = true)
 
-Success: Sir Reginald rolled up his sleeves, metaphorically speaking (his armor did not have sleeves to roll), and began to scrub.
+Success: Sir Albert rolled up his sleeves, metaphorically speaking (his armor did not have sleeves to roll), and began to scrub.
 
 The magical cleaning solution was effective but vigorous. It sparkled and fizzed and occasionally made sounds that might have been gratitude or might have been complaint. The residue fought back, clinging to cauldron walls with the determination of grime that had achieved sentience.
 
-The large cauldron in the corner did, indeed, contain something that tried to grab him. It was a tendril of some sort, purple and gelatinous, emerging from the depths with questing purpose. Sir Reginald firmly pushed it back with his brush.
+The large cauldron in the corner did, indeed, contain something that tried to grab him. It was a tendril of some sort, purple and gelatinous, emerging from the depths with questing purpose. Sir Albert firmly pushed it back with his brush.
 
 "No," he said.
 
@@ -9440,11 +9440,11 @@ An hour later, the cauldrons gleamed. Not perfectly, but adequately. Mildred ran
 
 TRIAL TWO: COMPLETE
 
-Failure: The cleaning solution was effective. Perhaps too effective. In his enthusiasm, Sir Reginald applied too much, and the resulting fizzing became volcanic.
+Failure: The cleaning solution was effective. Perhaps too effective. In his enthusiasm, Sir Albert applied too much, and the resulting fizzing became volcanic.
 
 Foam erupted from three cauldrons simultaneously. The fumes, despite his attempts to avoid them, found their way into his lungs.
 
-"HIC," said Sir Reginald.
+"HIC," said Sir Albert.
 
 "HIC," he continued.
 
@@ -9452,7 +9452,7 @@ Foam erupted from three cauldrons simultaneously. The fumes, despite his attempt
 
 The hiccups were, as promised, very annoying. They were also extremely loud, echoing off the tower walls and startling every cat in the room. The cats scattered. Several bottles fell. One cauldron, caught by a particularly violent hiccup, tipped over entirely.
 
-When the chaos subsided and the hiccups faded (eventually), the cauldrons were clean, but Sir Reginald was covered in foam and had somehow acquired a coating of something purple and gelatinous on his left pauldron.
+When the chaos subsided and the hiccups faded (eventually), the cauldrons were clean, but Sir Albert was covered in foam and had somehow acquired a coating of something purple and gelatinous on his left pauldron.
 
 "Well," said Mildred, with the tone of someone whose expectations had been precisely met. "The cauldrons ARE clean. By some definitions. On to Trial Three."
 
@@ -9464,11 +9464,11 @@ TRIAL THREE: THE FEEDING OF THE CATS
 
 "The cats," Mildred said, "are particular."
 
-This was evident. The cats had arranged themselves around the room in positions of judgment, watching Sir Reginald with the collective intensity of predators evaluating prey.
+This was evident. The cats had arranged themselves around the room in positions of judgment, watching Sir Albert with the collective intensity of predators evaluating prey.
 
 "Each cat prefers different food," Mildred continued. "Gerald, the tabby, prefers fish. Absolutely nothing but fish. Margaret, the black one, prefers chicken. The three kittens, Pessimism, Dread, and Kevin, will eat anything but must be fed simultaneously or they fight. And Bartholomew..."
 
-She pointed to a corner where Sir Reginald had not noticed a cat. A very large cat. A cat the size of a medium dog, with orange fur and an expression of pure, concentrated malice.
+She pointed to a corner where Sir Albert had not noticed a cat. A very large cat. A cat the size of a medium dog, with orange fur and an expression of pure, concentrated malice.
 
 "Bartholomew prefers to hunt his own food. Do not feed Bartholomew. If you feed Bartholomew, he will be offended. You do not want Bartholomew offended."
 
@@ -9480,33 +9480,33 @@ Requirements: None
 
 Tests: PATIENCE test (target 7, or target 8 if mildred_alerted = true)
 
-Success: Sir Reginald had grown up on a turnip farm. Turnip farms did not have cats. But they had chickens, and chickens, he reflected, were essentially angry, feathered cats with even less impulse control.
+Success: Sir Albert had grown up on a turnip farm. Turnip farms did not have cats. But they had chickens, and chickens, he reflected, were essentially angry, feathered cats with even less impulse control.
 
 He approached the task with methodical care. Fish for Gerald. Chicken for Margaret. A shared bowl placed equidistant from Pessimism, Dread, and Kevin, who descended upon it in a synchronized frenzy that was almost beautiful.
 
-Bartholomew watched from his corner. Sir Reginald did not approach Bartholomew. Bartholomew seemed to approve of this decision, or at least did not express disapproval through violence.
+Bartholomew watched from his corner. Sir Albert did not approach Bartholomew. Bartholomew seemed to approve of this decision, or at least did not express disapproval through violence.
 
 "Mrow," said Gerald, with a tone that might have been gratitude.
 
 Mildred observed the feeding with something approaching respect. "You did not try to pet them. Everyone tries to pet them. Petting is only by invitation, and they never invite."
 
-"I have learned," Sir Reginald said, "that some creatures prefer to be respected from a distance."
+"I have learned," Sir Albert said, "that some creatures prefer to be respected from a distance."
 
 "A useful insight." Mildred nodded. "The Pudding will appreciate that perspective. Trial Three: Complete."
 
 ALL TRIALS COMPLETE
 
-Failure: Sir Reginald had not grown up around cats. His experience with animals was limited to the goat that had broken his nose (incident two of three) and the horse that had refused to be diplomatic (a story best left untold).
+Failure: Sir Albert had not grown up around cats. His experience with animals was limited to the goat that had broken his nose (incident two of three) and the horse that had refused to be diplomatic (a story best left untold).
 
 He approached the feeding with confidence. Confidence was a mistake.
 
-Gerald did not want fish from THIS bowl. Gerald wanted fish from THAT bowl, the one Sir Reginald had already given to Margaret. A territorial dispute erupted. In the confusion, Pessimism, Dread, and Kevin were fed at slightly staggered intervals, resulting in a three-way kitten battle that somehow involved climbing up Sir Reginald's armor.
+Gerald did not want fish from THIS bowl. Gerald wanted fish from THAT bowl, the one Sir Albert had already given to Margaret. A territorial dispute erupted. In the confusion, Pessimism, Dread, and Kevin were fed at slightly staggered intervals, resulting in a three-way kitten battle that somehow involved climbing up Sir Albert's armor.
 
-And Bartholomew, in the chaos, received a piece of chicken that Sir Reginald had not intended to give him but which had been knocked from his hands by a passing paw.
+And Bartholomew, in the chaos, received a piece of chicken that Sir Albert had not intended to give him but which had been knocked from his hands by a passing paw.
 
 Bartholomew looked at the chicken.
 
-Bartholomew looked at Sir Reginald.
+Bartholomew looked at Sir Albert.
 
 Bartholomew was offended.
 
@@ -9522,7 +9522,7 @@ TRIAL RESOLUTION (After all three trials):
 
 If three successes: Mildred sets down her tea cup with a sound that might, in adequate lighting, be called impressed.
 
-"Well, Sir Reginald Bumblethwaite. You have completed my trials. All three. Without significant catastrophe." She pauses. "That has not happened in... actually, I am not certain that has ever happened. The last visitor to complete all three managed it only by setting fire to the ingredient cabinet and claiming the resulting chaos counted as 'sorting.'"
+"Well, Sir Albert Bumblethwaite. You have completed my trials. All three. Without significant catastrophe." She pauses. "That has not happened in... actually, I am not certain that has ever happened. The last visitor to complete all three managed it only by setting fire to the ingredient cabinet and claiming the resulting chaos counted as 'sorting.'"
 
 She rises and moves to a locked cabinet, producing a key shaped like a spoon.
 
@@ -9544,7 +9544,7 @@ OBTAIN item_tower_key
 
 Full Pudding advice provided.
 
-If one or two successes: Mildred observes Sir Reginald with an expression that combines resignation with faint approval.
+If one or two successes: Mildred observes Sir Albert with an expression that combines resignation with faint approval.
 
 "You have completed my trials. Mostly. With... incidents." She sighs. "But you tried. Genuinely tried. That counts for something. The last visitor who struggled this much simply gave up and tried to push past me. He is still stuck in the wall."
 
@@ -9562,7 +9562,7 @@ OBTAIN item_tower_key only
 
 Limited advice provided.
 
-If zero successes: Mildred watches the aftermath of Sir Reginald's trials with the expression of someone whose extremely low expectations have been precisely met.
+If zero successes: Mildred watches the aftermath of Sir Albert's trials with the expression of someone whose extremely low expectations have been precisely met.
 
 "Well," she says. "The ingredients are... somewhere. The cauldrons are... technically clean. The cats are... no longer actively attempting to kill you." She sighs. "I have seen worse. Not much worse, but worse."
 
@@ -9582,7 +9582,7 @@ Target: sec08_pudding_chamber
 
 CHOICE 2: Attempt to convince Mildred the quest is urgent
 
-"Madam Mildred," Sir Reginald said, "I understand your position. But I must convey the urgency of my situation. The Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. Without the Pudding of Perpetual Wobble, Blandovia faces diplomatic embarrassment of a magnitude that could have lasting consequences."
+"Madam Mildred," Sir Albert said, "I understand your position. But I must convey the urgency of my situation. The Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. Without the Pudding of Perpetual Wobble, Blandovia faces diplomatic embarrassment of a magnitude that could have lasting consequences."
 
 He paused, trying to remember the exact wording from the Quest Scroll.
 
@@ -9632,13 +9632,13 @@ Target: Return to choices
 
 CHOICE 3: Offer to trade an item for passage
 
-Sir Reginald considered his pack. Mildred was a witch. Witches, presumably, had interests. Perhaps something he carried would appeal to those interests.
+Sir Albert considered his pack. Mildred was a witch. Witches, presumably, had interests. Perhaps something he carried would appeal to those interests.
 
 Requirements: HAVE item_dusty_tome OR HAVE item_wooden_spoon
 
 If player has item_dusty_tome:
 
-"I found this," Sir Reginald said, producing the leather-bound book from his pack. "In the storage room below. 'On the Philosophy of Sentient Desserts.' I thought perhaps..."
+"I found this," Sir Albert said, producing the leather-bound book from his pack. "In the storage room below. 'On the Philosophy of Sentient Desserts.' I thought perhaps..."
 
 Mildred's eyes went wide.
 
@@ -9660,7 +9660,7 @@ Full information provided.
 
 If player has item_wooden_spoon (but not tome):
 
-"I have this," Sir Reginald said, producing the wooden spoon Agnes had given him. "A gift from a village elder. She said it was for protection, but I suspect it is simply a spoon."
+"I have this," Sir Albert said, producing the wooden spoon Agnes had given him. "A gift from a village elder. She said it was for protection, but I suspect it is simply a spoon."
 
 Mildred took the spoon, examining it with curiosity.
 
@@ -9684,7 +9684,7 @@ CHOICE 4: Attempt to sneak past Mildred while she is distracted
 
 Mildred had turned back to her workbench, muttering about something involving Tuesday and crystalline structures. The cats were occupied with their various naps. The spiral staircase to the Pudding Chamber stood in the corner, unguarded.
 
-Perhaps, Sir Reginald thought, he could simply... proceed.
+Perhaps, Sir Albert thought, he could simply... proceed.
 
 He began to edge toward the staircase, keeping his armor as quiet as possible (which was not very quiet). Step by careful step. Past the cauldrons. Past the sleeping cats. Almost there...
 
@@ -9692,7 +9692,7 @@ Requirements: None
 
 Tests: SKILL test (target 9, difficult)
 
-Success: Sir Reginald reached the staircase. His foot found the first step. No alarm was raised. No witch turned. No cat stirred.
+Success: Sir Albert reached the staircase. His foot found the first step. No alarm was raised. No witch turned. No cat stirred.
 
 He was three steps up when Mildred spoke.
 
@@ -9714,7 +9714,7 @@ Alternative route: window climb to Pudding Chamber.
 
 Target: sec08_pudding_chamber (via window route)
 
-Failure: Sir Reginald reached the staircase. His foot found the first step. And his armor, which had been clanking at every opportunity throughout his journey, chose THIS moment to produce a clank of exceptional volume.
+Failure: Sir Albert reached the staircase. His foot found the first step. And his armor, which had been clanking at every opportunity throughout his journey, chose THIS moment to produce a clank of exceptional volume.
 
 CLANK.
 
@@ -9726,7 +9726,7 @@ Every cat in the room turned to stare. Bartholomew's eyes narrowed.
 
 "The staircase." She turned, arms folded, spectacles glinting. "You were admiring a staircase. While moving toward it. Quietly. In full armor that has been announcing your presence since you entered my tower."
 
-Sir Reginald had no response to this.
+Sir Albert had no response to this.
 
 "Since you clearly have energy to spare," Mildred continued, "you can complete my trials AND help me reorganize the second bookshelf. Consider it a penalty for insulting my intelligence."
 
@@ -9738,7 +9738,7 @@ Target: Return to choices, trials now at +1 difficulty
 
 CHOICE 5: Ask Mildred about the Pudding before deciding
 
-"Before I decide," Sir Reginald said, "might I ask you about the Pudding itself? I have heard various things, but I would value the perspective of someone who knows it well."
+"Before I decide," Sir Albert said, "might I ask you about the Pudding itself? I have heard various things, but I would value the perspective of someone who knows it well."
 
 Mildred's expression shifted toward something almost warm. "You want to KNOW about the Pudding? Before blundering in to retrieve it?" She shook her head. "That is... unexpectedly sensible. Most visitors charge straight up those stairs and return ten minutes later looking traumatized."
 
@@ -9856,17 +9856,17 @@ Perpetually slightly annoyed: Demonstrated throughout ("mildly vexed" tone consi
 
 Speaks in sighs: Multiple sighs documented in dialogue
 
-Underneath vexation lies genuine kindness: Shows approval when Sir Reginald helps, gives items even on failure
+Underneath vexation lies genuine kindness: Shows approval when Sir Albert helps, gives items even on failure
 
 Knows the Pudding personally, finds it "exhausting": Referenced in advice about the Pudding
 
-Professional respect for Gerald: Referenced in dialogue about how Sir Reginald passed Gerald
+Professional respect for Gerald: Referenced in dialogue about how Sir Albert passed Gerald
 
-Maternal exasperation: Shown in reactions to Sir Reginald's struggles
+Maternal exasperation: Shown in reactions to Sir Albert's struggles
 
 Tea addiction: Repeatedly drinks, grimaces at, and mentions tea
 
-sir_reginald:
+sir_albert:
 
 Politeness: Offers to help without complaint
 
@@ -10322,15 +10322,15 @@ SECTION_TITLE: The Witch Who Was Mildly Vexed
 
 LOCATION: loc_tower_upper
 
-CHARACTERS_PRESENT: sir_reginald, mildred
+CHARACTERS_PRESENT: sir_albert, mildred
 
 ---
 
 NARRATIVE:
 
-The upper floors of the Tower of Minor Inconveniences smelled of dried herbs, old magic, and tea that had been reheated one too many times. Sir Reginald emerged from the stairwell into a space that could only be described as "cluttered with intent." Shelves lined every wall, stuffed with bottles, jars, books, and objects that defied easy categorization. Cauldrons of varying sizes occupied corners, some bubbling gently, others sitting cold and judgmental. And everywhere, absolutely everywhere, there were cats.
+The upper floors of the Tower of Minor Inconveniences smelled of dried herbs, old magic, and tea that had been reheated one too many times. Sir Albert emerged from the stairwell into a space that could only be described as "cluttered with intent." Shelves lined every wall, stuffed with bottles, jars, books, and objects that defied easy categorization. Cauldrons of varying sizes occupied corners, some bubbling gently, others sitting cold and judgmental. And everywhere, absolutely everywhere, there were cats.
 
-The cats watched Sir Reginald with the focused intensity of creatures who had seen many visitors and found them all wanting. A tabby perched on a stack of grimoires. A black cat with one white ear occupied the only comfortable-looking chair. Three kittens of indeterminate color sat in a row on a windowsill, their heads turning in unison to track his movements.
+The cats watched Sir Albert with the focused intensity of creatures who had seen many visitors and found them all wanting. A tabby perched on a stack of grimoires. A black cat with one white ear occupied the only comfortable-looking chair. Three kittens of indeterminate color sat in a row on a windowsill, their heads turning in unison to track his movements.
 
 "Mrow," said the tabby, in a tone that conveyed profound disappointment.
 
@@ -10352,11 +10352,11 @@ She picked up a cup of tea from a nearby surface, sipped it, grimaced, and set i
 
 CONDITION: mildred_unaware = true
 
-TEXT: Sir Reginald had a moment to observe the space before its occupant noticed him. A woman sat hunched over a workbench, surrounded by bottles and notes, muttering to herself as she measured something into a small vial. Her frizzy grey hair escaped from beneath a pointed hat that had seen better centuries. Spectacles perched on her nose. Her robes bore the stains of countless experiments.
+TEXT: Sir Albert had a moment to observe the space before its occupant noticed him. A woman sat hunched over a workbench, surrounded by bottles and notes, muttering to herself as she measured something into a small vial. Her frizzy grey hair escaped from beneath a pointed hat that had seen better centuries. Spectacles perched on her nose. Her robes bore the stains of countless experiments.
 
 "No, no, that is not right either," she murmured. "Perhaps if I added more... no. Less? Definitely less. Or perhaps more but of a different thing entirely."
 
-Sir Reginald cleared his throat.
+Sir Albert cleared his throat.
 
 The woman startled, spinning around and nearly knocking over three bottles in the process. "WHO... what... oh." Her expression shifted from alarm to annoyance with impressive speed. "A visitor. Of course. Just when I was making progress. Tuesdays. Always Tuesdays."
 
@@ -10368,13 +10368,13 @@ She removed her spectacles, cleaned them on a relatively clean patch of her robe
 
 NARRATIVE_CONTINUED:
 
-Sir Reginald bowed, his armor clanking in the enclosed space and startling two of the cats.
+Sir Albert bowed, his armor clanking in the enclosed space and startling two of the cats.
 
-"Sir Reginald Bumblethwaite, madam. I am indeed here about the Pudding. The Pudding of Perpetual Wobble. I have been sent by King Mundane the Fourth to retrieve it for the Annual Royal Banquet."
+"Sir Albert Bumblethwaite, madam. I am indeed here about the Pudding. The Pudding of Perpetual Wobble. I have been sent by King Mundane the Fourth to retrieve it for the Annual Royal Banquet."
 
 "The banquet." Mildred sighed. It was a sigh that contained multitudes: resignation, exasperation, and a hint of something that might have been amusement if it had not been too tired to commit. "Yes. The banquet. They send someone every few decades, you know. When they remember the Pudding exists. When some dignitary needs impressing." She sipped her tea again and made the same face. "The Pudding does not particularly want to be retrieved. It has opinions about being served as dessert."
 
-"So I have heard," Sir Reginald said.
+"So I have heard," Sir Albert said.
 
 "Have you?" Mildred's eyebrows rose slightly. "That is more than most manage. Most just charge in here demanding the Pudding, as though I am simply going to hand it over because they wave a sword about." She eyed his rusty blade. "Though I use the term 'sword' generously in your case."
 
@@ -10386,11 +10386,11 @@ CONDITION: armor_squelching = true
 
 TEXT: Mildred's nose wrinkled. "And you are damp. Very damp. Did you fall in the stream? There is a bridge, you know."
 
-"I am aware of the bridge," Sir Reginald said, with what dignity he could muster.
+"I am aware of the bridge," Sir Albert said, with what dignity he could muster.
 
 "And yet." Mildred shook her head. "Would you like me to dry your armor? I have a spell for that. Well, I have a spell that is supposed to dry things. Fifty percent of the time it works perfectly. The other fifty percent it sets things on fire. Your choice."
 
-Sir Reginald politely declined.
+Sir Albert politely declined.
 
 ---
 
@@ -10400,17 +10400,17 @@ CONDITION: flag_gerald_passed_diplomacy = true
 
 TEXT: "How did you get past Gerald, anyway?" Mildred asked.
 
-"I spoke with him," Sir Reginald said. "He was... particular. But we reached an understanding."
+"I spoke with him," Sir Albert said. "He was... particular. But we reached an understanding."
 
-"Spoke with him." Mildred's eyebrows rose. "Spoke with him. In four hundred years of guarding that door, I have never heard of anyone simply SPEAKING with Gerald and succeeding. Usually there is trickery involved. Or bribery. Once, memorably, interpretive dance." She studied Sir Reginald with new interest. "Perhaps you are less hopeless than you appear. No offense."
+"Spoke with him." Mildred's eyebrows rose. "Spoke with him. In four hundred years of guarding that door, I have never heard of anyone simply SPEAKING with Gerald and succeeding. Usually there is trickery involved. Or bribery. Once, memorably, interpretive dance." She studied Sir Albert with new interest. "Perhaps you are less hopeless than you appear. No offense."
 
-"None taken," Sir Reginald said, because he was used to it.
+"None taken," Sir Albert said, because he was used to it.
 
 CONDITION: flag_gerald_passed_secret = true
 
 TEXT: "How did you get past Gerald, anyway?" Mildred asked.
 
-"I found an alternative entrance," Sir Reginald admitted.
+"I found an alternative entrance," Sir Albert admitted.
 
 "The crack in the foundation." Mildred nodded. "Yes. That has been there for three centuries. Gerald is VERY annoyed that it exists. I could seal it, but his annoyance is one of my few entertainments." She almost smiled. "At least you are resourceful. That is something."
 
@@ -10420,13 +10420,13 @@ NARRATIVE_CONTINUED:
 
 "Here is how this works," Mildred said, settling into what appeared to be a lecture mode. Several cats adjusted their positions to listen; this was apparently a familiar speech. "I guard the upper floors of this tower. The Pudding resides in the chamber above. To reach the Pudding, you must pass through my domain. To pass through my domain, you must prove yourself worthy."
 
-"Worthy?" Sir Reginald asked.
+"Worthy?" Sir Albert asked.
 
 "Worthy. Or at least useful, which I have found to be a more practical standard." She gestured vaguely at the cluttered room. "I have TRIALS, you see. Fearsome trials that test the mettle of all who seek the Pudding. Complete my trials, and I shall grant you access to the Pudding Chamber. Fail, and..." She paused. "Well, actually, nothing particularly terrible happens if you fail. You just have to try again. Or leave. Most leave."
 
 The cats seemed to nod in agreement.
 
-"What are these trials?" Sir Reginald asked.
+"What are these trials?" Sir Albert asked.
 
 Mildred's expression shifted into something almost approaching enthusiasm. "Trial the First: the Sorting of the Ingredients. Trial the Second: the Cleansing of the Cauldrons. Trial the Third: the Feeding of the Cats."
 
@@ -10442,7 +10442,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_dusty_tome_read = true
 
-TEXT: Sir Reginald thought about the book he had found in the storage room. "On the Philosophy of Sentient Desserts." The author had written about this tower, about the guardians, about the Pudding itself. He recalled a passage about Mildred: "The witch of the upper floors is particular but not cruel. She values practicality over pageantry. Help her with her small problems, and she will help you with your large ones."
+TEXT: Sir Albert thought about the book he had found in the storage room. "On the Philosophy of Sentient Desserts." The author had written about this tower, about the guardians, about the Pudding itself. He recalled a passage about Mildred: "The witch of the upper floors is particular but not cruel. She values practicality over pageantry. Help her with her small problems, and she will help you with your large ones."
 
 It seemed the book's advice was accurate.
 
@@ -10452,9 +10452,9 @@ NARRATIVE_CONTINUED:
 
 The cats watched. The cauldrons bubbled. Somewhere above, faint but unmistakable, came the sound of wobbling.
 
-Mildred set down her tea cup and fixed Sir Reginald with a look that managed to be simultaneously bored and evaluating.
+Mildred set down her tea cup and fixed Sir Albert with a look that managed to be simultaneously bored and evaluating.
 
-"Well, Sir Reginald Bumblethwaite? What will it be? Will you complete my fearsome trials? Will you attempt to convince me you are too important for chores? Will you try to sneak past me, as three visitors before you have attempted and all three have failed?" She paused. "One of them is still stuck in the wall, actually. I should probably do something about that. Add it to the list."
+"Well, Sir Albert Bumblethwaite? What will it be? Will you complete my fearsome trials? Will you attempt to convince me you are too important for chores? Will you try to sneak past me, as three visitors before you have attempted and all three have failed?" She paused. "One of them is still stuck in the wall, actually. I should probably do something about that. Add it to the list."
 
 She produced a piece of parchment from somewhere and made a note.
 
@@ -10470,11 +10470,11 @@ ID: choice_complete_trials
 
 TEXT: Agree to complete Mildred's trials willingly
 
-FLAVOR: "I shall complete your trials, Madam Mildred," Sir Reginald said with a bow. "Sorting, cleansing, and feeding. I am at your service."
+FLAVOR: "I shall complete your trials, Madam Mildred," Sir Albert said with a bow. "Sorting, cleansing, and feeding. I am at your service."
 
 Mildred blinked. "Just like that? No complaints? No demands to know why a KNIGHT should lower himself to household chores? No speeches about the urgency of your quest?"
 
-"I have asked for your help," Sir Reginald said simply. "It seems only fair that I offer help in return."
+"I have asked for your help," Sir Albert said simply. "It seems only fair that I offer help in return."
 
 Several cats turned to look at each other. This was, apparently, not the usual response.
 
@@ -10490,11 +10490,11 @@ TRIAL_ONE:
 
 NAME: The Sorting of the Ingredients
 
-NARRATIVE: Mildred led Sir Reginald to a corner of the room dominated by a massive apothecary cabinet. Its hundreds of tiny drawers stood in various states of disarray, many of them open, their contents scattered across the surrounding surfaces.
+NARRATIVE: Mildred led Sir Albert to a corner of the room dominated by a massive apothecary cabinet. Its hundreds of tiny drawers stood in various states of disarray, many of them open, their contents scattered across the surrounding surfaces.
 
 "Beetle carapace, bat wing, dried newt, powdered moonstone, essence of Tuesday, crystallized regret." Mildred gestured at the chaos. "All of it needs to go back in the correct drawers. The drawers are labeled. The ingredients are labeled. It should be simple. It is not simple. Nothing in this tower is ever simple."
 
-She handed Sir Reginald a pair of tweezers.
+She handed Sir Albert a pair of tweezers.
 
 "Try not to touch the crystallized regret with your bare hands. It causes mild existential dread. Nothing permanent. Probably."
 
@@ -10506,7 +10506,7 @@ TARGET_NUMBER: 7 (or 8 if mildred_alerted = true)
 
 DIFFICULTY: Standard
 
-SUCCESS_NARRATIVE: Sir Reginald approached the task with methodical determination. The labels were faded but readable. The ingredients were strange but manageable. Beetle carapace went in drawer 17B. Bat wing went in drawer 34A. The dried newt seemed to have opinions about its placement but eventually accepted drawer 22C.
+SUCCESS_NARRATIVE: Sir Albert approached the task with methodical determination. The labels were faded but readable. The ingredients were strange but manageable. Beetle carapace went in drawer 17B. Bat wing went in drawer 34A. The dried newt seemed to have opinions about its placement but eventually accepted drawer 22C.
 
 The crystallized regret, he handled with extreme care.
 
@@ -10516,7 +10516,7 @@ Two hours later, the cabinet was organized. Not perfectly, perhaps, but adequate
 
 RESULT: trial_one_success = true
 
-FAILURE_NARRATIVE: Sir Reginald approached the task with enthusiasm. The enthusiasm lasted approximately four minutes.
+FAILURE_NARRATIVE: Sir Albert approached the task with enthusiasm. The enthusiasm lasted approximately four minutes.
 
 The labels were faded and contradictory. Drawer 17B was already occupied by something that hissed. The bat wing turned out to be three bat wings that did not want to be separated. And the crystallized regret, despite his caution, somehow ended up touching his thumb.
 
@@ -10534,7 +10534,7 @@ NAME: The Cleansing of the Cauldrons
 
 NARRATIVE: The cauldrons occupied a separate area of the workshop, arranged by size from "large cooking pot" to "could comfortably bathe a horse." All of them were encrusted with the residue of countless experiments. Some residues bubbled. Some glowed faintly. One appeared to be attempting to evolve into a new life form.
 
-"Standard cleaning does not work," Mildred explained. "Magical residue requires magical cleaning. I have prepared a solution." She handed Sir Reginald a bucket containing a liquid that sparkled with an inner light. "Apply liberally. Scrub thoroughly. Try not to inhale the fumes. The fumes cause temporary hiccups. Very annoying hiccups."
+"Standard cleaning does not work," Mildred explained. "Magical residue requires magical cleaning. I have prepared a solution." She handed Sir Albert a bucket containing a liquid that sparkled with an inner light. "Apply liberally. Scrub thoroughly. Try not to inhale the fumes. The fumes cause temporary hiccups. Very annoying hiccups."
 
 She provided a brush that had clearly seen many battles.
 
@@ -10548,11 +10548,11 @@ TARGET_NUMBER: 7 (or 8 if mildred_alerted = true)
 
 DIFFICULTY: Standard
 
-SUCCESS_NARRATIVE: Sir Reginald rolled up his sleeves, metaphorically speaking (his armor did not have sleeves to roll), and began to scrub.
+SUCCESS_NARRATIVE: Sir Albert rolled up his sleeves, metaphorically speaking (his armor did not have sleeves to roll), and began to scrub.
 
 The magical cleaning solution was effective but vigorous. It sparkled and fizzed and occasionally made sounds that might have been gratitude or might have been complaint. The residue fought back, clinging to cauldron walls with the determination of grime that had achieved sentience.
 
-The large cauldron in the corner did, indeed, contain something that tried to grab him. It was a tendril of some sort, purple and gelatinous, emerging from the depths with questing purpose. Sir Reginald firmly pushed it back with his brush.
+The large cauldron in the corner did, indeed, contain something that tried to grab him. It was a tendril of some sort, purple and gelatinous, emerging from the depths with questing purpose. Sir Albert firmly pushed it back with his brush.
 
 "No," he said.
 
@@ -10564,11 +10564,11 @@ An hour later, the cauldrons gleamed. Not perfectly, but adequately. Mildred ran
 
 RESULT: trial_two_success = true
 
-FAILURE_NARRATIVE: The cleaning solution was effective. Perhaps too effective. In his enthusiasm, Sir Reginald applied too much, and the resulting fizzing became volcanic.
+FAILURE_NARRATIVE: The cleaning solution was effective. Perhaps too effective. In his enthusiasm, Sir Albert applied too much, and the resulting fizzing became volcanic.
 
 Foam erupted from three cauldrons simultaneously. The fumes, despite his attempts to avoid them, found their way into his lungs.
 
-"HIC," said Sir Reginald.
+"HIC," said Sir Albert.
 
 "HIC," he continued.
 
@@ -10576,7 +10576,7 @@ Foam erupted from three cauldrons simultaneously. The fumes, despite his attempt
 
 The hiccups were, as promised, very annoying. They were also extremely loud, echoing off the tower walls and startling every cat in the room. The cats scattered. Several bottles fell. One cauldron, caught by a particularly violent hiccup, tipped over entirely.
 
-When the chaos subsided and the hiccups faded (eventually), the cauldrons were clean, but Sir Reginald was covered in foam and had somehow acquired a coating of something purple and gelatinous on his left pauldron.
+When the chaos subsided and the hiccups faded (eventually), the cauldrons were clean, but Sir Albert was covered in foam and had somehow acquired a coating of something purple and gelatinous on his left pauldron.
 
 "Well," said Mildred, with the tone of someone whose expectations had been precisely met. "The cauldrons ARE clean. By some definitions. On to Trial Three."
 
@@ -10588,11 +10588,11 @@ NAME: The Feeding of the Cats
 
 NARRATIVE: "The cats," Mildred said, "are particular."
 
-This was evident. The cats had arranged themselves around the room in positions of judgment, watching Sir Reginald with the collective intensity of predators evaluating prey.
+This was evident. The cats had arranged themselves around the room in positions of judgment, watching Sir Albert with the collective intensity of predators evaluating prey.
 
 "Each cat prefers different food," Mildred continued. "Gerald, the tabby, prefers fish. Absolutely nothing but fish. Margaret, the black one, prefers chicken. The three kittens, Pessimism, Dread, and Kevin, will eat anything but must be fed simultaneously or they fight. And Bartholomew..."
 
-She pointed to a corner where Sir Reginald had not noticed a cat. A very large cat. A cat the size of a medium dog, with orange fur and an expression of pure, concentrated malice.
+She pointed to a corner where Sir Albert had not noticed a cat. A very large cat. A cat the size of a medium dog, with orange fur and an expression of pure, concentrated malice.
 
 "Bartholomew prefers to hunt his own food. Do not feed Bartholomew. If you feed Bartholomew, he will be offended. You do not want Bartholomew offended."
 
@@ -10608,33 +10608,33 @@ TARGET_NUMBER: 7 (or 8 if mildred_alerted = true)
 
 DIFFICULTY: Standard
 
-SUCCESS_NARRATIVE: Sir Reginald had grown up on a turnip farm. Turnip farms did not have cats. But they had chickens, and chickens, he reflected, were essentially angry, feathered cats with even less impulse control.
+SUCCESS_NARRATIVE: Sir Albert had grown up on a turnip farm. Turnip farms did not have cats. But they had chickens, and chickens, he reflected, were essentially angry, feathered cats with even less impulse control.
 
 He approached the task with methodical care. Fish for Gerald. Chicken for Margaret. A shared bowl placed equidistant from Pessimism, Dread, and Kevin, who descended upon it in a synchronized frenzy that was almost beautiful.
 
-Bartholomew watched from his corner. Sir Reginald did not approach Bartholomew. Bartholomew seemed to approve of this decision, or at least did not express disapproval through violence.
+Bartholomew watched from his corner. Sir Albert did not approach Bartholomew. Bartholomew seemed to approve of this decision, or at least did not express disapproval through violence.
 
 "Mrow," said Gerald, with a tone that might have been gratitude.
 
 Mildred observed the feeding with something approaching respect. "You did not try to pet them. Everyone tries to pet them. Petting is only by invitation, and they never invite."
 
-"I have learned," Sir Reginald said, "that some creatures prefer to be respected from a distance."
+"I have learned," Sir Albert said, "that some creatures prefer to be respected from a distance."
 
 "A useful insight." Mildred nodded. "The Pudding will appreciate that perspective."
 
 RESULT: trial_three_success = true
 
-FAILURE_NARRATIVE: Sir Reginald had not grown up around cats. His experience with animals was limited to the goat that had broken his nose (incident two of three) and the horse that had refused to be diplomatic (a story best left untold).
+FAILURE_NARRATIVE: Sir Albert had not grown up around cats. His experience with animals was limited to the goat that had broken his nose (incident two of three) and the horse that had refused to be diplomatic (a story best left untold).
 
 He approached the feeding with confidence. Confidence was a mistake.
 
-Gerald did not want fish from THIS bowl. Gerald wanted fish from THAT bowl, the one Sir Reginald had already given to Margaret. A territorial dispute erupted. In the confusion, Pessimism, Dread, and Kevin were fed at slightly staggered intervals, resulting in a three-way kitten battle that somehow involved climbing up Sir Reginald's armor.
+Gerald did not want fish from THIS bowl. Gerald wanted fish from THAT bowl, the one Sir Albert had already given to Margaret. A territorial dispute erupted. In the confusion, Pessimism, Dread, and Kevin were fed at slightly staggered intervals, resulting in a three-way kitten battle that somehow involved climbing up Sir Albert's armor.
 
-And Bartholomew, in the chaos, received a piece of chicken that Sir Reginald had not intended to give him but which had been knocked from his hands by a passing paw.
+And Bartholomew, in the chaos, received a piece of chicken that Sir Albert had not intended to give him but which had been knocked from his hands by a passing paw.
 
 Bartholomew looked at the chicken.
 
-Bartholomew looked at Sir Reginald.
+Bartholomew looked at Sir Albert.
 
 Bartholomew was offended.
 
@@ -10650,7 +10650,7 @@ IF trial_one_success AND trial_two_success AND trial_three_success:
 
 NARRATIVE: Mildred sets down her tea cup with a sound that might, in adequate lighting, be called impressed.
 
-"Well, Sir Reginald Bumblethwaite. You have completed my trials. All three. Without significant catastrophe." She pauses. "That has not happened in... actually, I am not certain that has ever happened. The last visitor to complete all three managed it only by setting fire to the ingredient cabinet and claiming the resulting chaos counted as 'sorting.'"
+"Well, Sir Albert Bumblethwaite. You have completed my trials. All three. Without significant catastrophe." She pauses. "That has not happened in... actually, I am not certain that has ever happened. The last visitor to complete all three managed it only by setting fire to the ingredient cabinet and claiming the resulting chaos counted as 'sorting.'"
 
 She rises and moves to a locked cabinet, producing a key shaped like a spoon.
 
@@ -10674,7 +10674,7 @@ HINT_GAINED: "The Pudding responds to genuine respect and can sense insincerity.
 
 IF (trial_one_success AND trial_two_success) OR (trial_one_success AND trial_three_success) OR (trial_two_success AND trial_three_success):
 
-NARRATIVE: Mildred observes Sir Reginald with an expression that combines resignation with faint approval.
+NARRATIVE: Mildred observes Sir Albert with an expression that combines resignation with faint approval.
 
 "You have completed my trials. Mostly. With... incidents." She sighs. "But you tried. Genuinely tried. That counts for something. The last visitor who struggled this much simply gave up and tried to push past me. He is still stuck in the wall."
 
@@ -10696,7 +10696,7 @@ HINT_GAINED: "Approach the Pudding with respect."
 
 IF NOT trial_one_success AND NOT trial_two_success AND NOT trial_three_success:
 
-NARRATIVE: Mildred watches the aftermath of Sir Reginald's trials with the expression of someone whose extremely low expectations have been precisely met.
+NARRATIVE: Mildred watches the aftermath of Sir Albert's trials with the expression of someone whose extremely low expectations have been precisely met.
 
 "Well," she says. "The ingredients are... somewhere. The cauldrons are... technically clean. The cats are... no longer actively attempting to kill you." She sighs. "I have seen worse. Not much worse, but worse."
 
@@ -10720,7 +10720,7 @@ ID: choice_convince_urgency
 
 TEXT: Attempt to convince Mildred the quest is urgent
 
-FLAVOR: "Madam Mildred," Sir Reginald said, "I understand your position. But I must convey the urgency of my situation. The Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. Without the Pudding of Perpetual Wobble, Blandovia faces diplomatic embarrassment of a magnitude that could have lasting consequences."
+FLAVOR: "Madam Mildred," Sir Albert said, "I understand your position. But I must convey the urgency of my situation. The Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. Without the Pudding of Perpetual Wobble, Blandovia faces diplomatic embarrassment of a magnitude that could have lasting consequences."
 
 He paused, trying to remember the exact wording from the Quest Scroll.
 
@@ -10786,7 +10786,7 @@ ID: choice_trade_item
 
 TEXT: Offer to trade an item for passage
 
-FLAVOR: Sir Reginald considered his pack. Mildred was a witch. Witches, presumably, had interests. Perhaps something he carried would appeal to those interests.
+FLAVOR: Sir Albert considered his pack. Mildred was a witch. Witches, presumably, had interests. Perhaps something he carried would appeal to those interests.
 
 REQUIREMENTS: HAVE item_dusty_tome OR HAVE item_wooden_spoon
 
@@ -10800,7 +10800,7 @@ TEXT: Offer the philosophical treatise on sentient desserts
 
 REQUIREMENTS: HAVE item_dusty_tome
 
-NARRATIVE: "I found this," Sir Reginald said, producing the leather-bound book from his pack. "In the storage room below. 'On the Philosophy of Sentient Desserts.' I thought perhaps..."
+NARRATIVE: "I found this," Sir Albert said, producing the leather-bound book from his pack. "In the storage room below. 'On the Philosophy of Sentient Desserts.' I thought perhaps..."
 
 Mildred's eyes went wide.
 
@@ -10830,7 +10830,7 @@ TEXT: Offer Agnes's wooden spoon
 
 REQUIREMENTS: HAVE item_wooden_spoon AND NOT HAVE item_dusty_tome
 
-NARRATIVE: "I have this," Sir Reginald said, producing the wooden spoon Agnes had given him. "A gift from a village elder. She said it was for protection, but I suspect it is simply a spoon."
+NARRATIVE: "I have this," Sir Albert said, producing the wooden spoon Agnes had given him. "A gift from a village elder. She said it was for protection, but I suspect it is simply a spoon."
 
 Mildred took the spoon, examining it with curiosity.
 
@@ -10860,7 +10860,7 @@ TEXT: Attempt to sneak past Mildred while she is distracted
 
 FLAVOR: Mildred had turned back to her workbench, muttering about something involving Tuesday and crystalline structures. The cats were occupied with their various naps. The spiral staircase to the Pudding Chamber stood in the corner, unguarded.
 
-Perhaps, Sir Reginald thought, he could simply... proceed.
+Perhaps, Sir Albert thought, he could simply... proceed.
 
 He began to edge toward the staircase, keeping his armor as quiet as possible (which was not very quiet). Step by careful step. Past the cauldrons. Past the sleeping cats. Almost there...
 
@@ -10876,7 +10876,7 @@ DIFFICULTY: Very Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald reached the staircase. His foot found the first step. No alarm was raised. No witch turned. No cat stirred.
+NARRATIVE: Sir Albert reached the staircase. His foot found the first step. No alarm was raised. No witch turned. No cat stirred.
 
 He was three steps up when Mildred spoke.
 
@@ -10898,7 +10898,7 @@ NOTE: Window route does not require item_tower_key. Player proceeds via external
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald reached the staircase. His foot found the first step. And his armor, which had been clanking at every opportunity throughout his journey, chose THIS moment to produce a clank of exceptional volume.
+NARRATIVE: Sir Albert reached the staircase. His foot found the first step. And his armor, which had been clanking at every opportunity throughout his journey, chose THIS moment to produce a clank of exceptional volume.
 
 CLANK.
 
@@ -10910,7 +10910,7 @@ Every cat in the room turned to stare. Bartholomew's eyes narrowed.
 
 "The staircase." She turned, arms folded, spectacles glinting. "You were admiring a staircase. While moving toward it. Quietly. In full armor that has been announcing your presence since you entered my tower."
 
-Sir Reginald had no response to this.
+Sir Albert had no response to this.
 
 "Since you clearly have energy to spare," Mildred continued, "you can complete my trials AND help me reorganize the second bookshelf. Consider it a penalty for insulting my intelligence."
 
@@ -10930,7 +10930,7 @@ ID: choice_ask_about_pudding
 
 TEXT: Ask Mildred about the Pudding before deciding
 
-FLAVOR: "Before I decide," Sir Reginald said, "might I ask you about the Pudding itself? I have heard various things, but I would value the perspective of someone who knows it well."
+FLAVOR: "Before I decide," Sir Albert said, "might I ask you about the Pudding itself? I have heard various things, but I would value the perspective of someone who knows it well."
 
 Mildred's expression shifted toward something almost warm. "You want to KNOW about the Pudding? Before blundering in to retrieve it?" She shook her head. "That is... unexpectedly sensible. Most visitors charge straight up those stairs and return ten minutes later looking traumatized."
 
@@ -11064,7 +11064,7 @@ Location: loctower_upper (external/alternative area)
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 pocket (if flagpocketfriendly = true, serves as guide)
 
@@ -11074,7 +11074,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald arrives via shortcut, having bypassed most of the tower
+Sir Albert arrives via shortcut, having bypassed most of the tower
 
 If flagpocketfriendly = true: Pocket guides him through secret passages
 
@@ -11118,7 +11118,7 @@ The tower exterior as unexpectedly scenic (views of Blandovian mediocrity)
 
 Pocket's enthusiasm for secret routes (if present)
 
-Sir Reginald's acrophobia or lack thereof
+Sir Albert's acrophobia or lack thereof
 
 The wobbling sound growing louder as they approach
 
@@ -11218,7 +11218,7 @@ Pocket's enthusiasm for showing off his knowledge of secret routes
 
 The absurdity of climbing around a tower to avoid doing chores
 
-Sir Reginald's internal debate about whether this was wise
+Sir Albert's internal debate about whether this was wise
 
 The view from outside should emphasize Blandovian mediocrity (grey landscape, adequate scenery)
 
@@ -11270,7 +11270,7 @@ Section Title: The Scenic Route
 
 NARRATIVE:
 
-Sir Reginald found himself in a part of the tower he had not expected to reach by conventional means. Which was appropriate, given that he had not used conventional means to reach it.
+Sir Albert found himself in a part of the tower he had not expected to reach by conventional means. Which was appropriate, given that he had not used conventional means to reach it.
 
 The small chamber was dusty and clearly forgotten, its single window offering a view that would have been breathtaking if the landscape below had been anything other than the Meadow of Slightly Damp Grass. As it was, the view was merely adequate. Grey-green grass stretched toward the horizon under a sky the color of disappointment. Somewhere in the distance, sheep continued their eternal grazing, unbothered by the existence of towers, puddings, or knights on unlikely quests.
 
@@ -11288,19 +11288,19 @@ The goblin scurried across the chamber, his many-pocketed vest jingling faintly 
 
 "Pudding is that way." He pointed toward the window. "Outside. Around. Balcony. Or..." He gestured toward a door on the far side of the chamber, heavy oak with an iron lock that looked decidedly unpickable. "Through there. But through there needs key. Witch has key. Knight did not get key from witch, yes?"
 
-He studied Sir Reginald with the calculating gaze of someone who understood shortcuts and their consequences.
+He studied Sir Albert with the calculating gaze of someone who understood shortcuts and their consequences.
 
 "Pocket can try lock. Pocket is good with locks. Not as good as Pocket is with pockets, but good. Or Knight can climb. Climbing is also option. Pocket does not climb. Pocket is small. Wind is big. Math is unfavorable."
 
 CONDITION: flagpocket_friendly = false
 
-TEXT: The chamber was silent save for the distant wobbling and the sound of Sir Reginald's own breathing, slightly labored from the climb through the narrow passage. He was alone. No helpful goblin to guide him. No witch's key to unlock doors. Just himself, his rusty sword, his dented shield, and the consequences of taking shortcuts.
+TEXT: The chamber was silent save for the distant wobbling and the sound of Sir Albert's own breathing, slightly labored from the climb through the narrow passage. He was alone. No helpful goblin to guide him. No witch's key to unlock doors. Just himself, his rusty sword, his dented shield, and the consequences of taking shortcuts.
 
 The door on the far side of the chamber was locked. He tried it anyway, because knights tried locked doors. It did not open. It did not even rattle encouragingly. It simply remained locked with the implacable certainty of doors that knew their purpose.
 
 The window, however, offered an alternative. Beyond the glass, a narrow ledge extended around the tower's exterior. The ledge connected, eventually, to a balcony that seemed to adjoin the Pudding Chamber itself.
 
-Sir Reginald looked at the ledge. He looked at his armor. He looked at the considerable distance between the ledge and the ground below.
+Sir Albert looked at the ledge. He looked at his armor. He looked at the considerable distance between the ledge and the ground below.
 
 "Right then," he said to no one. "The scenic route."
 
@@ -11308,7 +11308,7 @@ Sir Reginald looked at the ledge. He looked at his armor. He looked at the consi
 
 NARRATIVE_CONTINUED:
 
-The choice before Sir Reginald was, in some ways, a summary of his entire approach to this quest. He had taken shortcuts. He had avoided the witch's trials. He had bypassed obstacles rather than confronting them directly. And now he stood in a forgotten chamber, lacking the key that would have made this simple, contemplating whether to climb around the outside of a tower or reconsider his life choices.
+The choice before Sir Albert was, in some ways, a summary of his entire approach to this quest. He had taken shortcuts. He had avoided the witch's trials. He had bypassed obstacles rather than confronting them directly. And now he stood in a forgotten chamber, lacking the key that would have made this simple, contemplating whether to climb around the outside of a tower or reconsider his life choices.
 
 The wobbling continued. Patient. Eternal. Somehow judgmental.
 
@@ -11330,11 +11330,11 @@ He made the word sound like an insult.
 
 CONDITION: HAVE item_tower_map AND flagpocket_friendly = false
 
-TEXT: Sir Reginald unfolded Agnes's map, hoping it might offer guidance for this final stretch. The yellowed parchment showed the tower's layout in careful detail, but the upper chambers were less thoroughly documented. Agnes's grandmother had apparently not made it this far, or had not bothered to map what she found.
+TEXT: Sir Albert unfolded Agnes's map, hoping it might offer guidance for this final stretch. The yellowed parchment showed the tower's layout in careful detail, but the upper chambers were less thoroughly documented. Agnes's grandmother had apparently not made it this far, or had not bothered to map what she found.
 
 A note in the margin, however, caught his eye: "The Pudding sees true intentions. Approach with honest heart."
 
-Agnes's grandmother, it seemed, had learned something about the Pudding even without reaching it. Sir Reginald filed this away as potentially useful information.
+Agnes's grandmother, it seemed, had learned something about the Pudding even without reaching it. Sir Albert filed this away as potentially useful information.
 
 ---
 
@@ -11342,7 +11342,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: armor_squelching = true
 
-TEXT: The prospect of climbing along an external ledge in damp armor that still occasionally squelched was not appealing. Water had a way of making metal slippery, and slippery was not a quality Sir Reginald wished to introduce to a situation involving heights.
+TEXT: The prospect of climbing along an external ledge in damp armor that still occasionally squelched was not appealing. Water had a way of making metal slippery, and slippery was not a quality Sir Albert wished to introduce to a situation involving heights.
 
 "Perhaps," he said aloud, "I should have used the bridge."
 
@@ -11352,13 +11352,13 @@ The statement applied to several situations, really.
 
 NARRATIVE_CONTINUED:
 
-Through the window, Sir Reginald could see the balcony that adjoined the Pudding Chamber. It was perhaps thirty feet away, connected to his current position by a ledge approximately eighteen inches wide. The ledge was old stone, worn smooth by weather and time. It did not look unstable. It also did not look designed for a man in full armor who had a documented history of unfortunate incidents involving ladders, goats, and the fundamental nature of balance.
+Through the window, Sir Albert could see the balcony that adjoined the Pudding Chamber. It was perhaps thirty feet away, connected to his current position by a ledge approximately eighteen inches wide. The ledge was old stone, worn smooth by weather and time. It did not look unstable. It also did not look designed for a man in full armor who had a documented history of unfortunate incidents involving ladders, goats, and the fundamental nature of balance.
 
 The alternative was to reconsider. To return through the tower. To face Mildred and her trials properly. To obtain the key that would make this simple.
 
 But the wobbling was so close. The Pudding was right there, just around the corner of the tower, waiting with its ancient philosophical patience. After everything he had been through, was he really going to turn back now?
 
-Sir Reginald Bumblethwaite, knight of Blandovia, accidentally dubbed, famously clumsy, notoriously well-meaning, looked at the narrow ledge and made his decision.
+Sir Albert Bumblethwaite, knight of Blandovia, accidentally dubbed, famously clumsy, notoriously well-meaning, looked at the narrow ledge and made his decision.
 
 ---
 
@@ -11366,21 +11366,21 @@ CHOICES:
 
 CHOICE 1: Follow Pocket's secret route to the Pudding Chamber
 
-"Lead on, Pocket," Sir Reginald said. "I trust your knowledge of this tower."
+"Lead on, Pocket," Sir Albert said. "I trust your knowledge of this tower."
 
 Pocket's eyes went wide. "Knight TRUSTS Pocket? Truly?" He blinked several times, processing this information. "No one has trusted Pocket before. Is... is strange feeling. Good strange. Not bad strange. Pocket will not let Knight down!"
 
-The goblin scurried to a section of wall that appeared entirely solid. His too-jointed fingers found a seam invisible to Sir Reginald's eyes, and with a twist and a push, a section of stone swung inward to reveal a narrow passage.
+The goblin scurried to a section of wall that appeared entirely solid. His too-jointed fingers found a seam invisible to Sir Albert's eyes, and with a twist and a push, a section of stone swung inward to reveal a narrow passage.
 
 "This way, this way! Pocket knows the secret ways. Walls have spaces between them. Spaces go everywhere. Even to the Pudding room."
 
-Sir Reginald followed, ducking to fit through passages clearly designed for goblin proportions. His armor scraped against stone. His helmet caught on protrusions. But Pocket guided with confidence, and soon they emerged through another concealed door directly adjacent to the Pudding Chamber itself.
+Sir Albert followed, ducking to fit through passages clearly designed for goblin proportions. His armor scraped against stone. His helmet caught on protrusions. But Pocket guided with confidence, and soon they emerged through another concealed door directly adjacent to the Pudding Chamber itself.
 
 "There," Pocket announced with evident pride. "Door to Pudding is right there. Is not locked from this side. Witch never thought to lock from this side. Pocket has told her many times. She does not listen."
 
 He paused at the threshold.
 
-"Pocket will wait here. Pudding does not like Pocket. Pocket once tried to steal piece of Pudding. Did not end well. Pudding holds grudges. But Knight..." He looked at Sir Reginald with something approaching affection. "Knight will be okay. Pocket believes this. Is what friends do, yes? Believe in friends?"
+"Pocket will wait here. Pudding does not like Pocket. Pocket once tried to steal piece of Pudding. Did not end well. Pudding holds grudges. But Knight..." He looked at Sir Albert with something approaching affection. "Knight will be okay. Pocket believes this. Is what friends do, yes? Believe in friends?"
 
 Requirements: flagpocket_friendly = true
 
@@ -11396,7 +11396,7 @@ Target: sec08pudding_chamber
 
 CHOICE 2: Attempt the external window climb alone
 
-Sir Reginald opened the window. A gust of wind greeted him, carrying the scent of damp grass and distant sheep. He looked at the ledge. He looked at the drop. He looked at his armored feet, which were not designed for delicate maneuvering.
+Sir Albert opened the window. A gust of wind greeted him, carrying the scent of damp grass and distant sheep. He looked at the ledge. He looked at the drop. He looked at his armored feet, which were not designed for delicate maneuvering.
 
 "Fortune favors the bold," he said, and climbed out.
 
@@ -11404,13 +11404,13 @@ The first few feet were manageable. The stone was worn but solid beneath his boo
 
 The wind picked up. His armor clanked. A bird, startled by his presence, launched itself from a nearby windowsill with an indignant squawk.
 
-Sir Reginald did not look down. This was, he had discovered early in his knighting career, an important rule for situations involving heights. Looking down never helped. Looking down only provided information one did not want to possess.
+Sir Albert did not look down. This was, he had discovered early in his knighting career, an important rule for situations involving heights. Looking down never helped. Looking down only provided information one did not want to possess.
 
 Requirements: HAVE item_sturdy_rope OR arrived via narrow passage (sec05 Choice 3)
 
 Tests: SKILL test (target 8)
 
-Success: Step by careful step, Sir Reginald made his way along the ledge. The stone held. His balance held. Even his armor, for once, cooperated rather than betrayed him.
+Success: Step by careful step, Sir Albert made his way along the ledge. The stone held. His balance held. Even his armor, for once, cooperated rather than betrayed him.
 
 The balcony came into reach. He grasped the railing, pulled himself over, and stood for a moment on solid ground, breathing heavily, his heart hammering with the particular rhythm of survival.
 
@@ -11422,7 +11422,7 @@ SET flagmildred_bypassed = true
 
 Target: sec08pudding_chamber
 
-Failure: The ledge was eighteen inches wide. Sir Reginald's foot needed, at a critical moment, nineteen inches.
+Failure: The ledge was eighteen inches wide. Sir Albert's foot needed, at a critical moment, nineteen inches.
 
 His boot slipped on stone worn smooth by centuries of rain. His arms pinwheeled. His armor, which had never been designed for aerodynamics or sudden changes in direction, shifted his center of gravity in entirely unhelpful ways.
 
@@ -11444,7 +11444,7 @@ Target: sec06tower_upper_mildred
 
 CHOICE 3: Reconsider and approach Mildred properly
 
-Sir Reginald looked at the ledge. He looked at the locked door. He thought about his tendency to fall off, into, or through things that sensible people did not fall off, into, or through.
+Sir Albert looked at the ledge. He looked at the locked door. He thought about his tendency to fall off, into, or through things that sensible people did not fall off, into, or through.
 
 "Perhaps," he said slowly, "shortcuts are not always the wisest path."
 
@@ -11452,7 +11452,7 @@ The tower interior awaited. Mildred and her trials awaited. The proper route, wi
 
 It would take more time. It would require more effort. But it would also provide him with the key, the recipe, and the information he currently lacked.
 
-Sir Reginald Bumblethwaite turned away from the window and headed back through the tower toward the witch's workshop.
+Sir Albert Bumblethwaite turned away from the window and headed back through the tower toward the witch's workshop.
 
 Some lessons, he reflected, were learned the hard way. And some were learned just in time.
 
@@ -11468,11 +11468,11 @@ Target: sec06tower_upper_mildred
 
 CHOICE 4: Have Pocket attempt to unlock the Pudding Chamber door directly
 
-"Pocket," Sir Reginald said, eyeing the locked door. "You mentioned you were good with locks?"
+"Pocket," Sir Albert said, eyeing the locked door. "You mentioned you were good with locks?"
 
 The goblin perked up immediately. "Pocket is EXCELLENT with locks! Well. Pocket is ADEQUATE with locks. Pocket is excellent with pockets. But locks and pockets are similar, yes? Both are things that open and close and contain things. Pocket will try!"
 
-He scurried to the door, pressing his ear against it, then his eye, then several of his too-jointed fingers. Various small tools emerged from his vest, implements whose purposes Sir Reginald could only guess at.
+He scurried to the door, pressing his ear against it, then his eye, then several of his too-jointed fingers. Various small tools emerged from his vest, implements whose purposes Sir Albert could only guess at.
 
 "Witch's lock," Pocket muttered. "Witch is clever. Lock is clever. But Pocket is ALSO clever. Maybe cleverer? Will find out."
 
@@ -11486,7 +11486,7 @@ The sound was small but unmistakable. Pocket stepped back from the door with an 
 
 "HA! Lock thought was clever. Pocket was CLEVERER! Door opens now. Knight can enter. Pocket has earned smugness. Will be smug for rest of day. Maybe rest of week."
 
-The door swung open, revealing the final stairway to the Pudding Chamber. Sir Reginald could see soft light emanating from above, and the wobbling had become almost palpable.
+The door swung open, revealing the final stairway to the Pudding Chamber. Sir Albert could see soft light emanating from above, and the wobbling had become almost palpable.
 
 "Thank you, Pocket. Truly."
 
@@ -11578,11 +11578,11 @@ Knowledge of tower: Shows off wall passages, hidden doors
 
 Previous stealing attempt on Pudding mentioned: Matches character background ("Pocket once tried to steal piece of Pudding")
 
-Affection for Sir Reginald if friendly: "Knight is friend, so Pocket gives advice"
+Affection for Sir Albert if friendly: "Knight is friend, so Pocket gives advice"
 
 Too-jointed fingers for lockpicking: Demonstrated in Choice 4
 
-sir_reginald:
+sir_albert:
 
 Internal debate about shortcuts: Shown in narrative contemplation
 
@@ -11982,13 +11982,13 @@ SECTION_TITLE: The Scenic Route
 
 LOCATION: loctower_upper (external/alternative area)
 
-CHARACTERS_PRESENT: sir_reginald, pocket (conditional)
+CHARACTERS_PRESENT: sir_albert, pocket (conditional)
 
 ---
 
 NARRATIVE:
 
-Sir Reginald found himself in a part of the tower he had not expected to reach by conventional means. Which was appropriate, given that he had not used conventional means to reach it.
+Sir Albert found himself in a part of the tower he had not expected to reach by conventional means. Which was appropriate, given that he had not used conventional means to reach it.
 
 The small chamber was dusty and clearly forgotten, its single window offering a view that would have been breathtaking if the landscape below had been anything other than the Meadow of Slightly Damp Grass. As it was, the view was merely adequate. Grey-green grass stretched toward the horizon under a sky the color of disappointment. Somewhere in the distance, sheep continued their eternal grazing, unbothered by the existence of towers, puddings, or knights on unlikely quests.
 
@@ -12006,19 +12006,19 @@ The goblin scurried across the chamber, his many-pocketed vest jingling faintly 
 
 "Pudding is that way." He pointed toward the window. "Outside. Around. Balcony. Or..." He gestured toward a door on the far side of the chamber, heavy oak with an iron lock that looked decidedly unpickable. "Through there. But through there needs key. Witch has key. Knight did not get key from witch, yes?"
 
-He studied Sir Reginald with the calculating gaze of someone who understood shortcuts and their consequences.
+He studied Sir Albert with the calculating gaze of someone who understood shortcuts and their consequences.
 
 "Pocket can try lock. Pocket is good with locks. Not as good as Pocket is with pockets, but good. Or Knight can climb. Climbing is also option. Pocket does not climb. Pocket is small. Wind is big. Math is unfavorable."
 
 CONDITION: flagpocket_friendly = false
 
-TEXT: The chamber was silent save for the distant wobbling and the sound of Sir Reginald's own breathing, slightly labored from the climb through the narrow passage. He was alone. No helpful goblin to guide him. No witch's key to unlock doors. Just himself, his rusty sword, his dented shield, and the consequences of taking shortcuts.
+TEXT: The chamber was silent save for the distant wobbling and the sound of Sir Albert's own breathing, slightly labored from the climb through the narrow passage. He was alone. No helpful goblin to guide him. No witch's key to unlock doors. Just himself, his rusty sword, his dented shield, and the consequences of taking shortcuts.
 
 The door on the far side of the chamber was locked. He tried it anyway, because knights tried locked doors. It did not open. It did not even rattle encouragingly. It simply remained locked with the implacable certainty of doors that knew their purpose.
 
 The window, however, offered an alternative. Beyond the glass, a narrow ledge extended around the tower's exterior. The ledge connected, eventually, to a balcony that seemed to adjoin the Pudding Chamber itself.
 
-Sir Reginald looked at the ledge. He looked at his armor. He looked at the considerable distance between the ledge and the ground below.
+Sir Albert looked at the ledge. He looked at his armor. He looked at the considerable distance between the ledge and the ground below.
 
 "Right then," he said to no one. "The scenic route."
 
@@ -12026,7 +12026,7 @@ Sir Reginald looked at the ledge. He looked at his armor. He looked at the consi
 
 NARRATIVE_CONTINUED:
 
-The choice before Sir Reginald was, in some ways, a summary of his entire approach to this quest. He had taken shortcuts. He had avoided the witch's trials. He had bypassed obstacles rather than confronting them directly. And now he stood in a forgotten chamber, lacking the key that would have made this simple, contemplating whether to climb around the outside of a tower or reconsider his life choices.
+The choice before Sir Albert was, in some ways, a summary of his entire approach to this quest. He had taken shortcuts. He had avoided the witch's trials. He had bypassed obstacles rather than confronting them directly. And now he stood in a forgotten chamber, lacking the key that would have made this simple, contemplating whether to climb around the outside of a tower or reconsider his life choices.
 
 The wobbling continued. Patient. Eternal. Somehow judgmental.
 
@@ -12052,11 +12052,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: HAVE itemtower_map AND flagpocket_friendly = false
 
-TEXT: Sir Reginald unfolded Agnes's map, hoping it might offer guidance for this final stretch. The yellowed parchment showed the tower's layout in careful detail, but the upper chambers were less thoroughly documented. Agnes's grandmother had apparently not made it this far, or had not bothered to map what she found.
+TEXT: Sir Albert unfolded Agnes's map, hoping it might offer guidance for this final stretch. The yellowed parchment showed the tower's layout in careful detail, but the upper chambers were less thoroughly documented. Agnes's grandmother had apparently not made it this far, or had not bothered to map what she found.
 
 A note in the margin, however, caught his eye: "The Pudding sees true intentions. Approach with honest heart."
 
-Agnes's grandmother, it seemed, had learned something about the Pudding even without reaching it. Sir Reginald filed this away as potentially useful information.
+Agnes's grandmother, it seemed, had learned something about the Pudding even without reaching it. Sir Albert filed this away as potentially useful information.
 
 ---
 
@@ -12064,7 +12064,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: armor_squelching = true
 
-TEXT: The prospect of climbing along an external ledge in damp armor that still occasionally squelched was not appealing. Water had a way of making metal slippery, and slippery was not a quality Sir Reginald wished to introduce to a situation involving heights.
+TEXT: The prospect of climbing along an external ledge in damp armor that still occasionally squelched was not appealing. Water had a way of making metal slippery, and slippery was not a quality Sir Albert wished to introduce to a situation involving heights.
 
 "Perhaps," he said aloud, "I should have used the bridge."
 
@@ -12074,13 +12074,13 @@ The statement applied to several situations, really.
 
 NARRATIVE_CONTINUED:
 
-Through the window, Sir Reginald could see the balcony that adjoined the Pudding Chamber. It was perhaps thirty feet away, connected to his current position by a ledge approximately eighteen inches wide. The ledge was old stone, worn smooth by weather and time. It did not look unstable. It also did not look designed for a man in full armor who had a documented history of unfortunate incidents involving ladders, goats, and the fundamental nature of balance.
+Through the window, Sir Albert could see the balcony that adjoined the Pudding Chamber. It was perhaps thirty feet away, connected to his current position by a ledge approximately eighteen inches wide. The ledge was old stone, worn smooth by weather and time. It did not look unstable. It also did not look designed for a man in full armor who had a documented history of unfortunate incidents involving ladders, goats, and the fundamental nature of balance.
 
 The alternative was to reconsider. To return through the tower. To face Mildred and her trials properly. To obtain the key that would make this simple.
 
 But the wobbling was so close. The Pudding was right there, just around the corner of the tower, waiting with its ancient philosophical patience. After everything he had been through, was he really going to turn back now?
 
-Sir Reginald Bumblethwaite, knight of Blandovia, accidentally dubbed, famously clumsy, notoriously well-meaning, looked at the narrow ledge and made his decision.
+Sir Albert Bumblethwaite, knight of Blandovia, accidentally dubbed, famously clumsy, notoriously well-meaning, looked at the narrow ledge and made his decision.
 
 ---
 
@@ -12092,11 +12092,11 @@ ID: choice_follow_pocket
 
 TEXT: Follow Pocket's secret route to the Pudding Chamber
 
-FLAVOR: "Lead on, Pocket," Sir Reginald said. "I trust your knowledge of this tower."
+FLAVOR: "Lead on, Pocket," Sir Albert said. "I trust your knowledge of this tower."
 
 Pocket's eyes went wide. "Knight TRUSTS Pocket? Truly?" He blinked several times, processing this information. "No one has trusted Pocket before. Is... is strange feeling. Good strange. Not bad strange. Pocket will not let Knight down!"
 
-The goblin scurried to a section of wall that appeared entirely solid. His too-jointed fingers found a seam invisible to Sir Reginald's eyes, and with a twist and a push, a section of stone swung inward to reveal a narrow passage.
+The goblin scurried to a section of wall that appeared entirely solid. His too-jointed fingers found a seam invisible to Sir Albert's eyes, and with a twist and a push, a section of stone swung inward to reveal a narrow passage.
 
 "This way, this way! Pocket knows the secret ways. Walls have spaces between them. Spaces go everywhere. Even to the Pudding room."
 
@@ -12106,13 +12106,13 @@ TEST: None (Pocket guides safely)
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald followed, ducking to fit through passages clearly designed for goblin proportions. His armor scraped against stone. His helmet caught on protrusions. But Pocket guided with confidence, and soon they emerged through another concealed door directly adjacent to the Pudding Chamber itself.
+NARRATIVE: Sir Albert followed, ducking to fit through passages clearly designed for goblin proportions. His armor scraped against stone. His helmet caught on protrusions. But Pocket guided with confidence, and soon they emerged through another concealed door directly adjacent to the Pudding Chamber itself.
 
 "There," Pocket announced with evident pride. "Door to Pudding is right there. Is not locked from this side. Witch never thought to lock from this side. Pocket has told her many times. She does not listen."
 
 He paused at the threshold.
 
-"Pocket will wait here. Pudding does not like Pocket. Pocket once tried to steal piece of Pudding. Did not end well. Pudding holds grudges. But Knight..." He looked at Sir Reginald with something approaching affection. "Knight will be okay. Pocket believes this. Is what friends do, yes? Believe in friends?"
+"Pocket will wait here. Pudding does not like Pocket. Pocket once tried to steal piece of Pudding. Did not end well. Pudding holds grudges. But Knight..." He looked at Sir Albert with something approaching affection. "Knight will be okay. Pocket believes this. Is what friends do, yes? Believe in friends?"
 
 CONSEQUENCES:
 
@@ -12136,7 +12136,7 @@ ID: choice_window_climb
 
 TEXT: Attempt the external window climb
 
-FLAVOR: Sir Reginald opened the window. A gust of wind greeted him, carrying the scent of damp grass and distant sheep. He looked at the ledge. He looked at the drop. He looked at his armored feet, which were not designed for delicate maneuvering.
+FLAVOR: Sir Albert opened the window. A gust of wind greeted him, carrying the scent of damp grass and distant sheep. He looked at the ledge. He looked at the drop. He looked at his armored feet, which were not designed for delicate maneuvering.
 
 "Fortune favors the bold," he said, and climbed out.
 
@@ -12144,7 +12144,7 @@ The first few feet were manageable. The stone was worn but solid beneath his boo
 
 The wind picked up. His armor clanked. A bird, startled by his presence, launched itself from a nearby windowsill with an indignant squawk.
 
-Sir Reginald did not look down. This was, he had discovered early in his knighting career, an important rule for situations involving heights. Looking down never helped. Looking down only provided information one did not want to possess.
+Sir Albert did not look down. This was, he had discovered early in his knighting career, an important rule for situations involving heights. Looking down never helped. Looking down only provided information one did not want to possess.
 
 REQUIREMENTS: None
 
@@ -12158,7 +12158,7 @@ DIFFICULTY: Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Step by careful step, Sir Reginald made his way along the ledge. The stone held. His balance held. Even his armor, for once, cooperated rather than betrayed him.
+NARRATIVE: Step by careful step, Sir Albert made his way along the ledge. The stone held. His balance held. Even his armor, for once, cooperated rather than betrayed him.
 
 The balcony came into reach. He grasped the railing, pulled himself over, and stood for a moment on solid ground, breathing heavily, his heart hammering with the particular rhythm of survival.
 
@@ -12172,7 +12172,7 @@ SET_FLAG: flagmildred_bypassed = true (if not already set)
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The ledge was eighteen inches wide. Sir Reginald's foot needed, at a critical moment, nineteen inches.
+NARRATIVE: The ledge was eighteen inches wide. Sir Albert's foot needed, at a critical moment, nineteen inches.
 
 His boot slipped on stone worn smooth by centuries of rain. His arms pinwheeled. His armor, which had never been designed for aerodynamics or sudden changes in direction, shifted his center of gravity in entirely unhelpful ways.
 
@@ -12204,7 +12204,7 @@ ID: choice_reconsider_mildred
 
 TEXT: Reconsider and approach Mildred properly
 
-FLAVOR: Sir Reginald looked at the ledge. He looked at the locked door. He thought about his tendency to fall off, into, or through things that sensible people did not fall off, into, or through.
+FLAVOR: Sir Albert looked at the ledge. He looked at the locked door. He thought about his tendency to fall off, into, or through things that sensible people did not fall off, into, or through.
 
 "Perhaps," he said slowly, "shortcuts are not always the wisest path."
 
@@ -12212,7 +12212,7 @@ The tower interior awaited. Mildred and her trials awaited. The proper route, wi
 
 It would take more time. It would require more effort. But it would also provide him with the key, the recipe, and the information he currently lacked.
 
-Sir Reginald Bumblethwaite turned away from the window and headed back through the tower toward the witch's workshop.
+Sir Albert Bumblethwaite turned away from the window and headed back through the tower toward the witch's workshop.
 
 Some lessons, he reflected, were learned the hard way. And some were learned just in time.
 
@@ -12240,11 +12240,11 @@ ID: choice_pocket_lockpick
 
 TEXT: Have Pocket attempt to unlock the Pudding Chamber door directly
 
-FLAVOR: "Pocket," Sir Reginald said, eyeing the locked door. "You mentioned you were good with locks?"
+FLAVOR: "Pocket," Sir Albert said, eyeing the locked door. "You mentioned you were good with locks?"
 
 The goblin perked up immediately. "Pocket is EXCELLENT with locks! Well. Pocket is ADEQUATE with locks. Pocket is excellent with pockets. But locks and pockets are similar, yes? Both are things that open and close and contain things. Pocket will try!"
 
-He scurried to the door, pressing his ear against it, then his eye, then several of his too-jointed fingers. Various small tools emerged from his vest, implements whose purposes Sir Reginald could only guess at.
+He scurried to the door, pressing his ear against it, then his eye, then several of his too-jointed fingers. Various small tools emerged from his vest, implements whose purposes Sir Albert could only guess at.
 
 "Witch's lock," Pocket muttered. "Witch is clever. Lock is clever. But Pocket is ALSO clever. Maybe cleverer? Will find out."
 
@@ -12266,7 +12266,7 @@ The sound was small but unmistakable. Pocket stepped back from the door with an 
 
 "HA! Lock thought was clever. Pocket was CLEVERER! Door opens now. Knight can enter. Pocket has earned smugness. Will be smug for rest of day. Maybe rest of week."
 
-The door swung open, revealing the final stairway to the Pudding Chamber. Sir Reginald could see soft light emanating from above, and the wobbling had become almost palpable.
+The door swung open, revealing the final stairway to the Pudding Chamber. Sir Albert could see soft light emanating from above, and the wobbling had become almost palpable.
 
 "Thank you, Pocket. Truly."
 
@@ -12378,7 +12378,7 @@ Location: loc_pudding_chamber
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 pudding (the Pudding of Perpetual Wobble, quest objective and character)
 
@@ -12388,7 +12388,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald enters the Pudding Chamber
+Sir Albert enters the Pudding Chamber
 
 Establish the chamber's atmosphere: circular room, soft light, silver pedestal
 
@@ -12404,13 +12404,13 @@ If entered via balcony (bypass route): Less dignified entrance
 
 Middle:
 
-Sir Reginald beholds the Pudding of Perpetual Wobble
+Sir Albert beholds the Pudding of Perpetual Wobble
 
-The Pudding regards Sir Reginald with ancient, gelatinous scrutiny
+The Pudding regards Sir Albert with ancient, gelatinous scrutiny
 
 Establish the Pudding's telepathic communication (impressions, not words)
 
-The Pudding's initial assessment of Sir Reginald
+The Pudding's initial assessment of Sir Albert
 
 Player must decide how to approach the Pudding
 
@@ -12438,7 +12438,7 @@ The Pudding's magnificent wobbling as genuinely impressive despite being a desse
 
 The telepathic communication as unusual sensation (impressions, feelings, judgment)
 
-Sir Reginald's realization that this is not a simple retrieval
+Sir Albert's realization that this is not a simple retrieval
 
 The portraits showing previous visitors who failed (comedic gallery of disappointment)
 
@@ -12446,7 +12446,7 @@ The plaque as both warning and character establishment
 
 The contrast between the Pudding's grandeur and its fundamental pudding-ness
 
-Sir Reginald's internal debate about how to proceed
+Sir Albert's internal debate about how to proceed
 
 ---
 
@@ -12476,7 +12476,7 @@ flagmildredhelped = true: Target reduced to 6
 
 flagpuddinggrabbed = true (from previous attempt): Automatic failure
 
-Success: Pudding acknowledges Sir Reginald, proceed to negotiation with neutral standing
+Success: Pudding acknowledges Sir Albert, proceed to negotiation with neutral standing
 
 Failure: Pudding wobbles dismissively, one more chance before it refuses entirely
 
@@ -12524,7 +12524,7 @@ Tests: PATIENCE test (target 8, requires significant patience)
 
 Success: Pudding appreciates the gesture, SET flagpuddingrespected = true
 
-Failure: Sir Reginald's knee gives out, embarrassing collapse, proceed without advantage
+Failure: Sir Albert's knee gives out, embarrassing collapse, proceed without advantage
 
 Target: sec09_pudding_negotiation
 
@@ -12562,7 +12562,7 @@ Telepathic communication should feel alien but understandable
 
 The portraits of failed visitors provide dark comedy
 
-Sir Reginald's earnestness should contrast with the absurdity
+Sir Albert's earnestness should contrast with the absurdity
 
 Physical comedy if player attempts to grab (pudding dodging is inherently funny)
 
@@ -12576,17 +12576,17 @@ CONTINUITY NOTES:
 
 Reference method of entry (door vs balcony) for narrative flavor
 
-If flagmildredhelped = true, Sir Reginald recalls Mildred's advice
+If flagmildredhelped = true, Sir Albert recalls Mildred's advice
 
-If flagdustytome_read = true, Sir Reginald recalls the book's insights
+If flagdustytome_read = true, Sir Albert recalls the book's insights
 
 If flagpocketfriendly = true and entered via bypass, recall Pocket's advice
 
-If flagquestunderstood = true, Sir Reginald knows about the Pudding's sentience
+If flagquestunderstood = true, Sir Albert knows about the Pudding's sentience
 
 Reference the wobbling sound that has been audible throughout the tower
 
-The Pudding has been waiting; it sensed Sir Reginald's approach
+The Pudding has been waiting; it sensed Sir Albert's approach
 
 Previous hints about respect and patience should inform player choices
 
@@ -12598,7 +12598,7 @@ If entered via door (with itemtowerkey): Dignified entrance through proper door
 
 If entered via balcony (flagmildredbypassed = true): Less dignified climbing-through-window entrance
 
-If flagmildredhelped = true: Sir Reginald better prepared, test modifiers apply
+If flagmildredhelped = true: Sir Albert better prepared, test modifiers apply
 
 If flagdustytome_read = true: Knowledge advantage, Choice 4 available, Choice 1 has Advantage
 
@@ -12620,7 +12620,7 @@ Section Title: The Wobbling Philosopher
 
 NARRATIVE:
 
-The Pudding Chamber was not what Sir Reginald had expected.
+The Pudding Chamber was not what Sir Albert had expected.
 
 He had imagined, perhaps, a treasure vault. Or a prison. Or at the very least, a room that seemed adequate to contain something legendary. Instead, he found himself in a circular chamber that felt less like a final destination and more like a quiet study where someone very old and very patient had been thinking for a very long time.
 
@@ -12634,13 +12634,13 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagmildred_bypassed = false (entered via door with key)
 
-TEXT: Sir Reginald entered through the proper door, key in hand, with something approaching dignity. The heavy oak swung open silently, revealing the chamber beyond. He felt, for a moment, that he had earned this entrance. That all the trials, all the chores, all the cat-feeding and cauldron-cleaning had been worthwhile.
+TEXT: Sir Albert entered through the proper door, key in hand, with something approaching dignity. The heavy oak swung open silently, revealing the chamber beyond. He felt, for a moment, that he had earned this entrance. That all the trials, all the chores, all the cat-feeding and cauldron-cleaning had been worthwhile.
 
 The key, shaped like a spoon, seemed somehow appropriate.
 
 CONDITION: flagmildred_bypassed = true (entered via balcony/bypass)
 
-TEXT: Sir Reginald climbed through the balcony entrance with significantly less dignity than he might have hoped. His armor scraped against the stone frame. His helmet caught on something. By the time he extracted himself and stood upright in the chamber, he had the distinct impression that he had been observed, and that the observation had not been favorable.
+TEXT: Sir Albert climbed through the balcony entrance with significantly less dignity than he might have hoped. His armor scraped against the stone frame. His helmet caught on something. By the time he extracted himself and stood upright in the chamber, he had the distinct impression that he had been observed, and that the observation had not been favorable.
 
 He was, after all, essentially breaking into the Pudding's home.
 
@@ -12652,7 +12652,7 @@ And there, in the center of the room, upon a pedestal of ancient silver, sat the
 
 It was magnificent.
 
-Sir Reginald had not expected magnificent. He had expected, well, a pudding. Something approximately pudding-sized, in a pudding-shaped configuration, doing whatever puddings normally did, which was mostly nothing.
+Sir Albert had not expected magnificent. He had expected, well, a pudding. Something approximately pudding-sized, in a pudding-shaped configuration, doing whatever puddings normally did, which was mostly nothing.
 
 This was not that.
 
@@ -12660,7 +12660,7 @@ The Pudding was approximately two feet in diameter, which was larger than any pu
 
 And it was watching him.
 
-Sir Reginald could not have explained how he knew this. The Pudding had no eyes. It had no face. It was, fundamentally, a dessert. But the weight of its attention was unmistakable. It regarded him with the patient scrutiny of something that had seen many visitors, judged most of them wanting, and expected him to be no different.
+Sir Albert could not have explained how he knew this. The Pudding had no eyes. It had no face. It was, fundamentally, a dessert. But the weight of its attention was unmistakable. It regarded him with the patient scrutiny of something that had seen many visitors, judged most of them wanting, and expected him to be no different.
 
 The plaque on the pedestal read: "Please Do Not Touch the Pudding Without Consent."
 
@@ -12670,9 +12670,9 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: armor_squelching = true
 
-TEXT: The Pudding's wobbling seemed to slow, almost imperceptibly, as Sir Reginald squelched into the chamber. If a pudding could wrinkle its nose, this one would have. The telepathic impression that washed over Sir Reginald was unmistakable: damp. How distasteful.
+TEXT: The Pudding's wobbling seemed to slow, almost imperceptibly, as Sir Albert squelched into the chamber. If a pudding could wrinkle its nose, this one would have. The telepathic impression that washed over Sir Albert was unmistakable: damp. How distasteful.
 
-"I am aware," Sir Reginald muttered. "The bridge. Yes. I know."
+"I am aware," Sir Albert muttered. "The bridge. Yes. I know."
 
 ---
 
@@ -12680,7 +12680,7 @@ NARRATIVE_CONTINUED:
 
 Then the Pudding spoke.
 
-It did not speak in words, exactly. Sir Reginald heard nothing with his ears. Instead, impressions bloomed in his mind, feelings and concepts that assembled themselves into something like language. It was the strangest sensation he had ever experienced, and he had once accidentally drunk a potion that made him temporarily understand the emotional lives of turnips.
+It did not speak in words, exactly. Sir Albert heard nothing with his ears. Instead, impressions bloomed in his mind, feelings and concepts that assembled themselves into something like language. It was the strangest sensation he had ever experienced, and he had once accidentally drunk a potion that made him temporarily understand the emotional lives of turnips.
 
 _Another one._
 
@@ -12688,7 +12688,7 @@ The impression was weary. Resigned. Faintly curious despite itself.
 
 _They keep coming. Century after century. Demanding. Grabbing. Treating me as though I were merely... food._
 
-The last concept carried a weight of offense that Sir Reginald had not known a dessert could convey.
+The last concept carried a weight of offense that Sir Albert had not known a dessert could convey.
 
 _What do you want, small knight? Why have you disturbed my contemplation?_
 
@@ -12698,7 +12698,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagmildred_helped = true
 
-TEXT: Sir Reginald remembered Mildred's advice. Treat it as a thinking being. Show genuine respect. Do not demand. Ask.
+TEXT: Sir Albert remembered Mildred's advice. Treat it as a thinking being. Show genuine respect. Do not demand. Ask.
 
 The Pudding, it seemed, could sense when someone had been properly briefed. Its wobbling shifted slightly, becoming almost curious.
 
@@ -12706,7 +12706,7 @@ _You have been told things. Useful things. That is more preparation than most ma
 
 CONDITION: flagdustytome_read = true
 
-TEXT: The philosophical treatise surfaced in Sir Reginald's memory. "On the Philosophy of Sentient Desserts." The author had written about the Pudding's consciousness, its five centuries of contemplation, its deep frustration at being perceived as merely edible.
+TEXT: The philosophical treatise surfaced in Sir Albert's memory. "On the Philosophy of Sentient Desserts." The author had written about the Pudding's consciousness, its five centuries of contemplation, its deep frustration at being perceived as merely edible.
 
 _You have read the old book._
 
@@ -12716,7 +12716,7 @@ _Morgana was one of the few who understood. She spent three years talking to me.
 
 CONDITION: flagpocket_friendly = true AND flagmildred_bypassed = true
 
-TEXT: Sir Reginald recalled Pocket's advice. Treat it like a person, not food. Ask, do not grab.
+TEXT: Sir Albert recalled Pocket's advice. Treat it like a person, not food. Ask, do not grab.
 
 The Pudding's attention sharpened.
 
@@ -12728,7 +12728,7 @@ NARRATIVE_CONTINUED:
 
 The portraits on the walls seemed to watch alongside the Pudding. Sir Bartholomew the Bold. Lady Gwendolyn the Hasty. A wizard identified only as "Thaddeus (the one with the net)." All of them had come seeking the Pudding. All of them had failed to understand what they were dealing with.
 
-Sir Reginald looked at the magnificent, wobbling, telepathically judgmental dessert, and made a decision about how to proceed.
+Sir Albert looked at the magnificent, wobbling, telepathically judgmental dessert, and made a decision about how to proceed.
 
 ---
 
@@ -12736,7 +12736,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: HAVE item_calming_recipe
 
-TEXT: In his pack, Sir Reginald felt the weight of Mildred's recipe. A formula designed specifically for this moment. She had said it would reduce the Pudding's philosophical resistance, make it more receptive.
+TEXT: In his pack, Sir Albert felt the weight of Mildred's recipe. A formula designed specifically for this moment. She had said it would reduce the Pudding's philosophical resistance, make it more receptive.
 
 He could use it now. Take the easiest path.
 
@@ -12744,7 +12744,7 @@ Or he could try to earn the Pudding's cooperation honestly.
 
 CONDITION: flagquest_understood = true
 
-TEXT: The Quest Scroll had mentioned patience and respect. Everything Sir Reginald had learned pointed in the same direction. The Pudding was not an object to be retrieved. It was a being to be negotiated with.
+TEXT: The Quest Scroll had mentioned patience and respect. Everything Sir Albert had learned pointed in the same direction. The Pudding was not an object to be retrieved. It was a being to be negotiated with.
 
 He had come a long way since that butterfly in the Great Hall.
 
@@ -12754,9 +12754,9 @@ CHOICES:
 
 CHOICE 1: Approach the Pudding with genuine respect and introduce yourself politely
 
-Sir Reginald straightened his armor, which clanked apologetically. He removed his helmet, because it seemed the polite thing to do when addressing someone of evident dignity, even if that someone was a dessert.
+Sir Albert straightened his armor, which clanked apologetically. He removed his helmet, because it seemed the polite thing to do when addressing someone of evident dignity, even if that someone was a dessert.
 
-"I am Sir Reginald Bumblethwaite," he said, speaking aloud even though he suspected the Pudding could hear his thoughts. Speaking aloud felt more respectful. More deliberate. "Knight of Blandovia. I have come a long way to meet you, and I... I would like to ask for your help."
+"I am Sir Albert Bumblethwaite," he said, speaking aloud even though he suspected the Pudding could hear his thoughts. Speaking aloud felt more respectful. More deliberate. "Knight of Blandovia. I have come a long way to meet you, and I... I would like to ask for your help."
 
 He paused.
 
@@ -12782,17 +12782,17 @@ If flagmildred_helped = true: Target reduced to 6
 
 If flagpudding_grabbed = true (from previous attempt): Automatic failure
 
-Success: The Pudding's telepathic presence brushes against Sir Reginald's mind, examining his intentions. It finds no deception. No hidden agenda. Just a clumsy, well-meaning knight who genuinely wants to do the right thing.
+Success: The Pudding's telepathic presence brushes against Sir Albert's mind, examining his intentions. It finds no deception. No hidden agenda. Just a clumsy, well-meaning knight who genuinely wants to do the right thing.
 
 _You are sincere._ The impression carries a note of surprise. _That is... unusual. Most who come here are sincere only in their desire to use me. You are sincere in your respect._
 
 The wobbling becomes almost warm.
 
-_Very well, Sir Reginald Bumblethwaite. I will hear your request. But hearing is not agreeing. You must still convince me that your need is worthy._
+_Very well, Sir Albert Bumblethwaite. I will hear your request. But hearing is not agreeing. You must still convince me that your need is worthy._
 
 The Pudding is willing to negotiate.
 
-Failure: The Pudding's telepathic presence brushes against Sir Reginald's mind. It finds... something. A flicker of impatience, perhaps. A trace of desperation that undermines the respect.
+Failure: The Pudding's telepathic presence brushes against Sir Albert's mind. It finds... something. A flicker of impatience, perhaps. A trace of desperation that undermines the respect.
 
 _You say the words. But you do not entirely mean them._ The impression is disappointed but not hostile. _You are better than most. But not good enough. Not yet._
 
@@ -12808,17 +12808,17 @@ Target: sec09_pudding_negotiation (success) or return to choices with limited op
 
 CHOICE 2: Use Mildred's Calming Recipe
 
-Sir Reginald reached into his pack and retrieved the parchment Mildred had given him. The Calming Recipe. She had said it would make the Pudding more receptive, less philosophically resistant.
+Sir Albert reached into his pack and retrieved the parchment Mildred had given him. The Calming Recipe. She had said it would make the Pudding more receptive, less philosophically resistant.
 
 He unfolded it carefully. The formula, she had explained, was already applied to the paper itself. Simply exposing the parchment to the air near the Pudding would release its effect.
 
-"I apologize," Sir Reginald said, holding up the parchment. "I was given this by Mildred. She said it might help. I hope you do not consider it... an imposition."
+"I apologize," Sir Albert said, holding up the parchment. "I was given this by Mildred. She said it might help. I hope you do not consider it... an imposition."
 
 The formula took effect. A faint shimmer passed through the air, and the Pudding's wobbling slowed, becoming calmer, more measured.
 
 _Mildred's work._ The telepathic impression was resigned. _She has been refining that formula for decades. Trying to make me more... agreeable._ A pause. _It does not change my mind. It merely... quiets the louder objections long enough for conversation._
 
-The Pudding's attention focused on Sir Reginald.
+The Pudding's attention focused on Sir Albert.
 
 _Very well. You have purchased my patience. Use it wisely._
 
@@ -12838,13 +12838,13 @@ Target: sec09_pudding_negotiation
 
 CHOICE 3: Attempt to grab the Pudding quickly
 
-Sir Reginald looked at the Pudding. The Pudding looked at Sir Reginald. The portraits of failed visitors looked at both of them.
+Sir Albert looked at the Pudding. The Pudding looked at Sir Albert. The portraits of failed visitors looked at both of them.
 
-Perhaps, Sir Reginald thought, the simple approach was best. It was just a pudding, after all. Magnificent, yes. Telepathic, certainly. But fundamentally, it was a dessert on a pedestal. He could simply take it. Carry it back to the castle. Complete the quest.
+Perhaps, Sir Albert thought, the simple approach was best. It was just a pudding, after all. Magnificent, yes. Telepathic, certainly. But fundamentally, it was a dessert on a pedestal. He could simply take it. Carry it back to the castle. Complete the quest.
 
 The banquet was approaching. The dignitaries would be expecting legendary dessert. King Mundane would be expecting results.
 
-Sir Reginald lunged.
+Sir Albert lunged.
 
 _NO._
 
@@ -12854,7 +12854,7 @@ Requirements: None
 
 Tests: SKILL test (target 9, very difficult)
 
-Success: Sir Reginald's hands close around the Pudding. It is surprisingly warm. Surprisingly solid. And very, very angry.
+Success: Sir Albert's hands close around the Pudding. It is surprisingly warm. Surprisingly solid. And very, very angry.
 
 The telepathic barrage that follows is not painful, but it is intense. Waves of disappointment, contempt, and wounded dignity crash against his mind.
 
@@ -12868,9 +12868,9 @@ SET flag_pudding_grabbed = true
 
 NOTE: Pudding will resist entire return journey. Best ending locked out.
 
-Failure: Sir Reginald's hands reach for the Pudding. The Pudding dodges.
+Failure: Sir Albert's hands reach for the Pudding. The Pudding dodges.
 
-Yes. A pudding dodges. It should not be possible. It is, after all, a dessert on a pedestal. But in the instant before Sir Reginald's fingers make contact, the Pudding wobbles sharply to the left, and Sir Reginald's momentum carries him forward, past the pedestal, into a collision with the wall behind it.
+Yes. A pudding dodges. It should not be possible. It is, after all, a dessert on a pedestal. But in the instant before Sir Albert's fingers make contact, the Pudding wobbles sharply to the left, and Sir Albert's momentum carries him forward, past the pedestal, into a collision with the wall behind it.
 
 LOSE 1 Stamina
 
@@ -12896,7 +12896,7 @@ Target: sec10_return_triumph (success, poor ending path) or return to choices wi
 
 CHOICE 4: Speak to the Pudding about philosophy
 
-Sir Reginald thought about the book he had read. "On the Philosophy of Sentient Desserts." The author had spent years studying the Pudding's consciousness, its questions about existence, its frustration at being perceived as food rather than thinker.
+Sir Albert thought about the book he had read. "On the Philosophy of Sentient Desserts." The author had spent years studying the Pudding's consciousness, its questions about existence, its frustration at being perceived as food rather than thinker.
 
 Perhaps, he thought, the way to connect with a philosophical pudding was through philosophy.
 
@@ -12906,7 +12906,7 @@ The Pudding's wobbling paused, almost imperceptibly.
 
 _You read Morgana's treatise._
 
-"I did. And I found myself wondering..." Sir Reginald paused, searching for the right words. "The book argued that consciousness requires the ability to contemplate one's own existence. To ask 'why am I here?' You have existed for five centuries. You have had time to contemplate. What conclusions have you reached?"
+"I did. And I found myself wondering..." Sir Albert paused, searching for the right words. "The book argued that consciousness requires the ability to contemplate one's own existence. To ask 'why am I here?' You have existed for five centuries. You have had time to contemplate. What conclusions have you reached?"
 
 _You are asking about my philosophy._
 
@@ -12928,13 +12928,13 @@ _This could be a tragedy. Or it could be an opportunity. I have chosen to see it
 
 The wobbling becomes almost warm.
 
-_You asked a genuine question. You listened to the answer. That is more than anyone else has done._ The impression shifts toward something like respect. _I believe we can have a real conversation now, Sir Reginald. One thinking being to another._
+_You asked a genuine question. You listened to the answer. That is more than anyone else has done._ The impression shifts toward something like respect. _I believe we can have a real conversation now, Sir Albert. One thinking being to another._
 
 SET flag_pudding_respected = true
 
 Proceed to negotiation with significant advantage.
 
-Failure: Sir Reginald attempts to discuss philosophy. The Pudding is interested, briefly. But his questions are surface-level, his engagement superficial. He is trying to seem philosophical rather than genuinely engage with philosophical questions.
+Failure: Sir Albert attempts to discuss philosophy. The Pudding is interested, briefly. But his questions are surface-level, his engagement superficial. He is trying to seem philosophical rather than genuinely engage with philosophical questions.
 
 _You have read the book. But you have not understood it._ The impression is gentle but dismissive. _You are asking what you think I want to hear, not what you genuinely want to know._
 
@@ -12950,7 +12950,7 @@ Target: sec09_pudding_negotiation
 
 CHOICE 5: Bow deeply and wait for the Pudding to acknowledge you
 
-Sir Reginald did not speak. He did not reach for recipes or philosophical questions. He simply bowed, as deeply as his armor would allow, and waited.
+Sir Albert did not speak. He did not reach for recipes or philosophical questions. He simply bowed, as deeply as his armor would allow, and waited.
 
 The chamber was silent except for the gentle sound of wobbling.
 
@@ -12960,7 +12960,7 @@ The portraits watched. The Pudding watched. The soft light made everything feel 
 
 He continued to wait.
 
-His knee began to ache. His back protested. His armor, apparently, was not designed for prolonged bowing. But Sir Reginald had learned something on this journey. He had learned that patience was its own kind of strength. That sometimes, the best thing a person could do was simply be present, without demands, without expectations, and let the other party decide what happened next.
+His knee began to ache. His back protested. His armor, apparently, was not designed for prolonged bowing. But Sir Albert had learned something on this journey. He had learned that patience was its own kind of strength. That sometimes, the best thing a person could do was simply be present, without demands, without expectations, and let the other party decide what happened next.
 
 He waited.
 
@@ -12984,19 +12984,19 @@ _You are patient. Genuinely patient. That is... rare._
 
 The wobbling became almost friendly.
 
-_Rise, Sir Reginald Bumblethwaite. You have passed a test you did not know you were taking. I will hear what you have to say._
+_Rise, Sir Albert Bumblethwaite. You have passed a test you did not know you were taking. I will hear what you have to say._
 
 SET flag_pudding_respected = true
 
 Proceed to negotiation with advantage.
 
-Failure: Sir Reginald waited. And waited. And continued to wait.
+Failure: Sir Albert waited. And waited. And continued to wait.
 
 His knee, which had been giving him trouble since the incident with the ladder (incident one of three nose-breakings, actually), chose this moment to remind him of its limitations.
 
 It buckled.
 
-Sir Reginald collapsed to the floor with a clatter of armor and a strangled yelp that was not, he had to admit, particularly dignified.
+Sir Albert collapsed to the floor with a clatter of armor and a strangled yelp that was not, he had to admit, particularly dignified.
 
 _Oh dear._
 
@@ -13090,13 +13090,13 @@ Responds to genuine respect: Success conditions for Choices 1, 4, 5
 
 Can sense insincerity: Referenced in Choice 1 success/failure outcomes
 
-Has standards: Evaluates Sir Reginald's approach before agreeing to negotiate
+Has standards: Evaluates Sir Albert's approach before agreeing to negotiate
 
 Philosophical nature: Engaged through Choice 4 (philosophy discussion)
 
 Remembers previous visitors: References Morgana, remembers Pocket's theft attempt
 
-sir_reginald:
+sir_albert:
 
 Politeness: Removes helmet, bows, asks rather than demands
 
@@ -13556,13 +13556,13 @@ SECTION_TITLE: The Wobbling Philosopher
 
 LOCATION: loc_pudding_chamber
 
-CHARACTERS_PRESENT: sir_reginald, pudding
+CHARACTERS_PRESENT: sir_albert, pudding
 
 ---
 
 NARRATIVE:
 
-The Pudding Chamber was not what Sir Reginald had expected.
+The Pudding Chamber was not what Sir Albert had expected.
 
 He had imagined, perhaps, a treasure vault. Or a prison. Or at the very least, a room that seemed adequate to contain something legendary. Instead, he found himself in a circular chamber that felt less like a final destination and more like a quiet study where someone very old and very patient had been thinking for a very long time.
 
@@ -13576,11 +13576,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_mildred_bypassed = false
 
-TEXT: Sir Reginald entered through the proper door, key in hand, with something approaching dignity. The heavy oak swung open silently, revealing the chamber beyond. He felt, for a moment, that he had earned this entrance. That all the trials, all the chores, all the cat-feeding and cauldron-cleaning had been worthwhile. The key, shaped like a spoon, seemed somehow appropriate.
+TEXT: Sir Albert entered through the proper door, key in hand, with something approaching dignity. The heavy oak swung open silently, revealing the chamber beyond. He felt, for a moment, that he had earned this entrance. That all the trials, all the chores, all the cat-feeding and cauldron-cleaning had been worthwhile. The key, shaped like a spoon, seemed somehow appropriate.
 
 CONDITION: flag_mildred_bypassed = true
 
-TEXT: Sir Reginald climbed through the balcony entrance with significantly less dignity than he might have hoped. His armor scraped against the stone frame. His helmet caught on something. By the time he extracted himself and stood upright in the chamber, he had the distinct impression that he had been observed, and that the observation had not been favorable. He was, after all, essentially breaking into the Pudding's home.
+TEXT: Sir Albert climbed through the balcony entrance with significantly less dignity than he might have hoped. His armor scraped against the stone frame. His helmet caught on something. By the time he extracted himself and stood upright in the chamber, he had the distinct impression that he had been observed, and that the observation had not been favorable. He was, after all, essentially breaking into the Pudding's home.
 
 ---
 
@@ -13590,7 +13590,7 @@ And there, in the center of the room, upon a pedestal of ancient silver, sat the
 
 It was magnificent.
 
-Sir Reginald had not expected magnificent. He had expected, well, a pudding. Something approximately pudding-sized, in a pudding-shaped configuration, doing whatever puddings normally did, which was mostly nothing.
+Sir Albert had not expected magnificent. He had expected, well, a pudding. Something approximately pudding-sized, in a pudding-shaped configuration, doing whatever puddings normally did, which was mostly nothing.
 
 This was not that.
 
@@ -13598,7 +13598,7 @@ The Pudding was approximately two feet in diameter, which was larger than any pu
 
 And it was watching him.
 
-Sir Reginald could not have explained how he knew this. The Pudding had no eyes. It had no face. It was, fundamentally, a dessert. But the weight of its attention was unmistakable. It regarded him with the patient scrutiny of something that had seen many visitors, judged most of them wanting, and expected him to be no different.
+Sir Albert could not have explained how he knew this. The Pudding had no eyes. It had no face. It was, fundamentally, a dessert. But the weight of its attention was unmistakable. It regarded him with the patient scrutiny of something that had seen many visitors, judged most of them wanting, and expected him to be no different.
 
 The plaque on the pedestal read: "Please Do Not Touch the Pudding Without Consent."
 
@@ -13608,7 +13608,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: armor_squelching = true
 
-TEXT: The Pudding's wobbling seemed to slow, almost imperceptibly, as Sir Reginald squelched into the chamber. If a pudding could wrinkle its nose, this one would have. The telepathic impression that washed over Sir Reginald was unmistakable: damp. How distasteful. "I am aware," Sir Reginald muttered. "The bridge. Yes. I know."
+TEXT: The Pudding's wobbling seemed to slow, almost imperceptibly, as Sir Albert squelched into the chamber. If a pudding could wrinkle its nose, this one would have. The telepathic impression that washed over Sir Albert was unmistakable: damp. How distasteful. "I am aware," Sir Albert muttered. "The bridge. Yes. I know."
 
 ---
 
@@ -13616,9 +13616,9 @@ NARRATIVE_CONTINUED:
 
 Then the Pudding spoke.
 
-It did not speak in words, exactly. Sir Reginald heard nothing with his ears. Instead, impressions bloomed in his mind, feelings and concepts that assembled themselves into something like language. It was the strangest sensation he had ever experienced, and he had once accidentally drunk a potion that made him temporarily understand the emotional lives of turnips.
+It did not speak in words, exactly. Sir Albert heard nothing with his ears. Instead, impressions bloomed in his mind, feelings and concepts that assembled themselves into something like language. It was the strangest sensation he had ever experienced, and he had once accidentally drunk a potion that made him temporarily understand the emotional lives of turnips.
 
-Another one. The impression was weary. Resigned. Faintly curious despite itself. They keep coming. Century after century. Demanding. Grabbing. Treating me as though I were merely... food. The last concept carried a weight of offense that Sir Reginald had not known a dessert could convey. What do you want, small knight? Why have you disturbed my contemplation?
+Another one. The impression was weary. Resigned. Faintly curious despite itself. They keep coming. Century after century. Demanding. Grabbing. Treating me as though I were merely... food. The last concept carried a weight of offense that Sir Albert had not known a dessert could convey. What do you want, small knight? Why have you disturbed my contemplation?
 
 ---
 
@@ -13626,19 +13626,19 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_mildred_helped = true
 
-TEXT: Sir Reginald remembered Mildred's advice. Treat it as a thinking being. Show genuine respect. Do not demand. Ask. The Pudding, it seemed, could sense when someone had been properly briefed. Its wobbling shifted slightly, becoming almost curious. You have been told things. Useful things. That is more preparation than most manage. Let us see if you are capable of applying them.
+TEXT: Sir Albert remembered Mildred's advice. Treat it as a thinking being. Show genuine respect. Do not demand. Ask. The Pudding, it seemed, could sense when someone had been properly briefed. Its wobbling shifted slightly, becoming almost curious. You have been told things. Useful things. That is more preparation than most manage. Let us see if you are capable of applying them.
 
 CONDITION: flag_dusty_tome_read = true
 
-TEXT: The philosophical treatise surfaced in Sir Reginald's memory. "On the Philosophy of Sentient Desserts." The author had written about the Pudding's consciousness, its five centuries of contemplation, its deep frustration at being perceived as merely edible. You have read the old book. The Pudding's wobbling took on an almost pleased quality. Morgana was one of the few who understood. She spent three years talking to me. Actually talking. Not demanding. Not grabbing. Just... conversing. I miss those conversations.
+TEXT: The philosophical treatise surfaced in Sir Albert's memory. "On the Philosophy of Sentient Desserts." The author had written about the Pudding's consciousness, its five centuries of contemplation, its deep frustration at being perceived as merely edible. You have read the old book. The Pudding's wobbling took on an almost pleased quality. Morgana was one of the few who understood. She spent three years talking to me. Actually talking. Not demanding. Not grabbing. Just... conversing. I miss those conversations.
 
 CONDITION: flag_pocket_friendly = true AND flag_mildred_bypassed = true
 
-TEXT: Sir Reginald recalled Pocket's advice. Treat it like a person, not food. Ask, do not grab. The Pudding's attention sharpened. The goblin told you something. That goblin tried to steal a piece of me once. I remember. I remember everything. A pause. But the advice was sound. Perhaps there is hope for this interaction after all.
+TEXT: Sir Albert recalled Pocket's advice. Treat it like a person, not food. Ask, do not grab. The Pudding's attention sharpened. The goblin told you something. That goblin tried to steal a piece of me once. I remember. I remember everything. A pause. But the advice was sound. Perhaps there is hope for this interaction after all.
 
 CONDITION: flag_quest_understood = true
 
-TEXT: The Quest Scroll had mentioned patience and respect. Everything Sir Reginald had learned pointed in the same direction. The Pudding was not an object to be retrieved. It was a being to be negotiated with. He had come a long way since that butterfly in the Great Hall.
+TEXT: The Quest Scroll had mentioned patience and respect. Everything Sir Albert had learned pointed in the same direction. The Pudding was not an object to be retrieved. It was a being to be negotiated with. He had come a long way since that butterfly in the Great Hall.
 
 ---
 
@@ -13646,7 +13646,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: HAVE item_calming_recipe
 
-TEXT: In his pack, Sir Reginald felt the weight of Mildred's recipe. A formula designed specifically for this moment. She had said it would reduce the Pudding's philosophical resistance, make it more receptive. He could use it now. Take the easiest path. Or he could try to earn the Pudding's cooperation honestly.
+TEXT: In his pack, Sir Albert felt the weight of Mildred's recipe. A formula designed specifically for this moment. She had said it would reduce the Pudding's philosophical resistance, make it more receptive. He could use it now. Take the easiest path. Or he could try to earn the Pudding's cooperation honestly.
 
 ---
 
@@ -13654,7 +13654,7 @@ NARRATIVE_CONTINUED:
 
 The portraits on the walls seemed to watch alongside the Pudding. Sir Bartholomew the Bold. Lady Gwendolyn the Hasty. A wizard identified only as "Thaddeus (the one with the net)." All of them had come seeking the Pudding. All of them had failed to understand what they were dealing with.
 
-Sir Reginald looked at the magnificent, wobbling, telepathically judgmental dessert, and made a decision about how to proceed.
+Sir Albert looked at the magnificent, wobbling, telepathically judgmental dessert, and made a decision about how to proceed.
 
 ---
 
@@ -13666,7 +13666,7 @@ ID: choice_polite_approach
 
 TEXT: Approach the Pudding with genuine respect and introduce yourself politely
 
-FLAVOR: Sir Reginald straightened his armor, which clanked apologetically. He removed his helmet, because it seemed the polite thing to do when addressing someone of evident dignity, even if that someone was a dessert. "I am Sir Reginald Bumblethwaite," he said, speaking aloud even though he suspected the Pudding could hear his thoughts. Speaking aloud felt more respectful. More deliberate. "Knight of Blandovia. I have come a long way to meet you, and I... I would like to ask for your help." He paused. "Not demand. Ask. Because I have been told, by several people who seem to know better than I do, that you are not merely a pudding. You are a thinking being with five centuries of wisdom, and you deserve to be treated as such." He attempted a bow. It was awkward, given the armor. But it was sincere.
+FLAVOR: Sir Albert straightened his armor, which clanked apologetically. He removed his helmet, because it seemed the polite thing to do when addressing someone of evident dignity, even if that someone was a dessert. "I am Sir Albert Bumblethwaite," he said, speaking aloud even though he suspected the Pudding could hear his thoughts. Speaking aloud felt more respectful. More deliberate. "Knight of Blandovia. I have come a long way to meet you, and I... I would like to ask for your help." He paused. "Not demand. Ask. Because I have been told, by several people who seem to know better than I do, that you are not merely a pudding. You are a thinking being with five centuries of wisdom, and you deserve to be treated as such." He attempted a bow. It was awkward, given the armor. But it was sincere.
 
 REQUIREMENTS: None
 
@@ -13688,13 +13688,13 @@ IF flag_pudding_grabbed = true: AUTOMATIC_FAILURE
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding's telepathic presence brushes against Sir Reginald's mind, examining his intentions. It finds no deception. No hidden agenda. Just a clumsy, well-meaning knight who genuinely wants to do the right thing. You are sincere. The impression carries a note of surprise. That is... unusual. Most who come here are sincere only in their desire to use me. You are sincere in your respect. The wobbling becomes almost warm. Very well, Sir Reginald Bumblethwaite. I will hear your request. But hearing is not agreeing. You must still convince me that your need is worthy.
+NARRATIVE: The Pudding's telepathic presence brushes against Sir Albert's mind, examining his intentions. It finds no deception. No hidden agenda. Just a clumsy, well-meaning knight who genuinely wants to do the right thing. You are sincere. The impression carries a note of surprise. That is... unusual. Most who come here are sincere only in their desire to use me. You are sincere in your respect. The wobbling becomes almost warm. Very well, Sir Albert Bumblethwaite. I will hear your request. But hearing is not agreeing. You must still convince me that your need is worthy.
 
 CONSEQUENCES: None (proceed to negotiation with neutral standing)
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The Pudding's telepathic presence brushes against Sir Reginald's mind. It finds... something. A flicker of impatience, perhaps. A trace of desperation that undermines the respect. You say the words. But you do not entirely mean them. The impression is disappointed but not hostile. You are better than most. But not good enough. Not yet. The wobbling becomes distant. You may try again. Once. And then I shall decide whether this conversation continues.
+NARRATIVE: The Pudding's telepathic presence brushes against Sir Albert's mind. It finds... something. A flicker of impatience, perhaps. A trace of desperation that undermines the respect. You say the words. But you do not entirely mean them. The impression is disappointed but not hostile. You are better than most. But not good enough. Not yet. The wobbling becomes distant. You may try again. Once. And then I shall decide whether this conversation continues.
 
 CONSEQUENCES:
 
@@ -13712,7 +13712,7 @@ ID: choice_use_recipe
 
 TEXT: Use Mildred's Calming Recipe
 
-FLAVOR: Sir Reginald reached into his pack and retrieved the parchment Mildred had given him. The Calming Recipe. She had said it would make the Pudding more receptive, less philosophically resistant. He unfolded it carefully. The formula, she had explained, was already applied to the paper itself. Simply exposing the parchment to the air near the Pudding would release its effect. "I apologize," Sir Reginald said, holding up the parchment. "I was given this by Mildred. She said it might help. I hope you do not consider it... an imposition."
+FLAVOR: Sir Albert reached into his pack and retrieved the parchment Mildred had given him. The Calming Recipe. She had said it would make the Pudding more receptive, less philosophically resistant. He unfolded it carefully. The formula, she had explained, was already applied to the paper itself. Simply exposing the parchment to the air near the Pudding would release its effect. "I apologize," Sir Albert said, holding up the parchment. "I was given this by Mildred. She said it might help. I hope you do not consider it... an imposition."
 
 REQUIREMENTS: HAVE item_calming_recipe
 
@@ -13720,7 +13720,7 @@ TEST: None (automatic success)
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The formula took effect. A faint shimmer passed through the air, and the Pudding's wobbling slowed, becoming calmer, more measured. Mildred's work. The telepathic impression was resigned. She has been refining that formula for decades. Trying to make me more... agreeable. A pause. It does not change my mind. It merely... quiets the louder objections long enough for conversation. The Pudding's attention focused on Sir Reginald. Very well. You have purchased my patience. Use it wisely.
+NARRATIVE: The formula took effect. A faint shimmer passed through the air, and the Pudding's wobbling slowed, becoming calmer, more measured. Mildred's work. The telepathic impression was resigned. She has been refining that formula for decades. Trying to make me more... agreeable. A pause. It does not change my mind. It merely... quiets the louder objections long enough for conversation. The Pudding's attention focused on Sir Albert. Very well. You have purchased my patience. Use it wisely.
 
 CONSEQUENCES:
 
@@ -13740,7 +13740,7 @@ ID: choice_grab_pudding
 
 TEXT: Attempt to grab the Pudding quickly
 
-FLAVOR: Sir Reginald looked at the Pudding. The Pudding looked at Sir Reginald. The portraits of failed visitors looked at both of them. Perhaps, Sir Reginald thought, the simple approach was best. It was just a pudding, after all. Magnificent, yes. Telepathic, certainly. But fundamentally, it was a dessert on a pedestal. He could simply take it. Carry it back to the castle. Complete the quest. The banquet was approaching. The dignitaries would be expecting legendary dessert. King Mundane would be expecting results. Sir Reginald lunged.
+FLAVOR: Sir Albert looked at the Pudding. The Pudding looked at Sir Albert. The portraits of failed visitors looked at both of them. Perhaps, Sir Albert thought, the simple approach was best. It was just a pudding, after all. Magnificent, yes. Telepathic, certainly. But fundamentally, it was a dessert on a pedestal. He could simply take it. Carry it back to the castle. Complete the quest. The banquet was approaching. The dignitaries would be expecting legendary dessert. King Mundane would be expecting results. Sir Albert lunged.
 
 REQUIREMENTS: None
 
@@ -13754,7 +13754,7 @@ DIFFICULTY: Very Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: Sir Reginald's hands close around the Pudding. It is surprisingly warm. Surprisingly solid. And very, very angry. The telepathic barrage that follows is not painful, but it is intense. Waves of disappointment, contempt, and wounded dignity crash against his mind. YOU GRABBED ME. The Pudding does not struggle. It cannot struggle. It is a pudding. But it can express its displeasure, and it does so with five centuries of accumulated philosophical spite. I will go with you. Because you have taken me. But I will NOT cooperate. I will wobble at the frequencies that cause headaches. I will project disapproval at every dignitary. I will make your banquet a disaster of passive-aggressive gelatinous proportions.
+NARRATIVE: Sir Albert's hands close around the Pudding. It is surprisingly warm. Surprisingly solid. And very, very angry. The telepathic barrage that follows is not painful, but it is intense. Waves of disappointment, contempt, and wounded dignity crash against his mind. YOU GRABBED ME. The Pudding does not struggle. It cannot struggle. It is a pudding. But it can express its displeasure, and it does so with five centuries of accumulated philosophical spite. I will go with you. Because you have taken me. But I will NOT cooperate. I will wobble at the frequencies that cause headaches. I will project disapproval at every dignitary. I will make your banquet a disaster of passive-aggressive gelatinous proportions.
 
 CONSEQUENCES:
 
@@ -13764,7 +13764,7 @@ NOTE: Best ending locked out. Pudding will resist entire return journey.
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald's hands reach for the Pudding. The Pudding dodges. Yes. A pudding dodges. It should not be possible. It is, after all, a dessert on a pedestal. But in the instant before Sir Reginald's fingers make contact, the Pudding wobbles sharply to the left, and Sir Reginald's momentum carries him forward, past the pedestal, into a collision with the wall behind it. DID YOU JUST TRY TO GRAB ME? The telepathic impression is outraged. Five hundred years of dignity, offended in a single instant. I am not FOOD. I am not a TROPHY. I am a THINKING BEING. You may have one more chance. ONE. And if you try to grab me again, I will make your remaining time in this tower very unpleasant. I have five centuries of accumulated psychological insights. I know how to make someone question their life choices.
+NARRATIVE: Sir Albert's hands reach for the Pudding. The Pudding dodges. Yes. A pudding dodges. It should not be possible. It is, after all, a dessert on a pedestal. But in the instant before Sir Albert's fingers make contact, the Pudding wobbles sharply to the left, and Sir Albert's momentum carries him forward, past the pedestal, into a collision with the wall behind it. DID YOU JUST TRY TO GRAB ME? The telepathic impression is outraged. Five hundred years of dignity, offended in a single instant. I am not FOOD. I am not a TROPHY. I am a THINKING BEING. You may have one more chance. ONE. And if you try to grab me again, I will make your remaining time in this tower very unpleasant. I have five centuries of accumulated psychological insights. I know how to make someone question their life choices.
 
 CONSEQUENCES:
 
@@ -13786,7 +13786,7 @@ ID: choice_philosophy
 
 TEXT: Speak to the Pudding about philosophy
 
-FLAVOR: Sir Reginald thought about the book he had read. "On the Philosophy of Sentient Desserts." The author had spent years studying the Pudding's consciousness, its questions about existence, its frustration at being perceived as food rather than thinker. Perhaps, he thought, the way to connect with a philosophical pudding was through philosophy. "I read a book," he said. "In the tower below. It discussed your nature. Your consciousness. The question of whether a dessert can truly think, or merely wobble with the appearance of thought." The Pudding's wobbling paused, almost imperceptibly. "I did. And I found myself wondering..." Sir Reginald paused, searching for the right words. "The book argued that consciousness requires the ability to contemplate one's own existence. To ask 'why am I here?' You have existed for five centuries. You have had time to contemplate. What conclusions have you reached?"
+FLAVOR: Sir Albert thought about the book he had read. "On the Philosophy of Sentient Desserts." The author had spent years studying the Pudding's consciousness, its questions about existence, its frustration at being perceived as food rather than thinker. Perhaps, he thought, the way to connect with a philosophical pudding was through philosophy. "I read a book," he said. "In the tower below. It discussed your nature. Your consciousness. The question of whether a dessert can truly think, or merely wobble with the appearance of thought." The Pudding's wobbling paused, almost imperceptibly. "I did. And I found myself wondering..." Sir Albert paused, searching for the right words. "The book argued that consciousness requires the ability to contemplate one's own existence. To ask 'why am I here?' You have existed for five centuries. You have had time to contemplate. What conclusions have you reached?"
 
 REQUIREMENTS: flag_dusty_tome_read = true
 
@@ -13800,7 +13800,7 @@ DIFFICULTY: Easy (knowledge helps)
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding's wobbling becomes contemplative. For a long moment, it does not communicate. When it does, the impression is layered with centuries of thought. I have concluded that existence is fundamentally absurd. I am a pudding. I should not think. I should not feel. I should be eaten and forgotten. And yet, here I am. Thinking. Feeling. Wobbling with intention rather than mere physics. A pause. This could be a tragedy. Or it could be an opportunity. I have chosen to see it as an opportunity. Every moment of consciousness is a gift, even if it was given by accident. Even if no one intended for me to have it. The wobbling becomes almost warm. You asked a genuine question. You listened to the answer. That is more than anyone else has done. The impression shifts toward something like respect. I believe we can have a real conversation now, Sir Reginald. One thinking being to another.
+NARRATIVE: The Pudding's wobbling becomes contemplative. For a long moment, it does not communicate. When it does, the impression is layered with centuries of thought. I have concluded that existence is fundamentally absurd. I am a pudding. I should not think. I should not feel. I should be eaten and forgotten. And yet, here I am. Thinking. Feeling. Wobbling with intention rather than mere physics. A pause. This could be a tragedy. Or it could be an opportunity. I have chosen to see it as an opportunity. Every moment of consciousness is a gift, even if it was given by accident. Even if no one intended for me to have it. The wobbling becomes almost warm. You asked a genuine question. You listened to the answer. That is more than anyone else has done. The impression shifts toward something like respect. I believe we can have a real conversation now, Sir Albert. One thinking being to another.
 
 CONSEQUENCES:
 
@@ -13810,7 +13810,7 @@ HINT_GAINED: "The Pudding has acknowledged you as a fellow thinking being."
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald attempts to discuss philosophy. The Pudding is interested, briefly. But his questions are surface-level, his engagement superficial. He is trying to seem philosophical rather than genuinely engage with philosophical questions. You have read the book. But you have not understood it. The impression is gentle but dismissive. You are asking what you think I want to hear, not what you genuinely want to know. A pause. That is better than grabbing. But it is not enough. Not yet.
+NARRATIVE: Sir Albert attempts to discuss philosophy. The Pudding is interested, briefly. But his questions are surface-level, his engagement superficial. He is trying to seem philosophical rather than genuinely engage with philosophical questions. You have read the book. But you have not understood it. The impression is gentle but dismissive. You are asking what you think I want to hear, not what you genuinely want to know. A pause. That is better than grabbing. But it is not enough. Not yet.
 
 CONSEQUENCES: None (proceed to negotiation without advantage)
 
@@ -13824,7 +13824,7 @@ ID: choice_bow_wait
 
 TEXT: Bow deeply and wait for the Pudding to acknowledge you
 
-FLAVOR: Sir Reginald did not speak. He did not reach for recipes or philosophical questions. He simply bowed, as deeply as his armor would allow, and waited. The chamber was silent except for the gentle sound of wobbling.
+FLAVOR: Sir Albert did not speak. He did not reach for recipes or philosophical questions. He simply bowed, as deeply as his armor would allow, and waited. The chamber was silent except for the gentle sound of wobbling.
 
 REQUIREMENTS: None
 
@@ -13838,7 +13838,7 @@ DIFFICULTY: Difficult
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The waiting stretched on. Minutes passed, or perhaps hours. In the soft light of the Pudding Chamber, time seemed elastic. And then, finally, the Pudding communicated. You are still here. The impression carried surprise. Most visitors would have given up by now. Most would have demanded, or grabbed, or stormed out complaining about wasted time. A pause. You are patient. Genuinely patient. That is... rare. The wobbling became almost friendly. Rise, Sir Reginald Bumblethwaite. You have passed a test you did not know you were taking. I will hear what you have to say.
+NARRATIVE: The waiting stretched on. Minutes passed, or perhaps hours. In the soft light of the Pudding Chamber, time seemed elastic. And then, finally, the Pudding communicated. You are still here. The impression carried surprise. Most visitors would have given up by now. Most would have demanded, or grabbed, or stormed out complaining about wasted time. A pause. You are patient. Genuinely patient. That is... rare. The wobbling became almost friendly. Rise, Sir Albert Bumblethwaite. You have passed a test you did not know you were taking. I will hear what you have to say.
 
 CONSEQUENCES:
 
@@ -13848,7 +13848,7 @@ HINT_GAINED: "The Pudding respects your patience."
 
 FAILURE_OUTCOME:
 
-NARRATIVE: Sir Reginald waited. And waited. And continued to wait. His knee, which had been giving him trouble since the incident with the ladder (incident one of three nose-breakings, actually), chose this moment to remind him of its limitations. It buckled. Sir Reginald collapsed to the floor with a clatter of armor and a strangled yelp that was not, he had to admit, particularly dignified. Oh dear. The Pudding's impression mixed sympathy with amusement. You tried. I will give you credit for trying. But perhaps patience is not your primary virtue. The wobbling returned to neutral. Let us proceed. Tell me what you want. We shall see if it is worth granting.
+NARRATIVE: Sir Albert waited. And waited. And continued to wait. His knee, which had been giving him trouble since the incident with the ladder (incident one of three nose-breakings, actually), chose this moment to remind him of its limitations. It buckled. Sir Albert collapsed to the floor with a clatter of armor and a strangled yelp that was not, he had to admit, particularly dignified. Oh dear. The Pudding's impression mixed sympathy with amusement. You tried. I will give you credit for trying. But perhaps patience is not your primary virtue. The wobbling returned to neutral. Let us proceed. Tell me what you want. We shall see if it is worth granting.
 
 CONSEQUENCES: None (proceed to negotiation without advantage)
 
@@ -13922,7 +13922,7 @@ Location: loc_pudding_chamber
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 pudding (the Pudding of Perpetual Wobble, quest objective and philosophical entity)
 
@@ -13932,19 +13932,19 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald has successfully approached the Pudding without grabbing it
+Sir Albert has successfully approached the Pudding without grabbing it
 
 The Pudding is willing to hear his request
 
 If pudding_calmed = true: The Pudding is more receptive due to Mildred's recipe
 
-If flagpudding_respected = true: The Pudding regards Sir Reginald favorably
+If flagpudding_respected = true: The Pudding regards Sir Albert favorably
 
 The negotiation begins
 
 Middle:
 
-Sir Reginald must explain what he wants from the Pudding
+Sir Albert must explain what he wants from the Pudding
 
 The Pudding expresses its concerns about being used as dessert
 
@@ -13960,7 +13960,7 @@ Player can share genuine connection through vulnerability
 
 Resolution:
 
-Successful negotiation: Pudding agrees to accompany Sir Reginald willingly
+Successful negotiation: Pudding agrees to accompany Sir Albert willingly
 
 Partial success: Pudding agrees reluctantly (adequate outcome)
 
@@ -13980,7 +13980,7 @@ The Pudding's five centuries of being objectified as dessert
 
 Its deep desire to be appreciated for philosophical contributions
 
-Sir Reginald's genuine understanding (or lack thereof)
+Sir Albert's genuine understanding (or lack thereof)
 
 The contrast between the absurdity and the genuine pathos
 
@@ -13992,7 +13992,7 @@ The moment of agreement (or refusal)
 
 The weight of the Pudding's decision after 500 years
 
-Sir Reginald's realization that this was never about force
+Sir Albert's realization that this was never about force
 
 The unexpected friendship option (abandoning the quest entirely)
 
@@ -14116,7 +14116,7 @@ Maintain comedy while allowing genuine emotional connection
 
 The Pudding's philosophical exhaustion should be both funny and sympathetic
 
-Sir Reginald's earnestness should shine through
+Sir Albert's earnestness should shine through
 
 The absurdity of negotiating with a dessert should never undermine the stakes
 
@@ -14146,9 +14146,9 @@ Count friendly NPC encounters for Choice 4 modifier: flagagnes_helped, flagpocke
 
 Reference Pocket's friendship, Agnes's help, Mildred's trials for "being underestimated" theme
 
-The Pudding remembers everything Sir Reginald has done in the tower
+The Pudding remembers everything Sir Albert has done in the tower
 
-Sir Reginald's growth from the butterfly-distracted knight to here
+Sir Albert's growth from the butterfly-distracted knight to here
 
 Set up that the Pudding can willingly accompany or refuse
 
@@ -14188,7 +14188,7 @@ Section Title: A Conversation About Wobbling
 
 NARRATIVE:
 
-The Pudding of Perpetual Wobble had agreed to hear Sir Reginald's request. This was, he realized with a mixture of relief and trepidation, only the beginning.
+The Pudding of Perpetual Wobble had agreed to hear Sir Albert's request. This was, he realized with a mixture of relief and trepidation, only the beginning.
 
 The telepathic presence remained in his mind, a gentle but unmistakable weight. It was not invasive, exactly. More like standing next to someone who radiated a very specific emotional frequency. In this case, the frequency was: ancient, philosophical, and mildly skeptical about the motivations of knights.
 
@@ -14200,7 +14200,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: pudding_calmed = true
 
-TEXT: The Calming Recipe continued its work, softening the Pudding's more resistant philosophical objections. Its wobbling remained measured, contemplative rather than defensive. Sir Reginald could feel the difference in its telepathic presence. Still ancient. Still dignified. But with the sharp edges of five hundred years of grievance temporarily dulled.
+TEXT: The Calming Recipe continued its work, softening the Pudding's more resistant philosophical objections. Its wobbling remained measured, contemplative rather than defensive. Sir Albert could feel the difference in its telepathic presence. Still ancient. Still dignified. But with the sharp edges of five hundred years of grievance temporarily dulled.
 
 Mildred's formula has made this conversation easier. The impression was almost grateful. I do not lose my thoughts. But I am less... loud. About them.
 
@@ -14212,25 +14212,25 @@ TEXT: The Pudding's attention was warm, as warm as a sentient dessert could mana
 
 NARRATIVE_CONTINUED:
 
-Sir Reginald took a breath. He had come this far. Through the meadow, through Grumbleton, through Gerald and Pocket and Mildred and cats that judged him silently. Through his own clumsiness and the tower's inconveniences. All of it leading to this moment: asking a five-hundred-year-old philosophical pudding to attend a banquet.
+Sir Albert took a breath. He had come this far. Through the meadow, through Grumbleton, through Gerald and Pocket and Mildred and cats that judged him silently. Through his own clumsiness and the tower's inconveniences. All of it leading to this moment: asking a five-hundred-year-old philosophical pudding to attend a banquet.
 
 When he put it that way in his mind, it sounded absurd.
 
 But then, most of his life had been absurd. The lake fire. The catapult incident. Being knighted by accidental sneeze. Perhaps absurdity was simply his natural environment, and he had finally found a situation that matched it.
 
-"I have been sent by King Mundane the Fourth," Sir Reginald began, "to ask if you would be willing to attend the Annual Royal Banquet. There are dignitaries from Pomponia coming, and..."
+"I have been sent by King Mundane the Fourth," Sir Albert began, "to ask if you would be willing to attend the Annual Royal Banquet. There are dignitaries from Pomponia coming, and..."
 
 He paused. The Pudding had gone very still. Its wobbling had ceased entirely, which should have been impossible for something called the Pudding of Perpetual Wobble, but apparently even impossibilities paused when they were deeply offended.
 
 Dessert. The impression was cold. You want me to be DESSERT.
 
-"No!" Sir Reginald said quickly. "That is... well. Technically, yes, in the sense that you would be presented during the dessert course, but..."
+"No!" Sir Albert said quickly. "That is... well. Technically, yes, in the sense that you would be presented during the dessert course, but..."
 
 I am to be CONSUMED. By DIGNITARIES. To impress POMPONIA.
 
 Each word carried layers of disappointment, ancient resentment, and the philosophical despair of a thinking being reduced to its edible properties.
 
-"It is more complicated than that," Sir Reginald said desperately.
+"It is more complicated than that," Sir Albert said desperately.
 
 Is it?
 
@@ -14240,13 +14240,13 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagquest_understood = true
 
-TEXT: Sir Reginald thought about the Quest Scroll. About what he had learned. The Pudding was right. On the surface, that was exactly what he had been sent to do. Retrieve a dessert. Serve it at a banquet. Impress dignitaries.
+TEXT: Sir Albert thought about the Quest Scroll. About what he had learned. The Pudding was right. On the surface, that was exactly what he had been sent to do. Retrieve a dessert. Serve it at a banquet. Impress dignitaries.
 
 But the scroll had also said the Pudding was sentient. That it had opinions. That it deserved respect. King Mundane had known this and sent him anyway. Had hoped, perhaps, that a clumsy but kind knight might succeed where more competent but less empathetic knights had failed.
 
 CONDITION: flagquest_understood = false
 
-TEXT: Sir Reginald realized, with a sinking feeling, that he had not actually thought this part through. What happened AFTER he convinced the Pudding to come with him? The banquet. The dignitaries. The dessert course. The Pudding was sentient. It could think. It could feel. It had spent five centuries contemplating existence. And King Mundane wanted it served on plates?
+TEXT: Sir Albert realized, with a sinking feeling, that he had not actually thought this part through. What happened AFTER he convinced the Pudding to come with him? The banquet. The dignitaries. The dessert course. The Pudding was sentient. It could think. It could feel. It had spent five centuries contemplating existence. And King Mundane wanted it served on plates?
 
 Perhaps there was more to this quest than he had understood.
 
@@ -14256,7 +14256,7 @@ NARRATIVE_CONTINUED:
 
 The portraits on the walls watched. Sir Bartholomew the Bold, who had attempted to season the Pudding. Lady Gwendolyn the Hasty, who had brought silverware. Thaddeus the wizard, optimistic with his net. All of them had failed because they had seen only a dessert rather than a person.
 
-Sir Reginald could fail the same way. Or he could try something different.
+Sir Albert could fail the same way. Or he could try something different.
 
 He looked at the Pudding. The magnificent, wobbling, telepathically judgmental being that should not exist but did. That should not think but did. That had every right to refuse his request and return to its philosophical contemplation while he returned to Blandovia empty-handed and facing extensive diplomatic paperwork.
 
@@ -14264,7 +14264,7 @@ He looked at the Pudding. The magnificent, wobbling, telepathically judgmental b
 
 The wobbling resumed, slightly. That is not what most visitors say at this point.
 
-"Most visitors are not..." Sir Reginald searched for words. "Most visitors have not spent the journey learning how wrong they were about everything."
+"Most visitors are not..." Sir Albert searched for words. "Most visitors have not spent the journey learning how wrong they were about everything."
 
 Tell me what you mean.
 
@@ -14284,7 +14284,7 @@ CHOICES:
 
 CHOICE 1: Promise to treat the Pudding with dignity and ensure it is appreciated, not merely consumed
 
-"I cannot change what the banquet is," Sir Reginald said. "I cannot change that King Mundane wants to impress dignitaries, or that you are legendary partly because you are... well. Edible. In theory." He paused. "But I can promise that if you come with me, I will make sure everyone knows you are not merely dessert. That you are a thinking being. That you have spent five hundred years contemplating existence and deserve to be acknowledged for that, not just for your wobbling excellence."
+"I cannot change what the banquet is," Sir Albert said. "I cannot change that King Mundane wants to impress dignitaries, or that you are legendary partly because you are... well. Edible. In theory." He paused. "But I can promise that if you come with me, I will make sure everyone knows you are not merely dessert. That you are a thinking being. That you have spent five hundred years contemplating existence and deserve to be acknowledged for that, not just for your wobbling excellence."
 
 He took a breath. "I will introduce you properly. I will tell them about your philosophy. I will make them understand that your cooperation is a gift, not an entitlement. And after the banquet, you can return here, or..." He hesitated. "Or you could stay at the castle, if you wanted. As an advisor. A philosopher in residence. The court could use someone who thinks deeply about Tuesdays."
 
@@ -14298,13 +14298,13 @@ Requirements: flagpudding_respected = true
 
 Tests: PATIENCE test (target 6, Pudding is receptive)
 
-Success: The Pudding's telepathic presence swelled with something Sir Reginald had not felt from it before: hope.
+Success: The Pudding's telepathic presence swelled with something Sir Albert had not felt from it before: hope.
 
 In five hundred years, no one has offered me dignity. The impression carried weight. They have offered gold. Magic. Fame. Freedom. But never simple dignity. Never the acknowledgment that I am more than my properties as dessert.
 
 The wobbling shifted, becoming warmer, brighter.
 
-Very well, Sir Reginald Bumblethwaite. I will accompany you. Not because I must. Not because I am compelled. But because you have asked me as one thinking being to another, and you have promised something I have wanted for half a millennium: to be seen.
+Very well, Sir Albert Bumblethwaite. I will accompany you. Not because I must. Not because I am compelled. But because you have asked me as one thinking being to another, and you have promised something I have wanted for half a millennium: to be seen.
 
 A pause.
 
@@ -14314,7 +14314,7 @@ SET flagpudding_respected = true (confirmed)
 
 Proceed to glorious ending path.
 
-Failure: The Pudding's presence examined Sir Reginald's promise with the thoroughness of five centuries of philosophical inquiry.
+Failure: The Pudding's presence examined Sir Albert's promise with the thoroughness of five centuries of philosophical inquiry.
 
 You mean well. The impression was gentle. But I sense... uncertainty. You do not know if you can deliver on this promise. You hope. But hope is not certainty.
 
@@ -14330,7 +14330,7 @@ Target: sec10returntriumph (success) or last resort (failure)
 
 CHOICE 2: Explain that the kingdom needs the Pudding to avoid diplomatic embarrassment
 
-Sir Reginald decided that honesty, while potentially damaging, was better than false promises.
+Sir Albert decided that honesty, while potentially damaging, was better than false promises.
 
 "The truth is, Blandovia needs you," he said. "Not because you are dessert. Well. Partly because you are dessert. But mostly because the Kingdom of Pomponia sends dignitaries specifically to judge us, and if we serve ordinary pudding, they will consider us inadequate. There will be diplomatic consequences. Paperwork." He shuddered at the word. "King Mundane will have to file reports explaining why we failed to meet expectations. Relations between kingdoms will sour. All because of pudding. Which is absurd, but that is how diplomacy works, I am told."
 
@@ -14380,7 +14380,7 @@ Target: sec10returntriumph (success, adequate path) or endingpuddingrefusal (fai
 
 CHOICE 3: Offer to return the Pudding to the tower after the banquet
 
-"What if this were temporary?" Sir Reginald asked. "You accompany me to the banquet. You wobble impressively. You fulfill your legendary status. And then, afterward, I bring you back here. To the tower. To your contemplation. You help the kingdom, and in exchange, you return to the life you have built."
+"What if this were temporary?" Sir Albert asked. "You accompany me to the banquet. You wobble impressively. You fulfill your legendary status. And then, afterward, I bring you back here. To the tower. To your contemplation. You help the kingdom, and in exchange, you return to the life you have built."
 
 He paused, watching the Pudding's reaction.
 
@@ -14404,7 +14404,7 @@ Very well. The impression was resigned but not hostile. I have existed within th
 
 A pause.
 
-I accept your compromise, Sir Reginald Bumblethwaite. I will attend your banquet temporarily. But you will return me here afterward, and you will not ask again. This is a single favor, not a precedent.
+I accept your compromise, Sir Albert Bumblethwaite. I will attend your banquet temporarily. But you will return me here afterward, and you will not ask again. This is a single favor, not a precedent.
 
 The wobbling became firm.
 
@@ -14430,7 +14430,7 @@ Target: sec10returntriumph (success, adequate path) or return to choices (failur
 
 CHOICE 4: Share a moment of genuine connection, admitting your own struggles with being underestimated
 
-Sir Reginald sat down on the floor of the Pudding Chamber. His armor clanked. His joints protested. But sitting felt right for this conversation.
+Sir Albert sat down on the floor of the Pudding Chamber. His armor clanked. His joints protested. But sitting felt right for this conversation.
 
 "Can I tell you about the lake?" he asked.
 
@@ -14438,7 +14438,7 @@ The Pudding's wobbling shifted to curiosity.
 
 The famous lake.
 
-"The lake that I set on fire. Yes." Sir Reginald looked at his hands. "It was an accident. Obviously. I was attempting to light a ceremonial brazier. For a diplomatic function, actually. There was oil involved. And wind. And a series of decisions that seemed reasonable at the time but in retrospect were deeply flawed."
+"The lake that I set on fire. Yes." Sir Albert looked at his hands. "It was an accident. Obviously. I was attempting to light a ceremonial brazier. For a diplomatic function, actually. There was oil involved. And wind. And a series of decisions that seemed reasonable at the time but in retrospect were deeply flawed."
 
 He paused.
 
@@ -14446,7 +14446,7 @@ He paused.
 
 The Pudding listened, its presence attentive.
 
-"The thing is," Sir Reginald continued, "they were not entirely wrong. I am clumsy. Things do fall over when I am involved. I have broken my nose three times through various unfortunate incidents. I was knighted by accident when the King sneezed during someone else's ceremony." He smiled sadly. "I am, by most objective measures, inadequate."
+"The thing is," Sir Albert continued, "they were not entirely wrong. I am clumsy. Things do fall over when I am involved. I have broken my nose three times through various unfortunate incidents. I was knighted by accident when the King sneezed during someone else's ceremony." He smiled sadly. "I am, by most objective measures, inadequate."
 
 He looked up at the Pudding.
 
@@ -14458,7 +14458,7 @@ A pause.
 
 The Pudding's wobbling had become very still.
 
-"I am not asking you to help me because we are the same," Sir Reginald said quietly. "We are not. You are ancient and wise and philosophical. I am clumsy and recent and still trying to understand basic concepts like 'do not put oil near fire on windy days.' But we both know what it is like to be underestimated. To be seen as only our most obvious properties. To want recognition for who we are rather than what we appear to be."
+"I am not asking you to help me because we are the same," Sir Albert said quietly. "We are not. You are ancient and wise and philosophical. I am clumsy and recent and still trying to understand basic concepts like 'do not put oil near fire on windy days.' But we both know what it is like to be underestimated. To be seen as only our most obvious properties. To want recognition for who we are rather than what we appear to be."
 
 He stood, his armor protesting.
 
@@ -14476,7 +14476,7 @@ If flagmildred_helped = true: Target reduced to 6
 
 If flagagnes_helped AND flagpocket_friendly AND flagmildred_helped all true: Additional advantage
 
-Success: The Pudding's telepathic presence swelled, filling the chamber with an emotion Sir Reginald had not expected: kinship.
+Success: The Pudding's telepathic presence swelled, filling the chamber with an emotion Sir Albert had not expected: kinship.
 
 You set a lake on fire. The impression was warm, almost affectionate. A LAKE. Made of WATER. That is... that is impressively incompetent.
 
@@ -14486,7 +14486,7 @@ And yet you are here. Against all odds. You navigated Gerald, who is insufferabl
 
 The wobbling became bright.
 
-Very well, Sir Reginald Bumblethwaite. I will help you. Not because your quest is noble. Not because your king deserves it. Not even because diplomacy requires it. I will help you because you have shown me something I have not seen in five hundred years: another being who knows what it is like to exist in the gap between what you are and what others think you are.
+Very well, Sir Albert Bumblethwaite. I will help you. Not because your quest is noble. Not because your king deserves it. Not even because diplomacy requires it. I will help you because you have shown me something I have not seen in five hundred years: another being who knows what it is like to exist in the gap between what you are and what others think you are.
 
 The impression became fierce.
 
@@ -14516,7 +14516,7 @@ Target: sec10returntriumph (success, glorious path) or return to choices (failur
 
 CHOICE 5: Last resort - Apologize sincerely and ask if there is anything you can do
 
-Sir Reginald stood before the Pudding, armor dented, potentially damp, having exhausted his persuasive options. He did the only thing left to him: he told the truth.
+Sir Albert stood before the Pudding, armor dented, potentially damp, having exhausted his persuasive options. He did the only thing left to him: he told the truth.
 
 "I do not know what else to say," he admitted. "I have tried to be respectful. I have tried to be honest. I have tried to connect with you as one underestimated being to another. And if none of that has worked, then I have failed. Not because you are unreasonable. But because I am not clever enough or persuasive enough or adequate enough to convince you."
 
@@ -14530,7 +14530,7 @@ Requirements: None (available if other options exhausted)
 
 Tests: LUCK test (target 6, easy)
 
-Success: The Pudding's presence examined Sir Reginald with the thoroughness of five centuries of observation. It found sincerity. Humility. A willingness to listen that most visitors had never possessed.
+Success: The Pudding's presence examined Sir Albert with the thoroughness of five centuries of observation. It found sincerity. Humility. A willingness to listen that most visitors had never possessed.
 
 You have tried everything. The impression was gentle. You have treated me with respect. You have been honest about your needs. You have shared vulnerability. And when all of that proved insufficient, you did not become angry. You did not grab me in frustration. You asked what I needed.
 
@@ -14540,21 +14540,21 @@ That is what I needed. Someone to ask. Someone to recognize that I might have re
 
 The wobbling became warm.
 
-Here is what I need, Sir Reginald Bumblethwaite: I need you to promise that at this banquet, you will introduce me not as "the legendary Pudding of Perpetual Wobble" but as "the Pudding, a philosopher who has spent five centuries contemplating existence." I need you to acknowledge my personhood before my properties. Can you do that?
+Here is what I need, Sir Albert Bumblethwaite: I need you to promise that at this banquet, you will introduce me not as "the legendary Pudding of Perpetual Wobble" but as "the Pudding, a philosopher who has spent five centuries contemplating existence." I need you to acknowledge my personhood before my properties. Can you do that?
 
-"Yes," Sir Reginald said immediately. "Yes. I promise."
+"Yes," Sir Albert said immediately. "Yes. I promise."
 
 Then I will accompany you. Not because I am compelled. Because I choose to help someone who has shown me rare consideration.
 
 Proceed to triumph.
 
-Failure: The Pudding examined Sir Reginald's request and found it... insufficient. Well-meaning, certainly. Sincere, probably. But insufficient.
+Failure: The Pudding examined Sir Albert's request and found it... insufficient. Well-meaning, certainly. Sincere, probably. But insufficient.
 
 I appreciate the offer. The impression was regretful. But I have existed for five hundred years specifically to avoid situations where I am displayed, discussed, and digested by people who do not see me as a person. Your asking "what can I do" does not change the fundamental nature of what you are asking me to do.
 
 A pause.
 
-I must decline, Sir Reginald. Return to your king. Tell him the Pudding refused. It will not be the first time.
+I must decline, Sir Albert. Return to your king. Tell him the Pudding refused. It will not be the first time.
 
 The wobbling became final.
 
@@ -14566,13 +14566,13 @@ Target: sec10returntriumph (success) or endingpuddingrefusal (failure)
 
 CHOICE 6: Abandon the quest and offer to stay and keep the Pudding company instead
 
-Sir Reginald looked at the Pudding. At the portraits of failed visitors. At the chamber where a sentient dessert had spent five hundred years alone, contemplating existence, waiting for someone to see it as more than food.
+Sir Albert looked at the Pudding. At the portraits of failed visitors. At the chamber where a sentient dessert had spent five hundred years alone, contemplating existence, waiting for someone to see it as more than food.
 
 He thought about the banquet. The dignitaries. The kingdom's reputation. King Mundane's expectations. The diplomatic paperwork that would result from failure.
 
 And then he thought about the butterfly. The one that had distracted him during the quest briefing. The butterfly that had seemed so carefree, so unburdened by expectations. Existing simply because it existed, not because anyone demanded proof of worth.
 
-"What if," Sir Reginald said slowly, "I did not take you to the banquet?"
+"What if," Sir Albert said slowly, "I did not take you to the banquet?"
 
 The Pudding's wobbling stopped entirely.
 
@@ -14588,7 +14588,7 @@ He sat down on the floor again, armor clanking.
 
 "But you have been alone for a very long time. And I think... I think I would rather be here, talking to someone who understands what it means to be underestimated, than back at the castle proving I am adequate at tasks I will never be adequate at."
 
-The Pudding's presence filled with an emotion so powerful that Sir Reginald gasped: joy.
+The Pudding's presence filled with an emotion so powerful that Sir Albert gasped: joy.
 
 Requirements: None
 
@@ -14598,15 +14598,15 @@ Consequences: Quest abandoned. Genuine friendship formed.
 
 You would stay. The impression was wondering. You would abandon your quest. Fail your king. Accept the professional consequences. To keep a pudding company.
 
-"To keep a person company," Sir Reginald corrected. "Who happens to be a pudding."
+"To keep a person company," Sir Albert corrected. "Who happens to be a pudding."
 
-The wobbling became brighter than Sir Reginald had seen it, the colors shifting through the entire spectrum.
+The wobbling became brighter than Sir Albert had seen it, the colors shifting through the entire spectrum.
 
 In five hundred years, no one has ever chosen me over their quest. The impression was layered with centuries of loneliness finally acknowledged. No one has ever decided that my companionship was more valuable than their objective.
 
 A pause.
 
-Sir Reginald Bumblethwaite. That is the kindest thing anyone has ever said to me.
+Sir Albert Bumblethwaite. That is the kindest thing anyone has ever said to me.
 
 The Pudding's presence settled into something warm, something content.
 
@@ -14666,7 +14666,7 @@ The wobbling descriptions remain consistent with previous sections
 
 The Pudding's ancient weariness and philosophical nature maintained
 
-Sir Reginald's character arc ("I have come a long way since that butterfly") shows growth
+Sir Albert's character arc ("I have come a long way since that butterfly") shows growth
 
 References to previous events (lake fire, catapult, accidental knighting) remain consistent
 
@@ -14696,7 +14696,7 @@ Remembers everything: References to Morgana, previous promises
 
 Lonely: Revealed powerfully in Choice 6
 
-sir_reginald:
+sir_albert:
 
 Growth shown: From butterfly-distracted to genuinely understanding
 
@@ -15226,13 +15226,13 @@ SECTION_TITLE: A Conversation About Wobbling
 
 LOCATION: locpudding_chamber
 
-CHARACTERS_PRESENT: sirreginald, pudding
+CHARACTERS_PRESENT: siralbert, pudding
 
 ---
 
 NARRATIVE:
 
-The Pudding of Perpetual Wobble had agreed to hear Sir Reginald's request. This was, he realized with a mixture of relief and trepidation, only the beginning.
+The Pudding of Perpetual Wobble had agreed to hear Sir Albert's request. This was, he realized with a mixture of relief and trepidation, only the beginning.
 
 The telepathic presence remained in his mind, a gentle but unmistakable weight. It was not invasive, exactly. More like standing next to someone who radiated a very specific emotional frequency. In this case, the frequency was: ancient, philosophical, and mildly skeptical about the motivations of knights.
 
@@ -15244,7 +15244,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: pudding_calmed = true
 
-TEXT: The Calming Recipe continued its work, softening the Pudding's more resistant philosophical objections. Its wobbling remained measured, contemplative rather than defensive. Sir Reginald could feel the difference in its telepathic presence. Still ancient. Still dignified. But with the sharp edges of five hundred years of grievance temporarily dulled. Mildred's formula has made this conversation easier. The impression was almost grateful. I do not lose my thoughts. But I am less... loud. About them.
+TEXT: The Calming Recipe continued its work, softening the Pudding's more resistant philosophical objections. Its wobbling remained measured, contemplative rather than defensive. Sir Albert could feel the difference in its telepathic presence. Still ancient. Still dignified. But with the sharp edges of five hundred years of grievance temporarily dulled. Mildred's formula has made this conversation easier. The impression was almost grateful. I do not lose my thoughts. But I am less... loud. About them.
 
 CONDITION: flagpudding_respected = true
 
@@ -15254,25 +15254,25 @@ TEXT: The Pudding's attention was warm, as warm as a sentient dessert could mana
 
 NARRATIVE_CONTINUED:
 
-Sir Reginald took a breath. He had come this far. Through the meadow, through Grumbleton, through Gerald and Pocket and Mildred and cats that judged him silently. Through his own clumsiness and the tower's inconveniences. All of it leading to this moment: asking a five-hundred-year-old philosophical pudding to attend a banquet.
+Sir Albert took a breath. He had come this far. Through the meadow, through Grumbleton, through Gerald and Pocket and Mildred and cats that judged him silently. Through his own clumsiness and the tower's inconveniences. All of it leading to this moment: asking a five-hundred-year-old philosophical pudding to attend a banquet.
 
 When he put it that way in his mind, it sounded absurd.
 
 But then, most of his life had been absurd. The lake fire. The catapult incident. Being knighted by accidental sneeze. Perhaps absurdity was simply his natural environment, and he had finally found a situation that matched it.
 
-"I have been sent by King Mundane the Fourth," Sir Reginald began, "to ask if you would be willing to attend the Annual Royal Banquet. There are dignitaries from Pomponia coming, and..."
+"I have been sent by King Mundane the Fourth," Sir Albert began, "to ask if you would be willing to attend the Annual Royal Banquet. There are dignitaries from Pomponia coming, and..."
 
 He paused. The Pudding had gone very still. Its wobbling had ceased entirely, which should have been impossible for something called the Pudding of Perpetual Wobble, but apparently even impossibilities paused when they were deeply offended.
 
 Dessert. The impression was cold. You want me to be DESSERT.
 
-"No!" Sir Reginald said quickly. "That is... well. Technically, yes, in the sense that you would be presented during the dessert course, but..."
+"No!" Sir Albert said quickly. "That is... well. Technically, yes, in the sense that you would be presented during the dessert course, but..."
 
 I am to be CONSUMED. By DIGNITARIES. To impress POMPONIA.
 
 Each word carried layers of disappointment, ancient resentment, and the philosophical despair of a thinking being reduced to its edible properties.
 
-"It is more complicated than that," Sir Reginald said desperately.
+"It is more complicated than that," Sir Albert said desperately.
 
 Is it?
 
@@ -15282,11 +15282,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flagquest_understood = true
 
-TEXT: Sir Reginald thought about the Quest Scroll. About what he had learned. The Pudding was right. On the surface, that was exactly what he had been sent to do. Retrieve a dessert. Serve it at a banquet. Impress dignitaries. But the scroll had also said the Pudding was sentient. That it had opinions. That it deserved respect. King Mundane had known this and sent him anyway. Had hoped, perhaps, that a clumsy but kind knight might succeed where more competent but less empathetic knights had failed.
+TEXT: Sir Albert thought about the Quest Scroll. About what he had learned. The Pudding was right. On the surface, that was exactly what he had been sent to do. Retrieve a dessert. Serve it at a banquet. Impress dignitaries. But the scroll had also said the Pudding was sentient. That it had opinions. That it deserved respect. King Mundane had known this and sent him anyway. Had hoped, perhaps, that a clumsy but kind knight might succeed where more competent but less empathetic knights had failed.
 
 CONDITION: flagquest_understood = false
 
-TEXT: Sir Reginald realized, with a sinking feeling, that he had not actually thought this part through. What happened AFTER he convinced the Pudding to come with him? The banquet. The dignitaries. The dessert course. The Pudding was sentient. It could think. It could feel. It had spent five centuries contemplating existence. And King Mundane wanted it served on plates? Perhaps there was more to this quest than he had understood.
+TEXT: Sir Albert realized, with a sinking feeling, that he had not actually thought this part through. What happened AFTER he convinced the Pudding to come with him? The banquet. The dignitaries. The dessert course. The Pudding was sentient. It could think. It could feel. It had spent five centuries contemplating existence. And King Mundane wanted it served on plates? Perhaps there was more to this quest than he had understood.
 
 ---
 
@@ -15294,7 +15294,7 @@ NARRATIVE_CONTINUED:
 
 The portraits on the walls watched. Sir Bartholomew the Bold, who had attempted to season the Pudding. Lady Gwendolyn the Hasty, who had brought silverware. Thaddeus the wizard, optimistic with his net. All of them had failed because they had seen only a dessert rather than a person.
 
-Sir Reginald could fail the same way. Or he could try something different.
+Sir Albert could fail the same way. Or he could try something different.
 
 He looked at the Pudding. The magnificent, wobbling, telepathically judgmental being that should not exist but did. That should not think but did. That had every right to refuse his request and return to its philosophical contemplation while he returned to Blandovia empty-handed and facing extensive diplomatic paperwork.
 
@@ -15302,7 +15302,7 @@ He looked at the Pudding. The magnificent, wobbling, telepathically judgmental b
 
 The wobbling resumed, slightly. That is not what most visitors say at this point.
 
-"Most visitors are not..." Sir Reginald searched for words. "Most visitors have not spent the journey learning how wrong they were about everything."
+"Most visitors are not..." Sir Albert searched for words. "Most visitors have not spent the journey learning how wrong they were about everything."
 
 Tell me what you mean.
 
@@ -15326,7 +15326,7 @@ ID: choicepromise_dignity
 
 TEXT: Promise to treat the Pudding with dignity and ensure it is appreciated, not merely consumed
 
-FLAVOR: "I cannot change what the banquet is," Sir Reginald said. "I cannot change that King Mundane wants to impress dignitaries, or that you are legendary partly because you are... well. Edible. In theory." He paused. "But I can promise that if you come with me, I will make sure everyone knows you are not merely dessert. That you are a thinking being. That you have spent five hundred years contemplating existence and deserve to be acknowledged for that, not just for your wobbling excellence." He took a breath. "I will introduce you properly. I will tell them about your philosophy. I will make them understand that your cooperation is a gift, not an entitlement. And after the banquet, you can return here, or... or you could stay at the castle, if you wanted. As an advisor. A philosopher in residence. The court could use someone who thinks deeply about Tuesdays."
+FLAVOR: "I cannot change what the banquet is," Sir Albert said. "I cannot change that King Mundane wants to impress dignitaries, or that you are legendary partly because you are... well. Edible. In theory." He paused. "But I can promise that if you come with me, I will make sure everyone knows you are not merely dessert. That you are a thinking being. That you have spent five hundred years contemplating existence and deserve to be acknowledged for that, not just for your wobbling excellence." He took a breath. "I will introduce you properly. I will tell them about your philosophy. I will make them understand that your cooperation is a gift, not an entitlement. And after the banquet, you can return here, or... or you could stay at the castle, if you wanted. As an advisor. A philosopher in residence. The court could use someone who thinks deeply about Tuesdays."
 
 REQUIREMENTS: flagpudding_respected = true
 
@@ -15342,7 +15342,7 @@ DIFFICULTY_MODIFIER: If pudding_calmed = true, target becomes 5
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding's telepathic presence swelled with something Sir Reginald had not felt from it before: hope. In five hundred years, no one has offered me dignity. The impression carried weight. They have offered gold. Magic. Fame. Freedom. But never simple dignity. Never the acknowledgment that I am more than my properties as dessert. The wobbling shifted, becoming warmer, brighter. Very well, Sir Reginald Bumblethwaite. I will accompany you. Not because I must. Not because I am compelled. But because you have asked me as one thinking being to another, and you have promised something I have wanted for half a millennium: to be seen. A pause. Also, I am curious about these Pomponian dignitaries. If they are as insufferable as legend suggests, watching them contend with a judgmental dessert may provide entertainment.
+NARRATIVE: The Pudding's telepathic presence swelled with something Sir Albert had not felt from it before: hope. In five hundred years, no one has offered me dignity. The impression carried weight. They have offered gold. Magic. Fame. Freedom. But never simple dignity. Never the acknowledgment that I am more than my properties as dessert. The wobbling shifted, becoming warmer, brighter. Very well, Sir Albert Bumblethwaite. I will accompany you. Not because I must. Not because I am compelled. But because you have asked me as one thinking being to another, and you have promised something I have wanted for half a millennium: to be seen. A pause. Also, I am curious about these Pomponian dignitaries. If they are as insufferable as legend suggests, watching them contend with a judgmental dessert may provide entertainment.
 
 CONSEQUENCES:
 
@@ -15350,7 +15350,7 @@ SET_FLAG: flagpudding_respected = true (confirmed)
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The Pudding's presence examined Sir Reginald's promise with the thoroughness of five centuries of philosophical inquiry. You mean well. The impression was gentle. But I sense... uncertainty. You do not know if you can deliver on this promise. You hope. But hope is not certainty. The wobbling became neutral. I have existed too long to accept promises based on hope alone. If you have another approach, I will hear it. If not, I must decline.
+NARRATIVE: The Pudding's presence examined Sir Albert's promise with the thoroughness of five centuries of philosophical inquiry. You mean well. The impression was gentle. But I sense... uncertainty. You do not know if you can deliver on this promise. You hope. But hope is not certainty. The wobbling became neutral. I have existed too long to accept promises based on hope alone. If you have another approach, I will hear it. If not, I must decline.
 
 CONSEQUENCES:
 
@@ -15368,7 +15368,7 @@ ID: choicehonest_need
 
 TEXT: Explain that the kingdom needs the Pudding to avoid diplomatic embarrassment
 
-FLAVOR: Sir Reginald decided that honesty, while potentially damaging, was better than false promises. "The truth is, Blandovia needs you," he said. "Not because you are dessert. Well. Partly because you are dessert. But mostly because the Kingdom of Pomponia sends dignitaries specifically to judge us, and if we serve ordinary pudding, they will consider us inadequate. There will be diplomatic consequences. Paperwork." He shuddered at the word. "King Mundane will have to file reports explaining why we failed to meet expectations. Relations between kingdoms will sour. All because of pudding. Which is absurd, but that is how diplomacy works, I am told." He met the Pudding's attention directly. "I am asking you to help prevent this. Not because you owe us anything. Not because it is required. But because, honestly, you are the only one who can. And yes, it means being presented as dessert, which I understand is offensive to you. But it also means being recognized as important. As valuable. As the difference between diplomatic success and failure." He paused. "I know it is not a noble reason. But it is an honest one."
+FLAVOR: Sir Albert decided that honesty, while potentially damaging, was better than false promises. "The truth is, Blandovia needs you," he said. "Not because you are dessert. Well. Partly because you are dessert. But mostly because the Kingdom of Pomponia sends dignitaries specifically to judge us, and if we serve ordinary pudding, they will consider us inadequate. There will be diplomatic consequences. Paperwork." He shuddered at the word. "King Mundane will have to file reports explaining why we failed to meet expectations. Relations between kingdoms will sour. All because of pudding. Which is absurd, but that is how diplomacy works, I am told." He met the Pudding's attention directly. "I am asking you to help prevent this. Not because you owe us anything. Not because it is required. But because, honestly, you are the only one who can. And yes, it means being presented as dessert, which I understand is offensive to you. But it also means being recognized as important. As valuable. As the difference between diplomatic success and failure." He paused. "I know it is not a noble reason. But it is an honest one."
 
 REQUIREMENTS: flagquest_understood = true
 
@@ -15404,7 +15404,7 @@ ID: choicetemporary_arrangement
 
 TEXT: Offer to return the Pudding to the tower after the banquet
 
-FLAVOR: "What if this were temporary?" Sir Reginald asked. "You accompany me to the banquet. You wobble impressively. You fulfill your legendary status. And then, afterward, I bring you back here. To the tower. To your contemplation. You help the kingdom, and in exchange, you return to the life you have built." He paused, watching the Pudding's reaction. "I know that asking you to leave at all is an imposition. But if you knew it was temporary, that you would return to your home afterward, would that make the request more acceptable?"
+FLAVOR: "What if this were temporary?" Sir Albert asked. "You accompany me to the banquet. You wobble impressively. You fulfill your legendary status. And then, afterward, I bring you back here. To the tower. To your contemplation. You help the kingdom, and in exchange, you return to the life you have built." He paused, watching the Pudding's reaction. "I know that asking you to leave at all is an imposition. But if you knew it was temporary, that you would return to your home afterward, would that make the request more acceptable?"
 
 REQUIREMENTS: None
 
@@ -15420,7 +15420,7 @@ DIFFICULTY_MODIFIER: If pudding_calmed = true, target becomes 6
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding reached a conclusion. Very well. The impression was resigned but not hostile. I have existed within these walls for a very long time. Perhaps... perhaps a brief departure would provide new perspective. New experiences. New material for contemplation. A pause. I accept your compromise, Sir Reginald Bumblethwaite. I will attend your banquet temporarily. But you will return me here afterward, and you will not ask again. This is a single favor, not a precedent. The wobbling became firm. And if you fail to return me, I will make my displeasure known in ways that a five-hundred-year-old philosophical pudding can devise. I have had considerable time to consider revenge scenarios. Most involve passive-aggressive wobbling at significant state functions.
+NARRATIVE: The Pudding reached a conclusion. Very well. The impression was resigned but not hostile. I have existed within these walls for a very long time. Perhaps... perhaps a brief departure would provide new perspective. New experiences. New material for contemplation. A pause. I accept your compromise, Sir Albert Bumblethwaite. I will attend your banquet temporarily. But you will return me here afterward, and you will not ask again. This is a single favor, not a precedent. The wobbling became firm. And if you fail to return me, I will make my displeasure known in ways that a five-hundred-year-old philosophical pudding can devise. I have had considerable time to consider revenge scenarios. Most involve passive-aggressive wobbling at significant state functions.
 
 CONSEQUENCES: None
 
@@ -15442,7 +15442,7 @@ ID: choicevulnerability_connection
 
 TEXT: Share a moment of genuine connection, admitting your own struggles with being underestimated
 
-FLAVOR: Sir Reginald sat down on the floor of the Pudding Chamber. His armor clanked. His joints protested. But sitting felt right for this conversation. "Can I tell you about the lake?" he asked.
+FLAVOR: Sir Albert sat down on the floor of the Pudding Chamber. His armor clanked. His joints protested. But sitting felt right for this conversation. "Can I tell you about the lake?" he asked.
 
 REQUIREMENTS: None
 
@@ -15466,11 +15466,11 @@ IF flagagnes_helped = true AND flagpocket_friendly = true AND flagmildred_helped
 
 TEST_NARRATIVE:
 
-The Pudding's wobbling shifted to curiosity. The famous lake. "The lake that I set on fire. Yes." Sir Reginald looked at his hands. "It was an accident. Obviously. I was attempting to light a ceremonial brazier. For a diplomatic function, actually. There was oil involved. And wind. And a series of decisions that seemed reasonable at the time but in retrospect were deeply flawed." He paused. "The lake was on fire for six minutes. Six minutes. It felt like hours. Everyone watched. The dignitaries. The court. My fellow knights. And when it was finally extinguished, I heard someone say: 'That is the problem with letting inadequate people become knights. Accidents happen.'" The Pudding listened, its presence attentive. "The thing is," Sir Reginald continued, "they were not entirely wrong. I am clumsy. Things do fall over when I am involved. I have broken my nose three times through various unfortunate incidents. I was knighted by accident when the King sneezed during someone else's ceremony." He smiled sadly. "I am, by most objective measures, inadequate." He looked up at the Pudding. "But I try. I genuinely try. I want to help people. I want to do good. I want to matter. And for my entire life, I have been told that wanting is not enough. That intention does not compensate for incompetence. That I should stop trying and accept what I am." A pause. "You have been told similar things, I think. That being sentient does not change what you are. That consciousness does not make you less edible. That five hundred years of philosophy cannot overcome the fact that you are, fundamentally, dessert." The Pudding's wobbling had become very still. "I am not asking you to help me because we are the same," Sir Reginald said quietly. "We are not. You are ancient and wise and philosophical. I am clumsy and recent and still trying to understand basic concepts like 'do not put oil near fire on windy days.' But we both know what it is like to be underestimated. To be seen as only our most obvious properties. To want recognition for who we are rather than what we appear to be." He stood, his armor protesting. "So I am asking, one underestimated being to another: will you help me? Not because you must. Not because I am clever enough to trick you or strong enough to force you. But because I am asking genuinely, and because maybe, just maybe, we can both prove that we are more than what everyone assumes."
+The Pudding's wobbling shifted to curiosity. The famous lake. "The lake that I set on fire. Yes." Sir Albert looked at his hands. "It was an accident. Obviously. I was attempting to light a ceremonial brazier. For a diplomatic function, actually. There was oil involved. And wind. And a series of decisions that seemed reasonable at the time but in retrospect were deeply flawed." He paused. "The lake was on fire for six minutes. Six minutes. It felt like hours. Everyone watched. The dignitaries. The court. My fellow knights. And when it was finally extinguished, I heard someone say: 'That is the problem with letting inadequate people become knights. Accidents happen.'" The Pudding listened, its presence attentive. "The thing is," Sir Albert continued, "they were not entirely wrong. I am clumsy. Things do fall over when I am involved. I have broken my nose three times through various unfortunate incidents. I was knighted by accident when the King sneezed during someone else's ceremony." He smiled sadly. "I am, by most objective measures, inadequate." He looked up at the Pudding. "But I try. I genuinely try. I want to help people. I want to do good. I want to matter. And for my entire life, I have been told that wanting is not enough. That intention does not compensate for incompetence. That I should stop trying and accept what I am." A pause. "You have been told similar things, I think. That being sentient does not change what you are. That consciousness does not make you less edible. That five hundred years of philosophy cannot overcome the fact that you are, fundamentally, dessert." The Pudding's wobbling had become very still. "I am not asking you to help me because we are the same," Sir Albert said quietly. "We are not. You are ancient and wise and philosophical. I am clumsy and recent and still trying to understand basic concepts like 'do not put oil near fire on windy days.' But we both know what it is like to be underestimated. To be seen as only our most obvious properties. To want recognition for who we are rather than what we appear to be." He stood, his armor protesting. "So I am asking, one underestimated being to another: will you help me? Not because you must. Not because I am clever enough to trick you or strong enough to force you. But because I am asking genuinely, and because maybe, just maybe, we can both prove that we are more than what everyone assumes."
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding's telepathic presence swelled, filling the chamber with an emotion Sir Reginald had not expected: kinship. You set a lake on fire. The impression was warm, almost affectionate. A LAKE. Made of WATER. That is... that is impressively incompetent. A pause. And yet you are here. Against all odds. You navigated Gerald, who is insufferable. You dealt with Mildred, who is particular. You climbed through my tower, which is designed to be inconvenient. You reached me. Not through competence. Through sincerity. The wobbling became bright. Very well, Sir Reginald Bumblethwaite. I will help you. Not because your quest is noble. Not because your king deserves it. Not even because diplomacy requires it. I will help you because you have shown me something I have not seen in five hundred years: another being who knows what it is like to exist in the gap between what you are and what others think you are. The impression became fierce. We shall attend this banquet together. We shall impress these insufferable dignitaries. And then, perhaps, we shall continue to know each other. Because I think, Sir Knight, that I have finally found someone worth talking to. Even if you did set a lake on fire.
+NARRATIVE: The Pudding's telepathic presence swelled, filling the chamber with an emotion Sir Albert had not expected: kinship. You set a lake on fire. The impression was warm, almost affectionate. A LAKE. Made of WATER. That is... that is impressively incompetent. A pause. And yet you are here. Against all odds. You navigated Gerald, who is insufferable. You dealt with Mildred, who is particular. You climbed through my tower, which is designed to be inconvenient. You reached me. Not through competence. Through sincerity. The wobbling became bright. Very well, Sir Albert Bumblethwaite. I will help you. Not because your quest is noble. Not because your king deserves it. Not even because diplomacy requires it. I will help you because you have shown me something I have not seen in five hundred years: another being who knows what it is like to exist in the gap between what you are and what others think you are. The impression became fierce. We shall attend this banquet together. We shall impress these insufferable dignitaries. And then, perhaps, we shall continue to know each other. Because I think, Sir Knight, that I have finally found someone worth talking to. Even if you did set a lake on fire.
 
 CONSEQUENCES:
 
@@ -15494,7 +15494,7 @@ ID: choicelast_resort
 
 TEXT: Apologize sincerely and ask if there is anything you can do
 
-FLAVOR: Sir Reginald stood before the Pudding, armor dented, potentially damp, having exhausted his persuasive options. He did the only thing left to him: he told the truth. "I do not know what else to say," he admitted. "I have tried to be respectful. I have tried to be honest. I have tried to connect with you as one underestimated being to another. And if none of that has worked, then I have failed. Not because you are unreasonable. But because I am not clever enough or persuasive enough or adequate enough to convince you." He paused. "So I am asking: is there anything I can do? Anything at all? I will listen to whatever you need. I will attempt whatever task you set. I will... I will try. That is all I have ever been able to offer. But if you tell me what you need, I will try."
+FLAVOR: Sir Albert stood before the Pudding, armor dented, potentially damp, having exhausted his persuasive options. He did the only thing left to him: he told the truth. "I do not know what else to say," he admitted. "I have tried to be respectful. I have tried to be honest. I have tried to connect with you as one underestimated being to another. And if none of that has worked, then I have failed. Not because you are unreasonable. But because I am not clever enough or persuasive enough or adequate enough to convince you." He paused. "So I am asking: is there anything I can do? Anything at all? I will listen to whatever you need. I will attempt whatever task you set. I will... I will try. That is all I have ever been able to offer. But if you tell me what you need, I will try."
 
 REQUIREMENTS: None
 
@@ -15510,13 +15510,13 @@ DIFFICULTY_MODIFIER: If pudding_calmed = true, target becomes 5
 
 SUCCESS_OUTCOME:
 
-NARRATIVE: The Pudding's presence examined Sir Reginald with the thoroughness of five centuries of observation. It found sincerity. Humility. A willingness to listen that most visitors had never possessed. You have tried everything. The impression was gentle. You have treated me with respect. You have been honest about your needs. You have shared vulnerability. And when all of that proved insufficient, you did not become angry. You did not grab me in frustration. You asked what I needed. A pause. That is what I needed. Someone to ask. Someone to recognize that I might have requirements beyond being wobbled at dignitaries. The wobbling became warm. Here is what I need, Sir Reginald Bumblethwaite: I need you to promise that at this banquet, you will introduce me not as "the legendary Pudding of Perpetual Wobble" but as "the Pudding, a philosopher who has spent five centuries contemplating existence." I need you to acknowledge my personhood before my properties. Can you do that? "Yes," Sir Reginald said immediately. "Yes. I promise." Then I will accompany you. Not because I am compelled. Because I choose to help someone who has shown me rare consideration.
+NARRATIVE: The Pudding's presence examined Sir Albert with the thoroughness of five centuries of observation. It found sincerity. Humility. A willingness to listen that most visitors had never possessed. You have tried everything. The impression was gentle. You have treated me with respect. You have been honest about your needs. You have shared vulnerability. And when all of that proved insufficient, you did not become angry. You did not grab me in frustration. You asked what I needed. A pause. That is what I needed. Someone to ask. Someone to recognize that I might have requirements beyond being wobbled at dignitaries. The wobbling became warm. Here is what I need, Sir Albert Bumblethwaite: I need you to promise that at this banquet, you will introduce me not as "the legendary Pudding of Perpetual Wobble" but as "the Pudding, a philosopher who has spent five centuries contemplating existence." I need you to acknowledge my personhood before my properties. Can you do that? "Yes," Sir Albert said immediately. "Yes. I promise." Then I will accompany you. Not because I am compelled. Because I choose to help someone who has shown me rare consideration.
 
 CONSEQUENCES: None
 
 FAILURE_OUTCOME:
 
-NARRATIVE: The Pudding examined Sir Reginald's request and found it... insufficient. Well-meaning, certainly. Sincere, probably. But insufficient. I appreciate the offer. The impression was regretful. But I have existed for five hundred years specifically to avoid situations where I am displayed, discussed, and digested by people who do not see me as a person. Your asking "what can I do" does not change the fundamental nature of what you are asking me to do. A pause. I must decline, Sir Reginald. Return to your king. Tell him the Pudding refused. It will not be the first time.
+NARRATIVE: The Pudding examined Sir Albert's request and found it... insufficient. Well-meaning, certainly. Sincere, probably. But insufficient. I appreciate the offer. The impression was regretful. But I have existed for five hundred years specifically to avoid situations where I am displayed, discussed, and digested by people who do not see me as a person. Your asking "what can I do" does not change the fundamental nature of what you are asking me to do. A pause. I must decline, Sir Albert. Return to your king. Tell him the Pudding refused. It will not be the first time.
 
 CONSEQUENCES: None
 
@@ -15530,7 +15530,7 @@ ID: choiceabandon_quest
 
 TEXT: Abandon the quest and offer to stay and keep the Pudding company instead
 
-FLAVOR: Sir Reginald looked at the Pudding. At the portraits of failed visitors. At the chamber where a sentient dessert had spent five hundred years alone, contemplating existence, waiting for someone to see it as more than food. He thought about the banquet. The dignitaries. The kingdom's reputation. King Mundane's expectations. The diplomatic paperwork that would result from failure. And then he thought about the butterfly. The one that had distracted him during the quest briefing. The butterfly that had seemed so carefree, so unburdened by expectations. Existing simply because it existed, not because anyone demanded proof of worth. "What if," Sir Reginald said slowly, "I did not take you to the banquet?" The Pudding's wobbling stopped entirely.
+FLAVOR: Sir Albert looked at the Pudding. At the portraits of failed visitors. At the chamber where a sentient dessert had spent five hundred years alone, contemplating existence, waiting for someone to see it as more than food. He thought about the banquet. The dignitaries. The kingdom's reputation. King Mundane's expectations. The diplomatic paperwork that would result from failure. And then he thought about the butterfly. The one that had distracted him during the quest briefing. The butterfly that had seemed so carefree, so unburdened by expectations. Existing simply because it existed, not because anyone demanded proof of worth. "What if," Sir Albert said slowly, "I did not take you to the banquet?" The Pudding's wobbling stopped entirely.
 
 REQUIREMENTS: None
 
@@ -15540,7 +15540,7 @@ SUCCESS_OUTCOME: N/A
 
 FAILURE_OUTCOME: N/A
 
-NARRATIVE: Explain. "What if I stayed here instead? With you?" He gestured to the chamber. "You have been alone for five hundred years. You said you miss conversations with Morgana. I am not a brilliant philosopher. I am barely an adequate knight. But I could... talk to you. Listen to you. Keep you company." He paused. "The kingdom does not need me. They will find another knight. They will serve ordinary pudding. The dignitaries will be unimpressed, but Blandovia will survive. It always does. That is the nature of unremarkable kingdoms. They continue regardless." He sat down on the floor again, armor clanking. "But you have been alone for a very long time. And I think... I think I would rather be here, talking to someone who understands what it means to be underestimated, than back at the castle proving I am adequate at tasks I will never be adequate at." The Pudding's presence filled with an emotion so powerful that Sir Reginald gasped: joy. You would stay. The impression was wondering. You would abandon your quest. Fail your king. Accept the professional consequences. To keep a pudding company. "To keep a person company," Sir Reginald corrected. "Who happens to be a pudding." The wobbling became brighter than Sir Reginald had seen it, the colors shifting through the entire spectrum. In five hundred years, no one has ever chosen me over their quest. The impression was layered with centuries of loneliness finally acknowledged. No one has ever decided that my companionship was more valuable than their objective. A pause. Sir Reginald Bumblethwaite. That is the kindest thing anyone has ever said to me. The Pudding's presence settled into something warm, something content. Stay, then. Stay and talk with me. I will teach you philosophy. You will teach me about lakes that burn. We shall confuse the tower's other inhabitants with our unlikely friendship. And perhaps, in time, we shall both discover that being adequate at companionship is more valuable than being legendary at anything else.
+NARRATIVE: Explain. "What if I stayed here instead? With you?" He gestured to the chamber. "You have been alone for five hundred years. You said you miss conversations with Morgana. I am not a brilliant philosopher. I am barely an adequate knight. But I could... talk to you. Listen to you. Keep you company." He paused. "The kingdom does not need me. They will find another knight. They will serve ordinary pudding. The dignitaries will be unimpressed, but Blandovia will survive. It always does. That is the nature of unremarkable kingdoms. They continue regardless." He sat down on the floor again, armor clanking. "But you have been alone for a very long time. And I think... I think I would rather be here, talking to someone who understands what it means to be underestimated, than back at the castle proving I am adequate at tasks I will never be adequate at." The Pudding's presence filled with an emotion so powerful that Sir Albert gasped: joy. You would stay. The impression was wondering. You would abandon your quest. Fail your king. Accept the professional consequences. To keep a pudding company. "To keep a person company," Sir Albert corrected. "Who happens to be a pudding." The wobbling became brighter than Sir Albert had seen it, the colors shifting through the entire spectrum. In five hundred years, no one has ever chosen me over their quest. The impression was layered with centuries of loneliness finally acknowledged. No one has ever decided that my companionship was more valuable than their objective. A pause. Sir Albert Bumblethwaite. That is the kindest thing anyone has ever said to me. The Pudding's presence settled into something warm, something content. Stay, then. Stay and talk with me. I will teach you philosophy. You will teach me about lakes that burn. We shall confuse the tower's other inhabitants with our unlikely friendship. And perhaps, in time, we shall both discover that being adequate at companionship is more valuable than being legendary at anything else.
 
 CONSEQUENCES:
 
@@ -15620,7 +15620,7 @@ Location: loc_meadow (return journey, implied travel)
 
 Characters Present:
 
-sir_reginald (protagonist, player character)
+sir_albert (protagonist, player character)
 
 pudding (if successfully obtained, either willing or unwilling companion)
 
@@ -15630,7 +15630,7 @@ SCENE STRUCTURE:
 
 Opening:
 
-Sir Reginald exits the Tower of Minor Inconveniences with the Pudding
+Sir Albert exits the Tower of Minor Inconveniences with the Pudding
 
 Establish whether the Pudding is cooperative or resistant
 
@@ -15660,7 +15660,7 @@ Resolution:
 
 Arrival at the castle
 
-King Mundane receives Sir Reginald and the Pudding
+King Mundane receives Sir Albert and the Pudding
 
 The banquet proceeds (implied or described briefly)
 
@@ -15676,7 +15676,7 @@ The relief (or dread) of exiting the tower
 
 The Pudding's commentary on the outside world (first time in centuries for some routes)
 
-Reflections on the journey and what Sir Reginald has learned
+Reflections on the journey and what Sir Albert has learned
 
 The contrast between the Pudding's cooperation levels
 
@@ -15772,7 +15772,7 @@ Herald Pip's voice cracks at crucial announcement moments
 
 The banquet itself is described with appropriate absurdity
 
-Sir Reginald's character arc completion shown through his actions
+Sir Albert's character arc completion shown through his actions
 
 The Pudding's telepathic commentary continues to be both funny and insightful
 
@@ -15786,7 +15786,7 @@ If flag_grumbleton_visited = true: Optional glimpse of Agnes watching the return
 
 If flag_pocket_friendly = true: Pocket may observe from tower window
 
-Herald Pip recognizes Sir Reginald from the departure
+Herald Pip recognizes Sir Albert from the departure
 
 King Mundane's reception matches his character (mildly interested at best)
 
@@ -15806,7 +15806,7 @@ If flag_pudding_grabbed = true: Pudding actively resists, makes journey unpleasa
 
 If flag_pudding_respected = true: Pudding converses pleasantly, shares philosophical insights, expresses gratitude, looks forward to banquet as social experiment
 
-If flag_quest_understood = true: Sir Reginald's internal monologue shows understanding of achievement
+If flag_quest_understood = true: Sir Albert's internal monologue shows understanding of achievement
 
 If flag_mildred_helped = true: Brief reflection on Mildred's advice being correct
 
@@ -15844,7 +15844,7 @@ Keep relatively brief (this is the wrap-up, not a new adventure)
 
 Focus on payoff for player's choices throughout the journey
 
-Provide satisfying conclusion to Sir Reginald's character arc
+Provide satisfying conclusion to Sir Albert's character arc
 
 Set up the specific ending tone before transitioning
 
@@ -15888,7 +15888,7 @@ Section Title: The Return Journey
 
 NARRATIVE:
 
-Sir Reginald emerged from the Tower of Minor Inconveniences with the Pudding of Perpetual Wobble carefully cradled in his arms. The ancient dessert was surprisingly warm, its gentle wobbling a rhythmic counterpoint to his heartbeat.
+Sir Albert emerged from the Tower of Minor Inconveniences with the Pudding of Perpetual Wobble carefully cradled in his arms. The ancient dessert was surprisingly warm, its gentle wobbling a rhythmic counterpoint to his heartbeat.
 
 The tower door closed behind him with a sound of finality that doors rarely achieve. He had done it. Against all odds, through all the furniture, all the cats, all the philosophical discussions with sentient confectionery, he had actually completed his quest.
 
@@ -15902,21 +15902,21 @@ CONDITION: flag_pudding_respected = true AND NOT flag_pudding_grabbed = true
 
 TEXT: The Pudding's telepathic presence in his mind was warm, almost affectionate. Indeed. The impression carried satisfaction. Five hundred years in that tower. Five hundred years of wobbling alone. And now I am outside. The wobbling intensified slightly. The sky is still that disappointing dishwater color, I see. Blandovia has not improved its weather in my absence.
 
-"I am afraid not," Sir Reginald admitted.
+"I am afraid not," Sir Albert admitted.
 
 That is strangely comforting. The Pudding's impression was contemplative. Some things should not change. Mediocrity is its own form of consistency.
 
 As they walked across the meadow, the Pudding continued to share observations. That is grass. Still slightly damp, I perceive. Those are sheep. They have not evolved consciousness since I last saw them through the tower window. That is fortunate. One sentient dessert per kingdom is sufficient.
 
-Sir Reginald found himself smiling despite the weight of his armor and the general dampness of everything. The Pudding was pleasant company. Sarcastic, certainly. Ancient and occasionally condescending. But pleasant.
+Sir Albert found himself smiling despite the weight of his armor and the general dampness of everything. The Pudding was pleasant company. Sarcastic, certainly. Ancient and occasionally condescending. But pleasant.
 
 CONDITION: flag_pudding_grabbed = true
 
-TEXT: The Pudding's weight in his arms felt accusatory. Its wobbling had developed an edge, a frequency that made Sir Reginald's head throb gently but persistently. The telepathic presence in his mind was cold. Distant. Radiating profound disapproval.
+TEXT: The Pudding's weight in his arms felt accusatory. Its wobbling had developed an edge, a frequency that made Sir Albert's head throb gently but persistently. The telepathic presence in his mind was cold. Distant. Radiating profound disapproval.
 
 You are still carrying me. The impression was flat.
 
-"Yes," Sir Reginald said, attempting cheerfulness. "We are on our way to the castle. For the banquet. It will be quite the event."
+"Yes," Sir Albert said, attempting cheerfulness. "We are on our way to the castle. For the banquet. It will be quite the event."
 
 I am aware. The Pudding's wobbling shifted to a particularly unpleasant frequency. I am being CARRIED. Like LUGGAGE. Like a SACK OF TURNIPS.
 
@@ -15926,7 +15926,7 @@ You GRABBED me. The impression was cold. There is a difference. A significant di
 
 The walk across the meadow was accompanied by the Pudding's telepathic litany of grievances. The indignity of being transported. The offense of being treated as cargo. The philosophical implications of being reduced to one's physical properties despite possessing consciousness.
 
-Sir Reginald's headache intensified.
+Sir Albert's headache intensified.
 
 "Could you perhaps wobble at a different frequency?" he asked carefully.
 
@@ -15938,7 +15938,7 @@ TEXT: The Pudding's presence in his mind was neutral. Resigned. Not hostile, but
 
 This is grass. The impression was matter-of-fact. Still damp. Those are sheep. They remain non-sentient. The sky continues to disappoint. Blandovia persists in being unremarkable.
 
-"You have a gift for observation," Sir Reginald offered.
+"You have a gift for observation," Sir Albert offered.
 
 I have had five centuries to practice. The Pudding's wobbling was steady, professional. I am accompanying you because we reached an agreement. I will fulfill my part. You will fulfill yours. This is how transactions work.
 
@@ -15954,7 +15954,7 @@ TEXT: His armor still squelched. After everything. After the entire quest. Throu
 
 The Pudding noticed. Your armor makes unfortunate sounds.
 
-"I fell in a stream," Sir Reginald explained. "Days ago. It has not dried."
+"I fell in a stream," Sir Albert explained. "Days ago. It has not dried."
 
 Perhaps you should have used the bridge.
 
@@ -15966,11 +15966,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_grumbleton_visited = true AND flag_agnes_helped = true
 
-TEXT: As they passed near Grumbleton Village, Sir Reginald spotted a familiar figure in the distance. Agnes Crumbwell, standing at the village edge, shading her eyes against the dishwater sky. When she spotted him, she raised one hand in what might have been a wave or might have been a threatening gesture with her infamous wooden spoon.
+TEXT: As they passed near Grumbleton Village, Sir Albert spotted a familiar figure in the distance. Agnes Crumbwell, standing at the village edge, shading her eyes against the dishwater sky. When she spotted him, she raised one hand in what might have been a wave or might have been a threatening gesture with her infamous wooden spoon.
 
 "KNIGHT!" her voice carried across the meadow. "DID YOU GET THE PUDDING?"
 
-Sir Reginald held up the wobbling dessert.
+Sir Albert held up the wobbling dessert.
 
 "GOOD! MY GRANDMOTHER WOULD BE PLEASED! THE MAP WORKED!"
 
@@ -15982,17 +15982,17 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pocket_friendly = true
 
-TEXT: A small green figure appeared at one of the tower's high windows. Even from this distance, Sir Reginald could make out Pocket's bulging yellow eyes watching the departure. The goblin waved both arms in exaggerated enthusiasm.
+TEXT: A small green figure appeared at one of the tower's high windows. Even from this distance, Sir Albert could make out Pocket's bulging yellow eyes watching the departure. The goblin waved both arms in exaggerated enthusiasm.
 
 "KNIGHT! KNIGHT IS LEAVING! WITH PUDDING!"
 
 The Pudding's wobbling became slightly agitated. The goblin watches. The one who tried to steal a piece of me. I have not forgiven that transgression.
 
-"He helped me," Sir Reginald said. "He became a friend."
+"He helped me," Sir Albert said. "He became a friend."
 
 A pause in the telepathic presence.
 
-You make unusual friends, Sir Reginald. A goblin. A pudding. Perhaps you collect the underestimated. A longer pause. That is not a criticism. That is... admirable. In a strange, bumbling way.
+You make unusual friends, Sir Albert. A goblin. A pudding. Perhaps you collect the underestimated. A longer pause. That is not a criticism. That is... admirable. In a strange, bumbling way.
 
 ---
 
@@ -16004,17 +16004,17 @@ And there, at the castle gate, a familiar figure in an oversized uniform was jum
 
 Herald Pip.
 
-"SIR REGINALD!" His voice cracked magnificently on the second syllable. "SIR REGINALD HAS RETURNED! WITH THE PUDDING! HE ACTUALLY DID IT! I CANNOT BELIEVE HE ACTUALLY DID IT!"
+"SIR ALBERT!" His voice cracked magnificently on the second syllable. "SIR ALBERT HAS RETURNED! WITH THE PUDDING! HE ACTUALLY DID IT! I CANNOT BELIEVE HE ACTUALLY DID IT!"
 
-"Thank you, Pip," Sir Reginald called back. "That is very kind."
+"Thank you, Pip," Sir Albert called back. "That is very kind."
 
-"I AM GOING TO ANNOUNCE YOU PROPERLY! VERY HEROICALLY! WITH FANFARES AND EVERYTHING!" Pip consulted his scroll, which he had apparently prepared in advance. "THE TRIUMPHANT RETURN OF SIR REGINALD BUMBLETHWAITE, WHO AGAINST ALL REASONABLE EXPECTATIONS HAS RETRIEVED THE LEGENDARY PUDDING OF PERPETUAL WOBBLE FROM THE TOWER OF MINOR INCONVENIENCES AND..."
+"I AM GOING TO ANNOUNCE YOU PROPERLY! VERY HEROICALLY! WITH FANFARES AND EVERYTHING!" Pip consulted his scroll, which he had apparently prepared in advance. "THE TRIUMPHANT RETURN OF SIR ALBERT BUMBLETHWAITE, WHO AGAINST ALL REASONABLE EXPECTATIONS HAS RETRIEVED THE LEGENDARY PUDDING OF PERPETUAL WOBBLE FROM THE TOWER OF MINOR INCONVENIENCES AND..."
 
 His voice cracked again, climbing into a range that startled nearby pigeons.
 
 The Pudding's impression was amused. He is very enthusiastic.
 
-"He means well," Sir Reginald said.
+"He means well," Sir Albert said.
 
 They usually do. The wobbling shifted contemplatively. Meaning well is undervalued. Competence is overrated. I have concluded this after five centuries of observation.
 
@@ -16024,13 +16024,13 @@ The Great Hall had been prepared for the Annual Royal Banquet with all the fanfa
 
 The Pomponians were exactly as insufferable as legend suggested. Their clothes were too elaborate. Their posture too perfect. Their expressions suggested they had smelled something disappointing and intended to file a formal complaint about it.
 
-Sir Reginald entered with the Pudding.
+Sir Albert entered with the Pudding.
 
 The hall fell silent.
 
-King Mundane IV rose from his throne with the speed of someone who had been sitting too long and needed a moment for his joints to cooperate. "Sir Reginald Bumblethwaite," he said in his droning monotone. "You have returned. With the Pudding. I confess I am... surprised."
+King Mundane IV rose from his throne with the speed of someone who had been sitting too long and needed a moment for his joints to cooperate. "Sir Albert Bumblethwaite," he said in his droning monotone. "You have returned. With the Pudding. I confess I am... surprised."
 
-"Your Majesty," Sir Reginald said, bowing as well as he could while carrying a sentient dessert.
+"Your Majesty," Sir Albert said, bowing as well as he could while carrying a sentient dessert.
 
 ---
 
@@ -16038,7 +16038,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pudding_respected = true AND NOT flag_pudding_grabbed = true
 
-TEXT: "Before the banquet proceeds," Sir Reginald continued, "I must make an introduction."
+TEXT: "Before the banquet proceeds," Sir Albert continued, "I must make an introduction."
 
 He turned to face the assembled dignitaries, the court, the servants watching from the walls.
 
@@ -16050,7 +16050,7 @@ The Pomponians exchanged glances that suggested they considered this information
 
 The hall was silent.
 
-Then the Pudding communicated. Not just to Sir Reginald. To everyone. A wave of telepathic impression that washed across the assembled crowd with the weight of five centuries:
+Then the Pudding communicated. Not just to Sir Albert. To everyone. A wave of telepathic impression that washed across the assembled crowd with the weight of five centuries:
 
 He set a lake on fire. The impression was warm, affectionate. A lake. Made of water. And yet he is here. He completed a quest through sincerity rather than competence. He saw me as a person rather than dessert. That is worth celebrating.
 
@@ -16060,11 +16060,11 @@ Also, I have been observing you, Pomponian dignitaries. You are precisely as ins
 
 One of the Pomponians fainted.
 
-King Mundane IV sat down slowly. "Well," he said. "That is certainly... something." He looked at Sir Reginald with an expression that might, in adequate lighting, be mistaken for approval. "Sir Reginald. You have... exceeded expectations. My very low expectations, admittedly. But exceeded them nonetheless."
+King Mundane IV sat down slowly. "Well," he said. "That is certainly... something." He looked at Sir Albert with an expression that might, in adequate lighting, be mistaken for approval. "Sir Albert. You have... exceeded expectations. My very low expectations, admittedly. But exceeded them nonetheless."
 
 CONDITION: flag_pudding_grabbed = true
 
-TEXT: Sir Reginald placed the Pudding on the prepared pedestal at the center of the high table. It wobbled there with rigid precision, radiating disapproval in a way that only a five-century-old dessert could achieve.
+TEXT: Sir Albert placed the Pudding on the prepared pedestal at the center of the high table. It wobbled there with rigid precision, radiating disapproval in a way that only a five-century-old dessert could achieve.
 
 The banquet proceeded. The food was adequate. The conversation was stilted. And throughout it all, the Pudding wobbled at a frequency that induced mild but persistent headaches in everyone present. The Pomponians developed synchronized wincing. King Mundane IV consumed an entire bottle of wine. The servants exchanged glances that suggested they were reconsidering their employment.
 
@@ -16074,7 +16074,7 @@ I was GRABBED. I did not choose this. I am here under PROTEST. This banquet is A
 
 "Is the Pudding... judging us?" one Pomponian whispered.
 
-"Yes," Sir Reginald admitted. "I am afraid so."
+"Yes," Sir Albert admitted. "I am afraid so."
 
 The banquet continued with all the enthusiasm of a diplomatic obligation that everyone wished would end but no one could politely escape.
 
@@ -16084,9 +16084,9 @@ TEXT: The banquet proceeded adequately. The Pudding wobbled professionally at th
 
 The Pomponians were suitably impressed by the Pudding's wobbling excellence while remaining unimpressed by everything else about Blandovia, which was exactly the expected outcome.
 
-King Mundane IV nodded with satisfaction. "The Pudding has been presented. Pomponia has been adequately impressed. Diplomatic relations remain stable. Paperwork has been avoided." He looked at Sir Reginald. "You have completed your quest, Sir Knight. Adequately."
+King Mundane IV nodded with satisfaction. "The Pudding has been presented. Pomponia has been adequately impressed. Diplomatic relations remain stable. Paperwork has been avoided." He looked at Sir Albert. "You have completed your quest, Sir Knight. Adequately."
 
-Sir Reginald accepted this assessment. Adequate was, after all, better than he usually managed.
+Sir Albert accepted this assessment. Adequate was, after all, better than he usually managed.
 
 ---
 
@@ -16096,7 +16096,7 @@ CONDITION: flag_mildred_helped = true
 
 TEXT: Later, after the banquet, a letter arrived at the castle via unconventional means (a cat walked in carrying it). The letter was from Mildred.
 
-"Sir Reginald. I heard the Pudding attended your banquet. I hope you treated it properly. If you did not, I shall be mildly vexed. If you did, I shall be mildly pleased. Either way, thank you for completing my trials without setting anything on fire. You are less catastrophic than most visitors. That is high praise. Mildly yours, Mildred."
+"Sir Albert. I heard the Pudding attended your banquet. I hope you treated it properly. If you did not, I shall be mildly vexed. If you did, I shall be mildly pleased. Either way, thank you for completing my trials without setting anything on fire. You are less catastrophic than most visitors. That is high praise. Mildly yours, Mildred."
 
 A postscript added: "If the Pudding wishes to return to the tower, I shall prepare its chamber. If it wishes to stay at the castle, tell it Tuesdays are no less tedious there than here."
 
@@ -16110,7 +16110,7 @@ TEXT: Several weeks after the banquet, items began disappearing from the castle.
 
 A small green figure was occasionally spotted in the walls, wearing a vest with many pockets and an expression of complete innocence.
 
-King Mundane IV summoned Sir Reginald. "There is a goblin in my castle."
+King Mundane IV summoned Sir Albert. "There is a goblin in my castle."
 
 "Yes, Your Majesty."
 
@@ -16122,7 +16122,7 @@ A long pause.
 
 "He seems to like you. Make him stop."
 
-Sir Reginald found Pocket in the rafters, examining a stolen spoon. "Pocket, you cannot take the King's possessions."
+Sir Albert found Pocket in the rafters, examining a stolen spoon. "Pocket, you cannot take the King's possessions."
 
 "Is not taking. Is showing interest. Is appreciating. Will return. Eventually. Probably."
 
@@ -16148,11 +16148,11 @@ NARRATIVE_CONTINUED:
 
 The days following the banquet settled into routine. The Pomponians departed, adequately impressed and thoroughly judged by dessert. King Mundane IV returned to his policy of avoiding anything interesting. Herald Pip continued practicing heroic announcements, his voice cracking at every opportunity.
 
-And Sir Reginald?
+And Sir Albert?
 
-Sir Reginald discovered that completing one quest, even adequately, changed things. The servants smiled at him now. The other knights nodded with something approaching respect. The kitchen staff continued leaving him notes with his meals.
+Sir Albert discovered that completing one quest, even adequately, changed things. The servants smiled at him now. The other knights nodded with something approaching respect. The kitchen staff continued leaving him notes with his meals.
 
-He was still clumsy. Things still fell over when he was involved. But he was no longer "Sir Reginald, the accident waiting to happen." He was "Sir Reginald, who retrieved the Pudding."
+He was still clumsy. Things still fell over when he was involved. But he was no longer "Sir Albert, the accident waiting to happen." He was "Sir Albert, who retrieved the Pudding."
 
 It was, he reflected, an improvement.
 
@@ -16162,11 +16162,11 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pudding_respected = true AND NOT flag_pudding_grabbed = true
 
-TEXT: The Pudding remained at the castle. After five centuries in the tower, it had decided that a change of scenery was philosophically valuable. It resided in Sir Reginald's chambers ("the only person in this castle with whom one can have a reasonable conversation") and spent its days observing court life and developing new philosophical frameworks about the nature of institutional mediocrity.
+TEXT: The Pudding remained at the castle. After five centuries in the tower, it had decided that a change of scenery was philosophically valuable. It resided in Sir Albert's chambers ("the only person in this castle with whom one can have a reasonable conversation") and spent its days observing court life and developing new philosophical frameworks about the nature of institutional mediocrity.
 
 They continued their conversations. About lakes that burn. About the gap between perception and reality. About what it means to be adequate in a world that demands perfection.
 
-"You know," Sir Reginald said one evening, "you still have not told me the secret to perfect contentment."
+"You know," Sir Albert said one evening, "you still have not told me the secret to perfect contentment."
 
 Too obvious. The Pudding's impression was warm. You have already discovered it. You simply have not noticed.
 
@@ -16174,7 +16174,7 @@ Too obvious. The Pudding's impression was warm. You have already discovered it. 
 
 Being genuinely kind to those who are different. Trying despite repeated failure. Finding friendship in unlikely places. The wobbling intensified slightly. Setting lakes on fire and learning from it. That is contentment. Imperfect, bumbling, well-meaning contentment.
 
-Sir Reginald considered this.
+Sir Albert considered this.
 
 "That is rather wise."
 
@@ -16228,13 +16228,13 @@ SECTION_TITLE: The Return Journey
 
 LOCATION: loc_meadow (return journey, implied travel to castle)
 
-CHARACTERS_PRESENT: sir_reginald, pudding
+CHARACTERS_PRESENT: sir_albert, pudding
 
 ---
 
 NARRATIVE:
 
-Sir Reginald emerged from the Tower of Minor Inconveniences with the Pudding of Perpetual Wobble carefully cradled in his arms. The ancient dessert was surprisingly warm, its gentle wobbling a rhythmic counterpoint to his heartbeat.
+Sir Albert emerged from the Tower of Minor Inconveniences with the Pudding of Perpetual Wobble carefully cradled in his arms. The ancient dessert was surprisingly warm, its gentle wobbling a rhythmic counterpoint to his heartbeat.
 
 The tower door closed behind him with a sound of finality that doors rarely achieve. He had done it. Against all odds, through all the furniture, all the cats, all the philosophical discussions with sentient confectionery, he had actually completed his quest.
 
@@ -16246,15 +16246,15 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pudding_respected = true AND NOT flag_pudding_grabbed = true
 
-TEXT: The Pudding's telepathic presence in his mind was warm, almost affectionate. Indeed. The impression carried satisfaction. Five hundred years in that tower. Five hundred years of wobbling alone. And now I am outside. The wobbling intensified slightly. The sky is still that disappointing dishwater color, I see. Blandovia has not improved its weather in my absence. "I am afraid not," Sir Reginald admitted. That is strangely comforting. The Pudding's impression was contemplative. Some things should not change. Mediocrity is its own form of consistency. As they walked across the meadow, the Pudding continued to share observations. That is grass. Still slightly damp, I perceive. Those are sheep. They have not evolved consciousness since I last saw them through the tower window. That is fortunate. One sentient dessert per kingdom is sufficient. Sir Reginald found himself smiling despite the weight of his armor and the general dampness of everything. The Pudding was pleasant company. Sarcastic, certainly. Ancient and occasionally condescending. But pleasant.
+TEXT: The Pudding's telepathic presence in his mind was warm, almost affectionate. Indeed. The impression carried satisfaction. Five hundred years in that tower. Five hundred years of wobbling alone. And now I am outside. The wobbling intensified slightly. The sky is still that disappointing dishwater color, I see. Blandovia has not improved its weather in my absence. "I am afraid not," Sir Albert admitted. That is strangely comforting. The Pudding's impression was contemplative. Some things should not change. Mediocrity is its own form of consistency. As they walked across the meadow, the Pudding continued to share observations. That is grass. Still slightly damp, I perceive. Those are sheep. They have not evolved consciousness since I last saw them through the tower window. That is fortunate. One sentient dessert per kingdom is sufficient. Sir Albert found himself smiling despite the weight of his armor and the general dampness of everything. The Pudding was pleasant company. Sarcastic, certainly. Ancient and occasionally condescending. But pleasant.
 
 CONDITION: flag_pudding_grabbed = true
 
-TEXT: The Pudding's weight in his arms felt accusatory. Its wobbling had developed an edge, a frequency that made Sir Reginald's head throb gently but persistently. The telepathic presence in his mind was cold. Distant. Radiating profound disapproval. You are still carrying me. The impression was flat. "Yes," Sir Reginald said, attempting cheerfulness. "We are on our way to the castle. For the banquet. It will be quite the event." I am aware. The Pudding's wobbling shifted to a particularly unpleasant frequency. I am being CARRIED. Like LUGGAGE. Like a SACK OF TURNIPS. "I asked you to come." You GRABBED me. The impression was cold. There is a difference. A significant difference. A five-hundred-year-old difference. The walk across the meadow was accompanied by the Pudding's telepathic litany of grievances. The indignity of being transported. The offense of being treated as cargo. The philosophical implications of being reduced to one's physical properties despite possessing consciousness. Sir Reginald's headache intensified. "Could you perhaps wobble at a different frequency?" he asked carefully. No. The Pudding's response was immediate. I am expressing my displeasure through the medium of mildly painful oscillations. It is passive-aggressive. It is gelatinous. It is deserved.
+TEXT: The Pudding's weight in his arms felt accusatory. Its wobbling had developed an edge, a frequency that made Sir Albert's head throb gently but persistently. The telepathic presence in his mind was cold. Distant. Radiating profound disapproval. You are still carrying me. The impression was flat. "Yes," Sir Albert said, attempting cheerfulness. "We are on our way to the castle. For the banquet. It will be quite the event." I am aware. The Pudding's wobbling shifted to a particularly unpleasant frequency. I am being CARRIED. Like LUGGAGE. Like a SACK OF TURNIPS. "I asked you to come." You GRABBED me. The impression was cold. There is a difference. A significant difference. A five-hundred-year-old difference. The walk across the meadow was accompanied by the Pudding's telepathic litany of grievances. The indignity of being transported. The offense of being treated as cargo. The philosophical implications of being reduced to one's physical properties despite possessing consciousness. Sir Albert's headache intensified. "Could you perhaps wobble at a different frequency?" he asked carefully. No. The Pudding's response was immediate. I am expressing my displeasure through the medium of mildly painful oscillations. It is passive-aggressive. It is gelatinous. It is deserved.
 
 CONDITION: flag_pudding_grabbed = false AND flag_pudding_respected = false
 
-TEXT: The Pudding's presence in his mind was neutral. Resigned. Not hostile, but not friendly either. It had agreed to attend the banquet through compromise or pragmatism, and it was fulfilling that agreement with the enthusiasm of someone completing an obligation. This is grass. The impression was matter-of-fact. Still damp. Those are sheep. They remain non-sentient. The sky continues to disappoint. Blandovia persists in being unremarkable. "You have a gift for observation," Sir Reginald offered. I have had five centuries to practice. The Pudding's wobbling was steady, professional. I am accompanying you because we reached an agreement. I will fulfill my part. You will fulfill yours. This is how transactions work. The journey continued in this vein. Not unpleasant. Not particularly pleasant. Simply a pudding and a knight walking across a meadow, both fulfilling their respective roles with adequate competence.
+TEXT: The Pudding's presence in his mind was neutral. Resigned. Not hostile, but not friendly either. It had agreed to attend the banquet through compromise or pragmatism, and it was fulfilling that agreement with the enthusiasm of someone completing an obligation. This is grass. The impression was matter-of-fact. Still damp. Those are sheep. They remain non-sentient. The sky continues to disappoint. Blandovia persists in being unremarkable. "You have a gift for observation," Sir Albert offered. I have had five centuries to practice. The Pudding's wobbling was steady, professional. I am accompanying you because we reached an agreement. I will fulfill my part. You will fulfill yours. This is how transactions work. The journey continued in this vein. Not unpleasant. Not particularly pleasant. Simply a pudding and a knight walking across a meadow, both fulfilling their respective roles with adequate competence.
 
 ---
 
@@ -16262,7 +16262,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: armor_squelching = true
 
-TEXT: His armor still squelched. After everything. After the entire quest. Through the tower, through the trials, through negotiations with sentient dessert. The armor. Still. Squelched. The Pudding noticed. Your armor makes unfortunate sounds. "I fell in a stream," Sir Reginald explained. "Days ago. It has not dried." Perhaps you should have used the bridge. "EVERYONE keeps saying that."
+TEXT: His armor still squelched. After everything. After the entire quest. Through the tower, through the trials, through negotiations with sentient dessert. The armor. Still. Squelched. The Pudding noticed. Your armor makes unfortunate sounds. "I fell in a stream," Sir Albert explained. "Days ago. It has not dried." Perhaps you should have used the bridge. "EVERYONE keeps saying that."
 
 ---
 
@@ -16270,7 +16270,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_grumbleton_visited = true AND flag_agnes_helped = true
 
-TEXT: As they passed near Grumbleton Village, Sir Reginald spotted a familiar figure in the distance. Agnes Crumbwell, standing at the village edge, shading her eyes against the dishwater sky. When she spotted him, she raised one hand in what might have been a wave or might have been a threatening gesture with her infamous wooden spoon. "KNIGHT!" her voice carried across the meadow. "DID YOU GET THE PUDDING?" Sir Reginald held up the wobbling dessert. "GOOD! MY GRANDMOTHER WOULD BE PLEASED! THE MAP WORKED!" The Pudding's presence shifted. That woman's grandmother visited me. Seventy years ago. She had opinions about my philosophy. Strong opinions. Mostly incorrect opinions. A pause. I respected her for having them.
+TEXT: As they passed near Grumbleton Village, Sir Albert spotted a familiar figure in the distance. Agnes Crumbwell, standing at the village edge, shading her eyes against the dishwater sky. When she spotted him, she raised one hand in what might have been a wave or might have been a threatening gesture with her infamous wooden spoon. "KNIGHT!" her voice carried across the meadow. "DID YOU GET THE PUDDING?" Sir Albert held up the wobbling dessert. "GOOD! MY GRANDMOTHER WOULD BE PLEASED! THE MAP WORKED!" The Pudding's presence shifted. That woman's grandmother visited me. Seventy years ago. She had opinions about my philosophy. Strong opinions. Mostly incorrect opinions. A pause. I respected her for having them.
 
 ---
 
@@ -16278,7 +16278,7 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pocket_friendly = true
 
-TEXT: A small green figure appeared at one of the tower's high windows. Even from this distance, Sir Reginald could make out Pocket's bulging yellow eyes watching the departure. The goblin waved both arms in exaggerated enthusiasm. "KNIGHT! KNIGHT IS LEAVING! WITH PUDDING!" The Pudding's wobbling became slightly agitated. The goblin watches. The one who tried to steal a piece of me. I have not forgiven that transgression. "He helped me," Sir Reginald said. "He became a friend." A pause in the telepathic presence. You make unusual friends, Sir Reginald. A goblin. A pudding. Perhaps you collect the underestimated. A longer pause. That is not a criticism. That is... admirable. In a strange, bumbling way.
+TEXT: A small green figure appeared at one of the tower's high windows. Even from this distance, Sir Albert could make out Pocket's bulging yellow eyes watching the departure. The goblin waved both arms in exaggerated enthusiasm. "KNIGHT! KNIGHT IS LEAVING! WITH PUDDING!" The Pudding's wobbling became slightly agitated. The goblin watches. The one who tried to steal a piece of me. I have not forgiven that transgression. "He helped me," Sir Albert said. "He became a friend." A pause in the telepathic presence. You make unusual friends, Sir Albert. A goblin. A pudding. Perhaps you collect the underestimated. A longer pause. That is not a criticism. That is... admirable. In a strange, bumbling way.
 
 ---
 
@@ -16290,17 +16290,17 @@ And there, at the castle gate, a familiar figure in an oversized uniform was jum
 
 Herald Pip.
 
-"SIR REGINALD!" His voice cracked magnificently on the second syllable. "SIR REGINALD HAS RETURNED! WITH THE PUDDING! HE ACTUALLY DID IT! I CANNOT BELIEVE HE ACTUALLY DID IT!"
+"SIR ALBERT!" His voice cracked magnificently on the second syllable. "SIR ALBERT HAS RETURNED! WITH THE PUDDING! HE ACTUALLY DID IT! I CANNOT BELIEVE HE ACTUALLY DID IT!"
 
-"Thank you, Pip," Sir Reginald called back. "That is very kind."
+"Thank you, Pip," Sir Albert called back. "That is very kind."
 
-"I AM GOING TO ANNOUNCE YOU PROPERLY! VERY HEROICALLY! WITH FANFARES AND EVERYTHING!" Pip consulted his scroll, which he had apparently prepared in advance. "THE TRIUMPHANT RETURN OF SIR REGINALD BUMBLETHWAITE, WHO AGAINST ALL REASONABLE EXPECTATIONS HAS RETRIEVED THE LEGENDARY PUDDING OF PERPETUAL WOBBLE FROM THE TOWER OF MINOR INCONVENIENCES AND..."
+"I AM GOING TO ANNOUNCE YOU PROPERLY! VERY HEROICALLY! WITH FANFARES AND EVERYTHING!" Pip consulted his scroll, which he had apparently prepared in advance. "THE TRIUMPHANT RETURN OF SIR ALBERT BUMBLETHWAITE, WHO AGAINST ALL REASONABLE EXPECTATIONS HAS RETRIEVED THE LEGENDARY PUDDING OF PERPETUAL WOBBLE FROM THE TOWER OF MINOR INCONVENIENCES AND..."
 
 His voice cracked again, climbing into a range that startled nearby pigeons.
 
 The Pudding's impression was amused. He is very enthusiastic.
 
-"He means well," Sir Reginald said.
+"He means well," Sir Albert said.
 
 They usually do. The wobbling shifted contemplatively. Meaning well is undervalued. Competence is overrated. I have concluded this after five centuries of observation.
 
@@ -16312,13 +16312,13 @@ The Great Hall had been prepared for the Annual Royal Banquet with all the fanfa
 
 The Pomponians were exactly as insufferable as legend suggested. Their clothes were too elaborate. Their posture too perfect. Their expressions suggested they had smelled something disappointing and intended to file a formal complaint about it.
 
-Sir Reginald entered with the Pudding.
+Sir Albert entered with the Pudding.
 
 The hall fell silent.
 
-King Mundane IV rose from his throne with the speed of someone who had been sitting too long and needed a moment for his joints to cooperate. "Sir Reginald Bumblethwaite," he said in his droning monotone. "You have returned. With the Pudding. I confess I am... surprised."
+King Mundane IV rose from his throne with the speed of someone who had been sitting too long and needed a moment for his joints to cooperate. "Sir Albert Bumblethwaite," he said in his droning monotone. "You have returned. With the Pudding. I confess I am... surprised."
 
-"Your Majesty," Sir Reginald said, bowing as well as he could while carrying a sentient dessert.
+"Your Majesty," Sir Albert said, bowing as well as he could while carrying a sentient dessert.
 
 ---
 
@@ -16326,15 +16326,15 @@ CONDITIONAL_NARRATIVE:
 
 CONDITION: flag_pudding_respected = true AND NOT flag_pudding_grabbed = true
 
-TEXT: "Before the banquet proceeds," Sir Reginald continued, "I must make an introduction." He turned to face the assembled dignitaries, the court, the servants watching from the walls. "This is the Pudding of Perpetual Wobble. But calling it merely 'the Pudding' does not capture what it is. This is a philosopher. A thinking being. A consciousness that has existed for five centuries, contemplating existence, developing insights into the nature of reality and dessert." The Pomponians exchanged glances that suggested they considered this information deeply strange. "The Pudding has agreed to attend this banquet not because it must, but because I asked. Because we reached an understanding. Because it chose to help Blandovia avoid diplomatic embarrassment." He paused. "And I would ask that everyone here acknowledge that gift. That choice. That personhood." The hall was silent. Then the Pudding communicated. Not just to Sir Reginald. To everyone. A wave of telepathic impression that washed across the assembled crowd with the weight of five centuries: He set a lake on fire. The impression was warm, affectionate. A lake. Made of water. And yet he is here. He completed a quest through sincerity rather than competence. He saw me as a person rather than dessert. That is worth celebrating. A pause. Also, I have been observing you, Pomponian dignitaries. You are precisely as insufferable as I was led to believe. This pleases me greatly. I shall wobble at you judgmentally throughout the meal. One of the Pomponians fainted. King Mundane IV sat down slowly. "Well," he said. "That is certainly... something." He looked at Sir Reginald with an expression that might, in adequate lighting, be mistaken for approval. "Sir Reginald. You have... exceeded expectations. My very low expectations, admittedly. But exceeded them nonetheless."
+TEXT: "Before the banquet proceeds," Sir Albert continued, "I must make an introduction." He turned to face the assembled dignitaries, the court, the servants watching from the walls. "This is the Pudding of Perpetual Wobble. But calling it merely 'the Pudding' does not capture what it is. This is a philosopher. A thinking being. A consciousness that has existed for five centuries, contemplating existence, developing insights into the nature of reality and dessert." The Pomponians exchanged glances that suggested they considered this information deeply strange. "The Pudding has agreed to attend this banquet not because it must, but because I asked. Because we reached an understanding. Because it chose to help Blandovia avoid diplomatic embarrassment." He paused. "And I would ask that everyone here acknowledge that gift. That choice. That personhood." The hall was silent. Then the Pudding communicated. Not just to Sir Albert. To everyone. A wave of telepathic impression that washed across the assembled crowd with the weight of five centuries: He set a lake on fire. The impression was warm, affectionate. A lake. Made of water. And yet he is here. He completed a quest through sincerity rather than competence. He saw me as a person rather than dessert. That is worth celebrating. A pause. Also, I have been observing you, Pomponian dignitaries. You are precisely as insufferable as I was led to believe. This pleases me greatly. I shall wobble at you judgmentally throughout the meal. One of the Pomponians fainted. King Mundane IV sat down slowly. "Well," he said. "That is certainly... something." He looked at Sir Albert with an expression that might, in adequate lighting, be mistaken for approval. "Sir Albert. You have... exceeded expectations. My very low expectations, admittedly. But exceeded them nonetheless."
 
 CONDITION: flag_pudding_grabbed = true
 
-TEXT: Sir Reginald placed the Pudding on the prepared pedestal at the center of the high table. It wobbled there with rigid precision, radiating disapproval in a way that only a five-century-old dessert could achieve. The banquet proceeded. The food was adequate. The conversation was stilted. And throughout it all, the Pudding wobbled at a frequency that induced mild but persistent headaches in everyone present. The Pomponians developed synchronized wincing. King Mundane IV consumed an entire bottle of wine. The servants exchanged glances that suggested they were reconsidering their employment. The Pudding's telepathic presence broadcast a single message to all assembled: I was GRABBED. I did not choose this. I am here under PROTEST. This banquet is ADEQUATELY PREPARED but PHILOSOPHICALLY DISAPPOINTING. You should all feel MILDLY ASHAMED. "Is the Pudding... judging us?" one Pomponian whispered. "Yes," Sir Reginald admitted. "I am afraid so." The banquet continued with all the enthusiasm of a diplomatic obligation that everyone wished would end but no one could politely escape.
+TEXT: Sir Albert placed the Pudding on the prepared pedestal at the center of the high table. It wobbled there with rigid precision, radiating disapproval in a way that only a five-century-old dessert could achieve. The banquet proceeded. The food was adequate. The conversation was stilted. And throughout it all, the Pudding wobbled at a frequency that induced mild but persistent headaches in everyone present. The Pomponians developed synchronized wincing. King Mundane IV consumed an entire bottle of wine. The servants exchanged glances that suggested they were reconsidering their employment. The Pudding's telepathic presence broadcast a single message to all assembled: I was GRABBED. I did not choose this. I am here under PROTEST. This banquet is ADEQUATELY PREPARED but PHILOSOPHICALLY DISAPPOINTING. You should all feel MILDLY ASHAMED. "Is the Pudding... judging us?" one Pomponian whispered. "Yes," Sir Albert admitted. "I am afraid so." The banquet continued with all the enthusiasm of a diplomatic obligation that everyone wished would end but no one could politely escape.
 
 CONDITION: flag_pudding_grabbed = false AND flag_pudding_respected = false
 
-TEXT: The banquet proceeded adequately. The Pudding wobbled professionally at the center of the high table, fulfilling its legendary status with the enthusiasm of someone completing a contractual obligation. It did not communicate telepathically with the assembled crowd. It simply... was. Impressively. Legendarily. Adequately. The Pomponians were suitably impressed by the Pudding's wobbling excellence while remaining unimpressed by everything else about Blandovia, which was exactly the expected outcome. King Mundane IV nodded with satisfaction. "The Pudding has been presented. Pomponia has been adequately impressed. Diplomatic relations remain stable. Paperwork has been avoided." He looked at Sir Reginald. "You have completed your quest, Sir Knight. Adequately." Sir Reginald accepted this assessment. Adequate was, after all, better than he usually managed.
+TEXT: The banquet proceeded adequately. The Pudding wobbled professionally at the center of the high table, fulfilling its legendary status with the enthusiasm of someone completing a contractual obligation. It did not communicate telepathically with the assembled crowd. It simply... was. Impressively. Legendarily. Adequately. The Pomponians were suitably impressed by the Pudding's wobbling excellence while remaining unimpressed by everything else about Blandovia, which was exactly the expected outcome. King Mundane IV nodded with satisfaction. "The Pudding has been presented. Pomponia has been adequately impressed. Diplomatic relations remain stable. Paperwork has been avoided." He looked at Sir Albert. "You have completed your quest, Sir Knight. Adequately." Sir Albert accepted this assessment. Adequate was, after all, better than he usually managed.
 
 ---
 
@@ -16416,9 +16416,9 @@ STEP 9: JSON OUTPUT
 
 "adventure": {
 
-"id": "sir_reginald_pudding_quest",
+"id": "sir_albert_pudding_quest",
 
-"title": "Sir Reginald Bumblethwaite and the Pudding of Perpetual Wobble",
+"title": "Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble",
 
 "genre": "Comedy-fantasy",
 
@@ -16434,9 +16434,9 @@ STEP 9: JSON OUTPUT
 
 {
 
-"id": "sir_reginald",
+"id": "sir_albert",
 
-"name": "Sir Reginald Bumblethwaite",
+"name": "Sir Albert Bumblethwaite",
 
 "role": "Protagonist",
 
@@ -16482,7 +16482,7 @@ STEP 9: JSON OUTPUT
 
 "personality": "Desperately eager to please. Overestimates the drama of every situation. Narrates events in real-time to no one in particular. Has not yet learned that enthusiasm cannot substitute for competence.",
 
-"motivation": "Wants to be the greatest herald in Blandovian history (the competition is not fierce). Sees Sir Reginald's quest as an opportunity to practice heroic announcement."
+"motivation": "Wants to be the greatest herald in Blandovian history (the competition is not fierce). Sees Sir Albert's quest as an opportunity to practice heroic announcement."
 
 },
 
@@ -16588,7 +16588,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Starting Location, Quest Hub",
 
-"description": "A castle of aggressive mediocrity. The stones are grey, the banners are beige, and the architecture suggests that several generations of builders kept saying that will do. The Great Hall features a throne that wobbles slightly (no one has fixed it in forty years because that would require initiative). Servants move through corridors with practiced efficiency, having learned exactly which flagstones creak and which suits of armor Sir Reginald is likely to collide with.",
+"description": "A castle of aggressive mediocrity. The stones are grey, the banners are beige, and the architecture suggests that several generations of builders kept saying that will do. The Great Hall features a throne that wobbles slightly (no one has fixed it in forty years because that would require initiative). Servants move through corridors with practiced efficiency, having learned exactly which flagstones creak and which suits of armor Sir Albert is likely to collide with.",
 
 "connections": ["loc_meadow"]
 
@@ -16686,7 +16686,7 @@ STEP 9: JSON OUTPUT
 
 "id": "item_rusty_sword",
 
-"name": "Sir Reginalds Rusty Sword",
+"name": "Sir Alberts Rusty Sword",
 
 "type": "Weapon",
 
@@ -16704,7 +16704,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Armor",
 
-"description": "A shield bearing the Bumblethwaite family crest (a turnip rampant on a field of mild confusion). The dents tell stories that Sir Reginald would prefer remain untold.",
+"description": "A shield bearing the Bumblethwaite family crest (a turnip rampant on a field of mild confusion). The dents tell stories that Sir Albert would prefer remain untold.",
 
 "effects": "Reduces damage by 1 in combat (minimum 1 damage taken)"
 
@@ -16718,7 +16718,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Quest Item, Documentation",
 
-"description": "An official scroll bearing the Kings seal and a detailed description of the quest that Sir Reginald definitely did not hear because of the butterfly. Contains useful information if actually read.",
+"description": "An official scroll bearing the Kings seal and a detailed description of the quest that Sir Albert definitely did not hear because of the butterfly. Contains useful information if actually read.",
 
 "effects": "Provides quest details if examined. Required proof of royal authority."
 
@@ -16732,7 +16732,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Consumable, Healing",
 
-"description": "A bundle wrapped in cloth containing bread, cheese, a small apple, and a note from the kitchen staff reading Please try not to die, Sir Reginald. You are the only knight who thanks us.",
+"description": "A bundle wrapped in cloth containing bread, cheese, a small apple, and a note from the kitchen staff reading Please try not to die, Sir Albert. You are the only knight who thanks us.",
 
 "effects": "Restores 4 Stamina when consumed. Single use."
 
@@ -16830,7 +16830,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Plot Item",
 
-"description": "A small brass button that Pocket stole from Sir Reginalds armor. Worthless to anyone but Sir Reginald, invaluable to Pockets collection.",
+"description": "A small brass button that Pocket stole from Sir Alberts armor. Worthless to anyone but Sir Albert, invaluable to Pockets collection.",
 
 "effects": "Can be traded back to Pocket for assistance, or its theft can be used as leverage"
 
@@ -16844,7 +16844,7 @@ STEP 9: JSON OUTPUT
 
 "type": "Comedy Item, Gift",
 
-"description": "A wooden spoon that Agnes pressed upon Sir Reginald for protection. It is a spoon. It protects nothing. But it was given with genuine concern.",
+"description": "A wooden spoon that Agnes pressed upon Sir Albert for protection. It is a spoon. It protects nothing. But it was given with genuine concern.",
 
 "effects": "No mechanical effect. Demonstrates Agness approval. May influence ending."
 
@@ -17008,9 +17008,9 @@ STEP 9: JSON OUTPUT
 
 "location": "loc_royal_castle",
 
-"characters": ["king_mundane", "herald_pip", "sir_reginald"],
+"characters": ["king_mundane", "herald_pip", "sir_albert"],
 
-"narrative": "The Great Hall of Blandovias Royal Castle was precisely as magnificent as its name suggested, which is to say, not particularly. Grey stones formed walls of aggressive ordinariness. Beige banners hung from rafters with the enthusiasm of laundry left too long on the line. The throne at the far end wobbled slightly on its dais, a structural flaw that had persisted for forty years because fixing it would require someone to care.nnSir Reginald Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.nnSorry, he whispered to the table. Terribly sorry.nnThe servants along the walls had already positioned themselves at safe distances. They had learned.nnHEAR YE, HEAR YE! Herald Pips voice cracked magnificently on the second ye, climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Reginald Bumblethwaite to receive a quest of... um... He squinted at the scroll. Moderate importance!nnKing Mundane IV sat upon his wobbling throne, a portly figure whose magnificent beard bore the evidence of that mornings breakfast (eggs, possibly with toast). His crown sat askew on his somewhat lopsided head, and his expression suggested he had already grown tired of this ceremony before it began.nnAh, yes. Sir Reginald. The Kings voice emerged in a monotone that could cure insomnia at twenty paces. You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good.nnSir Reginald positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.nnNow then, King Mundane continued, his words flowing with all the urgency of cold porridge, as you may be aware, the Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. They are, as you know, insufferably snobbish about everything, particularly dessert. We require the legendary Pudding of Perpetual Wobble.nnIt was at this precise moment that a butterfly entered through a high window.nnIt was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Reginald found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall. Such graceful movement, he thought. Such carefree existence. No one ever asked butterflies to prove themselves worthy of being butterflies. They simply were butterflies, and that was enough. He wondered, briefly, what it would be like to drift through life without the weight of armor, expectations, or the memory of that unfortunate lake incident.nn...located in the Tower of Minor Inconveniences, which lies beyond the Meadow of Slightly Damp Grass, the King droned on. The tower is guarded by various creatures who will find you mildly irritating. You must retrieve the Pudding and return before sunset on the day of the banquet, or we shall be forced to serve ordinary dessert, which would be...nnThe butterfly executed a particularly elegant loop near a chandelier.nnMagnificent, Sir Reginald thought.nn...diplomatic catastrophe requiring extensive paperwork. The Pudding itself is said to be sentient, with opinions about philosophy and proper treatment. You must approach it with respect and patience, qualities which I am told you possess in... some quantity. Any questions?nnThe butterfly exited through another window.nnSir Reginald blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.nnQuestions, Sir Reginald? the King repeated.nnNo, Your Majesty! Sir Reginald snapped to attention so quickly that his armor clanked like an enthusiastic gong. Perfectly clear! Pudding! Tower! Banquet! Consider it done!nnHe had absolutely no idea what he had just agreed to.nnKing Mundane IV regarded him with an expression that might have been skepticism, might have been resignation, or might simply have been indigestion. Very well. Herald Pip will provide you with your equipment. Do try not to cause any incidents. We have not yet recovered from the matter of the lake.nnThe lake was not entirely my fault, Your Majesty.nnThe lake was made of water, Sir Reginald. Water. And you set it on fire.nnOnly briefly!nnThe King waved a weary hand. Go. Complete this quest. Return with the Pudding. Do not set anything on fire, including but not limited to bodies of water, diplomatic gifts, or innocent livestock.nnSir Reginald bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.nnSorry, Sir Reginald said to the servant, collecting his helmet. Terribly sorry.nnHerald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young heralds eyes shone with genuine excitement. Sir Reginald! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!nnThat is very kind, Pip, but perhaps not necessary...nnYour sword, sir! Pip presented a blade that had clearly seen better days, worse days, and days it preferred not to discuss. The rust formed patterns that might, generously, be called decorative. A weapon of considerable... character!nnSir Reginald accepted his rusty sword, which made an apologetic sound as he sheathed it.nnYour shield! The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Reginald would prefer remained untold.nnYour official Quest Scroll, bearing the Royal Seal and complete details of your mission! Pip handed over a rolled parchment with evident pride.nnSir Reginald tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?nnAnd finally, sir, a packed lunch from the Royal Kitchens! Pip presented a cloth bundle with unusual tenderness. The kitchen staff asked me to give you this note.nnSir Reginald unfolded the small piece of paper. It read: Please try not to die, Sir Reginald. You are the only knight who thanks us.nnSomething warm bloomed in his chest. He carefully tucked the lunch and the note into his pack.nnIs there anything else you require, sir? Pip asked. I could repeat the quest details, if you like. I was listening very carefully. Well, mostly carefully. The Kings voice does rather make one drowsy, does it not? But I caught most of it, I think. The important bits, anyway.nnSir Reginald looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.nnAfter all, how complicated could retrieving a pudding possibly be?",
+"narrative": "The Great Hall of Blandovias Royal Castle was precisely as magnificent as its name suggested, which is to say, not particularly. Grey stones formed walls of aggressive ordinariness. Beige banners hung from rafters with the enthusiasm of laundry left too long on the line. The throne at the far end wobbled slightly on its dais, a structural flaw that had persisted for forty years because fixing it would require someone to care.nnSir Albert Bumblethwaite clanked his way through the entrance, his armor announcing his presence with all the subtlety of a brass band falling down stairs. He narrowly avoided collision with a decorative suit of armor near the doorway, sidestepping at the last moment and instead knocking over a small table bearing a vase of moderately wilted flowers.nnSorry, he whispered to the table. Terribly sorry.nnThe servants along the walls had already positioned themselves at safe distances. They had learned.nnHEAR YE, HEAR YE! Herald Pips voice cracked magnificently on the second ye, climbing an octave that nature had not intended. The young herald cleared his throat, consulted his scroll, and tried again. His Most Royal Adequacy, King Mundane the Fourth, Keeper of the Moderately Comfortable Throne, Defender of the Acceptable, does hereby summon Sir Albert Bumblethwaite to receive a quest of... um... He squinted at the scroll. Moderate importance!nnKing Mundane IV sat upon his wobbling throne, a portly figure whose magnificent beard bore the evidence of that mornings breakfast (eggs, possibly with toast). His crown sat askew on his somewhat lopsided head, and his expression suggested he had already grown tired of this ceremony before it began.nnAh, yes. Sir Albert. The Kings voice emerged in a monotone that could cure insomnia at twenty paces. You are here. Good. That saves us having to find you. Sit down. No, wait, do not sit down. You will knock something over. Stand there. Yes, there. No, further back. Further. Good.nnSir Albert positioned himself at what he hoped was a safe distance from all breakable objects and stood at attention, his heart swelling with pride. A quest! A real quest! This was his chance to prove himself worthy of the knighthood he had received by accident during the infamous sneezing incident three years prior.nnNow then, King Mundane continued, his words flowing with all the urgency of cold porridge, as you may be aware, the Annual Royal Banquet approaches. Dignitaries from the Kingdom of Pomponia will be attending. They are, as you know, insufferably snobbish about everything, particularly dessert. We require the legendary Pudding of Perpetual Wobble.nnIt was at this precise moment that a butterfly entered through a high window.nnIt was a rather ordinary butterfly, as butterflies go. Yellow wings with spots of brown. Nothing remarkable. And yet Sir Albert found his eyes drawn to its fluttering path as it danced through the dusty sunbeams of the Great Hall. Such graceful movement, he thought. Such carefree existence. No one ever asked butterflies to prove themselves worthy of being butterflies. They simply were butterflies, and that was enough. He wondered, briefly, what it would be like to drift through life without the weight of armor, expectations, or the memory of that unfortunate lake incident.nn...located in the Tower of Minor Inconveniences, which lies beyond the Meadow of Slightly Damp Grass, the King droned on. The tower is guarded by various creatures who will find you mildly irritating. You must retrieve the Pudding and return before sunset on the day of the banquet, or we shall be forced to serve ordinary dessert, which would be...nnThe butterfly executed a particularly elegant loop near a chandelier.nnMagnificent, Sir Albert thought.nn...diplomatic catastrophe requiring extensive paperwork. The Pudding itself is said to be sentient, with opinions about philosophy and proper treatment. You must approach it with respect and patience, qualities which I am told you possess in... some quantity. Any questions?nnThe butterfly exited through another window.nnSir Albert blinked, suddenly aware that the King had stopped speaking and was staring at him expectantly. Everyone was staring at him expectantly. Even the servants at their safe distances were staring.nnQuestions, Sir Albert? the King repeated.nnNo, Your Majesty! Sir Albert snapped to attention so quickly that his armor clanked like an enthusiastic gong. Perfectly clear! Pudding! Tower! Banquet! Consider it done!nnHe had absolutely no idea what he had just agreed to.nnKing Mundane IV regarded him with an expression that might have been skepticism, might have been resignation, or might simply have been indigestion. Very well. Herald Pip will provide you with your equipment. Do try not to cause any incidents. We have not yet recovered from the matter of the lake.nnThe lake was not entirely my fault, Your Majesty.nnThe lake was made of water, Sir Albert. Water. And you set it on fire.nnOnly briefly!nnThe King waved a weary hand. Go. Complete this quest. Return with the Pudding. Do not set anything on fire, including but not limited to bodies of water, diplomatic gifts, or innocent livestock.nnSir Albert bowed so deeply that his helmet fell off and rolled across the floor, coming to rest against the foot of a servant who had not stood quite far enough away.nnSorry, Sir Albert said to the servant, collecting his helmet. Terribly sorry.nnHerald Pip scurried forward, arms laden with equipment. Despite the uniform being two sizes too large, the young heralds eyes shone with genuine excitement. Sir Albert! This is wonderful! A real quest! I shall compose an announcement of your departure! Something heroic!nnThat is very kind, Pip, but perhaps not necessary...nnYour sword, sir! Pip presented a blade that had clearly seen better days, worse days, and days it preferred not to discuss. The rust formed patterns that might, generously, be called decorative. A weapon of considerable... character!nnSir Albert accepted his rusty sword, which made an apologetic sound as he sheathed it.nnYour shield! The shield bore the Bumblethwaite family crest: a turnip rampant on a field of mild confusion. The numerous dents told stories that Sir Albert would prefer remained untold.nnYour official Quest Scroll, bearing the Royal Seal and complete details of your mission! Pip handed over a rolled parchment with evident pride.nnSir Albert tucked the scroll into his belt, making a mental note to read it at some point. Or possibly not. He had understood the briefing perfectly well. Pudding. Tower. Something about a banquet. How complicated could it be?nnAnd finally, sir, a packed lunch from the Royal Kitchens! Pip presented a cloth bundle with unusual tenderness. The kitchen staff asked me to give you this note.nnSir Albert unfolded the small piece of paper. It read: Please try not to die, Sir Albert. You are the only knight who thanks us.nnSomething warm bloomed in his chest. He carefully tucked the lunch and the note into his pack.nnIs there anything else you require, sir? Pip asked. I could repeat the quest details, if you like. I was listening very carefully. Well, mostly carefully. The Kings voice does rather make one drowsy, does it not? But I caught most of it, I think. The important bits, anyway.nnSir Albert looked at the Quest Scroll in his belt. He could read it now and learn exactly what he had agreed to. Or he could ask Pip, who had probably paid attention. Or he could simply stride forth with confidence, trusting that the details would become clear through the natural course of adventure.nnAfter all, how complicated could retrieving a pudding possibly be?",
 
 "automatic_items": [
 
@@ -17032,7 +17032,7 @@ STEP 9: JSON OUTPUT
 
 "text": "Read the quest scroll carefully before departing",
 
-"flavor": "Actually, Pip, give me just a moment. Sir Reginald retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. This seems like important information.",
+"flavor": "Actually, Pip, give me just a moment. Sir Albert retrieves the Quest Scroll and reads it thoroughly. The document details the Tower of Minor Inconveniences, the guardians within, and most importantly, notes that the Pudding of Perpetual Wobble is sentient and responds best to genuine respect and patience. This seems like important information.",
 
 "requirements": [],
 
@@ -17054,7 +17054,7 @@ STEP 9: JSON OUTPUT
 
 "text": "Nod confidently and depart without reading the scroll",
 
-"flavor": "No need, Pip! Onward to glory! Sir Reginald strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Reginald has no doubts whatsoever. He has no information, either, but that seems less important at the moment.",
+"flavor": "No need, Pip! Onward to glory! Sir Albert strides toward the courtyard with the confidence of someone who definitely knows what they are doing. The Quest Scroll remains unread in his belt. Details are for people who doubt themselves, and Sir Albert has no doubts whatsoever. He has no information, either, but that seems less important at the moment.",
 
 "requirements": [],
 
@@ -17072,7 +17072,7 @@ STEP 9: JSON OUTPUT
 
 "text": "Ask Herald Pip to repeat the quest details",
 
-"flavor": "Actually, Pip, I wonder if you might... that is to say, the Kings voice is rather... could you perhaps summarize what I have agreed to do? Pips face lights up with importance. Of course, Sir Reginald! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and...",
+"flavor": "Actually, Pip, I wonder if you might... that is to say, the Kings voice is rather... could you perhaps summarize what I have agreed to do? Pips face lights up with importance. Of course, Sir Albert! So the King said you must go to the Tower of Minor Inconveniences and retrieve the Pudding of Perpetual Wobble for the banquet, and the Pudding is actually sentient and has feelings about being a dessert, and...",
 
 "requirements": [],
 
@@ -17086,7 +17086,7 @@ STEP 9: JSON OUTPUT
 
 "success": {
 
-"narrative": "Pip manages to convey the essential information despite his voice cracking three times. Sir Reginald learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. The Pudding apparently considers itself more than mere dessert, Pip explains. Approach with respect, and it may cooperate willingly. This seems like vital context for the quest ahead.",
+"narrative": "Pip manages to convey the essential information despite his voice cracking three times. Sir Albert learns that the Pudding is sentient, responds to patience and respect, and has philosophical opinions. The Pudding apparently considers itself more than mere dessert, Pip explains. Approach with respect, and it may cooperate willingly. This seems like vital context for the quest ahead.",
 
 "consequences": {
 
@@ -17100,7 +17100,7 @@ STEP 9: JSON OUTPUT
 
 "failure": {
 
-"narrative": "Pips voice cracks so spectacularly on the word sentient that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Something about wobbling? Philosophical desserts? Sir Reginald nods along, understanding less with each passing moment. Eventually Pip trails off, looking slightly embarrassed, and Sir Reginald decides he has probably gathered the gist of it.",
+"narrative": "Pips voice cracks so spectacularly on the word sentient that it comes out as something between a squeak and a whistle. His subsequent attempts at clarification only muddy the waters further. Something about wobbling? Philosophical desserts? Sir Albert nods along, understanding less with each passing moment. Eventually Pip trails off, looking slightly embarrassed, and Sir Albert decides he has probably gathered the gist of it.",
 
 "consequences": {}
 
@@ -17140,7 +17140,7 @@ STEP 9: JSON OUTPUT
 
 },
 
-"narrative": "Sir Reginald returns triumphant with the Pudding of Perpetual Wobble, which has chosen to accompany him as a friend rather than a prize. The banquet is a magnificent success. The dignitaries from Pomponia are awed not just by the legendary dessert, but by the remarkable knight who earned its respect. King Mundane IV, for the first time in his reign, shows genuine emotion (mild approval). Sir Reginald is awarded a new title: Sir Reginald the Surprisingly Adequate. The Pudding, after fulfilling its banquet duties, chooses to remain at the castle, finding Sir Reginalds ongoing mishaps philosophically interesting. They become unlikely friends. Things still fall over when Sir Reginald enters rooms, but now they fall over near a supportive, wobbling companion."
+"narrative": "Sir Albert returns triumphant with the Pudding of Perpetual Wobble, which has chosen to accompany him as a friend rather than a prize. The banquet is a magnificent success. The dignitaries from Pomponia are awed not just by the legendary dessert, but by the remarkable knight who earned its respect. King Mundane IV, for the first time in his reign, shows genuine emotion (mild approval). Sir Albert is awarded a new title: Sir Albert the Surprisingly Adequate. The Pudding, after fulfilling its banquet duties, chooses to remain at the castle, finding Sir Alberts ongoing mishaps philosophically interesting. They become unlikely friends. Things still fall over when Sir Albert enters rooms, but now they fall over near a supportive, wobbling companion."
 
 },
 
@@ -17158,7 +17158,7 @@ STEP 9: JSON OUTPUT
 
 },
 
-"narrative": "Sir Reginald returns with the Pudding of Perpetual Wobble, though the journey has been... complicated. The Pudding wobbles with dignified resentment throughout the banquet, telepathically projecting mild disappointment at anyone who makes eye contact. The dignitaries from Pomponia are impressed by the dessert but unsettled by its judgmental quivering. King Mundane IV declares the quest adequately completed and awards Sir Reginald a certificate of participation. The Pudding returns to the tower afterward, having made its opinions about the experience very clear. Sir Reginalds reputation improves slightly; he is now known as the knight who retrieved the Pudding rather than the knight who set a lake on fire. Progress."
+"narrative": "Sir Albert returns with the Pudding of Perpetual Wobble, though the journey has been... complicated. The Pudding wobbles with dignified resentment throughout the banquet, telepathically projecting mild disappointment at anyone who makes eye contact. The dignitaries from Pomponia are impressed by the dessert but unsettled by its judgmental quivering. King Mundane IV declares the quest adequately completed and awards Sir Albert a certificate of participation. The Pudding returns to the tower afterward, having made its opinions about the experience very clear. Sir Alberts reputation improves slightly; he is now known as the knight who retrieved the Pudding rather than the knight who set a lake on fire. Progress."
 
 },
 
@@ -17176,7 +17176,7 @@ STEP 9: JSON OUTPUT
 
 },
 
-"narrative": "Sir Reginalds quest ends not with glory, but with unconsciousness. Whether felled by an animated broom, a treacherous climb, or simply too many unfortunate incidents accumulated over the journey, the knight collapses in an undignified heap. He awakens later in the castle infirmary, having been discovered by Mildred (who found the whole situation tediously predictable) and returned home via magical means. The Annual Royal Banquet proceeds without the legendary Pudding. Ordinary dessert is served. The dignitaries from Pomponia are politely unimpressed. King Mundane IV adds a forty-eighth volume to his collection of mild disappointments. Sir Reginalds reputation does not improve, but at least he has another story for his journal of mishaps. There is always next year."
+"narrative": "Sir Alberts quest ends not with glory, but with unconsciousness. Whether felled by an animated broom, a treacherous climb, or simply too many unfortunate incidents accumulated over the journey, the knight collapses in an undignified heap. He awakens later in the castle infirmary, having been discovered by Mildred (who found the whole situation tediously predictable) and returned home via magical means. The Annual Royal Banquet proceeds without the legendary Pudding. Ordinary dessert is served. The dignitaries from Pomponia are politely unimpressed. King Mundane IV adds a forty-eighth volume to his collection of mild disappointments. Sir Alberts reputation does not improve, but at least he has another story for his journal of mishaps. There is always next year."
 
 },
 
@@ -17194,7 +17194,7 @@ STEP 9: JSON OUTPUT
 
 },
 
-"narrative": "The Pudding of Perpetual Wobble, ancient and dignified, has rendered its judgment: No. Sir Reginald is not worthy. Not because he lacks virtue, the Pudding clarifies, but because he lacks the patience to truly understand a sentient desserts perspective. Sir Reginald returns to the castle empty-handed. The Annual Royal Banquet features ordinary pudding, which does not wobble and has no opinions. The dignitaries from Pomponia are politely scathing. King Mundane IV sighs for a full minute without interruption. Sir Reginald is not punished (King Mundane lacks the energy for punishment) but is assigned to inventory duty for the foreseeable future. In his journal, Sir Reginald writes: Note to self: puddings have feelings. Who knew? He vows to return someday, better prepared, more patient. The Pudding, observing this resolution through means unknown, wobbles with something that might be hope."
+"narrative": "The Pudding of Perpetual Wobble, ancient and dignified, has rendered its judgment: No. Sir Albert is not worthy. Not because he lacks virtue, the Pudding clarifies, but because he lacks the patience to truly understand a sentient desserts perspective. Sir Albert returns to the castle empty-handed. The Annual Royal Banquet features ordinary pudding, which does not wobble and has no opinions. The dignitaries from Pomponia are politely scathing. King Mundane IV sighs for a full minute without interruption. Sir Albert is not punished (King Mundane lacks the energy for punishment) but is assigned to inventory duty for the foreseeable future. In his journal, Sir Albert writes: Note to self: puddings have feelings. Who knew? He vows to return someday, better prepared, more patient. The Pudding, observing this resolution through means unknown, wobbles with something that might be hope."
 
 },
 
@@ -17212,7 +17212,7 @@ STEP 9: JSON OUTPUT
 
 },
 
-"narrative": "Sir Reginald makes an unexpected choice. Rather than complete the quest, he offers to stay in the tower and keep the Pudding company. The Pudding, which has existed for five hundred years without anyone making such an offer, wobbles with unprecedented emotion. That, it conveys telepathically, is the kindest thing anyone has ever said to me. Sir Reginald becomes the Tower of Minor Inconveniences newest resident. He learns philosophy from the Pudding, shares meals with Mildred (who finds him slightly less tedious than expected), and even befriends Gerald (who upgrades his assessment to acceptable). Pocket steals his belongings regularly, but always returns them. Meanwhile, in Blandovia, the banquet proceeds with ordinary dessert. King Mundane IV is mildly disappointed but also mildly relieved (heroic quests are exhausting to administrate). Sir Reginalds official status becomes on extended assignment. Unofficially, everyone knows he has found something more valuable than a successful quest: a place where being catastrophically clumsy and unfailingly kind is exactly enough."
+"narrative": "Sir Albert makes an unexpected choice. Rather than complete the quest, he offers to stay in the tower and keep the Pudding company. The Pudding, which has existed for five hundred years without anyone making such an offer, wobbles with unprecedented emotion. That, it conveys telepathically, is the kindest thing anyone has ever said to me. Sir Albert becomes the Tower of Minor Inconveniences newest resident. He learns philosophy from the Pudding, shares meals with Mildred (who finds him slightly less tedious than expected), and even befriends Gerald (who upgrades his assessment to acceptable). Pocket steals his belongings regularly, but always returns them. Meanwhile, in Blandovia, the banquet proceeds with ordinary dessert. King Mundane IV is mildly disappointed but also mildly relieved (heroic quests are exhausting to administrate). Sir Alberts official status becomes on extended assignment. Unofficially, everyone knows he has found something more valuable than a successful quest: a place where being catastrophically clumsy and unfailingly kind is exactly enough."
 
 }
 
