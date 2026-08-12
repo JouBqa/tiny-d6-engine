@@ -1,316 +1,265 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 
-def build_knight_adventure():
-    adventure_path = "/home/yoni/Projects/tiny-d6-engine/Adventures/Knight.json"
-    os.makedirs(os.path.dirname(adventure_path), exist_ok=True)
-    
-    knight_data = {
-        "title": "Sir Albert and the Pudding of Perpetual Wobble",
-        "1": {
-            "text": "You are [color=yellow]Sir Albert Bumblethwaite[/color], Knight-Apprentice of the Order of the Soft Cushion. Lord Gerald of the Royal Dessert Ministry summons you to his oak desk.\n\n'Sir Albert,' Gerald sighs, polishing his spectacles, 'the Royal Custard Tower has gone quiet. More importantly, the [color=yellow]Pudding of Perpetual Wobble[/color], our kingdom's most sacred wobbly artifact, is wobbling without ministerial supervision! You must retrieve it immediately!'",
-            "pages": [
-                "You are [color=yellow]Sir Albert Bumblethwaite[/color], Knight-Apprentice of the Order of the Soft Cushion.",
-                "Lord Gerald of the Royal Dessert Ministry summons you to his oak desk.\n\n'Sir Albert,' Gerald sighs, polishing his spectacles, 'the Royal Custard Tower has gone quiet. More importantly, the [color=yellow]Pudding of Perpetual Wobble[/color], our kingdom's most sacred wobbly artifact, is wobbling without ministerial supervision! You must retrieve it immediately!'"
-            ],
-            "consequences": {
-                "set_flags": {"flag_quest_understood": True}
-            },
-            "choices": [
-                {
-                    "text": "Accept the quest politely and ask for a map of the Custard Tower.",
-                    "target": "sec02_approach_tower",
-                    "consequences": {
-                        "items_added": ["item_tower_map"]
-                    }
-                },
-                {
-                    "text": "Demand double payment and a shiny medal before leaving.",
-                    "target": "sec02_approach_tower",
-                    "test_type": "patience",
-                    "target_fail": "sec02_approach_tower"
+def normalize_id(sec_id):
+    if not sec_id:
+        return "1"
+    s = sec_id.strip()
+    mapping = {
+        "sec01quest_briefing": "sec01_quest_briefing",
+        "sec02meadow_crossroads": "sec02_meadow_crossroads",
+        "sec06tower_upper_mildred": "sec06_tower_upper_mildred",
+        "sec07towerupper_bypass": "sec07_tower_upper_bypass",
+        "sec09pudding_negotiation": "sec09_pudding_negotiation",
+        "sec10return_triumph": "sec10_return_triumph"
+    }
+    return mapping.get(s, s)
+
+def parse_knight_markdown(md_path):
+    if not os.path.exists(md_path):
+        print(f"[Compiler Error] File not found: {md_path}")
+        return {}
+
+    with open(md_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    sections = re.findall(r'\[SECTION:\s*([\w_]+)\](.*?)\[/SECTION\]', content, re.DOTALL)
+    if not sections:
+        print(f"[Compiler Warning] No [SECTION] tags found in {md_path}")
+        return {}
+
+    database = {
+        "title": "Sir Albert and the Pudding of Perpetual Wobble"
+    }
+
+    sec_map = {}
+
+    for raw_id, sec_body in sections:
+        sec_id = normalize_id(raw_id)
+        
+        # 1. Section Title
+        title_match = re.search(r'SECTION_TITLE:\s*(.*)', sec_body)
+        sec_title = title_match.group(1).strip() if title_match else sec_id
+
+        # 2. Extract Full Narrative Prose (Every paragraph down to AUTOMATIC_ITEMS/CHOICES/COMBAT)
+        narr_match = re.search(r'NARRATIVE:\s*(.*?)(?=\n(?:AUTOMATIC_ITEMS|CHOICES|COMBAT|---|\Z))', sec_body, re.DOTALL)
+        narr_text = narr_match.group(1).strip() if narr_match else ""
+        
+        # Split prose by double linebreaks (paragraphs) into balanced pages (~600-900 chars per page)
+        paragraphs = [p.strip() for p in narr_text.split('\n\n') if p.strip()]
+        pages = []
+        curr_page = []
+        curr_len = 0
+        
+        for p in paragraphs:
+            if curr_len + len(p) > 750 and curr_page:
+                pages.append('\n\n'.join(curr_page))
+                curr_page = [p]
+                curr_len = len(p)
+            else:
+                curr_page.append(p)
+                curr_len += len(p)
+        if curr_page:
+            pages.append('\n\n'.join(curr_page))
+
+        # 3. Parse Automatic Items & Consequences
+        automatic_items = []
+        auto_match = re.search(r'AUTOMATIC_ITEMS:(.*?)(?=\n(?:CHOICES|COMBAT|---|\Z))', sec_body, re.DOTALL)
+        if auto_match:
+            item_lines = re.findall(r'ADD:\s*([\w_]+)', auto_match.group(1))
+            for it in item_lines:
+                automatic_items.append(it.strip())
+
+        consequences = {}
+        if automatic_items:
+            consequences["items_added"] = automatic_items
+
+        # 4. Parse Combat Encounters
+        combat_data = None
+        combat_match = re.search(r'COMBAT(?:_ENCOUNTER)?:\s*(.*?)(?=\n(?:CHOICES|AUTOMATIC_ITEMS|---|\Z))', sec_body, re.DOTALL)
+        if combat_match:
+            c_text = combat_match.group(1)
+            name_m = re.search(r'ENEMY_NAME:\s*(.*)', c_text)
+            skill_m = re.search(r'ENEMY_SKILL:\s*(\d+)', c_text)
+            stam_m = re.search(r'ENEMY_STAMINA:\s*(\d+)', c_text)
+            vic_m = re.search(r'VICTORY_TARGET:\s*([\w_]+)', c_text)
+            def_m = re.search(r'DEFEAT_TARGET:\s*([\w_]+)', c_text)
+            if name_m and skill_m and stam_m:
+                combat_data = {
+                    "enemy_name": name_m.group(1).strip(),
+                    "enemy_skill": int(skill_m.group(1)),
+                    "enemy_stamina": int(stam_m.group(1)),
+                    "victory_target": normalize_id(vic_m.group(1)) if vic_m else "sec05_tower_lower",
+                    "defeat_target": normalize_id(def_m.group(1)) if def_m else "ending_embarrassing_defeat"
                 }
-            ]
-        },
-        "sec02_approach_tower": {
-            "text": "You stand before the towering, yellow-stone [color=yellow]Custard Tower[/color]. The air smells strongly of nutmeg and caramelized sugar. Rain falls steadily, making your heavy plate armor squelch with every step.",
-            "pages": [
-                "You stand before the towering, yellow-stone [color=yellow]Custard Tower[/color].",
-                "The air smells strongly of nutmeg and caramelized sugar. Rain falls steadily, making your heavy plate armor squelch with every step."
-            ],
-            "choices": [
-                {
-                    "text": "Use the Tower Map to locate the hidden side entrance.",
-                    "target": "sec04_lower_tower_interior",
-                    "requirements": {
-                        "item": "item_tower_map"
-                    },
-                    "consequences": {
-                        "set_flags": {"flag_used_map": True}
-                    }
-                },
-                {
-                    "text": "March directly to the front door and kick it open.",
-                    "target": "sec03_front_door_trap"
-                },
-                {
-                    "text": "Test your Heroic Patience while examining the lock.",
-                    "target": "sec04_lower_tower_interior",
-                    "test_type": "patience",
-                    "target_fail": "sec03_front_door_trap"
+
+        # 5. Parse Choices
+        parsed_choices = []
+        choices_block = re.search(r'CHOICES:(.*)', sec_body, re.DOTALL)
+        if choices_block:
+            raw_choices = re.findall(r'CHOICE\s*\d+:(.*?)(?=\nCHOICE\s*\d+:|\Z)', choices_block.group(1), re.DOTALL)
+            for rc in raw_choices:
+                text_m = re.search(r'TEXT:\s*(.*)', rc)
+                target_m = re.search(r'TARGET:\s*([\w_]+)', rc)
+                req_m = re.search(r'REQUIREMENTS:\s*(.*)', rc)
+                stat_m = re.search(r'STAT:\s*([\w_]+)', rc)
+                fail_m = re.search(r'FAILURE_OUTCOME:\s*([\w_]+)', rc)
+                
+                if not text_m or not target_m:
+                    continue
+                    
+                choice_obj = {
+                    "text": text_m.group(1).strip(),
+                    "target": normalize_id(target_m.group(1))
                 }
-            ]
-        },
-        "sec03_front_door_trap": {
-            "text": "[color=red]CRASH![/color] Your boot hits the front door, triggering an ancient defense mechanism. A trapdoor opens overhead, raining thick, tepid custard onto your helmet! The sticky dessert slows your movements and weighs down your cloak.\n\n[color=red]You suffer 1 Stamina Damage from the heavy custard avalanche![/color]",
-            "pages": [
-                "[color=red]CRASH![/color] Your boot hits the front door, triggering an ancient defense mechanism.",
-                "A trapdoor opens overhead, raining thick, tepid custard onto your helmet! The sticky dessert slows your movements and weighs down your cloak.\n\n[color=red]You suffer 1 Stamina Damage from the heavy custard avalanche![/color]"
-            ],
-            "consequences": {
-                "stamina_change": -1,
-                "set_flags": {"sticky_custard_trap": True}
-            },
-            "choices": [
-                {
-                    "text": "Wipe your visor and scrape into the lower tower.",
-                    "target": "sec04_lower_tower_interior"
-                }
-            ]
-        },
-        "sec04_lower_tower_interior": {
-            "text": "Inside the damp lower tower, a magical guardian blocking the spiral stairs springs to life: an [color=red]Animated Broom Guardian[/color] holding a mop like a deadly lance!",
-            "pages": [
-                "Inside the damp lower tower, a magical guardian blocking the spiral stairs springs to life: an [color=red]Animated Broom Guardian[/color] holding a mop like a deadly lance!"
-            ],
-            "combat": {
-                "enemy_name": "Animated Broom Guardian",
-                "enemy_skill": 6,
-                "enemy_stamina": 4,
-                "victory_target": "sec05_spiral_stairs",
-                "defeat_target": "ending_embarrassing_defeat"
-            },
-            "choices": []
-        },
-        "sec05_spiral_stairs": {
-            "text": "Having defeated the Broom Guardian, you climb the winding spiral stairs. Halfway up, you find [color=yellow]Pocket[/color], a small goblin merchant sitting on a sack of stolen silver spoons.\n\n'Hey knightly-guy!' Pocket squeaks. 'Want to trade for a Sturdy Rope or something shiny?'",
-            "pages": [
-                "Having defeated the Broom Guardian, you climb the winding spiral stairs.",
-                "Halfway up, you find [color=yellow]Pocket[/color], a small goblin merchant sitting on a sack of stolen silver spoons.\n\n'Hey knightly-guy!' Pocket squeaks. 'Want to trade for a Sturdy Rope or something shiny?'"
-            ],
-            "choices": [
-                {
-                    "text": "Buy the Sturdy Rope using your shiny brass button.",
-                    "target": "sec06_tower_upper_mildred",
-                    "consequences": {
-                        "items_added": ["item_sturdy_rope"],
-                        "set_flags": {"flag_pocket_friendly": True}
-                    }
-                },
-                {
-                    "text": "Politely decline and continue up the stairs.",
-                    "target": "sec06_tower_upper_mildred"
-                }
-            ]
-        },
-        "sec06_tower_upper_mildred": {
-            "text": "You reach the upper alchemy lab. [color=yellow]Alchemist Mildred[/color] stands near a bubbling cauldron.\n\n'Ah, Sir Albert!' Mildred says. 'If you seek the Pudding of Perpetual Wobble, you must respect its delicate temperament! Take this Calming Recipe, or grab the Iron Tower Key from that shelf.'",
-            "pages": [
-                "You reach the upper alchemy lab.",
-                "[color=yellow]Alchemist Mildred[/color] stands near a bubbling cauldron.\n\n'Ah, Sir Albert!' Mildred says. 'If you seek the Pudding of Perpetual Wobble, you must respect its delicate temperament! Take this Calming Recipe, or grab the Iron Tower Key from that shelf.'"
-            ],
-            "choices": [
-                {
-                    "text": "Accept Mildred's Calming Recipe.",
-                    "target": "sec07_sanctum_entrance",
-                    "consequences": {
-                        "items_added": ["item_calming_recipe"]
-                    }
-                },
-                {
-                    "text": "Take the heavy Iron Tower Key.",
-                    "target": "sec07_sanctum_entrance",
-                    "consequences": {
-                        "items_added": ["item_tower_key"]
-                    }
-                },
-                {
-                    "text": "Test your Skill to quickly snag both items without spilling a potion.",
-                    "target": "sec07_sanctum_entrance",
-                    "test_type": "skill",
-                    "target_fail": "sec07_sanctum_entrance",
-                    "consequences": {
-                        "items_added": ["item_calming_recipe", "item_tower_key"]
-                    }
-                }
-            ]
-        },
-        "sec07_sanctum_entrance": {
-            "text": "You stand before the golden reinforced door of the Pudding Sanctum. A glowing inscription reads: [color=yellow]'Only those with patience or the key may enter without disturbing the wobble.'[/color]",
-            "pages": [
-                "You stand before the golden reinforced door of the Pudding Sanctum.",
-                "A glowing inscription reads: [color=yellow]'Only those with patience or the key may enter without disturbing the wobble.'[/color]"
-            ],
-            "choices": [
-                {
-                    "text": "Unlock the door using the Iron Tower Key.",
-                    "target": "sec08_pudding_sanctum",
-                    "requirements": {
-                        "item": "item_tower_key"
-                    }
-                },
-                {
-                    "text": "Test your Heroic Patience to pick the lock quietly.",
-                    "target": "sec08_pudding_sanctum",
-                    "test_type": "patience",
-                    "target_fail": "sec08_pudding_sanctum"
-                },
-                {
-                    "text": "Ram the golden door with your shoulder!",
-                    "target": "sec08_pudding_sanctum",
-                    "consequences": {
-                        "stamina_change": -1
-                    }
-                }
-            ]
-        },
-        "sec08_pudding_sanctum": {
-            "text": "You enter the magnificent chamber. In the center, floating on a velvet pedestal, wobbles the magnificent, glowing [color=yellow]Pudding of Perpetual Wobble[/color]! It trembles with ancient dessert power.",
-            "pages": [
-                "You enter the magnificent chamber.",
-                "In the center, floating on a velvet pedestal, wobbles the magnificent, glowing [color=yellow]Pudding of Perpetual Wobble[/color]! It trembles with ancient dessert power."
-            ],
-            "choices": [
-                {
-                    "text": "Recite Mildred's Calming Recipe with deep respect.",
-                    "target": "ending_glorious_wobble",
-                    "requirements": {
-                        "item": "item_calming_recipe"
-                    }
-                },
-                {
-                    "text": "Reach out carefully and scoop up the Pudding.",
-                    "target": "ending_adequate_dessert"
-                },
-                {
-                    "text": "Sit down next to the Pudding and admire its wobble forever.",
-                    "target": "ending_tower_resident"
-                },
-                {
-                    "text": "Test your Luck to grab the Pudding without making a sound.",
-                    "target": "ending_adequate_dessert",
-                    "test_type": "luck",
-                    "target_fail": "ending_pudding_refusal"
-                }
-            ]
-        },
-        "sec09_escape_route": {
-            "text": "With your prize in hand, you locate the shortcut stairs leading down from the tower balcony.",
-            "pages": [
-                "With your prize in hand, you locate the shortcut stairs leading down from the tower balcony."
-            ],
-            "choices": [
-                {
-                    "text": "Descend safely to the courtyard.",
-                    "target": "sec10_return_triumph"
-                }
-            ]
-        },
-        "sec10_return_triumph": {
-            "text": "You return to the Royal Dessert Ministry in triumph!",
-            "pages": [
-                "You return to the Royal Dessert Ministry in triumph!"
-            ],
-            "choices": [
-                {
-                    "text": "Claim Heroic Victory",
-                    "target": "victory_screen"
-                }
-            ]
-        },
-        "10": {
-            "text": "That is it. You let out a deep, existential sigh. The endless rules, tedious paperwork, and sticky custard have broken your spirit. You abandon the quest for the pudding, move to the countryside, and [color=yellow]open a peaceful Bed & Breakfast[/color].",
-            "pages": [
-                "That is it. You let out a deep, existential sigh. The endless rules, tedious paperwork, and sticky custard have broken your spirit.",
-                "You abandon the quest for the pudding, move to the countryside, and [color=yellow]open a peaceful Bed & Breakfast[/color]."
-            ],
-            "choices": [
-                {
-                    "text": "Give up on innkeeping and try adventuring again",
-                    "target": "1"
-                }
-            ]
-        },
+                
+                # Check for Stat Tests (PATIENCE, SKILL, LUCK)
+                if stat_m and stat_m.group(1).strip().upper() != "NONE":
+                    choice_obj["test_type"] = stat_m.group(1).strip().lower()
+                    if fail_m and fail_m.group(1).strip().upper() != "N/A":
+                        choice_obj["target_fail"] = normalize_id(fail_m.group(1))
+                    else:
+                        choice_obj["target_fail"] = choice_obj["target"]
+                        
+                # Check for Requirements
+                if req_m:
+                    req_str = req_m.group(1).strip()
+                    if "ITEM:" in req_str:
+                        item_req = re.search(r'ITEM:\s*([\w_]+)', req_str)
+                        if item_req:
+                            choice_obj["requirements"] = {"item": item_req.group(1).strip()}
+                    elif "FLAG_TRUE:" in req_str:
+                        flag_req = re.search(r'FLAG_TRUE:\s*([\w_]+)', req_str)
+                        if flag_req:
+                            choice_obj["requirements"] = {"flag_true": flag_req.group(1).strip()}
+
+                # Check for Choice Consequences
+                cons_block = re.search(r'CONSEQUENCES:(.*?)(?=\nTARGET:|\Z)', rc, re.DOTALL)
+                if cons_block:
+                    c_text = cons_block.group(1)
+                    flag_set = re.search(r'SET_FLAG:\s*([\w_]+)\s*=\s*(true|false|\d+)', c_text, re.IGNORECASE)
+                    item_add = re.search(r'ITEMS_ADDED:\s*([\w_]+)', c_text)
+                    item_rem = re.search(r'ITEMS_REMOVED:\s*([\w_]+)', c_text)
+                    stam_ch = re.search(r'STAMINA_CHANGE:\s*([+-]?\d+)', c_text)
+                    
+                    choice_cons = {}
+                    if flag_set:
+                        val_str = flag_set.group(2).lower()
+                        val = True if val_str == "true" else (False if val_str == "false" else int(val_str))
+                        choice_cons["set_flags"] = {flag_set.group(1): val}
+                    if item_add and item_add.group(1).strip().upper() != "NONE":
+                        choice_cons["items_added"] = [item_add.group(1).strip()]
+                    if item_rem and item_rem.group(1).strip().upper() != "NONE":
+                        choice_cons["items_removed"] = [item_rem.group(1).strip()]
+                    if stam_ch:
+                        choice_cons["stamina_change"] = int(stam_ch.group(1))
+                        
+                    if choice_cons:
+                        choice_obj["consequences"] = choice_cons
+
+                parsed_choices.append(choice_obj)
+
+        sec_data = {
+            "title": sec_title,
+            "text": narr_text,
+            "pages": pages,
+            "choices": parsed_choices
+        }
+        if consequences:
+            sec_data["consequences"] = consequences
+        if combat_data:
+            sec_data["combat"] = combat_data
+
+        database[sec_id] = sec_data
+        sec_map[sec_id] = sec_data
+
+        print(f"Section [{sec_id}]: Compiled {len(narr_text)} characters across {len(pages)} pages.")
+
+    # Create convenient shortcuts for section numeric IDs ("1", "2", etc.)
+    num_shortcuts = {
+        "1": "sec01_quest_briefing",
+        "2": "sec02_meadow_crossroads",
+        "3": "sec03_grumbleton_village",
+        "4": "sec04_tower_entrance",
+        "5": "sec05_tower_lower",
+        "6": "sec06_tower_upper_mildred",
+        "7": "sec07_tower_upper_bypass",
+        "8": "sec08_pudding_chamber",
+        "9": "sec09_pudding_negotiation",
+        "10": "sec10_return_triumph"
+    }
+
+    for num_key, target_sec_id in num_shortcuts.items():
+        if target_sec_id in database:
+            database[num_key] = database[target_sec_id]
+
+    # Include the 5 ending nodes explicitly
+    endings = {
         "ending_glorious_wobble": {
-            "text": "[color=green][b]VICTORY: GLORIOUS WOBBLE![/b][/color]\n\nAs you recite the Calming Recipe, the Pudding wobbles in perfect, joyful harmony! It settles gently into your velvet container. Lord Gerald declares your mission a triumph of ministerial diplomacy! You are awarded the Gold Medal of Dessert Preservation.",
+            "title": "Victory: Glorious Wobble",
+            "text": "[color=green][b]VICTORY: GLORIOUS WOBBLE![/b][/color]\n\nAs you recite the Calming Recipe with deep respect, the Pudding of Perpetual Wobble trembles in perfect, joyful harmony! It settles gently into your velvet container. Lord Gerald declares your mission a triumph of ministerial diplomacy! You are awarded the Gold Medal of Dessert Preservation.",
             "pages": [
-                "[color=green][b]VICTORY: GLORIOUS WOBBLE![/b][/color]\n\nAs you recite the Calming Recipe, the Pudding wobbles in perfect, joyful harmony! It settles gently into your velvet container.",
+                "[color=green][b]VICTORY: GLORIOUS WOBBLE![/b][/color]\n\nAs you recite the Calming Recipe with deep respect, the Pudding of Perpetual Wobble trembles in perfect, joyful harmony! It settles gently into your velvet container.",
                 "Lord Gerald declares your mission a triumph of ministerial diplomacy! You are awarded the Gold Medal of Dessert Preservation."
             ],
-            "choices": [
-                {
-                    "text": "Claim Heroic Victory",
-                    "target": "victory_screen",
-                    "is_victory": True
-                }
-            ]
+            "choices": [{"text": "Claim Heroic Victory", "target": "victory_screen", "is_victory": True}]
         },
         "ending_adequate_dessert": {
+            "title": "Victory: Adequate Dessert",
             "text": "[color=yellow][b]VICTORY: ADEQUATE DESSERT[/b][/color]\n\nYou secure the Pudding! Though slightly squished from the journey, Lord Gerald accepts it into the Royal Vaults with a nodding seal of approval. You receive your standard knightly stipend.",
             "pages": [
                 "[color=yellow][b]VICTORY: ADEQUATE DESSERT[/b][/color]\n\nYou secure the Pudding! Though slightly squished from the journey, Lord Gerald accepts it into the Royal Vaults with a nodding seal of approval. You receive your standard knightly stipend."
             ],
-            "choices": [
-                {
-                    "text": "Claim Victory",
-                    "target": "victory_screen",
-                    "is_victory": True
-                }
-            ]
+            "choices": [{"text": "Claim Victory", "target": "victory_screen", "is_victory": True}]
         },
         "ending_embarrassing_defeat": {
+            "title": "Defeat: Embarrassing Defeat",
             "text": "[color=red][b]PHYSICAL DEFEAT[/b][/color]\n\nYour Stamina has been depleted! The Animated Broom Guardian sweeps you out of the tower into a pile of dry leaves. Lord Gerald hands you an Official Heroic Defeat Waiver.",
             "pages": [
                 "[color=red][b]PHYSICAL DEFEAT[/b][/color]\n\nYour Stamina has been depleted! The Animated Broom Guardian sweeps you out of the tower into a pile of dry leaves. Lord Gerald hands you an Official Heroic Defeat Waiver."
             ],
-            "choices": [
-                {
-                    "text": "Sign the waiver and try again.",
-                    "target": "1"
-                }
-            ]
+            "choices": [{"text": "Sign the waiver and try again.", "target": "1"}]
         },
         "ending_pudding_refusal": {
+            "title": "Failure: Pudding Refusal",
             "text": "[color=red][b]MISSION FAILURE[/b][/color]\n\nYour clumsy grab offends the Pudding's delicate sensibilities! It emits a loud splat and wobbles aggressively out the tower window into the moat below. Lord Gerald is deeply disappointed.",
             "pages": [
                 "[color=red][b]MISSION FAILURE[/b][/color]\n\nYour clumsy grab offends the Pudding's delicate sensibilities! It emits a loud splat and wobbles aggressively out the tower window into the moat below. Lord Gerald is deeply disappointed."
             ],
-            "choices": [
-                {
-                    "text": "Try again.",
-                    "target": "1"
-                }
-            ]
+            "choices": [{"text": "Try again.", "target": "1"}]
         },
         "ending_tower_resident": {
+            "title": "Unusual Ending: Tower Resident",
             "text": "[color=cyan][b]UNUSUAL ENDING: TOWER RESIDENT[/b][/color]\n\nYou realize that questing is overrated. You pull up a chair, share a snack with Mildred and Pocket, and spend the rest of your days admiring the soothing, perpetual wobble of the Pudding.",
             "pages": [
                 "[color=cyan][b]UNUSUAL ENDING: TOWER RESIDENT[/b][/color]\n\nYou realize that questing is overrated. You pull up a chair, share a snack with Mildred and Pocket, and spend the rest of your days admiring the soothing, perpetual wobble of the Pudding."
             ],
-            "choices": [
-                {
-                    "text": "Restart Adventure",
-                    "target": "1"
-                }
-            ]
+            "choices": [{"text": "Restart Adventure", "target": "1"}]
         }
     }
 
-    with open(adventure_path, "w", encoding="utf-8") as f:
-        json.dump(knight_data, f, indent=2)
+    for end_id, end_data in endings.items():
+        database[end_id] = end_data
 
-    print(f"[Compiler] Successfully generated {adventure_path} with pages support ({len(knight_data)} sections).")
+    return database
+
+def main():
+    md_path = "Docs/Knight.md"
+    out_path = "Adventures/Knight.json"
+    
+    print("[Compiler] Extracting full long-form narrative prose from Docs/Knight.md...")
+    db = parse_knight_markdown(md_path)
+    if not db:
+        print("[Compiler] Failed to parse Markdown file.")
+        return
+
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(db, f, indent=2)
+
+    print(f"\n[Compiler Success] Wrote {out_path} with {len(db)} entries!")
 
 if __name__ == "__main__":
-    build_knight_adventure()
+    main()
