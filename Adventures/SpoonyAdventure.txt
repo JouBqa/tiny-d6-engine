@@ -1,0 +1,108 @@
+{
+  "1": {
+    "text": "You stand in the Village of Tinyville. The Mayor, weeping sincerely, begs you to find the missing sacred legendary soup spoon.",
+    "choices": [
+      {
+        "text": "Accept the quest with dignity.",
+        "target": "2"
+      },
+      {
+        "text": "Tell him it's just a spoon.",
+        "target": "2",
+        "test_type": "patience",
+        "target_fail": "3"
+      }
+    ]
+  },
+  "2": {
+    "text": "The Mayor is delighted. He hands you Form 4-B (Intent to Retrieve Utensils) and tells you the spoon is in Spoon Cave. You must head into the Mostly Sacred Forest.",
+    "choices": [
+      {
+        "text": "Venture into the forest.",
+        "target": "4"
+      }
+    ]
+  },
+  "3": {
+    "text": "The Mayor gasps. He spends forty minutes explaining the cultural, economic, and philosophical history of the soup spoon. You lose 2 Heroic Patience.",
+    "choices": [
+      {
+        "text": "Groan and accept Form 4-B.",
+        "target": "2",
+        "patience_change": -2
+      }
+    ]
+  },
+  "4": {
+    "text": "You enter the forest and find yourself blocked by a feral Wolf. However, the wolf wears a small laminated badge from the Royal Ministry of Wolves. It growls but politely waits for you to check your paperwork.",
+    "choices": [
+      {
+        "text": "Fight the wolf using traditional combat.",
+        "target": "5"
+      },
+      {
+        "text": "Claim you have a Wolf-Hunting Permit.",
+        "target": "7",
+        "test_type": "skill",
+        "target_fail": "5"
+      }
+    ]
+  },
+  "5": {
+    "text": "A combat encounter begins with the Ministry Wolf!",
+    "combat": {
+      "enemy_name": "Ministry Wolf",
+      "enemy_skill": 7,
+      "enemy_stamina": 6,
+      "victory_target": "7"
+    },
+    "choices": []
+  },
+  "6": {
+    "text": "Your Stamina has reached 0. You do not die in a bloodbath; instead, the Wolf hands you an Official Heroic Defeat Waiver and politely asks you to go back to the village.",
+    "choices": [
+      {
+        "text": "Sign the waiver and try again.",
+        "target": "1"
+      }
+    ]
+  },
+  "7": {
+    "text": "You reach Spoon Cave and confront the 'Dark Lord,' who is just a dramatic guy who borrowed the spoon and forgot to return it. He hands it over with an incredibly theatrical apology speech.",
+    "choices": [
+      {
+        "text": "Listen to his entire 12-page monologue.",
+        "target": "8",
+        "patience_change": -1
+      },
+      {
+        "text": "Grab the spoon and run.",
+        "target": "8"
+      },
+      {
+        "text": "Try to pickpocket his shiny pocket-watch while he isn't looking.",
+        "target": "9",
+        "test_type": "luck",
+        "target_fail": "8"
+      }
+    ]
+  },
+  "9": {
+    "text": "Success! You successfully pinch his pocket-watch (which only tells the time in a different dimension). You proceed to return the spoon.",
+    "choices": [
+      {
+        "text": "Head back to the Mayor.",
+        "target": "8"
+      }
+    ]
+  },
+  "8": {
+    "text": "You return the spoon to the Mayor. He rewards you with a 'Hero's Discount' Coupon at the local blacksmith, which expired three weeks ago. The End!",
+    "choices": [
+      {
+        "text": "Restart Adventure",
+        "target": "1"
+      }
+    ]
+  }
+}
