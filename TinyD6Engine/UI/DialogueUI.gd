@@ -213,41 +213,82 @@ func _on_stamina_depleted() -> void:
 		_render_continue_button("6")
 	_handling_loss_state = false
 
+var current_page_index: int = 0
+
 func _on_section_changed(section_data: Dictionary) -> void:
 	if title_label:
 		title_label.text = StoryManager.get_adventure_title()
 	_display_section(section_data)
 	_update_stats_hud()
 
-## Displays narrative section, completely wiping previous text to fix the clear bleed bug
+## Displays narrative section with Page-Turning support
 func _display_section(section_data: Dictionary) -> void:
+	current_page_index = 0
+	
+	# Apply section entry consequences if present (e.g. automatic items/flags on section load)
+	if section_data.has("consequences"):
+		_apply_choice_consequences({"consequences": section_data["consequences"]})
+		
+	_render_current_page(section_data)
+
+## Renders the current page string and either page-turning button or final choices
+func _render_current_page(section_data: Dictionary) -> void:
 	if _typewriter_tween and _typewriter_tween.is_running():
 		_typewriter_tween.kill()
 	_is_typing = false
 	
-	# Completely clear story_text_label text to prevent text bleed from combat or past rolls
 	story_text_label.clear()
-	story_text_label.text = section_data.get("text", "")
+	var pages: Array = section_data.get("pages", [section_data.get("text", "")])
+	if pages.is_empty():
+		pages = [section_data.get("text", "")]
+		
+	current_page_index = clamp(current_page_index, 0, max(0, pages.size() - 1))
+	story_text_label.text = str(pages[current_page_index])
 	
-	# Dynamically append bonus epilogue paragraphs for ending nodes
-	_append_epilogue_bonus_text()
-	
+	# Append epilogue bonus text on the final page of ending sections
+	if current_page_index == pages.size() - 1:
+		_append_epilogue_bonus_text()
+		
 	_start_typewriter_effect()
 	_scroll_to_bottom()
 	
-	if section_data.has("combat"):
-		var combat_info: Dictionary = section_data["combat"]
-		CombatEngine.start_combat(
-			combat_info.get("enemy_name", "Ministry Wolf"),
-			combat_info.get("enemy_skill", 7),
-			combat_info.get("enemy_stamina", 6),
-			combat_info.get("victory_target", "7"),
-			combat_info.get("defeat_target", "6")
-		)
-		_render_fight_round_button()
+	# Page-Turning Control:
+	# If player has not reached the last page of the section, render "Turn Page ->" button
+	if current_page_index < pages.size() - 1:
+		_render_turn_page_button(section_data)
 	else:
-		CombatEngine.in_combat = false
-		_render_narrative_choices(section_data.get("choices", []))
+		if section_data.has("combat"):
+			var combat_info: Dictionary = section_data["combat"]
+			CombatEngine.start_combat(
+				combat_info.get("enemy_name", "Ministry Wolf"),
+				combat_info.get("enemy_skill", 7),
+				combat_info.get("enemy_stamina", 6),
+				combat_info.get("victory_target", "7"),
+				combat_info.get("defeat_target", "6")
+			)
+			_render_fight_round_button()
+		else:
+			CombatEngine.in_combat = false
+			_render_narrative_choices(section_data.get("choices", []))
+
+## Renders the single focus-grabbed "Turn Page ->" button for multi-page sections
+func _render_turn_page_button(section_data: Dictionary) -> void:
+	_clear_choice_container()
+	
+	var page_btn: Button = Button.new()
+	page_btn.text = "  Turn Page ->  "
+	page_btn.custom_minimum_size = Vector2(0, 48)
+	page_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	page_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
+	page_btn.add_theme_font_size_override("font_size", 18)
+	
+	page_btn.pressed.connect(func():
+		current_page_index += 1
+		_render_current_page(section_data)
+	)
+	
+	choice_container.add_child(page_btn)
+	_setup_focus_loop_and_grab([page_btn])
 
 ## Helper to evaluate whether choice requirements are met
 func _check_choice_requirements(choice: Dictionary) -> bool:
@@ -313,10 +354,10 @@ func _render_narrative_choices(choices: Array) -> void:
 		var btn: Button = Button.new()
 		btn.text = "  [%d]  %s" % [choice_num, choice.get("text", "")]
 		choice_num += 1
-		btn.custom_minimum_size = Vector2(0, 56)
+		btn.custom_minimum_size = Vector2(0, 48)
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		btn.add_theme_font_size_override("font_size", 22)
+		btn.add_theme_font_size_override("font_size", 18)
 		
 		btn.pressed.connect(func(): _on_choice_pressed(choice))
 		
@@ -331,10 +372,10 @@ func _render_continue_button(next_section_id: String) -> void:
 	
 	var continue_btn: Button = Button.new()
 	continue_btn.text = "  Continue ->  "
-	continue_btn.custom_minimum_size = Vector2(0, 56)
+	continue_btn.custom_minimum_size = Vector2(0, 48)
 	continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	continue_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
-	continue_btn.add_theme_font_size_override("font_size", 22)
+	continue_btn.add_theme_font_size_override("font_size", 18)
 	
 	continue_btn.pressed.connect(func():
 		if next_section_id == "victory_screen":
