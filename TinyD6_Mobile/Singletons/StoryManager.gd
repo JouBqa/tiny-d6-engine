@@ -90,6 +90,9 @@ var fallback_database: Dictionary = {
 var story_database: Dictionary = {}
 
 func _ready() -> void:
+	if OS.is_debug_build() or OS.get_name() in ["Windows", "macOS", "Linux"]:
+		get_window().content_scale_factor = 1.5
+		
 	if FileAccess.file_exists("res://Adventures/Stirringham.json"):
 		load_adventure_from_file("res://Adventures/Stirringham.json")
 	elif FileAccess.file_exists("res://Adventures/old adventures/SpoonyAdventure.json"):

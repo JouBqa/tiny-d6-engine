@@ -3,6 +3,8 @@ extends Control
 @onready var adventure_list_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/AdventureListContainer
 
 func _ready() -> void:
+	if OS.is_debug_build() or OS.get_name() in ["Windows", "macOS", "Linux"]:
+		get_window().content_scale_factor = 1.5
 	_apply_safe_area_margins()
 	_populate_adventure_list()
 
