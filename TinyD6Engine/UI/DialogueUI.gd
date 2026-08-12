@@ -5,6 +5,10 @@ const SCENE_MAIN_MENU = preload("res://TinyD6Engine/UI/MainMenu.tscn")
 const SCENE_VICTORY_SCREEN = preload("res://TinyD6Engine/UI/VictoryScreen.tscn")
 const SCENE_CHARACTER_CREATION = preload("res://TinyD6Engine/UI/CharacterCreation.tscn")
 
+const ICON_DICE = preload("res://Art/dice.png")
+const ICON_SWORD = preload("res://Art/sword.png")
+const ICON_HEART = preload("res://Art/heart.png")
+
 @onready var story_text_label: RichTextLabel = $PanelContainer/MarginContainer/VBoxContainer/StoryTextLabel
 @onready var choice_container: VBoxContainer = $PanelContainer/MarginContainer/VBoxContainer/ChoiceContainer
 @onready var stats_hud_label: Label = $PanelContainer/MarginContainer/VBoxContainer/HeaderContainer/StatsHUDLabel
