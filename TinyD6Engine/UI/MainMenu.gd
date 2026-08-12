@@ -33,9 +33,10 @@ func _populate_adventure_list() -> void:
 		var file_name: String = file_path.get_file().trim_suffix(".json")
 		var display_title: String = file_name.capitalize()
 		
-		# Format adventure titles and estimated playtimes nicely
+		var is_disabled: bool = false
 		if file_name.to_lower().contains("knight"):
-			display_title = "Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble (30 minutes)"
+			display_title = "Sir Albert Bumblethwaite and the Pudding of Perpetual Wobble (Coming soon(ish)!)"
+			is_disabled = true
 		elif file_name.to_lower().contains("stirringham") or file_name.to_lower().contains("spoony"):
 			display_title = "Stirringham (3 minutes)"
 		elif file_name.to_lower().contains("prototype"):
@@ -48,10 +49,14 @@ func _populate_adventure_list() -> void:
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		btn.add_theme_font_size_override("font_size", 18)
 		
-		btn.pressed.connect(func(): _on_adventure_selected(file_path))
-		
+		if is_disabled:
+			btn.disabled = true
+			btn.add_theme_color_override("font_disabled_color", Color(0.6, 0.6, 0.6, 0.7))
+		else:
+			btn.pressed.connect(func(): _on_adventure_selected(file_path))
+			instantiated_buttons.append(btn)
+			
 		adventure_list_container.add_child(btn)
-		instantiated_buttons.append(btn)
 		
 	# Setup vertical D-Pad / Keyboard focus neighbors
 	var count: int = instantiated_buttons.size()

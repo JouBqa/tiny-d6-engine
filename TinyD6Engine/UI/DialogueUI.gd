@@ -130,6 +130,7 @@ func _skip_typewriter_effect() -> void:
 ## Scroll to Top Helper
 func _scroll_to_top() -> void:
 	await get_tree().process_frame
+	await get_tree().process_frame
 	if story_text_label:
 		story_text_label.scroll_to_line(0)
 	var scrollbar = story_text_label.get_v_scroll_bar()
