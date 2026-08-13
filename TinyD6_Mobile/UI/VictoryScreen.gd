@@ -34,6 +34,7 @@ func _apply_safe_area_margins() -> void:
 
 func _on_exit_menu_pressed() -> void:
 	print("[VictoryScreen] Returning to Main Menu...")
+	StoryManager.clear_autosave_state()
 	CombatEngine.in_combat = false
 	PlayerStats.reset_stats()
 	get_tree().change_scene_to_file("res://UI/MainMenu.tscn")

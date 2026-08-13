@@ -598,12 +598,36 @@ func _resolve_choice_stat_test(choice: Dictionary) -> void:
 	var next_sec: String = target_win if is_success else target_fail
 	_render_continue_button(next_sec)
 
-## Transitions to dedicated VictoryScreen.tscn
+## Renders Victory state directly inside DialogueUI with prominent Return to Main Menu button
 func _on_victory_screen_transition() -> void:
-	print("[DialogueUI] Victory condition achieved! Transitioning to VictoryScreen...")
+	print("[DialogueUI] Victory condition achieved! Displaying Victory UI...")
 	StoryManager.clear_autosave_state()
 	CombatEngine.in_combat = false
-	get_tree().change_scene_to_file("res://UI/VictoryScreen.tscn")
+	
+	if _typewriter_tween and _typewriter_tween.is_running():
+		_typewriter_tween.kill()
+	_is_typing = false
+	
+	story_text_label.clear()
+	story_text_label.append_text("[center][color=yellow][b]VICTORY! (Subject to Administrative Audit)[/b][/color]\n\n")
+	story_text_label.append_text("You have successfully completed your quest and filled out all necessary paperwork. Your heroic actions have been formally filed under Section 4-A of the Town Heroism Act.\n\nThe gods of bureaucracy smile upon your boundless patience. Your legendary tolerance of long monologues, hungover cabbage farmers, and polite forest wolves will be spoken of in whispers across various regional municipal offices.\n\n[color=green][b]CONGRATULATIONS, HERO![/b][/color][/center]")
+	
+	_clear_choice_container()
+	
+	var menu_btn: Button = Button.new()
+	menu_btn.text = "  Return to Main Menu  "
+	menu_btn.custom_minimum_size = Vector2(0, 52)
+	menu_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	menu_btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
+	menu_btn.add_theme_font_size_override("font_size", 18)
+	menu_btn.add_theme_color_override("font_color", Color(1.0, 0.85, 0.4))
+	_apply_button_micro_animations(menu_btn)
+	
+	menu_btn.pressed.connect(_on_restart_pressed)
+	
+	choice_container.add_child(menu_btn)
+	_setup_focus_loop_and_grab([menu_btn])
+	_scroll_to_top()
 
 ## Restarts the game clean: resets stats and transitions back to MainMenu.tscn
 func _on_restart_pressed() -> void:
