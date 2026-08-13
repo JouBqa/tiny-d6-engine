@@ -31,7 +31,8 @@ func _populate_adventure_list() -> void:
 		continue_btn.custom_minimum_size = Vector2(0, 52)
 		continue_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		continue_btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		continue_btn.add_theme_font_size_override("font_size", 18)
+		continue_btn.add_theme_font_size_override("font_size", 16)
+		continue_btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		continue_btn.add_theme_color_override("font_color", Color(1.0, 0.85, 0.4))
 		
 		continue_btn.pressed.connect(_on_continue_pressed)
@@ -58,7 +59,8 @@ func _populate_adventure_list() -> void:
 		btn.custom_minimum_size = Vector2(0, 52)
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		btn.add_theme_font_size_override("font_size", 18)
+		btn.add_theme_font_size_override("font_size", 16)
+		btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		
 		if is_disabled:
 			btn.disabled = true

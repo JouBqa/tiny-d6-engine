@@ -478,7 +478,8 @@ func _render_narrative_choices(choices: Array) -> void:
 		btn.custom_minimum_size = Vector2(0, 48)
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		btn.add_theme_font_size_override("font_size", 18)
+		btn.add_theme_font_size_override("font_size", 16)
+		btn.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		_apply_button_micro_animations(btn)
 		
 		btn.pressed.connect(func(): _on_choice_pressed(choice))

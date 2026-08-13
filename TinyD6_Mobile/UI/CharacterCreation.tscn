@@ -30,10 +30,10 @@ grow_vertical = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
 layout_mode = 2
-theme_override_constants/margin_left = 32
-theme_override_constants/margin_top = 28
-theme_override_constants/margin_right = 32
-theme_override_constants/margin_bottom = 28
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 24
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
 layout_mode = 2
@@ -45,10 +45,11 @@ theme_override_constants/separation = 6
 
 [node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 28
+theme_override_font_sizes/font_size = 26
 text = "TINY D6 ENGINE"
 horizontal_alignment = 1
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="SubtitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HeaderContainer"]
 layout_mode = 2
@@ -57,6 +58,7 @@ theme_override_font_sizes/font_size = 16
 text = "Heroic Character Sheet Setup"
 horizontal_alignment = 1
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="HSeparator1" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -71,27 +73,25 @@ custom_minimum_size = Vector2(0, 44)
 layout_mode = 2
 
 [node name="NameLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/SkillRow"]
-custom_minimum_size = Vector2(240, 0)
+custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
 text = "SKILL (1d6 + 6)"
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="ValueLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/SkillRow"]
-custom_minimum_size = Vector2(80, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.85, 0.3, 1)
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 20
 text = "--"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Spacer" type="Control" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/SkillRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-
 [node name="RollButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/SkillRow"]
-custom_minimum_size = Vector2(130, 38)
+custom_minimum_size = Vector2(90, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
@@ -102,27 +102,25 @@ custom_minimum_size = Vector2(0, 44)
 layout_mode = 2
 
 [node name="NameLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/StaminaRow"]
-custom_minimum_size = Vector2(240, 0)
+custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
 text = "STAMINA (2d6 + 12)"
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="ValueLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/StaminaRow"]
-custom_minimum_size = Vector2(80, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.85, 0.3, 1)
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 20
 text = "--"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Spacer" type="Control" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/StaminaRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-
 [node name="RollButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/StaminaRow"]
-custom_minimum_size = Vector2(130, 38)
+custom_minimum_size = Vector2(90, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
@@ -133,27 +131,25 @@ custom_minimum_size = Vector2(0, 44)
 layout_mode = 2
 
 [node name="NameLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/LuckRow"]
-custom_minimum_size = Vector2(240, 0)
+custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
 text = "LUCK (1d6 + 6)"
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="ValueLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/LuckRow"]
-custom_minimum_size = Vector2(80, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.85, 0.3, 1)
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 20
 text = "--"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Spacer" type="Control" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/LuckRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-
 [node name="RollButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/LuckRow"]
-custom_minimum_size = Vector2(130, 38)
+custom_minimum_size = Vector2(90, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
@@ -164,27 +160,25 @@ custom_minimum_size = Vector2(0, 44)
 layout_mode = 2
 
 [node name="NameLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/PatienceRow"]
-custom_minimum_size = Vector2(240, 0)
+custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
-text = "HEROIC PATIENCE (1d6)"
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
+text = "PATIENCE (1d6)"
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="ValueLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/PatienceRow"]
-custom_minimum_size = Vector2(80, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.85, 0.3, 1)
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 20
 text = "--"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Spacer" type="Control" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/PatienceRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-
 [node name="RollButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/StatsContainer/PatienceRow"]
-custom_minimum_size = Vector2(130, 38)
+custom_minimum_size = Vector2(90, 38)
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 16
