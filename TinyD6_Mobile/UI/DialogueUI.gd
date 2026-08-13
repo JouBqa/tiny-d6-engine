@@ -803,6 +803,17 @@ func _clear_choice_container() -> void:
 
 func _setup_focus_loop_and_grab(buttons: Array[Button]) -> void:
 	var count: int = buttons.size()
+	
+	if story_text_label and choice_scroll_container:
+		if count <= 1:
+			story_text_label.size_flags_stretch_ratio = 4.0
+			choice_scroll_container.size_flags_stretch_ratio = 1.0
+			choice_scroll_container.custom_minimum_size = Vector2(0, 52)
+		else:
+			story_text_label.size_flags_stretch_ratio = 1.0
+			choice_scroll_container.size_flags_stretch_ratio = 1.0
+			choice_scroll_container.custom_minimum_size = Vector2(0, 160)
+			
 	for i in range(count):
 		var btn: Button = buttons[i]
 		var prev_btn: Button = buttons[(i - 1 + count) % count]
